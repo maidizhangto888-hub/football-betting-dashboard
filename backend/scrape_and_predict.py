@@ -6,48 +6,59 @@ import json
 import os
 
 # ========================= CONFIG =========================
-LEAGUE = "E0"  # Premier League (change to B1, D1, etc. if you want other leagues)
-MIN_EDGE = 0.05  # 5%+ edge for value bet
+LEAGUE = "E0"          # Premier League
+MIN_EDGE = 0.05        # 5% edge for value bet
 # =======================================================
 
-print("Fetching latest fixtures + odds...")
+print("Fetching latest fixtures from football-data.co.uk...")
 
-# Download latest fixtures (includes upcoming matches + betting odds)
 url = "https://www.football-data.co.uk/fixtures.csv"
-df = pd.read_csv(url)
 
-# Clean date
-df['Date'] = pd.to_datetime(df['Date'], format='%d/%m/%Y', errors='coerce')
+# Read CSV with better error handling
+df = pd.read_csv(url, dtype=str)  # read as string first to avoid parsing issues
+
+# Convert Date properly (dd/mm/yyyy or dd/mm/yy)
+df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
+
 today = datetime.now().date()
 
+print(f"Total rows in fixtures: {len(df)}")
+print(f"Unique leagues: {df['Div'].unique().tolist()}")
+
 # Filter upcoming matches for chosen league
-upcoming = df[(df['Div'] == LEAGUE) & (df['Date'].dt.date > today)].copy()
+upcoming = df[
+    (df['Div'] == LEAGUE) & 
+    (df['Date'].dt.date > today) &
+    (pd.to_numeric(df.get('AvgH', 0), errors='coerce') > 1)  # has odds
+].copy()
+
+print(f"Found {len(upcoming)} upcoming {LEAGUE} matches with odds.")
 
 if upcoming.empty:
-    print("No upcoming matches found.")
-    upcoming = pd.DataFrame()
+    print("⚠️ No upcoming matches found for this league right now.")
+    results = []
 else:
-    print(f"Found {len(upcoming)} upcoming {LEAGUE} matches.")
-
-    # Simple Poisson model using typical Premier League averages
-    # (You can later replace with full historical training from the original repos)
+    # Simple Poisson model (can be improved later)
     avg_home_goals = 1.48
     avg_away_goals = 1.22
 
     def calculate_probabilities(home_odds, draw_odds, away_odds):
-        # Expected goals (simple)
+        try:
+            home_odds = float(home_odds)
+            draw_odds = float(draw_odds)
+            away_odds = float(away_odds)
+        except:
+            return {"home_win_prob": 0.0, "draw_prob": 0.0, "away_win_prob": 0.0,
+                    "value_home": 0.0, "value_draw": 0.0, "value_away": 0.0}
+
         home_lambda = avg_home_goals
         away_lambda = avg_away_goals
 
-        # Probabilities for 0-6 goals
         max_goals = 6
         home_probs = [poisson.pmf(i, home_lambda) for i in range(max_goals + 1)]
         away_probs = [poisson.pmf(i, away_lambda) for i in range(max_goals + 1)]
 
-        # Win / Draw / Loss
-        home_win = 0
-        draw = 0
-        away_win = 0
+        home_win = draw = away_win = 0.0
 
         for h in range(max_goals + 1):
             for a in range(max_goals + 1):
@@ -59,18 +70,17 @@ else:
                 else:
                     away_win += prob
 
-        # Normalize (in case of rounding)
         total = home_win + draw + away_win
-        home_win /= total
-        draw /= total
-        away_win /= total
+        if total > 0:
+            home_win /= total
+            draw /= total
+            away_win /= total
 
-        # Implied probabilities from average odds (with overround adjustment)
+        # Implied probs from odds
         imp_home = 1 / home_odds if home_odds > 1 else 0
         imp_draw = 1 / draw_odds if draw_odds > 1 else 0
         imp_away = 1 / away_odds if away_odds > 1 else 0
 
-        # Value detection
         value_home = home_win - imp_home if home_win > imp_home + MIN_EDGE else 0
         value_draw = draw - imp_draw if draw > imp_draw + MIN_EDGE else 0
         value_away = away_win - imp_away if away_win > imp_away + MIN_EDGE else 0
@@ -84,7 +94,6 @@ else:
             "value_away": round(value_away, 4)
         }
 
-    # Add predictions to each match
     results = []
     for _, row in upcoming.iterrows():
         probs = calculate_probabilities(
@@ -94,21 +103,21 @@ else:
         )
 
         match = {
-            "date": row['Date'].strftime('%Y-%m-%d %H:%M'),
-            "home_team": row['HomeTeam'],
-            "away_team": row['AwayTeam'],
-            "home_odds": float(row.get('AvgH', 0)),
-            "draw_odds": float(row.get('AvgD', 0)),
-            "away_odds": float(row.get('AvgA', 0)),
+            "date": row['Date'].strftime('%Y-%m-%d %H:%M') if pd.notna(row['Date']) else "TBD",
+            "home_team": str(row.get('HomeTeam', 'Unknown')),
+            "away_team": str(row.get('AwayTeam', 'Unknown')),
+            "home_odds": float(row.get('AvgH', 0) or 0),
+            "draw_odds": float(row.get('AvgD', 0) or 0),
+            "away_odds": float(row.get('AvgA', 0) or 0),
             **probs
         }
         results.append(match)
 
-    # Save to data folder
-    os.makedirs("data", exist_ok=True)
-    with open("data/predictions.json", "w") as f:
-        json.dump(results, f, indent=2)
+    print(f"Generated predictions for {len(results)} matches.")
 
-    print(f"Saved {len(results)} predictions to data/predictions.json")
+# Always create the data folder and file (even if empty)
+os.makedirs("data", exist_ok=True)
+with open("data/predictions.json", "w") as f:
+    json.dump(results, f, indent=2)
 
-print("✅ Script finished successfully!")
+print("✅ predictions.json created successfully!")
