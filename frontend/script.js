@@ -4,111 +4,104 @@ async function loadPredictions() {
     const matches = await response.json();
     
     const container = document.getElementById('matches');
-    const summaryDiv = document.getElementById('summary');
     container.innerHTML = '';
 
     if (matches.length === 0) {
-      container.innerHTML = '<p class="text-gray-400 text-center py-12 text-xl">No upcoming matches with odds right now (common during CL breaks). Check back soon!</p>';
+      container.innerHTML = '<p class="text-gray-400 text-center py-12">No matches right now.</p>';
       return;
     }
 
-    // Summary stats
-    const totalMatches = matches.length;
-    const valueBets = matches.filter(m => m.value_home > 0 || m.value_draw > 0 || m.value_away > 0).length;
-    const avgHomeProb = (matches.reduce((sum, m) => sum + m.home_win_prob, 0) / totalMatches * 100).toFixed(1);
-
-    summaryDiv.innerHTML = `
-      <div class="bg-gray-900 rounded-2xl p-6">
-        <div class="text-emerald-400 text-sm">TOTAL MATCHES</div>
-        <div class="text-5xl font-bold">${totalMatches}</div>
-      </div>
-      <div class="bg-gray-900 rounded-2xl p-6">
-        <div class="text-emerald-400 text-sm">VALUE BETS FOUND</div>
-        <div class="text-5xl font-bold text-emerald-400">${valueBets}</div>
-      </div>
-      <div class="bg-gray-900 rounded-2xl p-6">
-        <div class="text-emerald-400 text-sm">AVG HOME WIN PROB</div>
-        <div class="text-5xl font-bold">${avgHomeProb}%</div>
-      </div>
+    // Summary
+    const total = matches.length;
+    const valueCount = matches.filter(m => Math.max(m.value_home, m.value_draw, m.value_away) > 0).length;
+    document.getElementById('summary').innerHTML = `
+      <div class="bg-gray-900 p-6 rounded-2xl"><div class="text-emerald-400 text-sm">MATCHES</div><div class="text-4xl font-bold">${total}</div></div>
+      <div class="bg-gray-900 p-6 rounded-2xl"><div class="text-emerald-400 text-sm">VALUE BETS</div><div class="text-4xl font-bold text-emerald-400">${valueCount}</div></div>
+      <div class="bg-gray-900 p-6 rounded-2xl"><div class="text-emerald-400 text-sm">AVG HOME xG</div><div class="text-4xl font-bold">${(matches.reduce((s,m)=>s+m.home_xg,0)/total).toFixed(1)}</div></div>
+      <div class="bg-gray-900 p-6 rounded-2xl"><div class="text-emerald-400 text-sm">OVER 2.5 AVG</div><div class="text-4xl font-bold">${(matches.reduce((s,m)=>s+m.over_25_prob,0)/total*100).toFixed(0)}%</div></div>
     `;
 
-    // Sort and filter logic
-    function renderMatches(filteredMatches) {
-      container.innerHTML = '';
-      filteredMatches.forEach(match => {
-        const hasValue = match.value_home > 0 || match.value_draw > 0 || match.value_away > 0;
-        const edgeMax = Math.max(match.value_home, match.value_draw, match.value_away);
+    matches.forEach((match, index) => {
+      const hasValue = Math.max(match.value_home, match.value_draw, match.value_away) > 0;
+      const card = document.createElement('div');
+      card.className = `bg-gray-900 rounded-3xl p-8 border ${hasValue ? 'border-emerald-500' : 'border-gray-700'}`;
 
-        const card = document.createElement('div');
-        card.className = `match-card bg-gray-900 rounded-3xl p-6 border ${hasValue ? 'border-emerald-500' : 'border-gray-800'}`;
+      card.innerHTML = `
+        <div class="flex justify-between mb-6">
+          <div>
+            <span class="px-3 py-1 bg-gray-800 rounded-full text-xs">${match.league}</span>
+            <div class="text-2xl font-semibold mt-3">${match.home_team} vs ${match.away_team}</div>
+            <div class="text-gray-400">${match.date}</div>
+          </div>
+          ${hasValue ? `<div class="text-emerald-400 font-bold text-xl">+${(Math.max(match.value_home, match.value_draw, match.value_away)*100).toFixed(1)}% EDGE</div>` : ''}
+        </div>
 
-        card.innerHTML = `
-          <div class="flex justify-between items-start mb-4">
-            <div>
-              <span class="inline-block px-3 py-1 bg-gray-800 text-xs rounded-full">${match.league || 'UNK'}</span>
-              <div class="text-xl font-semibold mt-2">${match.home_team} vs ${match.away_team}</div>
-              <div class="text-sm text-gray-400">${match.date}</div>
-            </div>
-            ${edgeMax > 0 ? `<div class="value-positive text-lg">+${(edgeMax*100).toFixed(1)}% EDGE</div>` : ''}
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+          <!-- xG -->
+          <div class="text-center">
+            <div class="text-xs text-gray-400">HOME xG</div>
+            <div class="text-5xl font-bold text-emerald-400">${match.home_xg}</div>
+          </div>
+          <div class="text-center">
+            <div class="text-xs text-gray-400">AWAY xG</div>
+            <div class="text-5xl font-bold">${match.away_xg}</div>
           </div>
 
-          <div class="grid grid-cols-3 gap-6 text-center">
-            <div>
-              <div class="text-xs text-gray-400 mb-1">HOME WIN</div>
-              <div class="text-4xl font-bold text-emerald-400">${(match.home_win_prob * 100).toFixed(0)}%</div>
-              <div class="text-sm mt-1">${match.home_odds.toFixed(2)}</div>
-              ${match.value_home > 0 ? `<div class="value-positive text-xs mt-2 inline-block">+${(match.value_home*100).toFixed(1)}%</div>` : ''}
-            </div>
-            <div>
-              <div class="text-xs text-gray-400 mb-1">DRAW</div>
-              <div class="text-4xl font-bold">${(match.draw_prob * 100).toFixed(0)}%</div>
-              <div class="text-sm mt-1">${match.draw_odds.toFixed(2)}</div>
-              ${match.value_draw > 0 ? `<div class="value-positive text-xs mt-2 inline-block">+${(match.value_draw*100).toFixed(1)}%</div>` : ''}
-            </div>
-            <div>
-              <div class="text-xs text-gray-400 mb-1">AWAY WIN</div>
-              <div class="text-4xl font-bold text-red-400">${(match.away_win_prob * 100).toFixed(0)}%</div>
-              <div class="text-sm mt-1">${match.away_odds.toFixed(2)}</div>
-              ${match.value_away > 0 ? `<div class="value-positive text-xs mt-2 inline-block">+${(match.value_away*100).toFixed(1)}%</div>` : ''}
+          <!-- Probabilities with mini bars -->
+          <div class="col-span-3">
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-sm"><span>Home Win</span><span>${(match.home_win_prob*100).toFixed(0)}%</span></div>
+                <div class="h-3 bg-gray-800 rounded-full overflow-hidden"><div class="h-full bg-emerald-500" style="width: ${match.home_win_prob*100}%"></div></div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm"><span>Draw</span><span>${(match.draw_prob*100).toFixed(0)}%</span></div>
+                <div class="h-3 bg-gray-800 rounded-full overflow-hidden"><div class="h-full bg-gray-400" style="width: ${match.draw_prob*100}%"></div></div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm"><span>Away Win</span><span>${(match.away_win_prob*100).toFixed(0)}%</span></div>
+                <div class="h-3 bg-gray-800 rounded-full overflow-hidden"><div class="h-full bg-red-500" style="width: ${match.away_win_prob*100}%"></div></div>
+              </div>
             </div>
           </div>
-        `;
-        container.appendChild(card);
-      });
-    }
+        </div>
 
-    // Initial render + event listeners
-    let currentMatches = [...matches];
-    renderMatches(currentMatches);
+        <div class="mt-8">
+          <canvas id="chart-${index}" width="400" height="120"></canvas>
+        </div>
 
-    document.getElementById('search').addEventListener('input', (e) => {
-      const term = e.target.value.toLowerCase();
-      const filtered = matches.filter(m => 
-        m.home_team.toLowerCase().includes(term) || 
-        m.away_team.toLowerCase().includes(term) ||
-        (m.league || '').toLowerCase().includes(term)
-      );
-      renderMatches(filtered);
+        <div class="mt-6 grid grid-cols-3 gap-4 text-center text-sm">
+          <div>Home Odds: <span class="font-mono">${match.home_odds.toFixed(2)}</span></div>
+          <div>Draw: <span class="font-mono">${match.draw_odds.toFixed(2)}</span></div>
+          <div>Away: <span class="font-mono">${match.away_odds.toFixed(2)}</span></div>
+        </div>
+      `;
+
+      container.appendChild(card);
+
+      // Simple expected scoreline bar chart
+      setTimeout(() => {
+        const ctx = document.getElementById(`chart-${index}`);
+        if (ctx) {
+          new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: ['0-0', '1-0', '1-1', '2-1', '2-0', '0-1', 'Other'],
+              datasets: [{
+                label: 'Prob %',
+                data: [15, 20, 18, 12, 10, 8, 17], // Placeholder — can be calculated dynamically later
+                backgroundColor: '#10b981'
+              }]
+            },
+            options: { scales: { y: { beginAtZero: true } }, plugins: { legend: { display: false } } }
+          });
+        }
+      }, 100);
     });
-
-    document.getElementById('sort').addEventListener('change', (e) => {
-      let sorted = [...matches];
-      if (e.target.value === 'edge') {
-        sorted.sort((a, b) => Math.max(b.value_home, b.value_draw, b.value_away) - Math.max(a.value_home, a.value_draw, a.value_away));
-      } else if (e.target.value === 'date') {
-        sorted.sort((a, b) => new Date(a.date) - new Date(b.date));
-      } else if (e.target.value === 'prob') {
-        sorted.sort((a, b) => b.home_win_prob - a.home_win_prob);
-      }
-      renderMatches(sorted);
-    });
-
-    // Last updated
-    document.getElementById('last-updated').textContent = new Date().toLocaleString();
 
   } catch (e) {
     console.error(e);
-    document.getElementById('matches').innerHTML = '<p class="text-red-400 text-center py-12">Failed to load predictions. Make sure the latest workflow has run.</p>';
+    document.getElementById('matches').innerHTML = '<p class="text-red-400">Error loading data.</p>';
   }
 }
 
