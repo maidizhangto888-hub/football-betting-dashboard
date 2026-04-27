@@ -7,15 +7,97 @@
     "home_odds": 1.84,
     "draw_odds": 3.82,
     "away_odds": 3.84,
-    "home_xg": 1.82,
-    "away_xg": 1.45,
-    "home_win_prob": 0.4635,
-    "draw_prob": 0.2281,
-    "away_win_prob": 0.3083,
-    "over_25_prob": 0.6337,
+    "home_xg": 1.55,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4425,
+    "draw_prob": 0.25,
+    "away_win_prob": 0.3075,
+    "over_25_prob": 0.5299,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-05-04",
+          "home": "Brentford",
+          "away": "Man United",
+          "score": "4\u20133",
+          "result": "H"
+        },
+        {
+          "date": "2024-10-19",
+          "home": "Man United",
+          "away": "Brentford",
+          "score": "2\u20131",
+          "result": "H"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Aston Villa",
+          "score": "2\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "West Ham",
+          "score": "0\u20132",
+          "result": "A"
+        },
+        {
+          "opponent": "Wolves",
+          "score": "0\u20131",
+          "result": "A"
+        },
+        {
+          "opponent": "Man City",
+          "score": "0\u20130",
+          "result": "D"
+        },
+        {
+          "opponent": "Arsenal",
+          "score": "1\u20131",
+          "result": "D"
+        },
+        {
+          "opponent": "Ipswich",
+          "score": "3\u20132",
+          "result": "H"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Wolves",
+          "score": "1\u20131",
+          "result": "D"
+        },
+        {
+          "opponent": "Ipswich",
+          "score": "0\u20131",
+          "result": "A"
+        },
+        {
+          "opponent": "Nott'm Forest",
+          "score": "0\u20132",
+          "result": "A"
+        },
+        {
+          "opponent": "Arsenal",
+          "score": "1\u20131",
+          "result": "D"
+        },
+        {
+          "opponent": "Newcastle",
+          "score": "2\u20131",
+          "result": "H"
+        },
+        {
+          "opponent": "Bournemouth",
+          "score": "1\u20132",
+          "result": "A"
+        }
+      ]
+    }
   },
   {
     "league": "F2",
@@ -25,15 +107,20 @@
     "home_odds": 2.72,
     "draw_odds": 3.08,
     "away_odds": 2.47,
-    "home_xg": 1.82,
-    "away_xg": 1.45,
-    "home_win_prob": 0.4635,
-    "draw_prob": 0.2281,
-    "away_win_prob": 0.3083,
-    "over_25_prob": 0.6337,
-    "value_home": 0.0959,
+    "home_xg": 1.55,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4425,
+    "draw_prob": 0.25,
+    "away_win_prob": 0.3075,
+    "over_25_prob": 0.5299,
+    "value_home": 0.0749,
     "value_draw": 0,
-    "value_away": 0
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
   },
   {
     "league": "I1",
@@ -43,15 +130,97 @@
     "home_odds": 4.51,
     "draw_odds": 3.64,
     "away_odds": 1.74,
-    "home_xg": 1.82,
-    "away_xg": 1.45,
-    "home_win_prob": 0.4635,
-    "draw_prob": 0.2281,
-    "away_win_prob": 0.3083,
-    "over_25_prob": 0.6337,
-    "value_home": 0.2418,
+    "home_xg": 1.55,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4425,
+    "draw_prob": 0.25,
+    "away_win_prob": 0.3075,
+    "over_25_prob": 0.5299,
+    "value_home": 0.2208,
     "value_draw": 0,
-    "value_away": 0
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-02-15",
+          "home": "Atalanta",
+          "away": "Cagliari",
+          "score": "0\u20130",
+          "result": "D"
+        },
+        {
+          "date": "2024-12-14",
+          "home": "Cagliari",
+          "away": "Atalanta",
+          "score": "0\u20131",
+          "result": "A"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Venezia",
+          "score": "3\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "Udinese",
+          "score": "1\u20132",
+          "result": "A"
+        },
+        {
+          "opponent": "Fiorentina",
+          "score": "1\u20132",
+          "result": "A"
+        },
+        {
+          "opponent": "Monza",
+          "score": "3\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "Genoa",
+          "score": "1\u20131",
+          "result": "D"
+        },
+        {
+          "opponent": "Juventus",
+          "score": "0\u20131",
+          "result": "A"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Genoa",
+          "score": "2\u20133",
+          "result": "A"
+        },
+        {
+          "opponent": "Monza",
+          "score": "0\u20134",
+          "result": "A"
+        },
+        {
+          "opponent": "Milan",
+          "score": "0\u20131",
+          "result": "A"
+        },
+        {
+          "opponent": "Fiorentina",
+          "score": "1\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "Juventus",
+          "score": "0\u20134",
+          "result": "A"
+        },
+        {
+          "opponent": "Empoli",
+          "score": "0\u20135",
+          "result": "A"
+        }
+      ]
+    }
   },
   {
     "league": "I1",
@@ -61,15 +230,97 @@
     "home_odds": 1.97,
     "draw_odds": 3.26,
     "away_odds": 3.87,
-    "home_xg": 1.82,
-    "away_xg": 1.45,
-    "home_win_prob": 0.4635,
-    "draw_prob": 0.2281,
-    "away_win_prob": 0.3083,
-    "over_25_prob": 0.6337,
+    "home_xg": 1.55,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4425,
+    "draw_prob": 0.25,
+    "away_win_prob": 0.3075,
+    "over_25_prob": 0.5299,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-03-10",
+          "home": "Lazio",
+          "away": "Udinese",
+          "score": "1\u20131",
+          "result": "D"
+        },
+        {
+          "date": "2024-08-24",
+          "home": "Udinese",
+          "away": "Lazio",
+          "score": "2\u20131",
+          "result": "H"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Lecce",
+          "score": "0\u20131",
+          "result": "A"
+        },
+        {
+          "opponent": "Juventus",
+          "score": "1\u20131",
+          "result": "D"
+        },
+        {
+          "opponent": "Parma",
+          "score": "2\u20132",
+          "result": "D"
+        },
+        {
+          "opponent": "Roma",
+          "score": "1\u20131",
+          "result": "D"
+        },
+        {
+          "opponent": "Torino",
+          "score": "1\u20131",
+          "result": "D"
+        },
+        {
+          "opponent": "Udinese",
+          "score": "1\u20131",
+          "result": "D"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Juventus",
+          "score": "2\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "Cagliari",
+          "score": "1\u20132",
+          "result": "A"
+        },
+        {
+          "opponent": "Torino",
+          "score": "2\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "Genoa",
+          "score": "1\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "Inter",
+          "score": "2\u20131",
+          "result": "H"
+        },
+        {
+          "opponent": "Lazio",
+          "score": "1\u20131",
+          "result": "D"
+        }
+      ]
+    }
   },
   {
     "league": "P1",
@@ -79,15 +330,20 @@
     "home_odds": 1.54,
     "draw_odds": 3.75,
     "away_odds": 5.72,
-    "home_xg": 1.82,
-    "away_xg": 1.45,
-    "home_win_prob": 0.4635,
-    "draw_prob": 0.2281,
-    "away_win_prob": 0.3083,
-    "over_25_prob": 0.6337,
+    "home_xg": 1.55,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4425,
+    "draw_prob": 0.25,
+    "away_win_prob": 0.3075,
+    "over_25_prob": 0.5299,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1335
+    "value_away": 0.1327,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
   },
   {
     "league": "SP1",
@@ -97,15 +353,51 @@
     "home_odds": 1.98,
     "draw_odds": 3.36,
     "away_odds": 3.72,
-    "home_xg": 1.82,
-    "away_xg": 1.45,
-    "home_win_prob": 0.4635,
-    "draw_prob": 0.2281,
-    "away_win_prob": 0.3083,
-    "over_25_prob": 0.6337,
+    "home_xg": 1.55,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4425,
+    "draw_prob": 0.25,
+    "away_win_prob": 0.3075,
+    "over_25_prob": 0.5299,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [
+        {
+          "opponent": "Las Palmas",
+          "score": "2\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "Barcelona",
+          "score": "0\u20132",
+          "result": "A"
+        },
+        {
+          "opponent": "Betis",
+          "score": "1\u20132",
+          "result": "A"
+        },
+        {
+          "opponent": "Getafe",
+          "score": "1\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "Ath Madrid",
+          "score": "1\u20131",
+          "result": "D"
+        },
+        {
+          "opponent": "Girona",
+          "score": "1\u20131",
+          "result": "D"
+        }
+      ],
+      "away_form": []
+    }
   },
   {
     "league": "SP2",
@@ -115,15 +407,51 @@
     "home_odds": 3.3,
     "draw_odds": 3.07,
     "away_odds": 2.11,
-    "home_xg": 1.82,
-    "away_xg": 1.45,
-    "home_win_prob": 0.4635,
-    "draw_prob": 0.2281,
-    "away_win_prob": 0.3083,
-    "over_25_prob": 0.6337,
-    "value_home": 0.1605,
+    "home_xg": 1.55,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4425,
+    "draw_prob": 0.25,
+    "away_win_prob": 0.3075,
+    "over_25_prob": 0.5299,
+    "value_home": 0.1395,
     "value_draw": 0,
-    "value_away": 0
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": [
+        {
+          "opponent": "Espanol",
+          "score": "2\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "Sevilla",
+          "score": "1\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "Ath Bilbao",
+          "score": "1\u20130",
+          "result": "H"
+        },
+        {
+          "opponent": "Getafe",
+          "score": "1\u20133",
+          "result": "A"
+        },
+        {
+          "opponent": "Celta",
+          "score": "1\u20131",
+          "result": "D"
+        },
+        {
+          "opponent": "Betis",
+          "score": "1\u20130",
+          "result": "H"
+        }
+      ]
+    }
   },
   {
     "league": "T1",
@@ -133,15 +461,20 @@
     "home_odds": 2.26,
     "draw_odds": 3.08,
     "away_odds": 3.08,
-    "home_xg": 1.82,
-    "away_xg": 1.45,
-    "home_win_prob": 0.4635,
-    "draw_prob": 0.2281,
-    "away_win_prob": 0.3083,
-    "over_25_prob": 0.6337,
+    "home_xg": 1.55,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4425,
+    "draw_prob": 0.25,
+    "away_win_prob": 0.3075,
+    "over_25_prob": 0.5299,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
   },
   {
     "league": "T1",
@@ -151,15 +484,20 @@
     "home_odds": 1.3,
     "draw_odds": 5.1,
     "away_odds": 8.14,
-    "home_xg": 1.82,
-    "away_xg": 1.45,
-    "home_win_prob": 0.4635,
-    "draw_prob": 0.2281,
-    "away_win_prob": 0.3083,
-    "over_25_prob": 0.6337,
+    "home_xg": 1.55,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4425,
+    "draw_prob": 0.25,
+    "away_win_prob": 0.3075,
+    "over_25_prob": 0.5299,
     "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.1855
+    "value_draw": 0.0539,
+    "value_away": 0.1847,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
   },
   {
     "league": "T1",
@@ -169,14 +507,19 @@
     "home_odds": 2.89,
     "draw_odds": 3.48,
     "away_odds": 2.17,
-    "home_xg": 1.82,
-    "away_xg": 1.45,
-    "home_win_prob": 0.4635,
-    "draw_prob": 0.2281,
-    "away_win_prob": 0.3083,
-    "over_25_prob": 0.6337,
-    "value_home": 0.1175,
+    "home_xg": 1.55,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4425,
+    "draw_prob": 0.25,
+    "away_win_prob": 0.3075,
+    "over_25_prob": 0.5299,
+    "value_home": 0.0965,
     "value_draw": 0,
-    "value_away": 0
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
   }
 ]
