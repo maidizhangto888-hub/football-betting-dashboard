@@ -1,42 +1,44 @@
 import pandas as pd
 import numpy as np
 from scipy.stats import poisson
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 import os
 
 # ========================= CONFIG =========================
-# All leagues available on football-data.co.uk (exactly like the original repos)
+# All main domestic leagues from football-data.co.uk
 LEAGUES = ["E0","E1","E2","E3","EC","SP1","SP2","I1","I2","F1","F2","D1","D2","P1","N1","B1","G1","T1","SC0","SC1","SC2","SC3"]
-MIN_EDGE = 0.05        # 5% edge for value bet
+MIN_EDGE = 0.05
 # =======================================================
 
-print("Fetching latest fixtures from football-data.co.uk...")
+print("Fetching latest fixtures...")
 
 url = "https://www.football-data.co.uk/fixtures.csv"
 df = pd.read_csv(url, dtype=str)
 
-# Convert Date properly
+# Robust date parsing
 df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
 today = datetime.now().date()
+tomorrow = today + timedelta(days=1)
+day_after = today + timedelta(days=2)
 
 print(f"Total rows: {len(df)}")
-print(f"Leagues found: {sorted(df['Div'].unique())}")
+print(f"Leagues in data: {sorted(df['Div'].unique())}")
 
-# Filter upcoming matches across ALL chosen leagues
+# Filter upcoming matches (today + next 2 days) — this catches lower leagues and any midweek games
 upcoming = df[
     (df['Div'].isin(LEAGUES)) & 
-    (df['Date'].dt.date > today) &
-    (pd.to_numeric(df.get('AvgH', 0), errors='coerce') > 1)
+    (df['Date'].dt.date >= today) & 
+    (df['Date'].dt.date <= day_after) &
+    (pd.to_numeric(df.get('AvgH', 0), errors='coerce') > 1.0)
 ].copy()
 
-print(f"Found {len(upcoming)} upcoming matches across {len(upcoming['Div'].unique())} leagues!")
+print(f"Found {len(upcoming)} upcoming matches (today to {day_after}) across leagues.")
 
 if upcoming.empty:
-    print("⚠️ No upcoming matches right now.")
+    print("⚠️ No matches with odds in the next 2 days right now (likely due to CL break).")
     results = []
 else:
-    # Simple Poisson (same as before — we can upgrade to the full ML models from the original repos later)
     avg_home_goals = 1.48
     avg_away_goals = 1.22
 
@@ -51,7 +53,6 @@ else:
 
         home_lambda = avg_home_goals
         away_lambda = avg_away_goals
-
         max_goals = 6
         home_probs = [poisson.pmf(i, home_lambda) for i in range(max_goals + 1)]
         away_probs = [poisson.pmf(i, away_lambda) for i in range(max_goals + 1)]
@@ -89,11 +90,7 @@ else:
 
     results = []
     for _, row in upcoming.iterrows():
-        probs = calculate_probabilities(
-            row.get('AvgH', 2.0),
-            row.get('AvgD', 3.5),
-            row.get('AvgA', 3.0)
-        )
+        probs = calculate_probabilities(row.get('AvgH', 2.0), row.get('AvgD', 3.5), row.get('AvgA', 3.0))
 
         match = {
             "league": str(row.get('Div', 'UNK')),
@@ -107,11 +104,11 @@ else:
         }
         results.append(match)
 
-    print(f"Generated predictions for {len(results)} matches.")
+    print(f"Generated {len(results)} predictions.")
 
-# Always create the file
+# Always save the file so the dashboard doesn't break
 os.makedirs("data", exist_ok=True)
 with open("data/predictions.json", "w") as f:
     json.dump(results, f, indent=2)
 
-print("✅ predictions.json created successfully with multiple leagues!")
+print("✅ predictions.json updated!")
