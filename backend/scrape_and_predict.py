@@ -8,17 +8,16 @@ import os
 LEAGUES = ["E0","E1","E2","E3","EC","SP1","SP2","I1","I2","F1","F2","D1","D2","P1","N1","B1","G1","T1","SC0","SC1","SC2","SC3"]
 MIN_EDGE = 0.05
 
-print("Loading extensive historical data for better H2H and form...")
+print("Loading extensive historical data from multiple seasons...")
 
-# Load multiple seasons for better H2H coverage
+# Load many past seasons for rich H2H and form (especially good for EPL big teams)
 historical_urls = [
-    "https://www.football-data.co.uk/mmz4281/2526/Latest_Results.csv",   # Current season
+    "https://www.football-data.co.uk/mmz4281/2526/E0.csv",   # Current 25/26
     "https://www.football-data.co.uk/mmz4281/2425/E0.csv",
-    "https://www.football-data.co.uk/mmz4281/2425/I1.csv",
-    "https://www.football-data.co.uk/mmz4281/2425/SP1.csv",
-    "https://www.football-data.co.uk/mmz4281/2425/F1.csv",
     "https://www.football-data.co.uk/mmz4281/2324/E0.csv",
-    "https://www.football-data.co.uk/mmz4281/2324/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/2223/E0.csv",
+    "https://www.football-data.co.uk/mmz4281/2122/E0.csv",
+    "https://www.football-data.co.uk/mmz4281/2021/E0.csv",
 ]
 
 hist_dfs = []
@@ -29,12 +28,12 @@ for url in historical_urls:
         hist_dfs.append(df)
         print(f"Loaded {len(df)} matches from {url}")
     except Exception as e:
-        print(f"Failed to load {url}: {e}")
+        print(f"Failed {url}: {e}")
 
 historical = pd.concat(hist_dfs, ignore_index=True) if hist_dfs else pd.DataFrame()
-print(f"Total historical matches loaded: {len(historical)}")
+print(f"Total historical matches: {len(historical)} — this should give good H2H for Man Utd etc.")
 
-# Upcoming fixtures
+# Upcoming fixtures (same as before)
 url = "https://www.football-data.co.uk/fixtures.csv"
 df = pd.read_csv(url, dtype=str)
 df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
@@ -62,11 +61,11 @@ for _, row in upcoming.iterrows():
     draw_odds = float(row.get('AvgD', 3.4) or 3.4)
     away_odds = float(row.get('AvgA', 3.0) or 3.0)
 
-    # Varying xG
-    home_xg = round(1.55 + np.random.normal(0, 0.18), 2)
-    away_xg = round(1.28 + np.random.normal(0, 0.16), 2)
+    # Simple xG with small variation
+    home_xg = round(1.55 + np.random.normal(0, 0.2), 2)
+    away_xg = round(1.28 + np.random.normal(0, 0.18), 2)
 
-    # Poisson
+    # Poisson probabilities
     max_goals = 6
     home_probs = [poisson.pmf(i, home_xg) for i in range(max_goals + 1)]
     away_probs = [poisson.pmf(i, away_xg) for i in range(max_goals + 1)]
@@ -88,10 +87,10 @@ for _, row in upcoming.iterrows():
     value_draw = draw - (1/draw_odds) if draw > (1/draw_odds) + MIN_EDGE else 0
     value_away = away_win - (1/away_odds) if away_win > (1/away_odds) + MIN_EDGE else 0
 
-    # Detailed historical
+    # Rich historical details
     details = {"h2h": [], "home_form": [], "away_form": []}
     if not historical.empty:
-        # H2H
+        # H2H (last 8 meetings)
         h2h_df = historical[
             ((historical['HomeTeam'] == home_team) & (historical['AwayTeam'] == away_team)) |
             ((historical['HomeTeam'] == away_team) & (historical['AwayTeam'] == home_team))
@@ -104,7 +103,7 @@ for _, row in upcoming.iterrows():
                 "score": f"{m.get('FTHG', '?')}–{m.get('FTAG', '?')}"
             })
 
-        # Home form (last 6 home games)
+        # Home form (last 6 home)
         home_form_df = historical[historical['HomeTeam'] == home_team].sort_values('Date', ascending=False).head(6)
         for _, m in home_form_df.iterrows():
             details["home_form"].append({
@@ -112,7 +111,7 @@ for _, row in upcoming.iterrows():
                 "score": f"{m.get('FTHG', '?')}–{m.get('FTAG', '?')}"
             })
 
-        # Away form (last 6 away games)
+        # Away form (last 6 away)
         away_form_df = historical[historical['AwayTeam'] == away_team].sort_values('Date', ascending=False).head(6)
         for _, m in away_form_df.iterrows():
             details["away_form"].append({
@@ -145,4 +144,4 @@ os.makedirs("data", exist_ok=True)
 with open("data/predictions.json", "w") as f:
     json.dump(results, f, indent=2)
 
-print(f"✅ Saved {len(results)} matches with improved historical data!")
+print(f"✅ Saved {len(results)} matches with rich historical data from multiple seasons!")
