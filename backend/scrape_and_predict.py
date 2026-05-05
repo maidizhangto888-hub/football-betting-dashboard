@@ -5,18 +5,18 @@ from datetime import datetime, timedelta
 import json
 import os
 
-LEAGUES = ["E0","E1","E2","E3","SP1","SP2","I1","I2","F1","F2","D1","D2","P1","N1","B1","G1","T1","SC0","SC1","SC2","SC3"]
+LEAGUES = ["E0","E1","E2","SP1","SP2","I1","I2","F1","F2","D1","D2","P1","N1","B1"]
 MIN_EDGE = 0.05
 
 print("Loading extensive historical data for rich H2H...")
 
 historical_urls = []
-# 定义你要抓取的赛季列表（近6个赛季）
-seasons = ["2526", "2425", "2324", "2223", "2122", "2021"]
+# 修改为近3个赛季：23/24, 24/25, 25/26
+seasons = ["2526", "2425", "2324"]
 
 for league in LEAGUES:
     for season in seasons:
-        # 动态生成所有联赛、所有赛季的下载链接
+        # 动态生成所有联赛、最近3个赛季的下载链接
         url = f"https://www.football-data.co.uk/mmz4281/{season}/{league}.csv"
         historical_urls.append(url)
 
