@@ -1,6 +1,4 @@
-[
-build
-]
+[build]
   base = "frontend"
   command = "cp -r ../data ./data && npm run build"
   publish = "dist"
