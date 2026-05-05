@@ -10,14 +10,15 @@ MIN_EDGE = 0.05
 
 print("Loading extensive historical data for rich H2H...")
 
-historical_urls = [
-    "https://www.football-data.co.uk/mmz4281/2526/E0.csv",
-    "https://www.football-data.co.uk/mmz4281/2425/E0.csv",
-    "https://www.football-data.co.uk/mmz4281/2324/E0.csv",
-    "https://www.football-data.co.uk/mmz4281/2223/E0.csv",
-    "https://www.football-data.co.uk/mmz4281/2122/E0.csv",
-    "https://www.football-data.co.uk/mmz4281/2021/E0.csv",
-]
+historical_urls = []
+# 定义你要抓取的赛季列表（近6个赛季）
+seasons = ["2526", "2425", "2324", "2223", "2122", "2021"]
+
+for league in LEAGUES:
+    for season in seasons:
+        # 动态生成所有联赛、所有赛季的下载链接
+        url = f"https://www.football-data.co.uk/mmz4281/{season}/{league}.csv"
+        historical_urls.append(url)
 
 hist_dfs = []
 for url in historical_urls:
