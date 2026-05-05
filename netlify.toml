@@ -1,4 +1,8 @@
 [build]
-  base = "frontend"
-  command = "cp -r ../data ./data && npm run build"
-  publish = "dist"
+  command = "echo 'No build needed - static site'"
+  publish = "frontend"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "no-cache"
