@@ -1,1 +1,378 @@
-[]
+[
+  {
+    "league": "E0",
+    "date": "2026-05-04 00:00",
+    "home_team": "Chelsea",
+    "away_team": "Nott'm Forest",
+    "home_odds": 1.68,
+    "draw_odds": 3.93,
+    "away_odds": 4.65,
+    "home_xg": 1.78,
+    "away_xg": 1.26,
+    "home_win_prob": 0.4952,
+    "draw_prob": 0.2332,
+    "away_win_prob": 0.2716,
+    "over_25_prob": 0.5846,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.0566,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-10-18",
+          "home": "Nott'm Forest",
+          "away": "Chelsea",
+          "score": "0\u20133"
+        },
+        {
+          "date": "2025-05-25",
+          "home": "Nott'm Forest",
+          "away": "Chelsea",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2024-10-06",
+          "home": "Chelsea",
+          "away": "Nott'm Forest",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2024-05-11",
+          "home": "Nott'm Forest",
+          "away": "Chelsea",
+          "score": "2\u20133"
+        },
+        {
+          "date": "2023-09-02",
+          "home": "Chelsea",
+          "away": "Nott'm Forest",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2023-05-13",
+          "home": "Chelsea",
+          "away": "Nott'm Forest",
+          "score": "2\u20132"
+        },
+        {
+          "date": "2023-01-01",
+          "home": "Nott'm Forest",
+          "away": "Chelsea",
+          "score": "1\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Man United",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Man City",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "Newcastle",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Burnley",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Leeds",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "West Ham",
+          "score": "3\u20132"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Sunderland",
+          "score": "0\u20135"
+        },
+        {
+          "opponent": "Tottenham",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "Man City",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Brighton",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Leeds",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Brentford",
+          "score": "0\u20132"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E0",
+    "date": "2026-05-04 00:00",
+    "home_team": "Everton",
+    "away_team": "Man City",
+    "home_odds": 6.38,
+    "draw_odds": 4.63,
+    "away_odds": 1.44,
+    "home_xg": 1.68,
+    "away_xg": 1.32,
+    "home_win_prob": 0.4586,
+    "draw_prob": 0.2393,
+    "away_win_prob": 0.3021,
+    "over_25_prob": 0.5759,
+    "value_home": 0.3019,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-10-18",
+          "home": "Man City",
+          "away": "Everton",
+          "score": "2\u20130"
+        },
+        {
+          "date": "2025-04-19",
+          "home": "Everton",
+          "away": "Man City",
+          "score": "0\u20132"
+        },
+        {
+          "date": "2024-12-26",
+          "home": "Man City",
+          "away": "Everton",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2024-02-10",
+          "home": "Man City",
+          "away": "Everton",
+          "score": "2\u20130"
+        },
+        {
+          "date": "2023-12-27",
+          "home": "Everton",
+          "away": "Man City",
+          "score": "1\u20133"
+        },
+        {
+          "date": "2023-05-14",
+          "home": "Everton",
+          "away": "Man City",
+          "score": "0\u20133"
+        },
+        {
+          "date": "2022-12-31",
+          "home": "Man City",
+          "away": "Everton",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2022-02-26",
+          "home": "Everton",
+          "away": "Man City",
+          "score": "0\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Liverpool",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Chelsea",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Burnley",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Man United",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Bournemouth",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Leeds",
+          "score": "1\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Burnley",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Chelsea",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "West Ham",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Leeds",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Liverpool",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Tottenham",
+          "score": "2\u20132"
+        }
+      ]
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-05-04 00:00",
+    "home_team": "Cremonese",
+    "away_team": "Lazio",
+    "home_odds": 2.88,
+    "draw_odds": 3.21,
+    "away_odds": 2.42,
+    "home_xg": 1.68,
+    "away_xg": 1.23,
+    "home_win_prob": 0.4785,
+    "draw_prob": 0.2409,
+    "away_win_prob": 0.2806,
+    "over_25_prob": 0.5554,
+    "value_home": 0.1313,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-05-04 00:00",
+    "home_team": "Roma",
+    "away_team": "Fiorentina",
+    "home_odds": 1.61,
+    "draw_odds": 3.94,
+    "away_odds": 5.08,
+    "home_xg": 1.48,
+    "away_xg": 1.17,
+    "home_win_prob": 0.4427,
+    "draw_prob": 0.2576,
+    "away_win_prob": 0.2997,
+    "over_25_prob": 0.4935,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1029,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
+  },
+  {
+    "league": "P1",
+    "date": "2026-05-04 00:00",
+    "home_team": "Sp Lisbon",
+    "away_team": "Guimaraes",
+    "home_odds": 1.25,
+    "draw_odds": 5.64,
+    "away_odds": 9.45,
+    "home_xg": 1.38,
+    "away_xg": 1.3,
+    "home_win_prob": 0.3888,
+    "draw_prob": 0.2593,
+    "away_win_prob": 0.3519,
+    "over_25_prob": 0.501,
+    "value_home": 0,
+    "value_draw": 0.082,
+    "value_away": 0.2461,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
+  },
+  {
+    "league": "SC0",
+    "date": "2026-05-04 00:00",
+    "home_team": "Hearts",
+    "away_team": "Rangers",
+    "home_odds": 2.68,
+    "draw_odds": 3.45,
+    "away_odds": 2.39,
+    "home_xg": 1.74,
+    "away_xg": 1.49,
+    "home_win_prob": 0.4367,
+    "draw_prob": 0.2319,
+    "away_win_prob": 0.3315,
+    "over_25_prob": 0.6252,
+    "value_home": 0.0635,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
+  },
+  {
+    "league": "SP1",
+    "date": "2026-05-04 00:00",
+    "home_team": "Sevilla",
+    "away_team": "Sociedad",
+    "home_odds": 2.34,
+    "draw_odds": 3.35,
+    "away_odds": 2.87,
+    "home_xg": 1.72,
+    "away_xg": 1.18,
+    "home_win_prob": 0.4993,
+    "draw_prob": 0.2384,
+    "away_win_prob": 0.2622,
+    "over_25_prob": 0.553,
+    "value_home": 0.072,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-05-04 00:00",
+    "home_team": "Almeria",
+    "away_team": "Mirandes",
+    "home_odds": 1.43,
+    "draw_odds": 4.44,
+    "away_odds": 5.84,
+    "home_xg": 1.88,
+    "away_xg": 1.1,
+    "home_win_prob": 0.5545,
+    "draw_prob": 0.2251,
+    "away_win_prob": 0.2204,
+    "over_25_prob": 0.5709,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
+  }
+]
