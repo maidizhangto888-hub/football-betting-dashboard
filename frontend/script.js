@@ -74,3 +74,65 @@ function showDetailModal(match) {
   modal.classList.remove('hidden');
   modal.classList.add('flex');
 }
+
+// --- 以下是新增的加载逻辑，粘贴在第76行之后 ---
+
+// 页面加载完成后自动运行
+document.addEventListener('DOMContentLoaded', () => {
+    fetchData();
+});
+
+async function fetchData() {
+    try {
+        // 信号追踪：确保路径指向 data 文件夹下的 predictions.json
+        const response = await fetch('data/predictions.json');
+        if (!response.ok) throw new Error('数据文件读取失败');
+        
+        const data = await response.json();
+        renderMatches(data);
+    } catch (error) {
+        console.error('Error:', error);
+        document.getElementById('matches').innerHTML = `<p class="text-red-500">无法加载比赛数据，请检查后端路径。</p>`;
+    }
+}
+
+function renderMatches(data) {
+    const matchesContainer = document.getElementById('matches');
+    matchesContainer.innerHTML = ''; // 清空加载状态
+
+    if (!data || data.length === 0) {
+        matchesContainer.innerHTML = '<p class="text-center">当前暂无预测数据</p>';
+        return;
+    }
+
+    data.forEach(match => {
+        const div = document.createElement('div');
+        // 使用 Tailwind CSS 样式，保持与你的 index.html 设计一致
+        div.className = "bg-gray-800 p-6 rounded-2xl border border-gray-700 hover:border-emerald-500 transition-all cursor-pointer mb-4";
+        
+        // 这里的字段名（如 home_team）需与你 predictions.json 里的 key 保持一致
+        div.innerHTML = `
+            <div class="flex justify-between items-center">
+                <div>
+                    <span class="text-lg font-bold">${match.home_team}</span>
+                    <span class="text-gray-500 mx-2">vs</span>
+                    <span class="text-lg font-bold">${match.away_team}</span>
+                </div>
+                <div class="text-right">
+                    <div class="text-emerald-400 font-mono font-bold">${match.prediction || 'N/A'}</div>
+                    <div class="text-xs text-gray-500">${match.league || ''}</div>
+                </div>
+            </div>
+        `;
+        
+        // 绑定你原有的弹窗函数
+        div.onclick = () => showDetailModal(match);
+        
+        matchesContainer.appendChild(div);
+    });
+}
+
+// 补充：确保关闭弹窗的函数也存在
+function closeModal() {
+    document.getElementById('modal').classList.add('hidden');
+}
