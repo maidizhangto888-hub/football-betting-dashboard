@@ -133,8 +133,8 @@ for _, row in upcoming.iterrows():
     }
     results.append(match)
 
-os.makedirs("data", exist_ok=True)
-with open("data/predictions.json", "w") as f:
+os.makedirs("frontend/data", exist_ok=True)
+with open("frontend/data/predictions.json", "w") as f:
     json.dump(results, f, indent=2)
 
 print(f"✅ Saved {len(results)} matches with multi-season H2H data!")
