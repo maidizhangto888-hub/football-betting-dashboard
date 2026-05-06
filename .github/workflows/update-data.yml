@@ -21,11 +21,11 @@ jobs:
         with:
           python-version: "3.11"
 
-     - name: Install requests and beautifulsoup4
-       run: pip install requests beautifulsoup4
+      - name: Install requests and beautifulsoup4
+        run: pip install requests beautifulsoup4
 
-     - name: Install other dependencies
-       run: pip install -r requirements.txt
+      - name: Install other dependencies
+        run: pip install -r requirements.txt
 
       - name: Run scraper and predictions
         run: python backend/scrape_and_predict.py
