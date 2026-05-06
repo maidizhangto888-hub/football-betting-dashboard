@@ -83,10 +83,13 @@ for league in LEAGUES:
 hist_dfs = []
 for url in historical_urls:
     try:
-        df = pd.read_csv(url, dtype=str)
-        df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
-        hist_dfs.append(df)
-        print(f"Loaded {len(df)} matches from {url}")
+        df = pd.read_csv(url)
+        # 找到所有列名中包含 'date'（不区分大小写）的列，重命名为 'Date'
+        date_cols = [col for col in df.columns if 'date' in col.lower()]
+        if date_cols:
+           df = df.rename(columns={date_cols[0]: 'Date'})
+        else:
+         print(f"Warning: No Date column found in {url}")
     except Exception as e:
         print(f"Failed {url}: {e}")
 
