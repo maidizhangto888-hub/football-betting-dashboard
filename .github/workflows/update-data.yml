@@ -2,14 +2,14 @@ name: Update Football Predictions
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # ← THIS FIXES THE 403 ERROR
+      contents: write # ← THIS FIXES THE 403 ERROR
 
     steps:
       - uses: actions/checkout@v4
@@ -19,10 +19,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install requests beautifulsoup4
 
       - name: Run scraper and predictions
         run: python backend/scrape_and_predict.py
