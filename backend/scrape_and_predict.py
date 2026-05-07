@@ -4,82 +4,6 @@ from scipy.stats import poisson
 from datetime import datetime, timedelta
 import json
 import os
-import requests
-import time
-from bs4 import BeautifulSoup
-
-headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win664; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        'Accept-Language': 'en-US,en;q=0.9'
-    }
-
-# ===================== 新增：从 FBref 拉最新赛程 =====================
-def get_fixtures_from_fbref(league_code="E0"):
-    """
-    league_code: 对应 LEAGUES 里的缩写，比如 E0=英超, I1=意甲, F1=法甲...
-    这里我们遍历所有 LEAGUES，逐个拉取
-    """
-    league_map = {
-        "E0": "9",    # Premier League
-        "E1": "10",   # Championship
-        "E2": "11",   # League One
-        "SP1": "12",  # La Liga
-        "SP2": "17",  # Segunda Division
-        "I1": "13",   # Serie A
-        "I2": "18",   # Serie B
-        "F1": "14",   # Ligue 1
-        "F2": "23",   # Ligue 2
-        "D1": "20",   # Bundesliga
-        "D2": "33",   # 2. Bundesliga
-        "P1": "30",   # Primeira Liga
-        "N1": "28",   # Eredivisie
-        "B1": "37"    # Belgian Pro League
-    }
-    fb_id = league_map.get(league_code)
-    if not fb_id:
-        return pd.DataFrame()  # 不支持的联赛返回空
-    
-
-    url = f"https://fbref.com/en/comps/{fb_id}/schedule/{league_code}-Scores-and-Fixtures"
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-    res = requests.get(url, headers=headers)
-    time.sleep(2)
-    if res.status_code != 200:
-        print(f"Warning: Failed to fetch FBref for {league_code}, Status: {res.status_code}")
-        return pd.DataFrame()
-
-    soup = BeautifulSoup(res.text, "html.parser")
-    table = soup.find("table", id=f"sched_2025-2026_{fb_id}_1")
-    
-    if not table:
-        return pd.DataFrame()
-    
-    df = pd.read_html(str(table))[0]
-    if df.empty:
-        print(f"Warning: No data found for {league}, skipping...")
-    return pd.DataFrame()
-    df.columns
-    df = df[["Date", "Home", "Away"]].copy()
-    df.columns = ["Date", "HomeTeam", "AwayTeam"]
-    df["Div"] = league_code
-    df["Date"] = pd.to_datetime(df["Date"])
-    return df
-
-# ===================== 新增：从 football-data 补赔率 =====================
-def get_odds_from_fd(league_code, seasons=["2526", "2425", "2324"]):
-    dfs = []
-    for season in seasons:
-        url = f"https://www.football-data.co.uk/mmz4281/{season}/{league_code}.csv"
-        try:
-            df = pd.read_csv(url, dtype=str, usecols=["Date", "HomeTeam", "AwayTeam", "AvgH", "AvgD", "AvgA"])
-            df["Date"] = pd.to_datetime(df["Date"], dayfirst=True)
-            df["Div"] = league_code
-            dfs.append(df)
-        except Exception as e:
-            print(f"跳过 {url}: {e}")
-    if dfs:
-        return pd.concat(dfs, ignore_index=True)
-    return pd.DataFrame()
 
 LEAGUES = ["E0","E1","E2","SP1","SP2","I1","I2","F1","F2","D1","D2","P1","N1","B1"]
 MIN_EDGE = 0.05
@@ -99,62 +23,32 @@ for league in LEAGUES:
 hist_dfs = []
 for url in historical_urls:
     try:
-        df = pd.read_csv(url)
-        # 找到所有列名中包含 'date'（不区分大小写）的列，重命名为 'Date'
-        date_cols = [col for col in df.columns if 'date' in col.lower()]
-        if date_cols:
-           df = df.rename(columns={date_cols[0]: 'Date'})
-        else:
-         print(f"Warning: No Date column found in {url}")
+        df = pd.read_csv(url, dtype=str)
+        df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
+        hist_dfs.append(df)
+        print(f"Loaded {len(df)} matches from {url}")
     except Exception as e:
         print(f"Failed {url}: {e}")
 
 historical = pd.concat(hist_dfs, ignore_index=True) if hist_dfs else pd.DataFrame()
 print(f"Total historical matches: {len(historical)}")
 
-# ===================== 替换后：多站互补获取 upcoming =====================
+# Upcoming
+url = "https://www.football-data.co.uk/fixtures.csv"
+df = pd.read_csv(url, dtype=str)
+df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
+
 today = datetime.now().date()
 day_after = today + timedelta(days=3)
 
-# 1. 遍历所有联赛，合并 FBref 赛程 + football-data 赔率
-all_fixtures = []
-for league in LEAGUES:
-    # 拉最新赛程
-    fb_df = get_fixtures_from_fbref(league)
-    # 拉赔率历史
-    odds_df = get_odds_from_fd(league)
-
-    # 1. 打印调试信息，看看到底哪家数据没拿到 Date
-    print(f"--- Checking {league} ---")
-    print(f"FBref columns: {fb_df.columns.tolist()}")
-    print(f"Odds columns: {odds_df.columns.tolist()}")
-
-    # 2. 安全检查：只有两边都有 'Date' 且不为空时才合并
-    if not fb_df.empty and not odds_df.empty and 'Date' in fb_df.columns and 'Date' in odds_df.columns:
-        merged = pd.merge(
-            fb_df, 
-            odds_df, 
-            on=["Date", "HomeTeam", "AwayTeam", "Div"], 
-            how="left"
-        )
-        all_fixtures.append(merged) # 成功合并后才加入列表
-        print(f"Successfully merged {league}")
-    else:
-        print(f"Skipping {league}: Data missing or column mismatch")
-        # 这里不需要 continue，因为已经是循环最后了，会自动进入下一个 league
-
-     # 3. 合并所有联赛结果
-    if all_fixtures:
-        df = pd.concat(all_fixtures, ignore_index=True)
-    else:
-        df = pd.DataFrame() # 如果全是空的，给个空表防止后面报错
-    
-# 2. 筛选未来3天 + 有有效赔率的比赛（和你原来逻辑完全一致）
 upcoming = df[
-    (df['Div'].isin(LEAGUES)) &
+    (df['Div'].isin(LEAGUES)) & 
+    (df['Date'].dt.date >= today) & 
     (df['Date'].dt.date <= day_after) &
     (pd.to_numeric(df.get('AvgH', 0), errors='coerce') > 1)
 ].copy()
+
+print(f"Found {len(upcoming)} upcoming matches.")
 
 results = []
 for _, row in upcoming.iterrows():
