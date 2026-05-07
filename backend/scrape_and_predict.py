@@ -36,6 +36,11 @@ def get_fixtures_from_fbref(league_code="E0"):
     url = f"https://fbref.com/en/comps/{fb_id}/schedule/{league_code}-Scores-and-Fixtures"
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
     res = requests.get(url, headers=headers)
+    
+    if res.status_code != 200:
+        print(f"Warning: Failed to fetch FBref for {league_code}, Status: {res.status_code}")
+        return pd.DataFrame()
+
     soup = BeautifulSoup(res.text, "html.parser")
     table = soup.find("table", id=f"sched_2025-2026_{fb_id}_1")
     
@@ -43,6 +48,7 @@ def get_fixtures_from_fbref(league_code="E0"):
         return pd.DataFrame()
     
     df = pd.read_html(str(table))[0]
+    df.columns
     df = df[["Date", "Home", "Away"]].copy()
     df.columns = ["Date", "HomeTeam", "AwayTeam"]
     df["Div"] = league_code
@@ -107,28 +113,38 @@ for league in LEAGUES:
     fb_df = get_fixtures_from_fbref(league)
     # 拉赔率历史
     odds_df = get_odds_from_fd(league)
+
+    # 1. 打印调试信息，看看到底哪家数据没拿到 Date
+    print(f"--- Checking {league} ---")
+    print(f"FBref columns: {fb_df.columns.tolist()}")
+    print(f"Odds columns: {odds_df.columns.tolist()}")
+
+    # 2. 安全检查：只有两边都有 'Date' 且不为空时才合并
+    if not fb_df.empty and not odds_df.empty and 'Date' in fb_df.columns and 'Date' in odds_df.columns:
+        merged = pd.merge(
+            fb_df, 
+            odds_df, 
+            on=["Date", "HomeTeam", "AwayTeam", "Div"], 
+            how="left"
+        )
+        all_fixtures.append(merged) # 成功合并后才加入列表
+        print(f"Successfully merged {league}")
+    else:
+        print(f"Skipping {league}: Data missing or column mismatch")
+        # 这里不需要 continue，因为已经是循环最后了，会自动进入下一个 league
+
+     # 3. 合并所有联赛结果
+    if all_fixtures:
+        df = pd.concat(all_fixtures, ignore_index=True)
+    else:
+        df = pd.DataFrame() # 如果全是空的，给个空表防止后面报错
     
-    # 合并：用 Date+HomeTeam+AwayTeam+Div 匹配赔率
-    merged = pd.merge(
-        fb_df,
-        odds_df,
-        on=["Date", "HomeTeam", "AwayTeam", "Div"],
-        how="left"
-    )
-    all_fixtures.append(merged)
-
-# 合并所有联赛
-df = pd.concat(all_fixtures, ignore_index=True)
-
 # 2. 筛选未来3天 + 有有效赔率的比赛（和你原来逻辑完全一致）
 upcoming = df[
     (df['Div'].isin(LEAGUES)) &
-    (df['Date'].dt.date >= today) &
     (df['Date'].dt.date <= day_after) &
     (pd.to_numeric(df.get('AvgH', 0), errors='coerce') > 1)
 ].copy()
-
-print(f"Found {len(upcoming)} upcoming matches.")
 
 results = []
 for _, row in upcoming.iterrows():
