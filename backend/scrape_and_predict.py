@@ -5,7 +5,13 @@ from datetime import datetime, timedelta
 import json
 import os
 import requests
+import time
 from bs4 import BeautifulSoup
+
+headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win664; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'Accept-Language': 'en-US,en;q=0.9'
+    }
 
 # ===================== 新增：从 FBref 拉最新赛程 =====================
 def get_fixtures_from_fbref(league_code="E0"):
@@ -33,10 +39,11 @@ def get_fixtures_from_fbref(league_code="E0"):
     if not fb_id:
         return pd.DataFrame()  # 不支持的联赛返回空
     
+
     url = f"https://fbref.com/en/comps/{fb_id}/schedule/{league_code}-Scores-and-Fixtures"
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
     res = requests.get(url, headers=headers)
-    
+    time.sleep(2)
     if res.status_code != 200:
         print(f"Warning: Failed to fetch FBref for {league_code}, Status: {res.status_code}")
         return pd.DataFrame()
@@ -48,6 +55,9 @@ def get_fixtures_from_fbref(league_code="E0"):
         return pd.DataFrame()
     
     df = pd.read_html(str(table))[0]
+    if df.empty:
+        print(f"Warning: No data found for {league}, skipping...")
+    return pd.DataFrame()
     df.columns
     df = df[["Date", "Home", "Away"]].copy()
     df.columns = ["Date", "HomeTeam", "AwayTeam"]
