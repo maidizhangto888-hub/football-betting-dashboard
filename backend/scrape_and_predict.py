@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import json
 import os
 
-LEAGUES = ["E0","E1","E2","SP1","SP2","I1","F1","F2","D1","D2","P1","N1","N2"]
+LEAGUES = ["E0","E1","E2","SP1","SP2","I1","F1","F2","D1","D2","P1","N1"]
 MIN_EDGE = 0.05
 
 print("Loading extensive historical data for rich H2H...")
