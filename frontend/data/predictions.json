@@ -1,1 +1,1270 @@
-[]
+[
+  {
+    "league": "E0",
+    "date": "2026-05-13 00:00",
+    "home_team": "Man City",
+    "away_team": "Crystal Palace",
+    "home_odds": 1.19,
+    "draw_odds": 7.03,
+    "away_odds": 12.75,
+    "home_xg": 1.39,
+    "away_xg": 1.17,
+    "home_win_prob": 0.4193,
+    "draw_prob": 0.2646,
+    "away_win_prob": 0.3161,
+    "over_25_prob": 0.4711,
+    "value_home": 0,
+    "value_draw": 0.1223,
+    "value_away": 0.2376,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-12-14",
+          "home": "Crystal Palace",
+          "away": "Man City",
+          "score": "0\u20133"
+        },
+        {
+          "date": "2025-04-12",
+          "home": "Man City",
+          "away": "Crystal Palace",
+          "score": "5\u20132"
+        },
+        {
+          "date": "2024-12-07",
+          "home": "Crystal Palace",
+          "away": "Man City",
+          "score": "2\u20132"
+        },
+        {
+          "date": "2024-04-06",
+          "home": "Crystal Palace",
+          "away": "Man City",
+          "score": "2\u20134"
+        },
+        {
+          "date": "2023-12-16",
+          "home": "Man City",
+          "away": "Crystal Palace",
+          "score": "2\u20132"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Brentford",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Arsenal",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Nott'm Forest",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Newcastle",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Fulham",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Wolves",
+          "score": "2\u20130"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Bournemouth",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Liverpool",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Tottenham",
+          "score": "1\u20133"
+        },
+        {
+          "opponent": "Man United",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Brighton",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Nott'm Forest",
+          "score": "1\u20131"
+        }
+      ]
+    }
+  },
+  {
+    "league": "F1",
+    "date": "2026-05-13 00:00",
+    "home_team": "Brest",
+    "away_team": "Strasbourg",
+    "home_odds": 2.68,
+    "draw_odds": 3.47,
+    "away_odds": 2.42,
+    "home_xg": 1.96,
+    "away_xg": 1.32,
+    "home_win_prob": 0.5218,
+    "draw_prob": 0.2203,
+    "away_win_prob": 0.2579,
+    "over_25_prob": 0.6349,
+    "value_home": 0.1487,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-11-30",
+          "home": "Strasbourg",
+          "away": "Brest",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2025-02-23",
+          "home": "Strasbourg",
+          "away": "Brest",
+          "score": "0\u20130"
+        },
+        {
+          "date": "2024-11-30",
+          "home": "Brest",
+          "away": "Strasbourg",
+          "score": "3\u20131"
+        },
+        {
+          "date": "2024-02-24",
+          "home": "Strasbourg",
+          "away": "Brest",
+          "score": "0\u20133"
+        },
+        {
+          "date": "2023-12-07",
+          "home": "Brest",
+          "away": "Strasbourg",
+          "score": "1\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Lens",
+          "score": "3\u20133"
+        },
+        {
+          "opponent": "Rennes",
+          "score": "3\u20134"
+        },
+        {
+          "opponent": "Le Havre",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Marseille",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Lorient",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Toulouse",
+          "score": "0\u20132"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Angers",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Lorient",
+          "score": "2\u20133"
+        },
+        {
+          "opponent": "Nantes",
+          "score": "2\u20133"
+        },
+        {
+          "opponent": "Auxerre",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Marseille",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Le Havre",
+          "score": "2\u20131"
+        }
+      ]
+    }
+  },
+  {
+    "league": "F1",
+    "date": "2026-05-13 00:00",
+    "home_team": "Lens",
+    "away_team": "Paris SG",
+    "home_odds": 3.3,
+    "draw_odds": 3.91,
+    "away_odds": 1.95,
+    "home_xg": 1.7,
+    "away_xg": 1.0,
+    "home_win_prob": 0.5371,
+    "draw_prob": 0.2407,
+    "away_win_prob": 0.2222,
+    "over_25_prob": 0.5054,
+    "value_home": 0.2341,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-09-14",
+          "home": "Paris SG",
+          "away": "Lens",
+          "score": "2\u20130"
+        },
+        {
+          "date": "2025-01-18",
+          "home": "Lens",
+          "away": "Paris SG",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2024-11-02",
+          "home": "Paris SG",
+          "away": "Lens",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2024-01-14",
+          "home": "Lens",
+          "away": "Paris SG",
+          "score": "0\u20132"
+        },
+        {
+          "date": "2023-08-26",
+          "home": "Paris SG",
+          "away": "Lens",
+          "score": "3\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Nantes",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Toulouse",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Angers",
+          "score": "5\u20131"
+        },
+        {
+          "opponent": "Metz",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Monaco",
+          "score": "2\u20133"
+        },
+        {
+          "opponent": "Rennes",
+          "score": "3\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Angers",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "Nice",
+          "score": "0\u20134"
+        },
+        {
+          "opponent": "Le Havre",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Rennes",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Strasbourg",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Auxerre",
+          "score": "0\u20131"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP1",
+    "date": "2026-05-12 00:00",
+    "home_team": "Celta",
+    "away_team": "Levante",
+    "home_odds": 1.78,
+    "draw_odds": 3.78,
+    "away_odds": 4.17,
+    "home_xg": 1.52,
+    "away_xg": 1.38,
+    "home_win_prob": 0.4073,
+    "draw_prob": 0.2475,
+    "away_win_prob": 0.3452,
+    "over_25_prob": 0.5533,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1054,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-11-02",
+          "home": "Levante",
+          "away": "Celta",
+          "score": "1\u20132"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Elche",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Oviedo",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "Alaves",
+          "score": "3\u20134"
+        },
+        {
+          "opponent": "Real Madrid",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Mallorca",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Osasuna",
+          "score": "1\u20132"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Villarreal",
+          "score": "5\u20131"
+        },
+        {
+          "opponent": "Espanol",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Sociedad",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Vallecano",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Barcelona",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Ath Bilbao",
+          "score": "4\u20132"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP1",
+    "date": "2026-05-12 00:00",
+    "home_team": "Betis",
+    "away_team": "Elche",
+    "home_odds": 1.57,
+    "draw_odds": 4.16,
+    "away_odds": 5.25,
+    "home_xg": 1.56,
+    "away_xg": 1.04,
+    "home_win_prob": 0.4932,
+    "draw_prob": 0.2537,
+    "away_win_prob": 0.2531,
+    "over_25_prob": 0.4809,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.0626,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-08-18",
+          "home": "Elche",
+          "away": "Betis",
+          "score": "1\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Oviedo",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Real Madrid",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Espanol",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Celta",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Sevilla",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Vallecano",
+          "score": "1\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Celta",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Oviedo",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Vallecano",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Real Madrid",
+          "score": "4\u20131"
+        },
+        {
+          "opponent": "Villarreal",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Ath Bilbao",
+          "score": "2\u20131"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP1",
+    "date": "2026-05-12 00:00",
+    "home_team": "Osasuna",
+    "away_team": "Ath Madrid",
+    "home_odds": 2.51,
+    "draw_odds": 3.51,
+    "away_odds": 2.61,
+    "home_xg": 1.72,
+    "away_xg": 1.3,
+    "home_win_prob": 0.4724,
+    "draw_prob": 0.237,
+    "away_win_prob": 0.2906,
+    "over_25_prob": 0.5803,
+    "value_home": 0.074,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-10-18",
+          "home": "Ath Madrid",
+          "away": "Osasuna",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2025-05-15",
+          "home": "Osasuna",
+          "away": "Ath Madrid",
+          "score": "2\u20130"
+        },
+        {
+          "date": "2025-01-12",
+          "home": "Ath Madrid",
+          "away": "Osasuna",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2024-05-19",
+          "home": "Ath Madrid",
+          "away": "Osasuna",
+          "score": "1\u20134"
+        },
+        {
+          "date": "2023-09-28",
+          "home": "Osasuna",
+          "away": "Ath Madrid",
+          "score": "0\u20132"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Barcelona",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Sevilla",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Betis",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Girona",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Mallorca",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Real Madrid",
+          "score": "2\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Valencia",
+          "score": "0\u20132"
+        },
+        {
+          "opponent": "Elche",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Sevilla",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Real Madrid",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Oviedo",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Vallecano",
+          "score": "3\u20130"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP1",
+    "date": "2026-05-13 00:00",
+    "home_team": "Espanol",
+    "away_team": "Ath Bilbao",
+    "home_odds": 2.61,
+    "draw_odds": 3.21,
+    "away_odds": 2.69,
+    "home_xg": 1.74,
+    "away_xg": 1.14,
+    "home_win_prob": 0.5133,
+    "draw_prob": 0.2371,
+    "away_win_prob": 0.2497,
+    "over_25_prob": 0.5483,
+    "value_home": 0.1301,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-12-22",
+          "home": "Ath Bilbao",
+          "away": "Espanol",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2025-02-16",
+          "home": "Espanol",
+          "away": "Ath Bilbao",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2024-10-19",
+          "home": "Ath Bilbao",
+          "away": "Espanol",
+          "score": "4\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Real Madrid",
+          "score": "0\u20132"
+        },
+        {
+          "opponent": "Levante",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Getafe",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Oviedo",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Celta",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Alaves",
+          "score": "1\u20132"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Alaves",
+          "score": "2\u20134"
+        },
+        {
+          "opponent": "Ath Madrid",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Getafe",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Girona",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Vallecano",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Oviedo",
+          "score": "1\u20132"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP1",
+    "date": "2026-05-13 00:00",
+    "home_team": "Villarreal",
+    "away_team": "Sevilla",
+    "home_odds": 2.09,
+    "draw_odds": 3.29,
+    "away_odds": 3.5,
+    "home_xg": 1.59,
+    "away_xg": 1.15,
+    "home_win_prob": 0.4749,
+    "draw_prob": 0.2493,
+    "away_win_prob": 0.2758,
+    "over_25_prob": 0.5154,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-09-23",
+          "home": "Sevilla",
+          "away": "Villarreal",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2025-05-25",
+          "home": "Villarreal",
+          "away": "Sevilla",
+          "score": "4\u20132"
+        },
+        {
+          "date": "2024-08-23",
+          "home": "Sevilla",
+          "away": "Villarreal",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2024-05-11",
+          "home": "Villarreal",
+          "away": "Sevilla",
+          "score": "3\u20132"
+        },
+        {
+          "date": "2023-12-03",
+          "home": "Sevilla",
+          "away": "Villarreal",
+          "score": "1\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Levante",
+          "score": "5\u20131"
+        },
+        {
+          "opponent": "Celta",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Sociedad",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Elche",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Valencia",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Espanol",
+          "score": "4\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Osasuna",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Levante",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Oviedo",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Barcelona",
+          "score": "5\u20132"
+        },
+        {
+          "opponent": "Betis",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Getafe",
+          "score": "0\u20131"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP1",
+    "date": "2026-05-13 00:00",
+    "home_team": "Alaves",
+    "away_team": "Barcelona",
+    "home_odds": 3.09,
+    "draw_odds": 3.75,
+    "away_odds": 2.1,
+    "home_xg": 1.6,
+    "away_xg": 1.23,
+    "home_win_prob": 0.4592,
+    "draw_prob": 0.2469,
+    "away_win_prob": 0.2939,
+    "over_25_prob": 0.5369,
+    "value_home": 0.1356,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-11-29",
+          "home": "Barcelona",
+          "away": "Alaves",
+          "score": "3\u20131"
+        },
+        {
+          "date": "2025-02-02",
+          "home": "Barcelona",
+          "away": "Alaves",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2024-10-06",
+          "home": "Alaves",
+          "away": "Barcelona",
+          "score": "0\u20133"
+        },
+        {
+          "date": "2024-02-03",
+          "home": "Alaves",
+          "away": "Barcelona",
+          "score": "1\u20133"
+        },
+        {
+          "date": "2023-11-12",
+          "home": "Barcelona",
+          "away": "Alaves",
+          "score": "2\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Ath Bilbao",
+          "score": "2\u20134"
+        },
+        {
+          "opponent": "Mallorca",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Osasuna",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Villarreal",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Girona",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Getafe",
+          "score": "0\u20132"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Osasuna",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Getafe",
+          "score": "0\u20132"
+        },
+        {
+          "opponent": "Ath Madrid",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Ath Bilbao",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Girona",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Elche",
+          "score": "1\u20133"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP1",
+    "date": "2026-05-13 00:00",
+    "home_team": "Getafe",
+    "away_team": "Mallorca",
+    "home_odds": 2.19,
+    "draw_odds": 3.07,
+    "away_odds": 3.51,
+    "home_xg": 1.71,
+    "away_xg": 1.76,
+    "home_win_prob": 0.3775,
+    "draw_prob": 0.2247,
+    "away_win_prob": 0.3978,
+    "over_25_prob": 0.6722,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1129,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-11-09",
+          "home": "Mallorca",
+          "away": "Getafe",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2025-05-18",
+          "home": "Mallorca",
+          "away": "Getafe",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2024-12-21",
+          "home": "Getafe",
+          "away": "Mallorca",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2024-05-26",
+          "home": "Getafe",
+          "away": "Mallorca",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2023-10-28",
+          "home": "Mallorca",
+          "away": "Getafe",
+          "score": "0\u20130"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Vallecano",
+          "score": "0\u20132"
+        },
+        {
+          "opponent": "Barcelona",
+          "score": "0\u20132"
+        },
+        {
+          "opponent": "Ath Bilbao",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Betis",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Sevilla",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Villarreal",
+          "score": "2\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Girona",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Alaves",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Elche",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Osasuna",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Celta",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Barcelona",
+          "score": "3\u20130"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP1",
+    "date": "2026-05-14 00:00",
+    "home_team": "Valencia",
+    "away_team": "Vallecano",
+    "home_odds": 2.17,
+    "draw_odds": 3.33,
+    "away_odds": 3.23,
+    "home_xg": 1.3,
+    "away_xg": 1.36,
+    "home_win_prob": 0.3559,
+    "draw_prob": 0.2605,
+    "away_win_prob": 0.3836,
+    "over_25_prob": 0.4961,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.074,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-12-01",
+          "home": "Vallecano",
+          "away": "Valencia",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2025-04-19",
+          "home": "Vallecano",
+          "away": "Valencia",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2024-12-07",
+          "home": "Valencia",
+          "away": "Vallecano",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2024-05-12",
+          "home": "Valencia",
+          "away": "Vallecano",
+          "score": "0\u20130"
+        },
+        {
+          "date": "2023-12-19",
+          "home": "Vallecano",
+          "away": "Valencia",
+          "score": "0\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Ath Madrid",
+          "score": "0\u20132"
+        },
+        {
+          "opponent": "Girona",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Celta",
+          "score": "2\u20133"
+        },
+        {
+          "opponent": "Alaves",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Osasuna",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Real Madrid",
+          "score": "0\u20132"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Getafe",
+          "score": "0\u20132"
+        },
+        {
+          "opponent": "Mallorca",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Barcelona",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Sevilla",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Betis",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Real Madrid",
+          "score": "2\u20131"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP1",
+    "date": "2026-05-14 00:00",
+    "home_team": "Girona",
+    "away_team": "Sociedad",
+    "home_odds": 2.06,
+    "draw_odds": 3.64,
+    "away_odds": 3.21,
+    "home_xg": 1.54,
+    "away_xg": 1.68,
+    "home_win_prob": 0.3537,
+    "draw_prob": 0.2335,
+    "away_win_prob": 0.4128,
+    "over_25_prob": 0.6232,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1013,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-12-12",
+          "home": "Sociedad",
+          "away": "Girona",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2025-05-18",
+          "home": "Sociedad",
+          "away": "Girona",
+          "score": "3\u20132"
+        },
+        {
+          "date": "2024-10-19",
+          "home": "Girona",
+          "away": "Sociedad",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2024-02-03",
+          "home": "Girona",
+          "away": "Sociedad",
+          "score": "0\u20130"
+        },
+        {
+          "date": "2023-08-12",
+          "home": "Sociedad",
+          "away": "Girona",
+          "score": "1\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Mallorca",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Betis",
+          "score": "2\u20133"
+        },
+        {
+          "opponent": "Villarreal",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Ath Bilbao",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Celta",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Barcelona",
+          "score": "2\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Sevilla",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Vallecano",
+          "score": "3\u20133"
+        },
+        {
+          "opponent": "Villarreal",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Ath Madrid",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Mallorca",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Real Madrid",
+          "score": "4\u20131"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP1",
+    "date": "2026-05-14 00:00",
+    "home_team": "Real Madrid",
+    "away_team": "Oviedo",
+    "home_odds": 1.23,
+    "draw_odds": 6.28,
+    "away_odds": 10.42,
+    "home_xg": 1.57,
+    "away_xg": 1.45,
+    "home_win_prob": 0.4051,
+    "draw_prob": 0.2421,
+    "away_win_prob": 0.3528,
+    "over_25_prob": 0.5805,
+    "value_home": 0,
+    "value_draw": 0.0829,
+    "value_away": 0.2569,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-08-24",
+          "home": "Oviedo",
+          "away": "Real Madrid",
+          "score": "0\u20133"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Alaves",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Girona",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Ath Madrid",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Elche",
+          "score": "4\u20131"
+        },
+        {
+          "opponent": "Getafe",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Sociedad",
+          "score": "4\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Betis",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Celta",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "Levante",
+          "score": "4\u20132"
+        },
+        {
+          "opponent": "Espanol",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Vallecano",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Sociedad",
+          "score": "3\u20133"
+        }
+      ]
+    }
+  }
+]
