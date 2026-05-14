@@ -7,17 +7,23 @@
     "home_odds": 2.17,
     "draw_odds": 3.33,
     "away_odds": 3.23,
-    "home_xg": 1.34,
-    "away_xg": 1.25,
-    "home_win_prob": 0.3888,
-    "draw_prob": 0.2644,
-    "away_win_prob": 0.3468,
-    "over_25_prob": 0.4786,
+    "home_xg": 1.44,
+    "away_xg": 1.54,
+    "home_win_prob": 0.3561,
+    "draw_prob": 0.244,
+    "away_win_prob": 0.3999,
+    "over_25_prob": 0.5715,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0,
+    "value_away": 0.0903,
     "details": {
       "h2h": [
+        {
+          "date": "2026-05-14",
+          "home": "Valencia",
+          "away": "Vallecano",
+          "score": "1\u20131"
+        },
         {
           "date": "2025-12-01",
           "home": "Vallecano",
@@ -51,6 +57,10 @@
       ],
       "home_form": [
         {
+          "opponent": "Vallecano",
+          "score": "1\u20131"
+        },
+        {
           "opponent": "Ath Madrid",
           "score": "0\u20132"
         },
@@ -69,13 +79,13 @@
         {
           "opponent": "Osasuna",
           "score": "1\u20130"
-        },
-        {
-          "opponent": "Real Madrid",
-          "score": "0\u20132"
         }
       ],
       "away_form": [
+        {
+          "opponent": "Valencia",
+          "score": "1\u20131"
+        },
         {
           "opponent": "Getafe",
           "score": "0\u20132"
@@ -95,10 +105,6 @@
         {
           "opponent": "Betis",
           "score": "1\u20131"
-        },
-        {
-          "opponent": "Real Madrid",
-          "score": "2\u20131"
         }
       ]
     }
@@ -111,17 +117,23 @@
     "home_odds": 2.06,
     "draw_odds": 3.64,
     "away_odds": 3.21,
-    "home_xg": 1.7,
-    "away_xg": 1.18,
-    "home_win_prob": 0.4946,
-    "draw_prob": 0.24,
-    "away_win_prob": 0.2654,
-    "over_25_prob": 0.5484,
-    "value_home": 0,
+    "home_xg": 1.77,
+    "away_xg": 1.01,
+    "home_win_prob": 0.5511,
+    "draw_prob": 0.2341,
+    "away_win_prob": 0.2148,
+    "over_25_prob": 0.5246,
+    "value_home": 0.0657,
     "value_draw": 0,
     "value_away": 0,
     "details": {
       "h2h": [
+        {
+          "date": "2026-05-14",
+          "home": "Girona",
+          "away": "Sociedad",
+          "score": "1\u20131"
+        },
         {
           "date": "2025-12-12",
           "home": "Sociedad",
@@ -155,6 +167,10 @@
       ],
       "home_form": [
         {
+          "opponent": "Sociedad",
+          "score": "1\u20131"
+        },
+        {
           "opponent": "Mallorca",
           "score": "0\u20131"
         },
@@ -173,13 +189,13 @@
         {
           "opponent": "Celta",
           "score": "1\u20132"
-        },
-        {
-          "opponent": "Barcelona",
-          "score": "2\u20131"
         }
       ],
       "away_form": [
+        {
+          "opponent": "Girona",
+          "score": "1\u20131"
+        },
         {
           "opponent": "Sevilla",
           "score": "1\u20130"
@@ -199,10 +215,6 @@
         {
           "opponent": "Mallorca",
           "score": "0\u20131"
-        },
-        {
-          "opponent": "Real Madrid",
-          "score": "4\u20131"
         }
       ]
     }
@@ -215,17 +227,23 @@
     "home_odds": 1.23,
     "draw_odds": 6.28,
     "away_odds": 10.42,
-    "home_xg": 1.31,
-    "away_xg": 1.33,
-    "home_win_prob": 0.3645,
-    "draw_prob": 0.2618,
-    "away_win_prob": 0.3737,
-    "over_25_prob": 0.4911,
+    "home_xg": 1.98,
+    "away_xg": 1.22,
+    "home_win_prob": 0.5485,
+    "draw_prob": 0.2183,
+    "away_win_prob": 0.2332,
+    "over_25_prob": 0.6184,
     "value_home": 0,
-    "value_draw": 0.1026,
-    "value_away": 0.2778,
+    "value_draw": 0.0591,
+    "value_away": 0.1373,
     "details": {
       "h2h": [
+        {
+          "date": "2026-05-14",
+          "home": "Real Madrid",
+          "away": "Oviedo",
+          "score": "2\u20130"
+        },
         {
           "date": "2025-08-24",
           "home": "Oviedo",
@@ -234,6 +252,10 @@
         }
       ],
       "home_form": [
+        {
+          "opponent": "Oviedo",
+          "score": "2\u20130"
+        },
         {
           "opponent": "Alaves",
           "score": "2\u20131"
@@ -253,13 +275,13 @@
         {
           "opponent": "Getafe",
           "score": "0\u20131"
-        },
-        {
-          "opponent": "Sociedad",
-          "score": "4\u20131"
         }
       ],
       "away_form": [
+        {
+          "opponent": "Real Madrid",
+          "score": "2\u20130"
+        },
         {
           "opponent": "Betis",
           "score": "3\u20130"
@@ -279,10 +301,6 @@
         {
           "opponent": "Vallecano",
           "score": "3\u20130"
-        },
-        {
-          "opponent": "Sociedad",
-          "score": "3\u20133"
         }
       ]
     }
