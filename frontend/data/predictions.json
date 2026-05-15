@@ -7,15 +7,15 @@
     "home_odds": 1.14,
     "draw_odds": 8.71,
     "away_odds": 12.84,
-    "home_xg": 1.39,
-    "away_xg": 1.34,
-    "home_win_prob": 0.3831,
-    "draw_prob": 0.2567,
-    "away_win_prob": 0.3602,
-    "over_25_prob": 0.5132,
+    "home_xg": 1.78,
+    "away_xg": 1.3,
+    "home_win_prob": 0.4863,
+    "draw_prob": 0.2328,
+    "away_win_prob": 0.2809,
+    "over_25_prob": 0.5933,
     "value_home": 0,
-    "value_draw": 0.1419,
-    "value_away": 0.2823,
+    "value_draw": 0.118,
+    "value_away": 0.203,
     "details": {
       "h2h": [
         {
@@ -99,13 +99,13 @@
     "home_odds": 3.35,
     "draw_odds": 4.22,
     "away_odds": 1.86,
-    "home_xg": 1.72,
-    "away_xg": 1.24,
-    "home_win_prob": 0.4857,
-    "draw_prob": 0.2378,
-    "away_win_prob": 0.2765,
-    "over_25_prob": 0.5668,
-    "value_home": 0.1872,
+    "home_xg": 1.75,
+    "away_xg": 1.3,
+    "home_win_prob": 0.4794,
+    "draw_prob": 0.2349,
+    "away_win_prob": 0.2857,
+    "over_25_prob": 0.5868,
+    "value_home": 0.1809,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -115,6 +115,18 @@
           "home": "Stuttgart",
           "away": "Ein Frankfurt",
           "score": "3\u20132"
+        },
+        {
+          "date": "2025-03-29",
+          "home": "Ein Frankfurt",
+          "away": "Stuttgart",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2024-11-10",
+          "home": "Stuttgart",
+          "away": "Ein Frankfurt",
+          "score": "2\u20133"
         },
         {
           "date": "2024-04-13",
@@ -191,13 +203,13 @@
     "home_odds": 2.65,
     "draw_odds": 3.88,
     "away_odds": 2.28,
-    "home_xg": 1.61,
-    "away_xg": 1.16,
-    "home_win_prob": 0.4775,
-    "draw_prob": 0.2475,
-    "away_win_prob": 0.275,
-    "over_25_prob": 0.5226,
-    "value_home": 0.1002,
+    "home_xg": 1.68,
+    "away_xg": 1.33,
+    "home_win_prob": 0.4565,
+    "draw_prob": 0.2391,
+    "away_win_prob": 0.3044,
+    "over_25_prob": 0.5781,
+    "value_home": 0.0791,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -207,6 +219,18 @@
           "home": "RB Leipzig",
           "away": "Freiburg",
           "score": "2\u20130"
+        },
+        {
+          "date": "2025-03-08",
+          "home": "Freiburg",
+          "away": "RB Leipzig",
+          "score": "0\u20130"
+        },
+        {
+          "date": "2024-10-26",
+          "home": "RB Leipzig",
+          "away": "Freiburg",
+          "score": "3\u20131"
         },
         {
           "date": "2024-04-06",
@@ -283,15 +307,15 @@
     "home_odds": 1.88,
     "draw_odds": 4.14,
     "away_odds": 3.35,
-    "home_xg": 1.52,
-    "away_xg": 1.31,
-    "home_win_prob": 0.4221,
-    "draw_prob": 0.2501,
-    "away_win_prob": 0.3279,
-    "over_25_prob": 0.537,
+    "home_xg": 1.32,
+    "away_xg": 1.43,
+    "home_win_prob": 0.3473,
+    "draw_prob": 0.2553,
+    "away_win_prob": 0.3974,
+    "over_25_prob": 0.518,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0,
+    "value_away": 0.0989,
     "details": {
       "h2h": [
         {
@@ -299,6 +323,18 @@
           "home": "Mainz",
           "away": "Heidenheim",
           "score": "2\u20131"
+        },
+        {
+          "date": "2025-02-16",
+          "home": "Heidenheim",
+          "away": "Mainz",
+          "score": "0\u20132"
+        },
+        {
+          "date": "2024-09-28",
+          "home": "Mainz",
+          "away": "Heidenheim",
+          "score": "0\u20132"
         },
         {
           "date": "2024-05-05",
@@ -375,15 +411,15 @@
     "home_odds": 1.25,
     "draw_odds": 6.29,
     "away_odds": 8.83,
-    "home_xg": 1.58,
-    "away_xg": 1.29,
-    "home_win_prob": 0.4411,
-    "draw_prob": 0.2467,
-    "away_win_prob": 0.3121,
-    "over_25_prob": 0.5463,
+    "home_xg": 1.71,
+    "away_xg": 1.26,
+    "home_win_prob": 0.4789,
+    "draw_prob": 0.2383,
+    "away_win_prob": 0.2828,
+    "over_25_prob": 0.5691,
     "value_home": 0,
-    "value_draw": 0.0877,
-    "value_away": 0.1989,
+    "value_draw": 0.0793,
+    "value_away": 0.1696,
     "details": {
       "h2h": [
         {
@@ -455,13 +491,13 @@
     "home_odds": 4.1,
     "draw_odds": 4.4,
     "away_odds": 1.67,
-    "home_xg": 1.51,
-    "away_xg": 1.26,
-    "home_win_prob": 0.4304,
-    "draw_prob": 0.2524,
-    "away_win_prob": 0.3172,
-    "over_25_prob": 0.5227,
-    "value_home": 0.1865,
+    "home_xg": 1.88,
+    "away_xg": 1.23,
+    "home_win_prob": 0.5245,
+    "draw_prob": 0.2259,
+    "away_win_prob": 0.2496,
+    "over_25_prob": 0.5996,
+    "value_home": 0.2806,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -471,6 +507,18 @@
           "home": "Hoffenheim",
           "away": "M'gladbach",
           "score": "5\u20131"
+        },
+        {
+          "date": "2025-05-03",
+          "home": "M'gladbach",
+          "away": "Hoffenheim",
+          "score": "4\u20134"
+        },
+        {
+          "date": "2024-12-21",
+          "home": "Hoffenheim",
+          "away": "M'gladbach",
+          "score": "1\u20132"
         },
         {
           "date": "2024-04-20",
@@ -547,13 +595,13 @@
     "home_odds": 2.78,
     "draw_odds": 3.63,
     "away_odds": 2.28,
-    "home_xg": 1.4,
-    "away_xg": 1.44,
-    "home_win_prob": 0.3655,
-    "draw_prob": 0.251,
-    "away_win_prob": 0.3835,
-    "over_25_prob": 0.5394,
-    "value_home": 0,
+    "home_xg": 1.46,
+    "away_xg": 1.27,
+    "home_win_prob": 0.4156,
+    "draw_prob": 0.2555,
+    "away_win_prob": 0.3289,
+    "over_25_prob": 0.5131,
+    "value_home": 0.0559,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -563,6 +611,18 @@
           "home": "Wolfsburg",
           "away": "St Pauli",
           "score": "2\u20131"
+        },
+        {
+          "date": "2025-03-08",
+          "home": "Wolfsburg",
+          "away": "St Pauli",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2024-10-26",
+          "home": "St Pauli",
+          "away": "Wolfsburg",
+          "score": "0\u20130"
         }
       ],
       "home_form": [
@@ -627,13 +687,13 @@
     "home_odds": 2.57,
     "draw_odds": 3.77,
     "away_odds": 2.39,
-    "home_xg": 1.7,
-    "away_xg": 1.47,
-    "home_win_prob": 0.4316,
-    "draw_prob": 0.2345,
-    "away_win_prob": 0.3339,
-    "over_25_prob": 0.6128,
-    "value_home": 0,
+    "home_xg": 1.54,
+    "away_xg": 0.89,
+    "home_win_prob": 0.525,
+    "draw_prob": 0.2572,
+    "away_win_prob": 0.2178,
+    "over_25_prob": 0.4375,
+    "value_home": 0.1359,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -643,6 +703,18 @@
           "home": "Augsburg",
           "away": "Union Berlin",
           "score": "1\u20131"
+        },
+        {
+          "date": "2025-05-17",
+          "home": "Augsburg",
+          "away": "Union Berlin",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2025-01-15",
+          "home": "Union Berlin",
+          "away": "Augsburg",
+          "score": "0\u20132"
         },
         {
           "date": "2024-04-12",
@@ -719,13 +791,13 @@
     "home_odds": 3.3,
     "draw_odds": 3.97,
     "away_odds": 1.93,
-    "home_xg": 1.97,
-    "away_xg": 0.92,
-    "home_win_prob": 0.6171,
-    "draw_prob": 0.2132,
-    "away_win_prob": 0.1698,
-    "over_25_prob": 0.5498,
-    "value_home": 0.314,
+    "home_xg": 1.52,
+    "away_xg": 1.57,
+    "home_win_prob": 0.3695,
+    "draw_prob": 0.2394,
+    "away_win_prob": 0.3911,
+    "over_25_prob": 0.5958,
+    "value_home": 0.0665,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -735,6 +807,18 @@
           "home": "Dortmund",
           "away": "Werder Bremen",
           "score": "3\u20130"
+        },
+        {
+          "date": "2025-01-25",
+          "home": "Dortmund",
+          "away": "Werder Bremen",
+          "score": "2\u20132"
+        },
+        {
+          "date": "2024-08-31",
+          "home": "Werder Bremen",
+          "away": "Dortmund",
+          "score": "0\u20130"
         },
         {
           "date": "2024-03-09",
@@ -811,15 +895,15 @@
     "home_odds": 1.7,
     "draw_odds": 4.08,
     "away_odds": 3.93,
-    "home_xg": 1.66,
-    "away_xg": 1.4,
-    "home_win_prob": 0.4368,
-    "draw_prob": 0.2387,
-    "away_win_prob": 0.3245,
-    "over_25_prob": 0.5892,
+    "home_xg": 1.12,
+    "away_xg": 1.38,
+    "home_win_prob": 0.3046,
+    "draw_prob": 0.2675,
+    "away_win_prob": 0.4279,
+    "over_25_prob": 0.4558,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0701,
+    "value_away": 0.1734,
     "details": {
       "h2h": [
         {
@@ -891,13 +975,13 @@
     "home_odds": 3.32,
     "draw_odds": 4.04,
     "away_odds": 1.84,
-    "home_xg": 1.7,
-    "away_xg": 1.22,
-    "home_win_prob": 0.4855,
-    "draw_prob": 0.2396,
-    "away_win_prob": 0.2749,
-    "over_25_prob": 0.5577,
-    "value_home": 0.1843,
+    "home_xg": 1.48,
+    "away_xg": 1.3,
+    "home_win_prob": 0.4142,
+    "draw_prob": 0.253,
+    "away_win_prob": 0.3328,
+    "over_25_prob": 0.5252,
+    "value_home": 0.113,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -983,15 +1067,15 @@
     "home_odds": 1.67,
     "draw_odds": 3.93,
     "away_odds": 4.19,
-    "home_xg": 1.26,
-    "away_xg": 1.19,
-    "home_win_prob": 0.3802,
-    "draw_prob": 0.2732,
-    "away_win_prob": 0.3466,
-    "over_25_prob": 0.443,
+    "home_xg": 1.9,
+    "away_xg": 1.52,
+    "home_win_prob": 0.4661,
+    "draw_prob": 0.2227,
+    "away_win_prob": 0.3112,
+    "over_25_prob": 0.6626,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1079,
+    "value_away": 0.0725,
     "details": {
       "h2h": [
         {
@@ -1063,15 +1147,15 @@
     "home_odds": 1.21,
     "draw_odds": 6.11,
     "away_odds": 10.13,
-    "home_xg": 1.49,
-    "away_xg": 1.23,
-    "home_win_prob": 0.4319,
-    "draw_prob": 0.2549,
-    "away_win_prob": 0.3132,
-    "over_25_prob": 0.5107,
+    "home_xg": 1.51,
+    "away_xg": 1.09,
+    "home_win_prob": 0.4687,
+    "draw_prob": 0.2573,
+    "away_win_prob": 0.274,
+    "over_25_prob": 0.481,
     "value_home": 0,
-    "value_draw": 0.0912,
-    "value_away": 0.2145,
+    "value_draw": 0.0937,
+    "value_away": 0.1753,
     "details": {
       "h2h": [
         {
@@ -1155,12 +1239,12 @@
     "home_odds": 2.45,
     "draw_odds": 3.59,
     "away_odds": 2.48,
-    "home_xg": 1.11,
+    "home_xg": 1.52,
     "away_xg": 1.3,
-    "home_win_prob": 0.3169,
-    "draw_prob": 0.2745,
-    "away_win_prob": 0.4086,
-    "over_25_prob": 0.4326,
+    "home_win_prob": 0.4242,
+    "draw_prob": 0.2504,
+    "away_win_prob": 0.3254,
+    "over_25_prob": 0.5346,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -1259,15 +1343,15 @@
     "home_odds": 1.41,
     "draw_odds": 4.69,
     "away_odds": 5.84,
-    "home_xg": 1.82,
-    "away_xg": 1.45,
-    "home_win_prob": 0.463,
-    "draw_prob": 0.2282,
-    "away_win_prob": 0.3087,
-    "over_25_prob": 0.6332,
+    "home_xg": 1.66,
+    "away_xg": 1.44,
+    "home_win_prob": 0.4285,
+    "draw_prob": 0.2376,
+    "away_win_prob": 0.334,
+    "over_25_prob": 0.5979,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1375,
+    "value_away": 0.1627,
     "details": {
       "h2h": [
         {
@@ -1363,13 +1447,13 @@
     "home_odds": 2.48,
     "draw_odds": 3.82,
     "away_odds": 2.35,
-    "home_xg": 1.77,
-    "away_xg": 1.09,
-    "home_win_prob": 0.532,
-    "draw_prob": 0.2345,
-    "away_win_prob": 0.2335,
-    "over_25_prob": 0.5436,
-    "value_home": 0.1287,
+    "home_xg": 1.57,
+    "away_xg": 1.26,
+    "home_win_prob": 0.4452,
+    "draw_prob": 0.2483,
+    "away_win_prob": 0.3065,
+    "over_25_prob": 0.537,
+    "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -1443,15 +1527,15 @@
     "home_odds": 1.69,
     "draw_odds": 4.12,
     "away_odds": 3.93,
-    "home_xg": 1.46,
-    "away_xg": 1.31,
-    "home_win_prob": 0.4071,
-    "draw_prob": 0.2539,
-    "away_win_prob": 0.3391,
-    "over_25_prob": 0.5228,
+    "home_xg": 1.51,
+    "away_xg": 1.22,
+    "home_win_prob": 0.4391,
+    "draw_prob": 0.2537,
+    "away_win_prob": 0.3071,
+    "over_25_prob": 0.5131,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0846,
+    "value_away": 0.0527,
     "details": {
       "h2h": [
         {
@@ -1547,15 +1631,15 @@
     "home_odds": 1.83,
     "draw_odds": 3.73,
     "away_odds": 3.59,
-    "home_xg": 1.38,
-    "away_xg": 1.35,
-    "home_win_prob": 0.3785,
-    "draw_prob": 0.2568,
-    "away_win_prob": 0.3648,
-    "over_25_prob": 0.5132,
+    "home_xg": 1.76,
+    "away_xg": 1.45,
+    "home_win_prob": 0.4495,
+    "draw_prob": 0.2317,
+    "away_win_prob": 0.3188,
+    "over_25_prob": 0.621,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0862,
+    "value_away": 0,
     "details": {
       "h2h": [
         {
@@ -1651,13 +1735,13 @@
     "home_odds": 2.76,
     "draw_odds": 3.44,
     "away_odds": 2.43,
-    "home_xg": 1.42,
-    "away_xg": 1.21,
-    "home_win_prob": 0.4184,
-    "draw_prob": 0.2607,
-    "away_win_prob": 0.321,
-    "over_25_prob": 0.4886,
-    "value_home": 0.056,
+    "home_xg": 1.48,
+    "away_xg": 1.16,
+    "home_win_prob": 0.4449,
+    "draw_prob": 0.2579,
+    "away_win_prob": 0.2971,
+    "over_25_prob": 0.491,
+    "value_home": 0.0826,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -1755,15 +1839,15 @@
     "home_odds": 1.58,
     "draw_odds": 4.23,
     "away_odds": 4.94,
-    "home_xg": 1.76,
-    "away_xg": 1.15,
-    "home_win_prob": 0.5156,
-    "draw_prob": 0.2354,
-    "away_win_prob": 0.249,
-    "over_25_prob": 0.5553,
+    "home_xg": 1.89,
+    "away_xg": 1.41,
+    "home_win_prob": 0.487,
+    "draw_prob": 0.2245,
+    "away_win_prob": 0.2884,
+    "over_25_prob": 0.6391,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0,
+    "value_away": 0.086,
     "details": {
       "h2h": [
         {
@@ -1859,15 +1943,15 @@
     "home_odds": 1.71,
     "draw_odds": 4.09,
     "away_odds": 4.17,
-    "home_xg": 1.64,
-    "away_xg": 1.62,
-    "home_win_prob": 0.3879,
-    "draw_prob": 0.2325,
-    "away_win_prob": 0.3795,
-    "over_25_prob": 0.6314,
+    "home_xg": 1.48,
+    "away_xg": 1.29,
+    "home_win_prob": 0.4164,
+    "draw_prob": 0.2534,
+    "away_win_prob": 0.3303,
+    "over_25_prob": 0.5228,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1397,
+    "value_away": 0.0905,
     "details": {
       "h2h": [
         {
@@ -1963,15 +2047,15 @@
     "home_odds": 1.81,
     "draw_odds": 3.63,
     "away_odds": 4.18,
-    "home_xg": 1.37,
-    "away_xg": 1.24,
-    "home_win_prob": 0.3988,
-    "draw_prob": 0.2629,
-    "away_win_prob": 0.3383,
-    "over_25_prob": 0.4836,
+    "home_xg": 1.48,
+    "away_xg": 1.17,
+    "home_win_prob": 0.4427,
+    "draw_prob": 0.2576,
+    "away_win_prob": 0.2997,
+    "over_25_prob": 0.4935,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.099,
+    "value_away": 0.0605,
     "details": {
       "h2h": [
         {
@@ -2043,13 +2127,13 @@
     "home_odds": 3.09,
     "draw_odds": 3.57,
     "away_odds": 2.14,
-    "home_xg": 1.71,
-    "away_xg": 1.06,
-    "home_win_prob": 0.525,
-    "draw_prob": 0.2398,
-    "away_win_prob": 0.2351,
-    "over_25_prob": 0.5224,
-    "value_home": 0.2014,
+    "home_xg": 1.89,
+    "away_xg": 1.53,
+    "home_win_prob": 0.4619,
+    "draw_prob": 0.2231,
+    "away_win_prob": 0.315,
+    "over_25_prob": 0.6626,
+    "value_home": 0.1383,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -2123,13 +2207,13 @@
     "home_odds": 3.68,
     "draw_odds": 3.78,
     "away_odds": 1.87,
-    "home_xg": 1.43,
-    "away_xg": 1.16,
-    "home_win_prob": 0.432,
-    "draw_prob": 0.2619,
-    "away_win_prob": 0.3061,
-    "over_25_prob": 0.4786,
-    "value_home": 0.1603,
+    "home_xg": 1.6,
+    "away_xg": 1.4,
+    "home_win_prob": 0.4226,
+    "draw_prob": 0.2422,
+    "away_win_prob": 0.3353,
+    "over_25_prob": 0.576,
+    "value_home": 0.1508,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -2227,12 +2311,12 @@
     "home_odds": 2.05,
     "draw_odds": 3.78,
     "away_odds": 3.15,
-    "home_xg": 1.88,
-    "away_xg": 1.47,
-    "home_win_prob": 0.4721,
-    "draw_prob": 0.2245,
-    "away_win_prob": 0.3034,
-    "over_25_prob": 0.6491,
+    "home_xg": 1.4,
+    "away_xg": 1.03,
+    "home_win_prob": 0.454,
+    "draw_prob": 0.269,
+    "away_win_prob": 0.277,
+    "over_25_prob": 0.4377,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -2331,15 +2415,15 @@
     "home_odds": 1.08,
     "draw_odds": 10.12,
     "away_odds": 22.13,
-    "home_xg": 1.62,
-    "away_xg": 1.07,
-    "home_win_prob": 0.501,
-    "draw_prob": 0.2479,
-    "away_win_prob": 0.2512,
-    "over_25_prob": 0.5031,
+    "home_xg": 1.69,
+    "away_xg": 1.23,
+    "home_win_prob": 0.4809,
+    "draw_prob": 0.2402,
+    "away_win_prob": 0.2789,
+    "over_25_prob": 0.5577,
     "value_home": 0,
-    "value_draw": 0.1491,
-    "value_away": 0.206,
+    "value_draw": 0.1414,
+    "value_away": 0.2337,
     "details": {
       "h2h": [
         {
@@ -2423,15 +2507,15 @@
     "home_odds": 1.79,
     "draw_odds": 3.64,
     "away_odds": 4.16,
-    "home_xg": 1.63,
-    "away_xg": 1.5,
-    "home_win_prob": 0.4092,
-    "draw_prob": 0.2373,
-    "away_win_prob": 0.3535,
-    "over_25_prob": 0.6043,
+    "home_xg": 1.64,
+    "away_xg": 1.33,
+    "home_win_prob": 0.447,
+    "draw_prob": 0.2417,
+    "away_win_prob": 0.3113,
+    "over_25_prob": 0.5692,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1132,
+    "value_away": 0.0709,
     "details": {
       "h2h": [
         {
@@ -2515,15 +2599,15 @@
     "home_odds": 1.36,
     "draw_odds": 4.77,
     "away_odds": 7.87,
-    "home_xg": 1.48,
-    "away_xg": 1.17,
-    "home_win_prob": 0.4427,
-    "draw_prob": 0.2576,
-    "away_win_prob": 0.2997,
-    "over_25_prob": 0.4935,
+    "home_xg": 1.6,
+    "away_xg": 1.22,
+    "home_win_prob": 0.4615,
+    "draw_prob": 0.2471,
+    "away_win_prob": 0.2915,
+    "over_25_prob": 0.5345,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1726,
+    "value_away": 0.1644,
     "details": {
       "h2h": [
         {
@@ -2607,13 +2691,13 @@
     "home_odds": 2.55,
     "draw_odds": 3.43,
     "away_odds": 2.56,
-    "home_xg": 1.48,
+    "home_xg": 1.21,
     "away_xg": 1.16,
-    "home_win_prob": 0.4449,
-    "draw_prob": 0.2579,
-    "away_win_prob": 0.2971,
-    "over_25_prob": 0.491,
-    "value_home": 0.0528,
+    "home_win_prob": 0.3728,
+    "draw_prob": 0.2787,
+    "away_win_prob": 0.3485,
+    "over_25_prob": 0.4222,
+    "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -2699,15 +2783,15 @@
     "home_odds": 1.73,
     "draw_odds": 4.03,
     "away_odds": 4.04,
-    "home_xg": 1.31,
-    "away_xg": 1.25,
-    "home_win_prob": 0.3809,
-    "draw_prob": 0.2664,
-    "away_win_prob": 0.3527,
-    "over_25_prob": 0.4711,
+    "home_xg": 1.53,
+    "away_xg": 1.09,
+    "home_win_prob": 0.4738,
+    "draw_prob": 0.2556,
+    "away_win_prob": 0.2706,
+    "over_25_prob": 0.486,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1052,
+    "value_away": 0,
     "details": {
       "h2h": [
         {
@@ -2803,13 +2887,13 @@
     "home_odds": 1.99,
     "draw_odds": 3.69,
     "away_odds": 3.33,
-    "home_xg": 1.29,
-    "away_xg": 1.06,
-    "home_win_prob": 0.4171,
-    "draw_prob": 0.2779,
-    "away_win_prob": 0.305,
-    "over_25_prob": 0.4169,
-    "value_home": 0,
+    "home_xg": 2.21,
+    "away_xg": 1.38,
+    "home_win_prob": 0.5601,
+    "draw_prob": 0.2041,
+    "away_win_prob": 0.2358,
+    "over_25_prob": 0.693,
+    "value_home": 0.0576,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -2907,12 +2991,12 @@
     "home_odds": 2.52,
     "draw_odds": 3.51,
     "away_odds": 2.55,
-    "home_xg": 1.32,
-    "away_xg": 1.52,
-    "home_win_prob": 0.3304,
-    "draw_prob": 0.2497,
-    "away_win_prob": 0.4199,
-    "over_25_prob": 0.5394,
+    "home_xg": 1.45,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4174,
+    "draw_prob": 0.257,
+    "away_win_prob": 0.3257,
+    "over_25_prob": 0.5058,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -3011,15 +3095,15 @@
     "home_odds": 1.34,
     "draw_odds": 5.09,
     "away_odds": 7.75,
-    "home_xg": 1.44,
-    "away_xg": 1.13,
-    "home_win_prob": 0.4414,
-    "draw_prob": 0.2621,
-    "away_win_prob": 0.2965,
-    "over_25_prob": 0.4735,
+    "home_xg": 1.64,
+    "away_xg": 1.49,
+    "home_win_prob": 0.4135,
+    "draw_prob": 0.2371,
+    "away_win_prob": 0.3494,
+    "over_25_prob": 0.6043,
     "value_home": 0,
-    "value_draw": 0.0657,
-    "value_away": 0.1674,
+    "value_draw": 0,
+    "value_away": 0.2203,
     "details": {
       "h2h": [
         {
@@ -3103,13 +3187,13 @@
     "home_odds": 5.15,
     "draw_odds": 4.54,
     "away_odds": 1.52,
-    "home_xg": 1.52,
-    "away_xg": 1.52,
-    "home_win_prob": 0.3792,
-    "draw_prob": 0.2417,
-    "away_win_prob": 0.3792,
-    "over_25_prob": 0.5849,
-    "value_home": 0.185,
+    "home_xg": 1.66,
+    "away_xg": 1.43,
+    "home_win_prob": 0.4305,
+    "draw_prob": 0.2378,
+    "away_win_prob": 0.3316,
+    "over_25_prob": 0.5957,
+    "value_home": 0.2364,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -3183,12 +3267,12 @@
     "home_odds": 2.86,
     "draw_odds": 3.83,
     "away_odds": 2.15,
-    "home_xg": 1.54,
-    "away_xg": 1.46,
-    "home_win_prob": 0.3959,
-    "draw_prob": 0.2432,
-    "away_win_prob": 0.3609,
-    "over_25_prob": 0.576,
+    "home_xg": 1.48,
+    "away_xg": 1.4,
+    "home_win_prob": 0.3934,
+    "draw_prob": 0.2489,
+    "away_win_prob": 0.3577,
+    "over_25_prob": 0.5487,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -3287,15 +3371,15 @@
     "home_odds": 1.24,
     "draw_odds": 5.69,
     "away_odds": 11.34,
-    "home_xg": 1.28,
-    "away_xg": 1.46,
-    "home_win_prob": 0.3315,
-    "draw_prob": 0.2551,
-    "away_win_prob": 0.4134,
-    "over_25_prob": 0.5156,
+    "home_xg": 1.41,
+    "away_xg": 1.26,
+    "home_win_prob": 0.405,
+    "draw_prob": 0.2593,
+    "away_win_prob": 0.3358,
+    "over_25_prob": 0.4985,
     "value_home": 0,
-    "value_draw": 0.0793,
-    "value_away": 0.3253,
+    "value_draw": 0.0835,
+    "value_away": 0.2476,
     "details": {
       "h2h": [
         {
@@ -3379,13 +3463,13 @@
     "home_odds": 4.65,
     "draw_odds": 3.69,
     "away_odds": 1.71,
-    "home_xg": 1.23,
-    "away_xg": 1.01,
-    "home_win_prob": 0.4117,
-    "draw_prob": 0.286,
-    "away_win_prob": 0.3022,
-    "over_25_prob": 0.3878,
-    "value_home": 0.1967,
+    "home_xg": 1.7,
+    "away_xg": 1.15,
+    "home_win_prob": 0.5015,
+    "draw_prob": 0.2403,
+    "away_win_prob": 0.2582,
+    "over_25_prob": 0.5414,
+    "value_home": 0.2865,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -3483,15 +3567,15 @@
     "home_odds": 1.31,
     "draw_odds": 5.28,
     "away_odds": 8.38,
-    "home_xg": 1.48,
-    "away_xg": 1.4,
-    "home_win_prob": 0.3934,
-    "draw_prob": 0.2489,
-    "away_win_prob": 0.3577,
-    "over_25_prob": 0.5487,
+    "home_xg": 1.09,
+    "away_xg": 1.22,
+    "home_win_prob": 0.3269,
+    "draw_prob": 0.2823,
+    "away_win_prob": 0.3908,
+    "over_25_prob": 0.4064,
     "value_home": 0,
-    "value_draw": 0.0595,
-    "value_away": 0.2384,
+    "value_draw": 0.0929,
+    "value_away": 0.2715,
     "details": {
       "h2h": [
         {
@@ -3587,13 +3671,13 @@
     "home_odds": 8.06,
     "draw_odds": 4.63,
     "away_odds": 1.37,
-    "home_xg": 1.76,
-    "away_xg": 1.43,
-    "home_win_prob": 0.4537,
-    "draw_prob": 0.2321,
-    "away_win_prob": 0.3142,
-    "over_25_prob": 0.6169,
-    "value_home": 0.3296,
+    "home_xg": 1.44,
+    "away_xg": 1.32,
+    "home_win_prob": 0.3999,
+    "draw_prob": 0.2547,
+    "away_win_prob": 0.3454,
+    "over_25_prob": 0.5204,
+    "value_home": 0.2758,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -3667,15 +3751,15 @@
     "home_odds": 1.52,
     "draw_odds": 4.09,
     "away_odds": 6.0,
-    "home_xg": 1.6,
-    "away_xg": 1.3,
-    "home_win_prob": 0.4438,
-    "draw_prob": 0.2451,
-    "away_win_prob": 0.3111,
-    "over_25_prob": 0.5533,
+    "home_xg": 1.55,
+    "away_xg": 1.33,
+    "home_win_prob": 0.4252,
+    "draw_prob": 0.2475,
+    "away_win_prob": 0.3273,
+    "over_25_prob": 0.5487,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1444,
+    "value_away": 0.1607,
     "details": {
       "h2h": [
         {
@@ -3771,15 +3855,15 @@
     "home_odds": 1.18,
     "draw_odds": 6.85,
     "away_odds": 12.88,
-    "home_xg": 1.93,
-    "away_xg": 1.59,
-    "home_win_prob": 0.4583,
-    "draw_prob": 0.2201,
-    "away_win_prob": 0.3215,
-    "over_25_prob": 0.6812,
+    "home_xg": 1.92,
+    "away_xg": 1.35,
+    "home_win_prob": 0.5066,
+    "draw_prob": 0.223,
+    "away_win_prob": 0.2704,
+    "over_25_prob": 0.633,
     "value_home": 0,
-    "value_draw": 0.0742,
-    "value_away": 0.2439,
+    "value_draw": 0.077,
+    "value_away": 0.1928,
     "details": {
       "h2h": [
         {
@@ -3875,15 +3959,15 @@
     "home_odds": 1.64,
     "draw_odds": 4.06,
     "away_odds": 4.65,
-    "home_xg": 1.53,
-    "away_xg": 1.29,
-    "home_win_prob": 0.4288,
-    "draw_prob": 0.2501,
-    "away_win_prob": 0.3211,
-    "over_25_prob": 0.5346,
+    "home_xg": 1.56,
+    "away_xg": 1.17,
+    "home_win_prob": 0.4629,
+    "draw_prob": 0.2513,
+    "away_win_prob": 0.2858,
+    "over_25_prob": 0.513,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.106,
+    "value_away": 0.0708,
     "details": {
       "h2h": [
         {
@@ -3979,13 +4063,13 @@
     "home_odds": 2.35,
     "draw_odds": 3.11,
     "away_odds": 3.08,
-    "home_xg": 1.78,
-    "away_xg": 1.01,
-    "home_win_prob": 0.5534,
-    "draw_prob": 0.2332,
-    "away_win_prob": 0.2134,
-    "over_25_prob": 0.527,
-    "value_home": 0.1279,
+    "home_xg": 1.59,
+    "away_xg": 1.13,
+    "home_win_prob": 0.4795,
+    "draw_prob": 0.2497,
+    "away_win_prob": 0.2708,
+    "over_25_prob": 0.5105,
+    "value_home": 0.054,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -4083,12 +4167,12 @@
     "home_odds": 2.67,
     "draw_odds": 3.18,
     "away_odds": 2.61,
-    "home_xg": 1.72,
-    "away_xg": 1.78,
-    "home_win_prob": 0.376,
-    "draw_prob": 0.2237,
-    "away_win_prob": 0.4003,
-    "over_25_prob": 0.6777,
+    "home_xg": 1.45,
+    "away_xg": 1.63,
+    "home_win_prob": 0.3418,
+    "draw_prob": 0.2389,
+    "away_win_prob": 0.4193,
+    "over_25_prob": 0.5936,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -4175,12 +4259,12 @@
     "home_odds": 2.34,
     "draw_odds": 3.26,
     "away_odds": 2.97,
-    "home_xg": 1.88,
-    "away_xg": 1.67,
-    "home_win_prob": 0.4317,
-    "draw_prob": 0.221,
-    "away_win_prob": 0.3473,
-    "over_25_prob": 0.6868,
+    "home_xg": 1.51,
+    "away_xg": 1.1,
+    "home_win_prob": 0.4664,
+    "draw_prob": 0.2571,
+    "away_win_prob": 0.2765,
+    "over_25_prob": 0.4835,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -4255,17 +4339,23 @@
     "home_odds": 1.34,
     "draw_odds": 5.17,
     "away_odds": 7.19,
-    "home_xg": 1.5,
-    "away_xg": 1.6,
-    "home_win_prob": 0.3591,
-    "draw_prob": 0.2387,
-    "away_win_prob": 0.4021,
-    "over_25_prob": 0.5979,
+    "home_xg": 1.83,
+    "away_xg": 1.43,
+    "home_win_prob": 0.4695,
+    "draw_prob": 0.228,
+    "away_win_prob": 0.3025,
+    "over_25_prob": 0.6312,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.2631,
+    "value_away": 0.1635,
     "details": {
       "h2h": [
+        {
+          "date": "2025-08-31",
+          "home": "NAC Breda",
+          "away": "AZ Alkmaar",
+          "score": "0\u20131"
+        },
         {
           "date": "2025-04-24",
           "home": "AZ Alkmaar",
@@ -4281,54 +4371,54 @@
       ],
       "home_form": [
         {
-          "opponent": "Almere City",
-          "score": "1\u20131"
-        },
-        {
-          "opponent": "Groningen",
-          "score": "3\u20130"
-        },
-        {
-          "opponent": "NAC Breda",
-          "score": "1\u20131"
-        },
-        {
-          "opponent": "Feyenoord",
-          "score": "0\u20131"
-        },
-        {
-          "opponent": "Waalwijk",
+          "opponent": "Twente",
           "score": "2\u20132"
         },
         {
+          "opponent": "Heerenveen",
+          "score": "3\u20130"
+        },
+        {
           "opponent": "For Sittard",
-          "score": "1\u20130"
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Heracles",
+          "score": "4\u20130"
+        },
+        {
+          "opponent": "Sparta Rotterdam",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Ajax",
+          "score": "1\u20131"
         }
       ],
       "away_form": [
         {
-          "opponent": "Nijmegen",
-          "score": "3\u20130"
+          "opponent": "Utrecht",
+          "score": "2\u20130"
         },
         {
           "opponent": "For Sittard",
-          "score": "1\u20130"
-        },
-        {
-          "opponent": "AZ Alkmaar",
           "score": "1\u20131"
         },
         {
-          "opponent": "Ajax",
-          "score": "3\u20131"
+          "opponent": "Zwolle",
+          "score": "2\u20131"
         },
         {
-          "opponent": "Almere City",
-          "score": "1\u20131"
+          "opponent": "Go Ahead Eagles",
+          "score": "6\u20130"
         },
         {
-          "opponent": "Utrecht",
-          "score": "1\u20130"
+          "opponent": "Telstar",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Heracles",
+          "score": "0\u20131"
         }
       ]
     }
@@ -4341,17 +4431,23 @@
     "home_odds": 2.93,
     "draw_odds": 4.08,
     "away_odds": 2.03,
-    "home_xg": 1.8,
-    "away_xg": 1.06,
-    "home_win_prob": 0.546,
-    "draw_prob": 0.2318,
-    "away_win_prob": 0.2223,
-    "over_25_prob": 0.5435,
-    "value_home": 0.2047,
+    "home_xg": 1.56,
+    "away_xg": 1.42,
+    "home_win_prob": 0.4088,
+    "draw_prob": 0.2437,
+    "away_win_prob": 0.3475,
+    "over_25_prob": 0.5715,
+    "value_home": 0.0675,
     "value_draw": 0,
     "value_away": 0,
     "details": {
       "h2h": [
+        {
+          "date": "2025-11-01",
+          "home": "Ajax",
+          "away": "Heerenveen",
+          "score": "1\u20131"
+        },
         {
           "date": "2025-01-19",
           "home": "Heerenveen",
@@ -4379,54 +4475,54 @@
       ],
       "home_form": [
         {
-          "opponent": "Feyenoord",
-          "score": "2\u20130"
-        },
-        {
-          "opponent": "Nijmegen",
-          "score": "1\u20130"
-        },
-        {
-          "opponent": "Almere City",
+          "opponent": "For Sittard",
           "score": "2\u20131"
         },
         {
-          "opponent": "Willem II",
-          "score": "3\u20131"
-        },
-        {
           "opponent": "Heracles",
-          "score": "1\u20131"
+          "score": "4\u20131"
         },
         {
-          "opponent": "AZ Alkmaar",
-          "score": "3\u20131"
+          "opponent": "Telstar",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Sparta Rotterdam",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Zwolle",
+          "score": "4\u20132"
+        },
+        {
+          "opponent": "Utrecht",
+          "score": "1\u20131"
         }
       ],
       "away_form": [
         {
-          "opponent": "Groningen",
-          "score": "2\u20132"
-        },
-        {
-          "opponent": "Utrecht",
-          "score": "4\u20130"
-        },
-        {
-          "opponent": "Willem II",
-          "score": "1\u20132"
-        },
-        {
-          "opponent": "PSV Eindhoven",
+          "opponent": "NAC Breda",
           "score": "0\u20132"
         },
         {
-          "opponent": "Zwolle",
-          "score": "0\u20131"
+          "opponent": "Heracles",
+          "score": "0\u20133"
         },
         {
-          "opponent": "Almere City",
-          "score": "0\u20131"
+          "opponent": "Feyenoord",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Groningen",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Zwolle",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "AZ Alkmaar",
+          "score": "1\u20131"
         }
       ]
     }
@@ -4439,17 +4535,23 @@
     "home_odds": 4.63,
     "draw_odds": 4.43,
     "away_odds": 1.57,
-    "home_xg": 1.54,
-    "away_xg": 1.43,
-    "home_win_prob": 0.4019,
-    "draw_prob": 0.2444,
-    "away_win_prob": 0.3536,
-    "over_25_prob": 0.5693,
-    "value_home": 0.1859,
+    "home_xg": 1.04,
+    "away_xg": 1.39,
+    "home_win_prob": 0.2814,
+    "draw_prob": 0.2696,
+    "away_win_prob": 0.449,
+    "over_25_prob": 0.4377,
+    "value_home": 0.0654,
     "value_draw": 0,
     "value_away": 0,
     "details": {
       "h2h": [
+        {
+          "date": "2025-08-29",
+          "home": "Groningen",
+          "away": "Heracles",
+          "score": "4\u20130"
+        },
         {
           "date": "2025-04-23",
           "home": "Groningen",
@@ -4465,54 +4567,54 @@
       ],
       "home_form": [
         {
-          "opponent": "Nijmegen",
-          "score": "1\u20132"
+          "opponent": "Volendam",
+          "score": "0\u20132"
         },
+        {
+          "opponent": "Ajax",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "Excelsior",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Utrecht",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "PSV Eindhoven",
+          "score": "1\u20133"
+        },
+        {
+          "opponent": "NAC Breda",
+          "score": "0\u20131"
+        }
+      ],
+      "away_form": [
         {
           "opponent": "Feyenoord",
-          "score": "1\u20134"
+          "score": "3\u20131"
         },
         {
-          "opponent": "AZ Alkmaar",
-          "score": "1\u20130"
+          "opponent": "Telstar",
+          "score": "0\u20132"
+        },
+        {
+          "opponent": "Zwolle",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Volendam",
+          "score": "3\u20132"
         },
         {
           "opponent": "Twente",
           "score": "2\u20131"
         },
         {
-          "opponent": "Zwolle",
-          "score": "4\u20132"
-        },
-        {
-          "opponent": "Go Ahead Eagles",
-          "score": "4\u20132"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Zwolle",
+          "opponent": "Sparta Rotterdam",
           "score": "2\u20130"
-        },
-        {
-          "opponent": "AZ Alkmaar",
-          "score": "3\u20130"
-        },
-        {
-          "opponent": "Utrecht",
-          "score": "3\u20131"
-        },
-        {
-          "opponent": "Feyenoord",
-          "score": "4\u20131"
-        },
-        {
-          "opponent": "NAC Breda",
-          "score": "1\u20131"
-        },
-        {
-          "opponent": "Willem II",
-          "score": "1\u20133"
         }
       ]
     }
@@ -4525,17 +4627,23 @@
     "home_odds": 1.35,
     "draw_odds": 5.25,
     "away_odds": 6.98,
-    "home_xg": 1.51,
-    "away_xg": 1.44,
-    "home_win_prob": 0.3926,
-    "draw_prob": 0.2456,
-    "away_win_prob": 0.3618,
-    "over_25_prob": 0.5648,
+    "home_xg": 1.75,
+    "away_xg": 1.18,
+    "home_win_prob": 0.5064,
+    "draw_prob": 0.2361,
+    "away_win_prob": 0.2576,
+    "over_25_prob": 0.5599,
     "value_home": 0,
-    "value_draw": 0.0551,
-    "value_away": 0.2185,
+    "value_draw": 0,
+    "value_away": 0.1143,
     "details": {
       "h2h": [
+        {
+          "date": "2025-10-05",
+          "home": "Go Ahead Eagles",
+          "away": "Nijmegen",
+          "score": "1\u20131"
+        },
         {
           "date": "2025-03-09",
           "home": "Nijmegen",
@@ -4563,54 +4671,54 @@
       ],
       "home_form": [
         {
-          "opponent": "NAC Breda",
-          "score": "3\u20130"
-        },
-        {
-          "opponent": "Willem II",
-          "score": "1\u20131"
-        },
-        {
-          "opponent": "Waalwijk",
-          "score": "2\u20131"
-        },
-        {
-          "opponent": "AZ Alkmaar",
-          "score": "3\u20133"
-        },
-        {
-          "opponent": "Go Ahead Eagles",
-          "score": "2\u20133"
-        },
-        {
-          "opponent": "Almere City",
-          "score": "2\u20132"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Waalwijk",
-          "score": "5\u20133"
-        },
-        {
-          "opponent": "Zwolle",
-          "score": "1\u20131"
-        },
-        {
-          "opponent": "Almere City",
-          "score": "0\u20130"
-        },
-        {
-          "opponent": "NAC Breda",
+          "opponent": "Telstar",
           "score": "1\u20131"
         },
         {
           "opponent": "Feyenoord",
-          "score": "3\u20132"
+          "score": "1\u20131"
         },
         {
-          "opponent": "Nijmegen",
+          "opponent": "Heerenveen",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Volendam",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "For Sittard",
           "score": "2\u20133"
+        },
+        {
+          "opponent": "Utrecht",
+          "score": "1\u20133"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Sparta Rotterdam",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Groningen",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Utrecht",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Excelsior",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Feyenoord",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Volendam",
+          "score": "1\u20131"
         }
       ]
     }
@@ -4623,17 +4731,23 @@
     "home_odds": 2.04,
     "draw_odds": 4.06,
     "away_odds": 2.91,
-    "home_xg": 1.23,
-    "away_xg": 1.02,
-    "home_win_prob": 0.4094,
-    "draw_prob": 0.2855,
-    "away_win_prob": 0.3051,
-    "over_25_prob": 0.3904,
+    "home_xg": 1.79,
+    "away_xg": 1.23,
+    "home_win_prob": 0.5042,
+    "draw_prob": 0.2327,
+    "away_win_prob": 0.2631,
+    "over_25_prob": 0.5801,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
     "details": {
       "h2h": [
+        {
+          "date": "2025-08-17",
+          "home": "Twente",
+          "away": "PSV Eindhoven",
+          "score": "0\u20132"
+        },
         {
           "date": "2025-04-24",
           "home": "Twente",
@@ -4661,54 +4775,54 @@
       ],
       "home_form": [
         {
-          "opponent": "Heracles",
-          "score": "4\u20131"
-        },
-        {
-          "opponent": "For Sittard",
-          "score": "4\u20131"
-        },
-        {
-          "opponent": "Almere City",
-          "score": "5\u20130"
-        },
-        {
-          "opponent": "Ajax",
-          "score": "0\u20132"
-        },
-        {
-          "opponent": "Heerenveen",
-          "score": "2\u20131"
+          "opponent": "Zwolle",
+          "score": "6\u20131"
         },
         {
           "opponent": "Utrecht",
-          "score": "2\u20132"
+          "score": "4\u20133"
+        },
+        {
+          "opponent": "Nijmegen",
+          "score": "2\u20133"
+        },
+        {
+          "opponent": "AZ Alkmaar",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Heerenveen",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Feyenoord",
+          "score": "3\u20130"
         }
       ],
       "away_form": [
         {
+          "opponent": "AZ Alkmaar",
+          "score": "2\u20132"
+        },
+        {
           "opponent": "Ajax",
-          "score": "2\u20130"
+          "score": "1\u20132"
         },
         {
-          "opponent": "Sparta Rotterdam",
-          "score": "0\u20132"
+          "opponent": "For Sittard",
+          "score": "1\u20132"
         },
         {
-          "opponent": "Zwolle",
+          "opponent": "Go Ahead Eagles",
+          "score": "1\u20134"
+        },
+        {
+          "opponent": "Telstar",
           "score": "1\u20131"
         },
         {
-          "opponent": "Heracles",
-          "score": "2\u20131"
-        },
-        {
-          "opponent": "Groningen",
-          "score": "1\u20131"
-        },
-        {
-          "opponent": "Heerenveen",
-          "score": "3\u20133"
+          "opponent": "NAC Breda",
+          "score": "2\u20132"
         }
       ]
     }
@@ -4721,17 +4835,23 @@
     "home_odds": 2.02,
     "draw_odds": 3.9,
     "away_odds": 3.04,
-    "home_xg": 1.69,
-    "away_xg": 1.11,
-    "home_win_prob": 0.5085,
-    "draw_prob": 0.2414,
-    "away_win_prob": 0.2501,
-    "over_25_prob": 0.5296,
+    "home_xg": 1.45,
+    "away_xg": 1.19,
+    "home_win_prob": 0.4305,
+    "draw_prob": 0.2592,
+    "away_win_prob": 0.3102,
+    "over_25_prob": 0.4911,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
     "details": {
       "h2h": [
+        {
+          "date": "2025-09-14",
+          "home": "Excelsior",
+          "away": "Sparta Rotterdam",
+          "score": "0\u20131"
+        },
         {
           "date": "2024-02-17",
           "home": "Sparta Rotterdam",
@@ -4747,19 +4867,15 @@
       ],
       "home_form": [
         {
-          "opponent": "PSV Eindhoven",
-          "score": "1\u20133"
+          "opponent": "Go Ahead Eagles",
+          "score": "2\u20132"
         },
         {
-          "opponent": "Twente",
+          "opponent": "PSV Eindhoven",
           "score": "0\u20132"
         },
         {
-          "opponent": "Heerenveen",
-          "score": "3\u20131"
-        },
-        {
-          "opponent": "Nijmegen",
+          "opponent": "Volendam",
           "score": "2\u20130"
         },
         {
@@ -4767,34 +4883,38 @@
           "score": "1\u20131"
         },
         {
-          "opponent": "Willem II",
-          "score": "4\u20130"
+          "opponent": "Nijmegen",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Groningen",
+          "score": "2\u20130"
         }
       ],
       "away_form": [
         {
-          "opponent": "Feyenoord",
-          "score": "4\u20130"
-        },
-        {
-          "opponent": "Ajax",
-          "score": "2\u20132"
+          "opponent": "Groningen",
+          "score": "2\u20133"
         },
         {
           "opponent": "Zwolle",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Heracles",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Feyenoord",
           "score": "2\u20131"
         },
         {
-          "opponent": "Go Ahead Eagles",
-          "score": "3\u20130"
-        },
-        {
-          "opponent": "AZ Alkmaar",
-          "score": "4\u20130"
-        },
-        {
           "opponent": "For Sittard",
-          "score": "5\u20132"
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "NAC Breda",
+          "score": "0\u20132"
         }
       ]
     }
@@ -4807,17 +4927,23 @@
     "home_odds": 1.46,
     "draw_odds": 4.66,
     "away_odds": 5.61,
-    "home_xg": 1.93,
-    "away_xg": 1.51,
-    "home_win_prob": 0.4747,
-    "draw_prob": 0.2212,
-    "away_win_prob": 0.3041,
-    "over_25_prob": 0.6663,
+    "home_xg": 1.35,
+    "away_xg": 1.4,
+    "home_win_prob": 0.3608,
+    "draw_prob": 0.2556,
+    "away_win_prob": 0.3836,
+    "over_25_prob": 0.518,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1259,
+    "value_away": 0.2053,
     "details": {
       "h2h": [
+        {
+          "date": "2025-09-20",
+          "home": "For Sittard",
+          "away": "Utrecht",
+          "score": "1\u20130"
+        },
         {
           "date": "2025-05-18",
           "home": "For Sittard",
@@ -4845,54 +4971,54 @@
       ],
       "home_form": [
         {
-          "opponent": "Sparta Rotterdam",
-          "score": "1\u20131"
-        },
-        {
-          "opponent": "Ajax",
-          "score": "4\u20130"
-        },
-        {
-          "opponent": "Groningen",
-          "score": "3\u20131"
-        },
-        {
-          "opponent": "Heerenveen",
+          "opponent": "NAC Breda",
           "score": "2\u20130"
         },
         {
-          "opponent": "Nijmegen",
-          "score": "0\u20131"
+          "opponent": "Telstar",
+          "score": "4\u20131"
         },
         {
-          "opponent": "NAC Breda",
-          "score": "1\u20130"
+          "opponent": "Go Ahead Eagles",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "AZ Alkmaar",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Zwolle",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Feyenoord",
+          "score": "0\u20131"
         }
       ],
       "away_form": [
         {
-          "opponent": "Almere City",
-          "score": "1\u20131"
-        },
-        {
-          "opponent": "PSV Eindhoven",
-          "score": "4\u20131"
-        },
-        {
-          "opponent": "Twente",
-          "score": "1\u20131"
-        },
-        {
-          "opponent": "Groningen",
-          "score": "1\u20130"
-        },
-        {
-          "opponent": "Waalwijk",
-          "score": "1\u20132"
+          "opponent": "Heerenveen",
+          "score": "2\u20131"
         },
         {
           "opponent": "AZ Alkmaar",
-          "score": "1\u20130"
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Volendam",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Nijmegen",
+          "score": "2\u20133"
+        },
+        {
+          "opponent": "Ajax",
+          "score": "4\u20131"
+        },
+        {
+          "opponent": "Heracles",
+          "score": "2\u20131"
         }
       ]
     }
@@ -4905,44 +5031,76 @@
     "home_odds": 2.65,
     "draw_odds": 3.63,
     "away_odds": 2.34,
-    "home_xg": 1.64,
-    "away_xg": 1.3,
-    "home_win_prob": 0.4535,
-    "draw_prob": 0.2424,
-    "away_win_prob": 0.3041,
-    "over_25_prob": 0.5624,
-    "value_home": 0.0761,
+    "home_xg": 1.61,
+    "away_xg": 1.14,
+    "home_win_prob": 0.4821,
+    "draw_prob": 0.2478,
+    "away_win_prob": 0.2701,
+    "over_25_prob": 0.5178,
+    "value_home": 0.1048,
     "value_draw": 0,
     "value_away": 0,
     "details": {
-      "h2h": [],
+      "h2h": [
+        {
+          "date": "2025-08-23",
+          "home": "Telstar",
+          "away": "Volendam",
+          "score": "2\u20132"
+        }
+      ],
       "home_form": [
         {
-          "opponent": "Go Ahead Eagles",
-          "score": "1\u20132"
-        },
-        {
-          "opponent": "Ajax",
-          "score": "1\u20134"
-        },
-        {
-          "opponent": "Waalwijk",
-          "score": "3\u20132"
+          "opponent": "Heerenveen",
+          "score": "0\u20132"
         },
         {
           "opponent": "Feyenoord",
           "score": "0\u20130"
         },
         {
-          "opponent": "AZ Alkmaar",
-          "score": "0\u20134"
+          "opponent": "For Sittard",
+          "score": "1\u20132"
         },
         {
-          "opponent": "Nijmegen",
-          "score": "2\u20135"
+          "opponent": "Groningen",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "PSV Eindhoven",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Go Ahead Eagles",
+          "score": "1\u20131"
         }
       ],
-      "away_form": []
+      "away_form": [
+        {
+          "opponent": "Nijmegen",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Utrecht",
+          "score": "4\u20131"
+        },
+        {
+          "opponent": "Heerenveen",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "For Sittard",
+          "score": "1\u20134"
+        },
+        {
+          "opponent": "Feyenoord",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Go Ahead Eagles",
+          "score": "1\u20131"
+        }
+      ]
     }
   },
   {
@@ -4953,17 +5111,23 @@
     "home_odds": 4.32,
     "draw_odds": 4.3,
     "away_odds": 1.63,
-    "home_xg": 1.33,
-    "away_xg": 0.98,
-    "home_win_prob": 0.4469,
-    "draw_prob": 0.2776,
-    "away_win_prob": 0.2755,
-    "over_25_prob": 0.4063,
-    "value_home": 0.2154,
+    "home_xg": 1.82,
+    "away_xg": 1.34,
+    "home_win_prob": 0.4866,
+    "draw_prob": 0.2297,
+    "away_win_prob": 0.2837,
+    "over_25_prob": 0.6104,
+    "value_home": 0.2551,
     "value_draw": 0,
     "value_away": 0,
     "details": {
       "h2h": [
+        {
+          "date": "2025-12-06",
+          "home": "Feyenoord",
+          "away": "Zwolle",
+          "score": "6\u20131"
+        },
         {
           "date": "2025-04-25",
           "home": "Feyenoord",
@@ -4991,54 +5155,54 @@
       ],
       "home_form": [
         {
+          "opponent": "Heracles",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Excelsior",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "NAC Breda",
+          "score": "2\u20131"
+        },
+        {
           "opponent": "Groningen",
-          "score": "2\u20130"
-        },
-        {
-          "opponent": "Go Ahead Eagles",
           "score": "1\u20131"
-        },
-        {
-          "opponent": "Twente",
-          "score": "1\u20131"
-        },
-        {
-          "opponent": "Waalwijk",
-          "score": "2\u20130"
         },
         {
           "opponent": "Ajax",
-          "score": "0\u20131"
+          "score": "0\u20130"
         },
         {
-          "opponent": "Heerenveen",
-          "score": "1\u20131"
+          "opponent": "Volendam",
+          "score": "1\u20132"
         }
       ],
       "away_form": [
         {
-          "opponent": "Heerenveen",
-          "score": "2\u20130"
-        },
-        {
-          "opponent": "Heracles",
-          "score": "1\u20134"
-        },
-        {
           "opponent": "For Sittard",
-          "score": "0\u20132"
+          "score": "1\u20132"
         },
         {
-          "opponent": "AZ Alkmaar",
-          "score": "0\u20131"
+          "opponent": "Nijmegen",
+          "score": "1\u20131"
         },
         {
-          "opponent": "Twente",
-          "score": "2\u20136"
+          "opponent": "Volendam",
+          "score": "0\u20130"
         },
         {
           "opponent": "NAC Breda",
-          "score": "0\u20130"
+          "score": "3\u20133"
+        },
+        {
+          "opponent": "Twente",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Utrecht",
+          "score": "0\u20131"
         }
       ]
     }
@@ -5051,15 +5215,15 @@
     "home_odds": 1.76,
     "draw_odds": 3.62,
     "away_odds": 4.16,
-    "home_xg": 1.66,
-    "away_xg": 1.47,
-    "home_win_prob": 0.4223,
-    "draw_prob": 0.2367,
-    "away_win_prob": 0.341,
-    "over_25_prob": 0.6043,
+    "home_xg": 1.7,
+    "away_xg": 0.95,
+    "home_win_prob": 0.5494,
+    "draw_prob": 0.2404,
+    "away_win_prob": 0.2102,
+    "over_25_prob": 0.4931,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1006,
+    "value_away": 0,
     "details": {
       "h2h": [
         {
@@ -5143,15 +5307,15 @@
     "home_odds": 1.31,
     "draw_odds": 4.81,
     "away_odds": 8.82,
-    "home_xg": 1.46,
-    "away_xg": 1.19,
-    "home_win_prob": 0.4331,
-    "draw_prob": 0.2585,
-    "away_win_prob": 0.3084,
-    "over_25_prob": 0.4935,
+    "home_xg": 1.16,
+    "away_xg": 1.45,
+    "home_win_prob": 0.3025,
+    "draw_prob": 0.2603,
+    "away_win_prob": 0.4372,
+    "over_25_prob": 0.4836,
     "value_home": 0,
-    "value_draw": 0.0506,
-    "value_away": 0.1951,
+    "value_draw": 0.0524,
+    "value_away": 0.3238,
     "details": {
       "h2h": [
         {
@@ -5235,13 +5399,13 @@
     "home_odds": 3.0,
     "draw_odds": 3.46,
     "away_odds": 2.15,
-    "home_xg": 1.4,
-    "away_xg": 1.05,
-    "home_win_prob": 0.4493,
-    "draw_prob": 0.2683,
-    "away_win_prob": 0.2823,
-    "over_25_prob": 0.4429,
-    "value_home": 0.116,
+    "home_xg": 1.31,
+    "away_xg": 1.57,
+    "home_win_prob": 0.3188,
+    "draw_prob": 0.2468,
+    "away_win_prob": 0.4344,
+    "over_25_prob": 0.5487,
+    "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -5315,15 +5479,15 @@
     "home_odds": 1.65,
     "draw_odds": 3.82,
     "away_odds": 4.6,
-    "home_xg": 1.5,
-    "away_xg": 1.43,
-    "home_win_prob": 0.3922,
-    "draw_prob": 0.2465,
-    "away_win_prob": 0.3613,
-    "over_25_prob": 0.5602,
+    "home_xg": 1.92,
+    "away_xg": 1.33,
+    "home_win_prob": 0.511,
+    "draw_prob": 0.223,
+    "away_win_prob": 0.266,
+    "over_25_prob": 0.6289,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1439,
+    "value_away": 0,
     "details": {
       "h2h": [
         {
@@ -5419,15 +5583,15 @@
     "home_odds": 1.95,
     "draw_odds": 3.46,
     "away_odds": 3.5,
-    "home_xg": 1.41,
-    "away_xg": 1.64,
-    "home_win_prob": 0.3305,
-    "draw_prob": 0.2396,
-    "away_win_prob": 0.43,
-    "over_25_prob": 0.587,
+    "home_xg": 1.42,
+    "away_xg": 1.35,
+    "home_win_prob": 0.3886,
+    "draw_prob": 0.2545,
+    "away_win_prob": 0.3569,
+    "over_25_prob": 0.5228,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1443,
+    "value_away": 0.0712,
     "details": {
       "h2h": [
         {
@@ -5511,15 +5675,15 @@
     "home_odds": 1.61,
     "draw_odds": 3.86,
     "away_odds": 4.84,
-    "home_xg": 1.63,
-    "away_xg": 1.76,
-    "home_win_prob": 0.3597,
-    "draw_prob": 0.2272,
-    "away_win_prob": 0.4132,
-    "over_25_prob": 0.657,
+    "home_xg": 1.72,
+    "away_xg": 1.22,
+    "home_win_prob": 0.4902,
+    "draw_prob": 0.238,
+    "away_win_prob": 0.2717,
+    "over_25_prob": 0.5622,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.2065,
+    "value_away": 0.0651,
     "details": {
       "h2h": [
         {
@@ -5615,14 +5779,14 @@
     "home_odds": 7.81,
     "draw_odds": 5.31,
     "away_odds": 1.31,
-    "home_xg": 1.77,
-    "away_xg": 1.27,
-    "home_win_prob": 0.4906,
-    "draw_prob": 0.2338,
-    "away_win_prob": 0.2755,
-    "over_25_prob": 0.5846,
-    "value_home": 0.3626,
-    "value_draw": 0,
+    "home_xg": 1.52,
+    "away_xg": 1.17,
+    "home_win_prob": 0.4529,
+    "draw_prob": 0.2545,
+    "away_win_prob": 0.2927,
+    "over_25_prob": 0.5033,
+    "value_home": 0.3248,
+    "value_draw": 0.0661,
     "value_away": 0,
     "details": {
       "h2h": [
@@ -5719,15 +5883,15 @@
     "home_odds": 1.59,
     "draw_odds": 3.93,
     "away_odds": 4.92,
-    "home_xg": 1.71,
-    "away_xg": 1.42,
-    "home_win_prob": 0.4443,
-    "draw_prob": 0.2352,
-    "away_win_prob": 0.3205,
-    "over_25_prob": 0.6043,
+    "home_xg": 1.58,
+    "away_xg": 1.07,
+    "home_win_prob": 0.4911,
+    "draw_prob": 0.2515,
+    "away_win_prob": 0.2575,
+    "over_25_prob": 0.4934,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1172,
+    "value_away": 0.0542,
     "details": {
       "h2h": [
         {
@@ -5800,14 +5964,14 @@
     "draw_odds": 5.78,
     "away_odds": 10.07,
     "home_xg": 1.28,
-    "away_xg": 1.23,
-    "home_win_prob": 0.3771,
-    "draw_prob": 0.2695,
-    "away_win_prob": 0.3534,
-    "over_25_prob": 0.4584,
+    "away_xg": 1.38,
+    "home_win_prob": 0.3467,
+    "draw_prob": 0.2603,
+    "away_win_prob": 0.393,
+    "over_25_prob": 0.4961,
     "value_home": 0,
-    "value_draw": 0.0965,
-    "value_away": 0.2541,
+    "value_draw": 0.0873,
+    "value_away": 0.2937,
     "details": {
       "h2h": [
         {
@@ -5903,12 +6067,12 @@
     "home_odds": 2.15,
     "draw_odds": 3.11,
     "away_odds": 3.42,
-    "home_xg": 1.45,
-    "away_xg": 1.24,
-    "home_win_prob": 0.4195,
-    "draw_prob": 0.2574,
-    "away_win_prob": 0.3231,
-    "over_25_prob": 0.5034,
+    "home_xg": 1.75,
+    "away_xg": 1.41,
+    "home_win_prob": 0.4556,
+    "draw_prob": 0.2331,
+    "away_win_prob": 0.3113,
+    "over_25_prob": 0.6106,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -5919,6 +6083,18 @@
           "home": "Celta",
           "away": "Ath Bilbao",
           "score": "2\u20130"
+        },
+        {
+          "date": "2025-01-19",
+          "home": "Celta",
+          "away": "Ath Bilbao",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2024-09-22",
+          "home": "Ath Bilbao",
+          "away": "Celta",
+          "score": "3\u20131"
         },
         {
           "date": "2024-05-15",
@@ -5995,15 +6171,15 @@
     "home_odds": 1.74,
     "draw_odds": 3.74,
     "away_odds": 4.25,
-    "home_xg": 1.56,
-    "away_xg": 1.36,
-    "home_win_prob": 0.4213,
-    "draw_prob": 0.2458,
-    "away_win_prob": 0.3329,
-    "over_25_prob": 0.5579,
+    "home_xg": 1.28,
+    "away_xg": 1.29,
+    "home_win_prob": 0.3647,
+    "draw_prob": 0.2659,
+    "away_win_prob": 0.3694,
+    "over_25_prob": 0.4736,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0976,
+    "value_away": 0.1341,
     "details": {
       "h2h": [
         {
@@ -6011,6 +6187,18 @@
           "home": "Girona",
           "away": "Ath Madrid",
           "score": "0\u20133"
+        },
+        {
+          "date": "2025-05-25",
+          "home": "Girona",
+          "away": "Ath Madrid",
+          "score": "0\u20134"
+        },
+        {
+          "date": "2024-08-25",
+          "home": "Ath Madrid",
+          "away": "Girona",
+          "score": "3\u20130"
         },
         {
           "date": "2024-04-13",
@@ -6087,15 +6275,15 @@
     "home_odds": 2.2,
     "draw_odds": 2.91,
     "away_odds": 3.57,
-    "home_xg": 1.21,
-    "away_xg": 1.13,
-    "home_win_prob": 0.3793,
-    "draw_prob": 0.2806,
-    "away_win_prob": 0.3401,
-    "over_25_prob": 0.4143,
+    "home_xg": 1.71,
+    "away_xg": 1.33,
+    "home_win_prob": 0.4635,
+    "draw_prob": 0.2371,
+    "away_win_prob": 0.2994,
+    "over_25_prob": 0.5847,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.06,
+    "value_away": 0,
     "details": {
       "h2h": [
         {
@@ -6167,15 +6355,15 @@
     "home_odds": 2.12,
     "draw_odds": 3.33,
     "away_odds": 3.27,
-    "home_xg": 1.23,
-    "away_xg": 1.43,
-    "home_win_prob": 0.3243,
-    "draw_prob": 0.2592,
-    "away_win_prob": 0.4166,
-    "over_25_prob": 0.496,
+    "home_xg": 1.7,
+    "away_xg": 1.45,
+    "home_win_prob": 0.4357,
+    "draw_prob": 0.2351,
+    "away_win_prob": 0.3292,
+    "over_25_prob": 0.6085,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1108,
+    "value_away": 0,
     "details": {
       "h2h": [
         {
@@ -6247,15 +6435,15 @@
     "home_odds": 2.05,
     "draw_odds": 3.11,
     "away_odds": 3.7,
-    "home_xg": 1.74,
-    "away_xg": 1.15,
-    "home_win_prob": 0.5109,
-    "draw_prob": 0.237,
-    "away_win_prob": 0.252,
-    "over_25_prob": 0.5507,
+    "home_xg": 1.24,
+    "away_xg": 1.09,
+    "home_win_prob": 0.3964,
+    "draw_prob": 0.2806,
+    "away_win_prob": 0.3229,
+    "over_25_prob": 0.4116,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0,
+    "value_away": 0.0527,
     "details": {
       "h2h": [
         {
@@ -6263,6 +6451,18 @@
           "home": "Espanol",
           "away": "Osasuna",
           "score": "1\u20130"
+        },
+        {
+          "date": "2025-05-18",
+          "home": "Osasuna",
+          "away": "Espanol",
+          "score": "2\u20130"
+        },
+        {
+          "date": "2024-12-14",
+          "home": "Espanol",
+          "away": "Osasuna",
+          "score": "0\u20130"
         }
       ],
       "home_form": [
@@ -6327,13 +6527,13 @@
     "home_odds": 3.69,
     "draw_odds": 3.56,
     "away_odds": 1.9,
-    "home_xg": 1.5,
-    "away_xg": 1.51,
-    "home_win_prob": 0.3763,
-    "draw_prob": 0.243,
-    "away_win_prob": 0.3807,
-    "over_25_prob": 0.5783,
-    "value_home": 0.1053,
+    "home_xg": 1.39,
+    "away_xg": 1.26,
+    "home_win_prob": 0.3998,
+    "draw_prob": 0.2606,
+    "away_win_prob": 0.3396,
+    "over_25_prob": 0.4936,
+    "value_home": 0.1288,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -6407,12 +6607,12 @@
     "home_odds": 3.03,
     "draw_odds": 3.5,
     "away_odds": 2.16,
-    "home_xg": 1.15,
-    "away_xg": 1.33,
-    "home_win_prob": 0.322,
-    "draw_prob": 0.2702,
-    "away_win_prob": 0.4078,
-    "over_25_prob": 0.4507,
+    "home_xg": 1.31,
+    "away_xg": 1.43,
+    "home_win_prob": 0.3448,
+    "draw_prob": 0.2557,
+    "away_win_prob": 0.3995,
+    "over_25_prob": 0.5156,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -6423,6 +6623,18 @@
           "home": "Real Madrid",
           "away": "Sevilla",
           "score": "2\u20130"
+        },
+        {
+          "date": "2025-05-18",
+          "home": "Sevilla",
+          "away": "Real Madrid",
+          "score": "0\u20132"
+        },
+        {
+          "date": "2024-12-22",
+          "home": "Real Madrid",
+          "away": "Sevilla",
+          "score": "4\u20132"
         },
         {
           "date": "2024-02-25",
@@ -6499,12 +6711,12 @@
     "home_odds": 2.13,
     "draw_odds": 3.37,
     "away_odds": 3.21,
-    "home_xg": 1.85,
-    "away_xg": 1.35,
-    "home_win_prob": 0.4911,
-    "draw_prob": 0.2276,
-    "away_win_prob": 0.2812,
-    "over_25_prob": 0.6188,
+    "home_xg": 1.45,
+    "away_xg": 1.08,
+    "home_win_prob": 0.4555,
+    "draw_prob": 0.2629,
+    "away_win_prob": 0.2816,
+    "over_25_prob": 0.4634,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -6515,6 +6727,18 @@
           "home": "Valencia",
           "away": "Sociedad",
           "score": "1\u20131"
+        },
+        {
+          "date": "2025-01-19",
+          "home": "Valencia",
+          "away": "Sociedad",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2024-09-28",
+          "home": "Sociedad",
+          "away": "Valencia",
+          "score": "3\u20130"
         },
         {
           "date": "2024-05-16",
@@ -6591,13 +6815,13 @@
     "home_odds": 2.38,
     "draw_odds": 3.48,
     "away_odds": 2.69,
-    "home_xg": 1.78,
-    "away_xg": 1.18,
-    "home_win_prob": 0.5133,
-    "draw_prob": 0.2337,
-    "away_win_prob": 0.253,
-    "over_25_prob": 0.5666,
-    "value_home": 0.0931,
+    "home_xg": 1.33,
+    "away_xg": 1.28,
+    "home_win_prob": 0.3799,
+    "draw_prob": 0.2634,
+    "away_win_prob": 0.3566,
+    "over_25_prob": 0.4836,
+    "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -6607,6 +6831,18 @@
           "home": "Villarreal",
           "away": "Vallecano",
           "score": "4\u20130"
+        },
+        {
+          "date": "2025-02-22",
+          "home": "Vallecano",
+          "away": "Villarreal",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2024-12-18",
+          "home": "Villarreal",
+          "away": "Vallecano",
+          "score": "1\u20131"
         },
         {
           "date": "2024-04-28",
@@ -6683,15 +6919,15 @@
     "home_odds": 1.33,
     "draw_odds": 5.5,
     "away_odds": 7.08,
-    "home_xg": 1.15,
-    "away_xg": 1.63,
-    "home_win_prob": 0.2693,
-    "draw_prob": 0.246,
-    "away_win_prob": 0.4847,
-    "over_25_prob": 0.525,
+    "home_xg": 1.12,
+    "away_xg": 1.13,
+    "home_win_prob": 0.3537,
+    "draw_prob": 0.2875,
+    "away_win_prob": 0.3587,
+    "over_25_prob": 0.3905,
     "value_home": 0,
-    "value_draw": 0.0642,
-    "value_away": 0.3435,
+    "value_draw": 0.1057,
+    "value_away": 0.2175,
     "details": {
       "h2h": [
         {
@@ -6699,6 +6935,18 @@
           "home": "Betis",
           "away": "Barcelona",
           "score": "3\u20135"
+        },
+        {
+          "date": "2025-04-05",
+          "home": "Barcelona",
+          "away": "Betis",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2024-12-07",
+          "home": "Betis",
+          "away": "Barcelona",
+          "score": "2\u20132"
         },
         {
           "date": "2024-01-21",
@@ -6775,15 +7023,15 @@
     "home_odds": 1.27,
     "draw_odds": 5.42,
     "away_odds": 8.59,
-    "home_xg": 1.4,
-    "away_xg": 1.43,
-    "home_win_prob": 0.3675,
-    "draw_prob": 0.2516,
-    "away_win_prob": 0.381,
-    "over_25_prob": 0.5371,
+    "home_xg": 1.43,
+    "away_xg": 1.28,
+    "home_win_prob": 0.4058,
+    "draw_prob": 0.2571,
+    "away_win_prob": 0.3371,
+    "over_25_prob": 0.5083,
     "value_home": 0,
-    "value_draw": 0.0671,
-    "value_away": 0.2645,
+    "value_draw": 0.0726,
+    "value_away": 0.2207,
     "details": {
       "h2h": [
         {
@@ -6867,15 +7115,15 @@
     "home_odds": 1.58,
     "draw_odds": 3.96,
     "away_odds": 4.78,
-    "home_xg": 1.42,
-    "away_xg": 1.21,
-    "home_win_prob": 0.4184,
-    "draw_prob": 0.2607,
-    "away_win_prob": 0.321,
-    "over_25_prob": 0.4886,
+    "home_xg": 1.67,
+    "away_xg": 1.13,
+    "home_win_prob": 0.499,
+    "draw_prob": 0.243,
+    "away_win_prob": 0.258,
+    "over_25_prob": 0.5297,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1117,
+    "value_away": 0,
     "details": {
       "h2h": [
         {
@@ -6959,13 +7207,13 @@
     "home_odds": 3.06,
     "draw_odds": 3.46,
     "away_odds": 2.08,
-    "home_xg": 1.63,
-    "away_xg": 1.47,
-    "home_win_prob": 0.4153,
-    "draw_prob": 0.2383,
-    "away_win_prob": 0.3465,
+    "home_xg": 1.6,
+    "away_xg": 1.5,
+    "home_win_prob": 0.4021,
+    "draw_prob": 0.2387,
+    "away_win_prob": 0.3591,
     "over_25_prob": 0.5979,
-    "value_home": 0.0885,
+    "value_home": 0.0753,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -7039,13 +7287,13 @@
     "home_odds": 3.56,
     "draw_odds": 3.59,
     "away_odds": 1.86,
-    "home_xg": 1.63,
-    "away_xg": 1.22,
-    "home_win_prob": 0.4688,
-    "draw_prob": 0.2448,
-    "away_win_prob": 0.2864,
-    "over_25_prob": 0.5416,
-    "value_home": 0.1879,
+    "home_xg": 1.43,
+    "away_xg": 1.48,
+    "home_win_prob": 0.3651,
+    "draw_prob": 0.2476,
+    "away_win_prob": 0.3873,
+    "over_25_prob": 0.5557,
+    "value_home": 0.0842,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -7119,13 +7367,13 @@
     "home_odds": 2.83,
     "draw_odds": 3.18,
     "away_odds": 2.33,
-    "home_xg": 1.75,
-    "away_xg": 1.1,
-    "home_win_prob": 0.525,
-    "draw_prob": 0.2363,
-    "away_win_prob": 0.2388,
-    "over_25_prob": 0.5413,
-    "value_home": 0.1716,
+    "home_xg": 1.59,
+    "away_xg": 1.01,
+    "home_win_prob": 0.5079,
+    "draw_prob": 0.2512,
+    "away_win_prob": 0.2408,
+    "over_25_prob": 0.4809,
+    "value_home": 0.1546,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -7199,15 +7447,15 @@
     "home_odds": 1.99,
     "draw_odds": 3.4,
     "away_odds": 3.36,
-    "home_xg": 1.54,
-    "away_xg": 1.33,
-    "home_win_prob": 0.4227,
-    "draw_prob": 0.2481,
-    "away_win_prob": 0.3292,
-    "over_25_prob": 0.5464,
+    "home_xg": 1.17,
+    "away_xg": 1.48,
+    "home_win_prob": 0.2997,
+    "draw_prob": 0.2576,
+    "away_win_prob": 0.4427,
+    "over_25_prob": 0.4935,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0,
+    "value_away": 0.1451,
     "details": {
       "h2h": [
         {
@@ -7291,13 +7539,13 @@
     "home_odds": 2.83,
     "draw_odds": 2.93,
     "away_odds": 2.5,
-    "home_xg": 1.43,
-    "away_xg": 1.38,
-    "home_win_prob": 0.385,
-    "draw_prob": 0.2525,
-    "away_win_prob": 0.3625,
-    "over_25_prob": 0.5323,
-    "value_home": 0,
+    "home_xg": 1.76,
+    "away_xg": 1.18,
+    "home_win_prob": 0.5087,
+    "draw_prob": 0.2353,
+    "away_win_prob": 0.2561,
+    "over_25_prob": 0.5621,
+    "value_home": 0.1553,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -7383,15 +7631,15 @@
     "home_odds": 1.41,
     "draw_odds": 4.55,
     "away_odds": 6.15,
-    "home_xg": 1.62,
-    "away_xg": 1.24,
-    "home_win_prob": 0.4619,
-    "draw_prob": 0.2452,
-    "away_win_prob": 0.293,
-    "over_25_prob": 0.5439,
+    "home_xg": 1.49,
+    "away_xg": 1.32,
+    "home_win_prob": 0.4125,
+    "draw_prob": 0.2516,
+    "away_win_prob": 0.3359,
+    "over_25_prob": 0.5323,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1304,
+    "value_away": 0.1733,
     "details": {
       "h2h": [
         {
@@ -7475,15 +7723,15 @@
     "home_odds": 1.56,
     "draw_odds": 3.94,
     "away_odds": 5.01,
-    "home_xg": 1.38,
-    "away_xg": 1.06,
-    "home_win_prob": 0.4417,
-    "draw_prob": 0.2698,
-    "away_win_prob": 0.2886,
-    "over_25_prob": 0.4403,
+    "home_xg": 1.46,
+    "away_xg": 1.46,
+    "home_win_prob": 0.3764,
+    "draw_prob": 0.2472,
+    "away_win_prob": 0.3764,
+    "over_25_prob": 0.5579,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.089,
+    "value_away": 0.1768,
     "details": {
       "h2h": [
         {
@@ -7555,15 +7803,15 @@
     "home_odds": 1.82,
     "draw_odds": 3.49,
     "away_odds": 3.83,
-    "home_xg": 1.62,
-    "away_xg": 1.32,
-    "home_win_prob": 0.4443,
-    "draw_prob": 0.2433,
-    "away_win_prob": 0.3124,
-    "over_25_prob": 0.5624,
+    "home_xg": 1.82,
+    "away_xg": 1.09,
+    "home_win_prob": 0.5434,
+    "draw_prob": 0.2302,
+    "away_win_prob": 0.2264,
+    "over_25_prob": 0.5551,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0513,
+    "value_away": 0,
     "details": {
       "h2h": [
         {
@@ -7659,15 +7907,15 @@
     "home_odds": 1.95,
     "draw_odds": 3.29,
     "away_odds": 3.57,
-    "home_xg": 1.32,
-    "away_xg": 1.39,
-    "home_win_prob": 0.3551,
-    "draw_prob": 0.2577,
-    "away_win_prob": 0.3872,
-    "over_25_prob": 0.5083,
+    "home_xg": 1.48,
+    "away_xg": 0.93,
+    "home_win_prob": 0.4995,
+    "draw_prob": 0.2633,
+    "away_win_prob": 0.2372,
+    "over_25_prob": 0.4324,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1071,
+    "value_away": 0,
     "details": {
       "h2h": [
         {
