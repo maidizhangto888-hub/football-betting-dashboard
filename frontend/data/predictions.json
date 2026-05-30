@@ -1,1 +1,966 @@
-[]
+[
+  {
+    "league": "SP2",
+    "date": "2026-05-30 00:00",
+    "home_team": "Ceuta",
+    "away_team": "Albacete",
+    "home_odds": 2.29,
+    "draw_odds": 3.2,
+    "away_odds": 2.88,
+    "home_xg": 1.58,
+    "away_xg": 1.32,
+    "home_win_prob": 0.4347,
+    "draw_prob": 0.2459,
+    "away_win_prob": 0.3195,
+    "over_25_prob": 0.5533,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-10-12",
+          "home": "Albacete",
+          "away": "Ceuta",
+          "score": "0\u20130"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Malaga",
+          "score": "1\u20134"
+        },
+        {
+          "opponent": "Castellon",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Santander",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Sociedad B",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Cadiz",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "La Coruna",
+          "score": "1\u20132"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Cordoba",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Andorra",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Leganes",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Santander",
+          "score": "0\u20134"
+        },
+        {
+          "opponent": "Huesca",
+          "score": "0\u20130"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-05-30 00:00",
+    "home_team": "Sociedad B",
+    "away_team": "Cultural Leonesa",
+    "home_odds": 2.25,
+    "draw_odds": 3.24,
+    "away_odds": 2.91,
+    "home_xg": 1.39,
+    "away_xg": 1.11,
+    "home_win_prob": 0.4328,
+    "draw_prob": 0.267,
+    "away_win_prob": 0.3002,
+    "over_25_prob": 0.4558,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-01-03",
+          "home": "Cultural Leonesa",
+          "away": "Sociedad B",
+          "score": "1\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Mirandes",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Burgos",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Santander",
+          "score": "1\u20133"
+        },
+        {
+          "opponent": "Eibar",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Granada",
+          "score": "0\u20132"
+        },
+        {
+          "opponent": "Castellon",
+          "score": "4\u20132"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Albacete",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Granada",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Huesca",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Castellon",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "3\u20130"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-05-30 00:00",
+    "home_team": "Granada",
+    "away_team": "Sp Gijon",
+    "home_odds": 2.34,
+    "draw_odds": 3.24,
+    "away_odds": 2.76,
+    "home_xg": 1.28,
+    "away_xg": 1.34,
+    "home_win_prob": 0.3546,
+    "draw_prob": 0.2628,
+    "away_win_prob": 0.3826,
+    "over_25_prob": 0.4861,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-12-13",
+          "home": "Sp Gijon",
+          "away": "Granada",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2025-01-26",
+          "home": "Granada",
+          "away": "Sp Gijon",
+          "score": "3\u20131"
+        },
+        {
+          "date": "2024-11-16",
+          "home": "Sp Gijon",
+          "away": "Granada",
+          "score": "1\u20132"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Burgos",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "2\u20134"
+        },
+        {
+          "opponent": "Cultural Leonesa",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Huesca",
+          "score": "4\u20132"
+        },
+        {
+          "opponent": "Andorra",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "0\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Zaragoza",
+          "score": "1\u20133"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Cordoba",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Burgos",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Santander",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Las Palmas",
+          "score": "1\u20130"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-05-31 00:00",
+    "home_team": "Almeria",
+    "away_team": "Valladolid",
+    "home_odds": 1.38,
+    "draw_odds": 4.6,
+    "away_odds": 6.54,
+    "home_xg": 1.7,
+    "away_xg": 1.27,
+    "home_win_prob": 0.4743,
+    "draw_prob": 0.2388,
+    "away_win_prob": 0.2868,
+    "over_25_prob": 0.5691,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1339,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-09-13",
+          "home": "Valladolid",
+          "away": "Almeria",
+          "score": "3\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Las Palmas",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "4\u20132"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Leganes",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Sociedad B",
+          "score": "5\u20131"
+        },
+        {
+          "opponent": "Cultural Leonesa",
+          "score": "3\u20130"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Santander",
+          "score": "4\u20131"
+        },
+        {
+          "opponent": "Las Palmas",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Andorra",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Cultural Leonesa",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "3\u20133"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-05-31 00:00",
+    "home_team": "Burgos",
+    "away_team": "Andorra",
+    "home_odds": 1.48,
+    "draw_odds": 3.91,
+    "away_odds": 5.98,
+    "home_xg": 1.89,
+    "away_xg": 1.38,
+    "home_win_prob": 0.4935,
+    "draw_prob": 0.2248,
+    "away_win_prob": 0.2817,
+    "over_25_prob": 0.6331,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1145,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-08-31",
+          "home": "Andorra",
+          "away": "Burgos",
+          "score": "2\u20131"
+        },
+        {
+          "date": "2024-05-18",
+          "home": "Andorra",
+          "away": "Burgos",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2023-11-25",
+          "home": "Burgos",
+          "away": "Andorra",
+          "score": "0\u20130"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Almeria",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "La Coruna",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Sp Gijon",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Ceuta",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Cordoba",
+          "score": "4\u20130"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "2\u20130"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "La Coruna",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Leganes",
+          "score": "0\u20134"
+        },
+        {
+          "opponent": "Cadiz",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Cultural Leonesa",
+          "score": "0\u20134"
+        },
+        {
+          "opponent": "Granada",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Cordoba",
+          "score": "1\u20134"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-05-31 00:00",
+    "home_team": "Castellon",
+    "away_team": "Eibar",
+    "home_odds": 1.51,
+    "draw_odds": 4.17,
+    "away_odds": 5.08,
+    "home_xg": 1.53,
+    "away_xg": 1.35,
+    "home_win_prob": 0.4161,
+    "draw_prob": 0.248,
+    "away_win_prob": 0.3359,
+    "over_25_prob": 0.5487,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1391,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-10-12",
+          "home": "Eibar",
+          "away": "Castellon",
+          "score": "0\u20130"
+        },
+        {
+          "date": "2025-02-15",
+          "home": "Castellon",
+          "away": "Eibar",
+          "score": "2\u20130"
+        },
+        {
+          "date": "2024-08-17",
+          "home": "Eibar",
+          "away": "Castellon",
+          "score": "1\u20130"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Cadiz",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Cordoba",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Burgos",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Granada",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Cultural Leonesa",
+          "score": "1\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Cultural Leonesa",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Albacete",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "Valladolid",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Sociedad B",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Andorra",
+          "score": "0\u20131"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-05-31 00:00",
+    "home_team": "La Coruna",
+    "away_team": "Las Palmas",
+    "home_odds": 3.2,
+    "draw_odds": 3.26,
+    "away_odds": 2.08,
+    "home_xg": 1.44,
+    "away_xg": 1.54,
+    "home_win_prob": 0.3561,
+    "draw_prob": 0.244,
+    "away_win_prob": 0.3999,
+    "over_25_prob": 0.5715,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-01-10",
+          "home": "Las Palmas",
+          "away": "La Coruna",
+          "score": "1\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Andorra",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Leganes",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Cordoba",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Zaragoza",
+          "score": "2\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Almeria",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Andorra",
+          "score": "5\u20131"
+        },
+        {
+          "opponent": "Cadiz",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Eibar",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Albacete",
+          "score": "2\u20131"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-05-31 00:00",
+    "home_team": "Santander",
+    "away_team": "Cadiz",
+    "home_odds": 1.33,
+    "draw_odds": 4.65,
+    "away_odds": 7.9,
+    "home_xg": 1.67,
+    "away_xg": 1.11,
+    "home_win_prob": 0.5037,
+    "draw_prob": 0.2431,
+    "away_win_prob": 0.2532,
+    "over_25_prob": 0.5249,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1266,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-12-07",
+          "home": "Cadiz",
+          "away": "Santander",
+          "score": "2\u20133"
+        },
+        {
+          "date": "2025-02-15",
+          "home": "Santander",
+          "away": "Cadiz",
+          "score": "2\u20133"
+        },
+        {
+          "date": "2024-10-20",
+          "home": "Cadiz",
+          "away": "Santander",
+          "score": "0\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Valladolid",
+          "score": "4\u20131"
+        },
+        {
+          "opponent": "Huesca",
+          "score": "4\u20132"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "5\u20131"
+        },
+        {
+          "opponent": "Sp Gijon",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Albacete",
+          "score": "0\u20134"
+        },
+        {
+          "opponent": "Cordoba",
+          "score": "4\u20133"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Castellon",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Cultural Leonesa",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Sp Gijon",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Valladolid",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Ceuta",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "0\u20132"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-05-31 00:00",
+    "home_team": "Zaragoza",
+    "away_team": "Malaga",
+    "home_odds": 4.34,
+    "draw_odds": 3.34,
+    "away_odds": 1.77,
+    "home_xg": 1.81,
+    "away_xg": 1.21,
+    "home_win_prob": 0.5133,
+    "draw_prob": 0.2312,
+    "away_win_prob": 0.2555,
+    "over_25_prob": 0.5801,
+    "value_home": 0.2829,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-12-08",
+          "home": "Malaga",
+          "away": "Zaragoza",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2025-01-26",
+          "home": "Malaga",
+          "away": "Zaragoza",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2024-11-17",
+          "home": "Zaragoza",
+          "away": "Malaga",
+          "score": "0\u20130"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Sp Gijon",
+          "score": "1\u20133"
+        },
+        {
+          "opponent": "Granada",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Ceuta",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Santander",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "2\u20130"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Ceuta",
+          "score": "1\u20134"
+        },
+        {
+          "opponent": "Eibar",
+          "score": "2\u20134"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "La Coruna",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Andorra",
+          "score": "3\u20133"
+        },
+        {
+          "opponent": "Cadiz",
+          "score": "0\u20133"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-05-31 00:00",
+    "home_team": "Cordoba",
+    "away_team": "Huesca",
+    "home_odds": 1.72,
+    "draw_odds": 3.35,
+    "away_odds": 4.74,
+    "home_xg": 1.6,
+    "away_xg": 1.13,
+    "home_win_prob": 0.482,
+    "draw_prob": 0.2488,
+    "away_win_prob": 0.2692,
+    "over_25_prob": 0.513,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.0582,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-01-12",
+          "home": "Huesca",
+          "away": "Cordoba",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2025-02-09",
+          "home": "Cordoba",
+          "away": "Huesca",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2024-09-23",
+          "home": "Huesca",
+          "away": "Cordoba",
+          "score": "4\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Albacete",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Granada",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Sp Gijon",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Zaragoza",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Sociedad B",
+          "score": "0\u20132"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Leganes",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Santander",
+          "score": "4\u20132"
+        },
+        {
+          "opponent": "Eibar",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Las Palmas",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Granada",
+          "score": "4\u20132"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "5\u20133"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-05-31 00:00",
+    "home_team": "Leganes",
+    "away_team": "Mirandes",
+    "home_odds": 2.0,
+    "draw_odds": 3.39,
+    "away_odds": 3.29,
+    "home_xg": 1.48,
+    "away_xg": 1.4,
+    "home_win_prob": 0.3934,
+    "draw_prob": 0.2489,
+    "away_win_prob": 0.3577,
+    "over_25_prob": 0.5487,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.0538,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-10-11",
+          "home": "Mirandes",
+          "away": "Leganes",
+          "score": "0\u20130"
+        },
+        {
+          "date": "2024-03-17",
+          "home": "Leganes",
+          "away": "Mirandes",
+          "score": "4\u20130"
+        },
+        {
+          "date": "2023-09-24",
+          "home": "Mirandes",
+          "away": "Leganes",
+          "score": "1\u20133"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Huesca",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Santander",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Andorra",
+          "score": "0\u20134"
+        },
+        {
+          "opponent": "Albacete",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Zaragoza",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Ceuta",
+          "score": "5\u20132"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Sociedad B",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "4\u20132"
+        },
+        {
+          "opponent": "La Coruna",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Zaragoza",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Cordoba",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Burgos",
+          "score": "2\u20130"
+        }
+      ]
+    }
+  }
+]
