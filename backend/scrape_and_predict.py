@@ -36,7 +36,7 @@ for league in LEAGUES:
 # --- 2. 单独抓取并清洗日本 J 联赛历史数据 ---
 print("\nLoading Japan J-League data...")
 # 【修复 2】修正 URL 路径，去掉 new_leagues 后面的 s 字母
-j_url = "https://www.football-data.co.uk/new_league/JPN.csv"
+j_url = "https://www.football-data.co.uk/new_leagues/JPN.csv"
 
 try:
     df_j = pd.read_csv(j_url, dtype=str)
