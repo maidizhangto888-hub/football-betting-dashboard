@@ -68,13 +68,28 @@ except Exception as e:
 historical = pd.concat(hist_dfs, ignore_index=True) if hist_dfs else pd.DataFrame()
 print(f"Total historical matches: {len(historical)}")
 
-# --- 4. 未来赛程抓取与过滤预测 ---
+# --- 4. 未来赛程抓取与容错过滤 ---
 url = "https://www.football-data.co.uk/fixtures.csv"
 df = pd.read_csv(url, dtype=str)
 df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
 
 today = datetime.now().date()
 day_after = today + timedelta(days=3)
+
+# 提取满足联赛和日期要求的比赛
+mask_leagues = df['Div'].isin(PREDICT_LEAGUES)
+mask_dates = (df['Date'].dt.date >= today) & (df['Date'].dt.date <= day_after)
+
+# 组合过滤条件（去掉对 AvgH 强行 > 1 的硬性限制，改在下方进行填充）
+upcoming = df[mask_leagues & mask_dates].copy()
+
+# 如果有 AvgH 列，把不合法的空值填为 '2.5'，确保后续转 float 不崩
+if 'AvgH' in upcoming.columns:
+    upcoming['AvgH'] = upcoming['AvgH'].fillna('2.5')
+else:
+    upcoming['AvgH'] = '2.5'
+
+print(f"Found {len(upcoming)} upcoming matches after relaxation.")
 
 # 确保过滤使用的是包含 J 联赛的 PREDICT_LEAGUES 列表
 upcoming = df[
