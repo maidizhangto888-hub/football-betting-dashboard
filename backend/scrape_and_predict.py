@@ -74,6 +74,8 @@ url = "https://www.football-data.co.uk/fixtures.csv"
 df = pd.read_csv(url, dtype=str)
 df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
 
+print("当前未来赛程表里包含的所有联赛代码有:", df['Div'].unique())
+
 today = datetime.now().date()
 day_after = today + timedelta(days=3)
 
