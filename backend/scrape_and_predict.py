@@ -37,24 +37,7 @@ for league in LEAGUES:
 try:
     # 确保 URL 是这个全历史的独立链接
     j_url = "https://www.football-data.co.uk/new/JPN.csv"
-    df_j = pd.read_csv(j_url, dtype=str)
-
-# ======= 临时测试：手动往未来赛程里塞入一场 J 联赛 =======
-test_match = pd.DataFrame([{
-    'Div': 'JPN',                      # 触发你的 J 联赛历史数据匹配
-    'Date': datetime.now().strftime('%d/%m/%Y'), # 比赛时间设为今天
-    'HomeTeam': 'Kobe',               # 挑两个你历史数据里有的日本球队名字
-    'AwayTeam': 'G-Osaka', 
-    'AvgH': '2.10',                   # 随便给点初始独赢赔率
-    'AvgD': '3.30', 
-    'AvgA': '3.20'
-}])
-
-# 把这场假比赛强行拼接到赛程表里
-df = pd.concat([df, test_match], ignore_index=True)
-# ======================================================
-
-    
+    df_j = pd.read_csv(j_url, dtype=str)    
     df_j['Date'] = pd.to_datetime(df_j['Date'], format='mixed', dayfirst=True, errors='coerce')
     
     # 过滤掉太久远的历史（可选，加速运行）
