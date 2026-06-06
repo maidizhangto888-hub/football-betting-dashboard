@@ -5,8 +5,10 @@ from datetime import datetime, timedelta
 import json
 import os
 
-LEAGUES = ["E0","E1","E2","SP1","SP2","I1","F1","F2","D1","D2","P1","N1"]
+LEAGUES = ["E0","E1","E2","SP1","SP2","I1","F1","F2","D1","D2","P1"]
 MIN_EDGE = 0.05
+
+PREDICT_LEAGUES = LEAGUES + ["J1", "J1 League"]
 
 print("Loading extensive historical data for rich H2H...")
 
@@ -14,22 +16,55 @@ historical_urls = []
 # 修改为近3个赛季：23/24, 24/25, 25/26
 seasons = ["2526", "2425", "2324"]
 
+# --- 1. 遍历下载欧洲联赛的历史数据 ---
+print("Loading European historical data...")
 for league in LEAGUES:
     for season in seasons:
-        # 动态生成所有联赛、最近3个赛季的下载链接
         url = f"https://www.football-data.co.uk/mmz4281/{season}/{league}.csv"
-        historical_urls.append(url)
+        try:
+            df = pd.read_csv(url, dtype=str)
+            df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
+            
+            # 欧洲标准列名保持原样，只抽取核心预测列，防止冗余字段干扰合并
+            core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
+            df = df[[col for col in core_cols if col in df.columns]].copy()
+            
+            hist_dfs.append(df)
+            print(f"Loaded {len(df)} matches from {url}")
+        except Exception as e:
+            print(f"Failed {url}: {e}")
 
-hist_dfs = []
-for url in historical_urls:
-    try:
-        df = pd.read_csv(url, dtype=str)
-        df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
-        hist_dfs.append(df)
-        print(f"Loaded {len(df)} matches from {url}")
-    except Exception as e:
-        print(f"Failed {url}: {e}")
+# --- 2. 单独抓取并清洗日本 J 联赛历史数据 ---
+print("\nLoading Japan J-League data...")
+j_url = "https://www.football-data.co.uk/new_leagues/JPN.csv"
 
+try:
+    df_j = pd.read_csv(j_url, dtype=str)
+    df_j['Date'] = pd.to_datetime(df_j['Date'], format='mixed', dayfirst=True, errors='coerce')
+    
+    # 核心过滤：根据日期只保留近 3 个赛季（2023年6月至今）的数据
+    df_j = df_j[df_j['Date'] >= '2023-06-01'].copy()
+    
+    # 核心映射：把 J 联赛特有的列名重命名为欧洲标准列名
+    rename_dict = {
+        'League': 'Div',
+        'Home': 'HomeTeam',
+        'Away': 'AwayTeam',
+        'HG': 'FTHG',
+        'AG': 'FTAG'
+    }
+    df_j = df_j.rename(columns=rename_dict)
+    
+    # 保持列字段与欧洲数据完全一致
+    core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
+    df_j = df_j[[col for col in core_cols if col in df_j.columns]].copy()
+    
+    hist_dfs.append(df_j)
+    print(f"Successfully loaded and normalized {len(df_j)} J-League matches.")
+except Exception as e:
+    print(f"Failed to load Japan data: {e}")
+
+# --- 3. 最终合并数据 ---
 historical = pd.concat(hist_dfs, ignore_index=True) if hist_dfs else pd.DataFrame()
 print(f"Total historical matches: {len(historical)}")
 
@@ -42,7 +77,7 @@ today = datetime.now().date()
 day_after = today + timedelta(days=3)
 
 upcoming = df[
-    (df['Div'].isin(LEAGUES)) & 
+    (df['Div'].isin(PREDICT_LEAGUES)) &
     (df['Date'].dt.date >= today) & 
     (df['Date'].dt.date <= day_after) &
     (pd.to_numeric(df.get('AvgH', 0), errors='coerce') > 1)
