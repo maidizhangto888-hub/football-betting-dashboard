@@ -6,7 +6,7 @@ import json
 import os
 
 LEAGUES = ["E0", "E1", "E2", "SP1", "SP2", "I1", "F1", "F2", "D1", "D2", "P1"]
-PREDICT_LEAGUES = LEAGUES + ["J1", "J1 League"]
+PREDICT_LEAGUES = LEAGUES + ["JPN","J1", "J1 League"]
 MIN_EDGE = 0.05
 
 print("Loading extensive historical data for rich H2H...")
@@ -33,19 +33,17 @@ for league in LEAGUES:
         except Exception as e:
             print(f"Failed {url}: {e}")
 
-# --- 2. 单独抓取并清洗日本 J 联赛历史数据 ---
-print("\nLoading Japan J-League data...")
-# 【修复 2】修正 URL 路径，去掉 new_leagues 后面的 s 字母
-j_url = "https://www.football-data.co.uk/new_leagues/JPN.csv"
-
+# --- 2. 单独抓取并清洗日本联赛历史数据 ---
 try:
+    # 确保 URL 是这个全历史的独立链接
+    j_url = "https://www.football-data.co.uk/new/JPN.csv"
     df_j = pd.read_csv(j_url, dtype=str)
     df_j['Date'] = pd.to_datetime(df_j['Date'], format='mixed', dayfirst=True, errors='coerce')
     
-    # 过滤时间：保留近三个赛季（2023年6月至今）
-    df_j = df_j[df_j['Date'] >= '2023-06-01'].copy()
+    # 过滤掉太久远的历史（可选，加速运行）
+    df_j = df_j[df_j['Date'] > '2023-01-01'].copy()
     
-    # 字段完美映射对齐欧洲标准
+    # 字段改名
     rename_dict = {
         'League': 'Div',
         'Home': 'HomeTeam',
@@ -55,7 +53,9 @@ try:
     }
     df_j = df_j.rename(columns=rename_dict)
     
-    # 保持列字段一致性
+    # 【核心加入】把历史数据里的 "J1 League" 强行统一改为 "JPN"，和未来赛程表对齐
+    df_j['Div'] = 'JPN'
+    
     core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
     df_j = df_j[[col for col in core_cols if col in df_j.columns]].copy()
     
@@ -63,6 +63,7 @@ try:
     print(f"Successfully loaded and normalized {len(df_j)} J-League matches.")
 except Exception as e:
     print(f"Failed to load Japan data: {e}")
+
 
 # --- 3. 最终历史数据合并 ---
 historical = pd.concat(hist_dfs, ignore_index=True) if hist_dfs else pd.DataFrame()
