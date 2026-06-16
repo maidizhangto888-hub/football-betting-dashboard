@@ -60,7 +60,7 @@ try:
         df_wc = df_wc.rename(columns=rename_dict)
             
         if 'Date' in df_wc.columns:
-        df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
+            df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
             
         if 'Div' not in df_wc.columns:
             df_wc['Div'] = 'WC'
