@@ -32,32 +32,39 @@ for league in LEAGUES:
             print(f"Loaded {len(df)} matches from {url}")
         except Exception as e:
 
-# --- 1.5. 抓取并清洗世界杯历史数据 ---
-print("Loading World Cup historical data...")
-world_cup_url = "https://www.football-data.co.uk/World_Cup.xlsx" # 顺应网站命名习惯，建议你先在浏览器测试该URL是否直接下载
+# --- 1.5. 抓取并清洗世界杯历史数据（全多表支持版） ---
+print("Loading World Cup historical data from all sheets...")
+world_cup_url = "https://www.football-data.co.uk/World_Cup.xlsx"
 
 try:
-    # 1. 读取 Excel 文件（默认读取第一张工作表，如果有多张表可能需要指定 sheet_name）
-    df_wc = pd.read_excel(world_cup_url, dtype=str)
+    # 1. 一次性加载 Excel 的所有工作表（返回一个字典 {sheet_name: dataframe}）
+    xl = pd.ExcelFile(world_cup_url)
+    sheet_names = xl.sheet_names  # 获取所有的标签页名称：['WorldCup2026Qualifiers', 'WorldCup2022', ...]
     
-    # 2. 统一日期格式（由于各表差异，强制转换防报错）
-    if 'Date' in df_wc.columns:
-        df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
-    
-    # 3. 抹平字段差异 
-    # 注意：世界杯数据列名可能和联赛不同（例如联赛叫 Div, 世界杯可能没有 Div 字段）
-    # 如果没有 Div 字段，我们可以手动补上一个虚拟的标记，比如 'WC'
-    if 'Div' not in df_wc.columns:
-        df_wc['Div'] = 'WC'
+    for sheet in sheet_names:
+        print(f"Processing World Cup sheet: {sheet}")
+        df_wc = xl.parse(sheet, dtype=str)
         
-    # 4. 提取出你模型需要的核心列（与你第28行的 core_cols 保持一致）
-    # 先检查世界杯数据里到底有哪些列，这里动态取交集避免报 KeyError
-    wc_core_cols = [col for col in core_cols if col in df_wc.columns]
-    df_wc_cleaned = df_wc[wc_core_cols].copy()
-    
-    # 5. 追加到历史数据列表中
-    hist_dfs.append(df_wc_cleaned)
-    print(f"Loaded {len(df_wc_cleaned)} matches from World Cup data.")
+        # 2. 抹平列名差异（非常关键：把 Home/Away 映射为模型认识的 HomeTeam/AwayTeam）
+        rename_dict = {'Home': 'HomeTeam', 'Away': 'AwayTeam'}
+        df_wc = df_wc.rename(columns=rename_dict)
+        
+        # 3. 统一日期格式
+        if 'Date' in df_wc.columns:
+            df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
+        
+        # 4. 补齐虚拟的 Div 联赛标记
+        if 'Div' not in df_wc.columns:
+            df_wc['Div'] = 'WC'
+            
+        # 5. 动态提取你模型需要的核心列（对应联赛 core_cols）
+        wc_core_cols = [col for col in core_cols if col in df_wc.columns]
+        df_wc_cleaned = df_wc[wc_core_cols].copy()
+        
+        # 6. 追加到总历史数据列表中
+        if not df_wc_cleaned.empty:
+            hist_dfs.append(df_wc_cleaned)
+            print(f"Successfully loaded {len(df_wc_cleaned)} matches from {sheet}.")
 
 except Exception as e:
     print(f"Failed to load World Cup data: {e}")
