@@ -6,16 +6,14 @@ import json
 import os
 
 LEAGUES = ["E0", "E1", "E2", "SP1", "SP2", "I1", "F1", "F2", "D1", "D2", "P1"]
-PREDICT_LEAGUES = LEAGUES + ["JPN","J1", "J1 League"]
+PREDICT_LEAGUES = LEAGUES + ["JPN", "J1", "J1 League"]
 MIN_EDGE = 0.05
 
 print("Loading extensive historical data for rich H2H...")
-
-# 【修复 1】必须在此处显式初始化历史 DataFrame 存储列表
 hist_dfs = []
 seasons = ["2526", "2425", "2324"]
 
-# --- 1. 遍历下载并清洗欧洲五大联赛历史数据 ---
+# --- 1. 遍历下载并清洗欧洲联赛历史数据 ---
 print("Loading European historical data...")
 for league in LEAGUES:
     for season in seasons:
@@ -29,98 +27,49 @@ for league in LEAGUES:
             df = df[[col for col in core_cols if col in df.columns]].copy()
             
             hist_dfs.append(df)
-        print(f"loaded {len(df)} matches from {url}")
-        except Exception as e:
-        print(f"Failed {url}: {e}")  # 👈 确保这一行存在，且相对于 except 缩进了 4 个空格
-
-        try:
-            df = pd.read_csv(url, dtype=str)
-            df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
-            
-            core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
-            df = df[[col for col in core_cols if col in df.columns]].copy()
-            
-            hist_dfs.append(df)
             print(f"loaded {len(df)} matches from {url}")
-            
         except Exception as e:
-            print(f"Failed {url}: {e}")  # 👈 检查：这个 except 必须和它上面的 try 垂直对齐！
+            print(f"Failed {url}: {e}")
 
-
-# --- 1.5. 抓取并清洗世界杯历史数据（全多表支持版） ---
+# --- 2. 抓取并清洗世界杯历史数据（全多表支持版） ---
 print("Loading World Cup historical data from all sheets...")
 world_cup_url = "https://www.football-data.co.uk/World_Cup.xlsx"
 
-        try:
-            # 1. 一次性加载 Excel 的所有工作表（返回一个字典 {sheet_name: dataframe}）
-            xl = pd.ExcelFile(world_cup_url)
-            sheet_names = xl.sheet_names  # 获取所有的标签页名称：['WorldCup2026Qualifiers', 'WorldCup2022', ...]
-            
-            for sheet in sheet_names:
-                print(f"Processing World Cup sheet: {sheet}")
-                df_wc = xl.parse(sheet, dtype=str)
-                
-                # 2. 抹平列名差异（非常关键：把 Home/Away 映射为模型认识的 HomeTeam/AwayTeam）
-                rename_dict = {'Home': 'HomeTeam', 'Away': 'AwayTeam'}
-                df_wc = df_wc.rename(columns=rename_dict)
-                
-                # 3. 统一日期格式
-                if 'Date' in df_wc.columns:
-                    df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
-                
-                # 4. 补齐虚拟的 Div 联赛标记
-                if 'Div' not in df_wc.columns:
-                    df_wc['Div'] = 'WC'
-                    
-                # 5. 动态提取你模型需要的核心列（对应联赛 core_cols）
-                wc_core_cols = [col for col in core_cols if col in df_wc.columns]
-                df_wc_cleaned = df_wc[wc_core_cols].copy()
-                
-                # 6. 追加到总历史数据列表中
-                if not df_wc_cleaned.empty:
-                    hist_dfs.append(df_wc_cleaned)
-                    print(f"Successfully loaded {len(df_wc_cleaned)} matches from {sheet}.")
+try:
+    xl = pd.ExcelFile(world_cup_url)
+    sheet_names = xl.sheet_names  # 自动读取所有年份的Tab页
+    
+    for sheet in sheet_names:
+        print(f"Processing World Cup sheet: {sheet}")
+        df_wc = xl.parse(sheet, dtype=str)
         
-        except Exception as e:
-            print(f"Failed to load World Cup data: {e}")
+        # 变换列名：把 Excel 里的 Home/Away/HG/AG 映射为代码需要的标准名字
+        rename_dict = {'Home': 'HomeTeam', 'Away': 'AwayTeam', 'HG': 'FTHG', 'AG': 'FTAG'}
+        df_wc = df_wc.rename(columns=rename_dict)
+        
+        if 'Date' in df_wc.columns:
+            df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
+        
+        if 'Div' not in df_wc.columns:
+            df_wc['Div'] = 'WC'
             
-            print(f"Failed {url}: {e}")
+        # 动态提取核心列
+        core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
+        wc_core_cols = [col for col in core_cols if col in df_wc.columns]
+        df_wc_cleaned = df_wc[wc_core_cols].copy()
+        
+        if not df_wc_cleaned.empty:
+            hist_dfs.append(df_wc_cleaned)
+            print(f"Successfully loaded {len(df_wc_cleaned)} matches from {sheet}.")
+except Exception as e:
+    print(f"Failed to load World Cup data: {e}")
 
-# --- 2. 单独抓取并清洗日本联赛历史数据 ---
-        try:
-            # 确保 URL 是这个全历史的独立链接
-            j_url = "https://www.football-data.co.uk/new/JPN.csv"
-            df_j = pd.read_csv(j_url, dtype=str)    
-            df_j['Date'] = pd.to_datetime(df_j['Date'], format='mixed', dayfirst=True, errors='coerce')
-            
-            # 过滤掉太久远的历史（可选，加速运行）
-            df_j = df_j[df_j['Date'] > '2023-01-01'].copy()
-            
-            # 字段改名
-            rename_dict = {
-                'League': 'Div',
-                'Home': 'HomeTeam',
-                'Away': 'AwayTeam',
-                'HG': 'FTHG',
-                'AG': 'FTAG'
-            }
-            df_j = df_j.rename(columns=rename_dict)
-            
-            # 【核心加入】把历史数据里的 "J1 League" 强行统一改为 "JPN"，和未来赛程表对齐
-            df_j['Div'] = 'JPN'
-            
-            core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
-            df_j = df_j[[col for col in core_cols if col in df_j.columns]].copy()
-            
-            hist_dfs.append(df_j)
-            print(f"Successfully loaded and normalized {len(df_j)} J-League matches.")
-        except Exception as e:
-            print(f"Failed to load Japan data: {e}")
-
-
-# --- 3. 最终历史数据合并 ---
-historical = pd.concat(hist_dfs, ignore_index=True) if hist_dfs else pd.DataFrame()
-print(f"Total historical matches: {len(historical)}")
+# --- 3. 合并所有载入的数据 ---
+if hist_dfs:
+    final_df = pd.concat(hist_dfs, ignore_index=True)
+    print(f"Total dataset size: {len(final_df)} matches.")
+else:
+    print("No data loaded. Skipping pipeline.")
 
 # --- 4. 未来赛程抓取与容错过滤 ---
 url = "https://www.football-data.co.uk/fixtures.csv"
