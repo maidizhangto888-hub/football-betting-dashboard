@@ -33,7 +33,7 @@ for league in LEAGUES:
 
 # --- 2. 抓取并清洗世界杯历史数据（全多表支持版） ---
 print("Loading World Cup historical data from all sheets...")
-world_cup_url = "https://www.football-data.co.uk/World_Cup.xlsx"
+world_cup_url = "https://www.football-data.co.uk/WorldCup.xlsx"
 
 try:
     xl = pd.ExcelFile(world_cup_url)
