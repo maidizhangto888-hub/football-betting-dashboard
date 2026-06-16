@@ -43,8 +43,13 @@ try:
         sheet_names = xl.sheet_names  # 自动读取：['WorldCup2026Qualifiers', 'WorldCup2022', ...]
         
          for sheet in sheet_names:
-            print(f"Processing local World Cup sheet: {sheet}")
-            df_wc = xl.parse(sheet, dtype=str)
+        # 加上这行：如果是预选赛的Tab，直接跳过，只留正赛数据
+        if "Qualifiers" in sheet:
+            print(f"Skipping {sheet} to prevent model convergence failure.")
+            continue
+            
+        print(f"Processing local World Cup sheet: {sheet}")
+        df_wc = xl.parse(sheet, dtype=str)
             
             # 1. 强制重命名：确保名字和欧洲联赛完全一致
             rename_dict = {
