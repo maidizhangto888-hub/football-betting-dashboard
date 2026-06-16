@@ -31,6 +31,37 @@ for league in LEAGUES:
             hist_dfs.append(df)
             print(f"Loaded {len(df)} matches from {url}")
         except Exception as e:
+
+# --- 1.5. 抓取并清洗世界杯历史数据 ---
+print("Loading World Cup historical data...")
+world_cup_url = "https://www.football-data.co.uk/World_Cup.xlsx" # 顺应网站命名习惯，建议你先在浏览器测试该URL是否直接下载
+
+try:
+    # 1. 读取 Excel 文件（默认读取第一张工作表，如果有多张表可能需要指定 sheet_name）
+    df_wc = pd.read_excel(world_cup_url, dtype=str)
+    
+    # 2. 统一日期格式（由于各表差异，强制转换防报错）
+    if 'Date' in df_wc.columns:
+        df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
+    
+    # 3. 抹平字段差异 
+    # 注意：世界杯数据列名可能和联赛不同（例如联赛叫 Div, 世界杯可能没有 Div 字段）
+    # 如果没有 Div 字段，我们可以手动补上一个虚拟的标记，比如 'WC'
+    if 'Div' not in df_wc.columns:
+        df_wc['Div'] = 'WC'
+        
+    # 4. 提取出你模型需要的核心列（与你第28行的 core_cols 保持一致）
+    # 先检查世界杯数据里到底有哪些列，这里动态取交集避免报 KeyError
+    wc_core_cols = [col for col in core_cols if col in df_wc.columns]
+    df_wc_cleaned = df_wc[wc_core_cols].copy()
+    
+    # 5. 追加到历史数据列表中
+    hist_dfs.append(df_wc_cleaned)
+    print(f"Loaded {len(df_wc_cleaned)} matches from World Cup data.")
+
+except Exception as e:
+    print(f"Failed to load World Cup data: {e}")
+            
             print(f"Failed {url}: {e}")
 
 # --- 2. 单独抓取并清洗日本联赛历史数据 ---
