@@ -30,7 +30,7 @@ for league in LEAGUES:
             
             hist_dfs.append(df)
         print(f"loaded {len(df)} matches from {url}")
-    except Exception as e:
+        except Exception as e:
         print(f"Failed {url}: {e}")  # 👈 确保这一行存在，且相对于 except 缩进了 4 个空格
 
         try:
