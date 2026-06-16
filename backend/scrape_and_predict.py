@@ -6,7 +6,8 @@ import json
 import os
 
 LEAGUES = ["E0", "E1", "E2", "SP1", "SP2", "I1", "F1", "F2", "D1", "D2", "P1"]
-PREDICT_LEAGUES = LEAGUES + ["JPN", "J1", "J1 League"]
+# 把预测目标改为：现有的欧洲联赛 + 刚刚加入的世界杯 'WC'
+PREDICT_LEAGUES = LEAGUES + ["WC"] 
 MIN_EDGE = 0.05
 
 print("Loading extensive historical data for rich H2H...")
