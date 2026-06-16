@@ -29,8 +29,10 @@ for league in LEAGUES:
             df = df[[col for col in core_cols if col in df.columns]].copy()
             
             hist_dfs.append(df)
-            print(f"Loaded {len(df)} matches from {url}")
-        except Exception as e:
+        print(f"loaded {len(df)} matches from {url}")
+    except Exception as e:
+        print(f"Failed {url}: {e}")  # 👈 确保这一行存在，且相对于 except 缩进了 4 个空格
+
 
 # --- 1.5. 抓取并清洗世界杯历史数据（全多表支持版） ---
 print("Loading World Cup historical data from all sheets...")
