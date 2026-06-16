@@ -42,9 +42,9 @@ try:
         xl = pd.ExcelFile(world_cup_path)
         sheet_names = xl.sheet_names  # 自动读取：['WorldCup2026Qualifiers', 'WorldCup2022', ...]
         
-        for sheet in sheet_names:
+    for sheet in sheet_names:
         # 加上这行：如果是预选赛的Tab，直接跳过，只留正赛数据
-        if "Qualifiers" in sheet:
+    if "Qualifiers" in sheet:
             print(f"Skipping {sheet} to prevent model convergence failure.")
             continue
             
@@ -60,10 +60,10 @@ try:
             }
             df_wc = df_wc.rename(columns=rename_dict)
             
-            if 'Date' in df_wc.columns:
-                df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
+    if 'Date' in df_wc.columns:
+        df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
             
-            if 'Div' not in df_wc.columns:
+    if 'Div' not in df_wc.columns:
                 df_wc['Div'] = 'WC'
                 
             # 2. 提取核心列
