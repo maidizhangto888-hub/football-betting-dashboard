@@ -48,42 +48,42 @@ try:
         continue
             
         print(f"Processing local World Cup sheet: {sheet}")
-        df_wc = xl.parse(sheet, dtype=str)
+            df_wc = xl.parse(sheet, dtype=str)
             
-            # 1. 强制重命名：确保名字和欧洲联赛完全一致
-            rename_dict = {
-                'Home': 'HomeTeam', 
-                'Away': 'AwayTeam', 
-                'HG': 'FTHG',     
-                'AG': 'FTAG'      
-            }
-            df_wc = df_wc.rename(columns=rename_dict)
+        # 1. 强制重命名：确保名字和欧洲联赛完全一致
+        rename_dict = {
+            'Home': 'HomeTeam', 
+            'Away': 'AwayTeam', 
+            'HG': 'FTHG',     
+            'AG': 'FTAG'      
+        }
+        df_wc = df_wc.rename(columns=rename_dict)
             
         if 'Date' in df_wc.columns:
         df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
             
         if 'Div' not in df_wc.columns:
-                df_wc['Div'] = 'WC'
+            df_wc['Div'] = 'WC'
                 
-            # 2. 提取核心列
-            core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
-            wc_core_cols = [col for col in core_cols if col in df_wc.columns]
-            df_wc_cleaned = df_wc[wc_core_cols].copy()
-            
-            # 3. 🔥【核心修复】强制将进球数转换为数字类型，非数字的会变成 NaN
-            df_wc_cleaned['FTHG'] = pd.to_numeric(df_wc_cleaned['FTHG'], errors='coerce')
-            df_wc_cleaned['FTAG'] = pd.to_numeric(df_wc_cleaned['FTAG'], errors='coerce')
-            
-            # 4. 彻底剔除掉没有进球数字的行（包括还没踢的未来赛程）
-            df_wc_cleaned = df_wc_cleaned.dropna(subset=['FTHG', 'FTAG'])
-            
-            # 5. 确保转换成与欧洲联赛一致的整数型
-            df_wc_cleaned['FTHG'] = df_wc_cleaned['FTHG'].astype(int)
-            df_wc_cleaned['FTAG'] = df_wc_cleaned['FTAG'].astype(int)
+        # 2. 提取核心列
+        core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
+        wc_core_cols = [col for col in core_cols if col in df_wc.columns]
+        df_wc_cleaned = df_wc[wc_core_cols].copy()
+        
+        # 3. 🔥【核心修复】强制将进球数转换为数字类型，非数字的会变成 NaN
+        df_wc_cleaned['FTHG'] = pd.to_numeric(df_wc_cleaned['FTHG'], errors='coerce')
+        df_wc_cleaned['FTAG'] = pd.to_numeric(df_wc_cleaned['FTAG'], errors='coerce')
+        
+        # 4. 彻底剔除掉没有进球数字的行（包括还没踢的未来赛程）
+        df_wc_cleaned = df_wc_cleaned.dropna(subset=['FTHG', 'FTAG'])
+        
+        # 5. 确保转换成与欧洲联赛一致的整数型
+        df_wc_cleaned['FTHG'] = df_wc_cleaned['FTHG'].astype(int)
+        df_wc_cleaned['FTAG'] = df_wc_cleaned['FTAG'].astype(int)
             
         if not df_wc_cleaned.empty:
-                hist_dfs.append(df_wc_cleaned)
-                print(f"Successfully loaded {len(df_wc_cleaned)} matches from local sheet: {sheet}.")
+            hist_dfs.append(df_wc_cleaned)
+            print(f"Successfully loaded {len(df_wc_cleaned)} matches from local sheet: {sheet}.")
     else:
         print(f"Warning: Local World Cup file not found at {world_cup_path}, skipping.")
         
