@@ -48,7 +48,7 @@ try:
         continue
             
         print(f"Processing local World Cup sheet: {sheet}")
-            df_wc = xl.parse(sheet, dtype=str)
+        df_wc = xl.parse(sheet, dtype=str)
             
         # 1. 强制重命名：确保名字和欧洲联赛完全一致
         rename_dict = {
