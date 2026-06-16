@@ -51,71 +51,71 @@ for league in LEAGUES:
 print("Loading World Cup historical data from all sheets...")
 world_cup_url = "https://www.football-data.co.uk/World_Cup.xlsx"
 
-try:
-    # 1. 一次性加载 Excel 的所有工作表（返回一个字典 {sheet_name: dataframe}）
-    xl = pd.ExcelFile(world_cup_url)
-    sheet_names = xl.sheet_names  # 获取所有的标签页名称：['WorldCup2026Qualifiers', 'WorldCup2022', ...]
-    
-    for sheet in sheet_names:
-        print(f"Processing World Cup sheet: {sheet}")
-        df_wc = xl.parse(sheet, dtype=str)
-        
-        # 2. 抹平列名差异（非常关键：把 Home/Away 映射为模型认识的 HomeTeam/AwayTeam）
-        rename_dict = {'Home': 'HomeTeam', 'Away': 'AwayTeam'}
-        df_wc = df_wc.rename(columns=rename_dict)
-        
-        # 3. 统一日期格式
-        if 'Date' in df_wc.columns:
-            df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
-        
-        # 4. 补齐虚拟的 Div 联赛标记
-        if 'Div' not in df_wc.columns:
-            df_wc['Div'] = 'WC'
+        try:
+            # 1. 一次性加载 Excel 的所有工作表（返回一个字典 {sheet_name: dataframe}）
+            xl = pd.ExcelFile(world_cup_url)
+            sheet_names = xl.sheet_names  # 获取所有的标签页名称：['WorldCup2026Qualifiers', 'WorldCup2022', ...]
             
-        # 5. 动态提取你模型需要的核心列（对应联赛 core_cols）
-        wc_core_cols = [col for col in core_cols if col in df_wc.columns]
-        df_wc_cleaned = df_wc[wc_core_cols].copy()
+            for sheet in sheet_names:
+                print(f"Processing World Cup sheet: {sheet}")
+                df_wc = xl.parse(sheet, dtype=str)
+                
+                # 2. 抹平列名差异（非常关键：把 Home/Away 映射为模型认识的 HomeTeam/AwayTeam）
+                rename_dict = {'Home': 'HomeTeam', 'Away': 'AwayTeam'}
+                df_wc = df_wc.rename(columns=rename_dict)
+                
+                # 3. 统一日期格式
+                if 'Date' in df_wc.columns:
+                    df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
+                
+                # 4. 补齐虚拟的 Div 联赛标记
+                if 'Div' not in df_wc.columns:
+                    df_wc['Div'] = 'WC'
+                    
+                # 5. 动态提取你模型需要的核心列（对应联赛 core_cols）
+                wc_core_cols = [col for col in core_cols if col in df_wc.columns]
+                df_wc_cleaned = df_wc[wc_core_cols].copy()
+                
+                # 6. 追加到总历史数据列表中
+                if not df_wc_cleaned.empty:
+                    hist_dfs.append(df_wc_cleaned)
+                    print(f"Successfully loaded {len(df_wc_cleaned)} matches from {sheet}.")
         
-        # 6. 追加到总历史数据列表中
-        if not df_wc_cleaned.empty:
-            hist_dfs.append(df_wc_cleaned)
-            print(f"Successfully loaded {len(df_wc_cleaned)} matches from {sheet}.")
-
-except Exception as e:
-    print(f"Failed to load World Cup data: {e}")
+        except Exception as e:
+            print(f"Failed to load World Cup data: {e}")
             
             print(f"Failed {url}: {e}")
 
 # --- 2. 单独抓取并清洗日本联赛历史数据 ---
-try:
-    # 确保 URL 是这个全历史的独立链接
-    j_url = "https://www.football-data.co.uk/new/JPN.csv"
-    df_j = pd.read_csv(j_url, dtype=str)    
-    df_j['Date'] = pd.to_datetime(df_j['Date'], format='mixed', dayfirst=True, errors='coerce')
-    
-    # 过滤掉太久远的历史（可选，加速运行）
-    df_j = df_j[df_j['Date'] > '2023-01-01'].copy()
-    
-    # 字段改名
-    rename_dict = {
-        'League': 'Div',
-        'Home': 'HomeTeam',
-        'Away': 'AwayTeam',
-        'HG': 'FTHG',
-        'AG': 'FTAG'
-    }
-    df_j = df_j.rename(columns=rename_dict)
-    
-    # 【核心加入】把历史数据里的 "J1 League" 强行统一改为 "JPN"，和未来赛程表对齐
-    df_j['Div'] = 'JPN'
-    
-    core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
-    df_j = df_j[[col for col in core_cols if col in df_j.columns]].copy()
-    
-    hist_dfs.append(df_j)
-    print(f"Successfully loaded and normalized {len(df_j)} J-League matches.")
-except Exception as e:
-    print(f"Failed to load Japan data: {e}")
+        try:
+            # 确保 URL 是这个全历史的独立链接
+            j_url = "https://www.football-data.co.uk/new/JPN.csv"
+            df_j = pd.read_csv(j_url, dtype=str)    
+            df_j['Date'] = pd.to_datetime(df_j['Date'], format='mixed', dayfirst=True, errors='coerce')
+            
+            # 过滤掉太久远的历史（可选，加速运行）
+            df_j = df_j[df_j['Date'] > '2023-01-01'].copy()
+            
+            # 字段改名
+            rename_dict = {
+                'League': 'Div',
+                'Home': 'HomeTeam',
+                'Away': 'AwayTeam',
+                'HG': 'FTHG',
+                'AG': 'FTAG'
+            }
+            df_j = df_j.rename(columns=rename_dict)
+            
+            # 【核心加入】把历史数据里的 "J1 League" 强行统一改为 "JPN"，和未来赛程表对齐
+            df_j['Div'] = 'JPN'
+            
+            core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
+            df_j = df_j[[col for col in core_cols if col in df_j.columns]].copy()
+            
+            hist_dfs.append(df_j)
+            print(f"Successfully loaded and normalized {len(df_j)} J-League matches.")
+        except Exception as e:
+            print(f"Failed to load Japan data: {e}")
 
 
 # --- 3. 最终历史数据合并 ---
