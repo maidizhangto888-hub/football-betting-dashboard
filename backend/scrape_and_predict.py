@@ -31,52 +31,43 @@ for league in LEAGUES:
         except Exception as e:
             print(f"Failed {url}: {e}")
 
-# --- 2. 抓取并清洗世界杯历史数据（全多表支持 + 浏览器防爬伪装版） ---
-print("Loading World Cup historical data from all sheets...")
-world_cup_url = "https://www.football-data.co.uk/WorldCup.xlsx"
-
-import urllib.request
-import io
+# --- 2. 抓取并清洗世界杯历史数据（本地完美离线版） ---
+print("Loading World Cup historical data from local storage...")
+# 直接读取你刚刚上传到 backend 目录下的本地 Excel 文件
+world_cup_path = os.path.join(os.path.dirname(__file__), "WorldCup.xlsx")
 
 try:
-    # 1. 构造一个假装是浏览器的请求头，规避官方机房 IP 拦截机制
-    req = urllib.request.Request(
-        world_cup_url, 
-        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
-    )
-    
-    # 2. 将数据下载到内存的文件流中
-    with urllib.request.urlopen(req) as response:
-        excel_data = response.read()
+    if os.path.exists(world_cup_path):
+        xl = pd.ExcelFile(world_cup_path)
+        sheet_names = xl.sheet_names  # 自动读取：['WorldCup2026Qualifiers', 'WorldCup2022', ...]
         
-    # 3. 交给 pd.ExcelFile 解析
-    xl = pd.ExcelFile(io.BytesIO(excel_data))
-    sheet_names = xl.sheet_names  # 自动读取所有年份的Tab页
-    
-    for sheet in sheet_names:
-        print(f"Processing World Cup sheet: {sheet}")
-        df_wc = xl.parse(sheet, dtype=str)
-        
-        # 变换列名：把 Excel 里的 Home/Away/HG/AG 映射为代码需要的标准名字
-        rename_dict = {'Home': 'HomeTeam', 'Away': 'AwayTeam', 'HG': 'FTHG', 'AG': 'FTAG'}
-        df_wc = df_wc.rename(columns=rename_dict)
-        
-        if 'Date' in df_wc.columns:
-            df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
-        
-        if 'Div' not in df_wc.columns:
-            df_wc['Div'] = 'WC'
+        for sheet in sheet_names:
+            print(f"Processing local World Cup sheet: {sheet}")
+            df_wc = xl.parse(sheet, dtype=str)
             
-        # 动态提取核心列
-        core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
-        wc_core_cols = [col for col in core_cols if col in df_wc.columns]
-        df_wc_cleaned = df_wc[wc_core_cols].copy()
+            # 变换列名：把 Excel 里的 Home/Away/HG/AG 映射为代码需要的标准名字
+            rename_dict = {'Home': 'HomeTeam', 'Away': 'AwayTeam', 'HG': 'FTHG', 'AG': 'FTAG'}
+            df_wc = df_wc.rename(columns=rename_dict)
+            
+            if 'Date' in df_wc.columns:
+                df_wc['Date'] = pd.to_datetime(df_wc['Date'], format='mixed', dayfirst=True, errors='coerce')
+            
+            if 'Div' not in df_wc.columns:
+                df_wc['Div'] = 'WC'
+                
+            # 动态提取核心列
+            core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
+            wc_core_cols = [col for col in core_cols if col in df_wc.columns]
+            df_wc_cleaned = df_wc[wc_core_cols].copy()
+            
+            if not df_wc_cleaned.empty:
+                hist_dfs.append(df_wc_cleaned)
+                print(f"Successfully loaded {len(df_wc_cleaned)} matches from local sheet: {sheet}.")
+    else:
+        print(f"Warning: Local World Cup file not found at {world_cup_path}, skipping.")
         
-        if not df_wc_cleaned.empty:
-            hist_dfs.append(df_wc_cleaned)
-            print(f"Successfully loaded {len(df_wc_cleaned)} matches from {sheet}.")
 except Exception as e:
-    print(f"Failed to load World Cup data via proxy logic: {e}")
+    print(f"Failed to load local World Cup data: {e}")
 
 
 # --- 3. 合并所有载入的数据 ---
