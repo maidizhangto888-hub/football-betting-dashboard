@@ -38,6 +38,10 @@ print("Loading World Cup historical data from local storage...")
 world_cup_path = os.path.join(os.path.dirname(__file__), "WorldCup.xlsx")
 
 try:
+    print("Loading World Cup historical data from local storage...")
+    # 1. 初始化一个空列表，防止后面报错
+    sheet_names = [] 
+    
     if os.path.exists(world_cup_path):
         xl = pd.ExcelFile(world_cup_path)
         sheet_names = xl.sheet_names  # 自动读取：['WorldCup2026Qualifiers', 'WorldCup2022', ...]
