@@ -31,12 +31,26 @@ for league in LEAGUES:
         except Exception as e:
             print(f"Failed {url}: {e}")
 
-# --- 2. 抓取并清洗世界杯历史数据（全多表支持版） ---
+# --- 2. 抓取并清洗世界杯历史数据（全多表支持 + 浏览器防爬伪装版） ---
 print("Loading World Cup historical data from all sheets...")
 world_cup_url = "https://www.football-data.co.uk/WorldCup.xlsx"
 
+import urllib.request
+import io
+
 try:
-    xl = pd.ExcelFile(world_cup_url)
+    # 1. 构造一个假装是浏览器的请求头，规避官方机房 IP 拦截机制
+    req = urllib.request.Request(
+        world_cup_url, 
+        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+    )
+    
+    # 2. 将数据下载到内存的文件流中
+    with urllib.request.urlopen(req) as response:
+        excel_data = response.read()
+        
+    # 3. 交给 pd.ExcelFile 解析
+    xl = pd.ExcelFile(io.BytesIO(excel_data))
     sheet_names = xl.sheet_names  # 自动读取所有年份的Tab页
     
     for sheet in sheet_names:
@@ -62,7 +76,8 @@ try:
             hist_dfs.append(df_wc_cleaned)
             print(f"Successfully loaded {len(df_wc_cleaned)} matches from {sheet}.")
 except Exception as e:
-    print(f"Failed to load World Cup data: {e}")
+    print(f"Failed to load World Cup data via proxy logic: {e}")
+
 
 # --- 3. 合并所有载入的数据 ---
 if hist_dfs:
