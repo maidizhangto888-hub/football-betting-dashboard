@@ -45,8 +45,13 @@ try:
             print(f"Processing local World Cup sheet: {sheet}")
             df_wc = xl.parse(sheet, dtype=str)
             
-            # 变换列名：把 Excel 里的 Home/Away/HG/AG 映射为代码需要的标准名字
-            rename_dict = {'Home': 'HomeTeam', 'Away': 'AwayTeam', 'HG': 'FTHG', 'AG': 'FTAG'}
+            # 1. 强制重命名：确保名字和欧洲联赛完全一致！
+            rename_dict = {
+                'Home': 'HomeTeam', 
+                'Away': 'AwayTeam', 
+                'HG': 'FTHG',     # 👈 必须把 HG 转换成 FTHG
+                'AG': 'FTAG'      # 👈 必须把 AG 转换成 FTAG
+            }
             df_wc = df_wc.rename(columns=rename_dict)
             
             if 'Date' in df_wc.columns:
@@ -55,10 +60,14 @@ try:
             if 'Div' not in df_wc.columns:
                 df_wc['Div'] = 'WC'
                 
-            # 动态提取核心列
+            # 2. 提取核心列
             core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
             wc_core_cols = [col for col in core_cols if col in df_wc.columns]
             df_wc_cleaned = df_wc[wc_core_cols].copy()
+            
+            # 3. 过滤掉那些没有进球数据的脏行（比如未来还没踢的比赛预告），防止空数据污染模型
+            if 'FTHG' in df_wc_cleaned.columns and 'FTAG' in df_wc_cleaned.columns:
+                df_wc_cleaned = df_wc_cleaned.dropna(subset=['FTHG', 'FTAG'])
             
             if not df_wc_cleaned.empty:
                 hist_dfs.append(df_wc_cleaned)
