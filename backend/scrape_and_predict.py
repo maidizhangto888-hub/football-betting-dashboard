@@ -35,7 +35,23 @@ for league in LEAGUES:
 # --- 2. 抓取并清洗世界杯历史数据（本地完美离线版） ---
 print("Loading World Cup historical data from local storage...")
 # 直接读取你刚刚上传到 backend 目录下的本地 Excel 文件
-world_cup_path = os.path.join(os.path.dirname(__file__), "WorldCup.xlsx")
+
+# 1. 正常的动态绝对路径
+base_dir = os.path.dirname(os.path.abspath(__file__))
+world_cup_path = os.path.join(base_dir, "WorldCup.xlsx")
+
+# 2. 针对 GitHub Actions 双层嵌套环境的容错兜底
+if not os.path.exists(world_cup_path):
+    # 如果当前在双层目录下，尝试往上返一级找 backend 目录
+    parent_dir = os.path.dirname(base_dir)
+    backup_path = os.path.join(parent_dir, "backend", "WorldCup.xlsx")
+    if os.path.exists(backup_path):
+        world_cup_path = backup_path
+    else:
+        # 再尝试直接在当前工作根目录下找 backend/WorldCup.xlsx
+        backup_path_2 = os.path.join(os.getcwd(), "backend", "WorldCup.xlsx")
+        if os.path.exists(backup_path_2):
+            world_cup_path = backup_path_2
 
 try:
     print("Loading World Cup historical data from local storage...")
