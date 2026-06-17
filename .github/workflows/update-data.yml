@@ -27,9 +27,15 @@ jobs:
       - name: Install other dependencies
         run: pip install -r requirements.txt
         
-      - name: Run scraper and predictions
-        working-directory: ./backend
-        run: python scrape_and_predict.py
+      - name: Check files and Run scraper
+        run: |
+          echo "=== 当前工作目录 ==="
+          pwd
+          echo "=== 所有文件列表 ==="
+          ls -R
+          echo "=== 开始运行脚本 ==="
+          python backend/scrape_and_predict.py
+
 
 
       - name: Commit updated predictions (if changed)
