@@ -165,8 +165,8 @@ else:
 print("Fetching upcoming fixtures from main and extra sources...")
 
 fixture_urls = [
-    "https://www.football-data.co.uk/fixtures.csv",     # 主流联赛未来赛程
-    "https://www.football-data.co.uk/new_fixtures.csv" # 扩展联赛未来赛程 (含日本/美国/挪威/巴西/瑞典等)
+    "https://www.football-data.co.uk/fixtures.csv",
+    "https://www.football-data.co.uk/new_fixtures.csv"
 ]
 
 fixture_dfs = []
