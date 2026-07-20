@@ -29,40 +29,51 @@ for league in LEAGUES:
         except Exception as e:
             print(f"Failed {url}: {e}")
 
-# --- 1.5 专门抓取挪威超 (NOR / N1) 历史数据 ---
-print("Loading Norway Eliteserien historical data...")
-norway_url = "https://www.football-data.co.uk/new/NOR.csv"
+# --- 1.5 批量抓取扩展联赛历史数据（挪威、日本、美国、瑞典、芬兰、巴西等） ---
+extra_leagues_config = [
+    {"url": "https://www.football-data.co.uk/new/NOR.csv", "div": "N1", "name": "Norway Eliteserien"},
+    {"url": "https://www.football-data.co.uk/new/JPN.csv", "div": "J1", "name": "Japan J-League"},
+    {"url": "https://www.football-data.co.uk/new/KOR.csv", "div": "K1", "name": "Korea K-League"},
+    {"url": "https://www.football-data.co.uk/new/USA.csv", "div": "USA", "name": "USA MLS"},
+    {"url": "https://www.football-data.co.uk/new/SWE.csv", "div": "SWE", "name": "Sweden Allsvenskan"},
+    {"url": "https://www.football-data.co.uk/new/FIN.csv", "div": "FIN", "name": "Finland Veikkausliiga"},
+    {"url": "https://www.football-data.co.uk/new/BRA.csv", "div": "BRA", "name": "Brazil Serie A"}
+]
 
-try:
-    df_nor = pd.read_csv(norway_url, dtype=str)
-    
-    # 1. 统一列名映射：将 extra 格式的列名转为欧洲主流联赛格式
-    rename_nor = {
-        'Home': 'HomeTeam',
-        'Away': 'AwayTeam',
-        'HG': 'FTHG',
-        'AG': 'FTAG'
-    }
-    df_nor = df_nor.rename(columns=rename_nor)
-    
-    # 2. 补全/统一联赛代号为 N1 (匹配 fixtures.csv 中的 Div 代码)
-    df_nor['Div'] = 'N1'
-    
-    # 3. 解析日期
-    if 'Date' in df_nor.columns:
-        df_nor['Date'] = pd.to_datetime(df_nor['Date'], format='mixed', dayfirst=True, errors='coerce')
-    
-    # 4. 抽取所需的核心列
-    core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
-    df_nor = df_nor[[col for col in core_cols if col in df_nor.columns]].copy()
-    
-    # 5. 过滤未完赛的数据行（清除没有比分的行）
-    df_nor = df_nor.dropna(subset=['FTHG', 'FTAG'])
-    
-    hist_dfs.append(df_nor)
-    print(f"Successfully loaded {len(df_nor)} Norway matches from {norway_url}")
-except Exception as e:
-    print(f"Failed to load Norway data from {norway_url}: {e}")
+# extra csv 的列名映射规则
+rename_extra = {
+    'Home': 'HomeTeam',
+    'Away': 'AwayTeam',
+    'HG': 'FTHG',
+    'AG': 'FTAG'
+}
+
+for item in extra_leagues_config:
+    print(f"Loading {item['name']} historical data...")
+    try:
+        df_extra = pd.read_csv(item['url'], dtype=str)
+        
+        # 1. 统一列名映射（将扩展格式转换为欧洲主流联赛格式）
+        df_extra = df_extra.rename(columns=rename_extra)
+        
+        # 2. 覆盖/赋值标准的 Div 代号
+        df_extra['Div'] = item['div']
+        
+        # 3. 解析日期
+        if 'Date' in df_extra.columns:
+            df_extra['Date'] = pd.to_datetime(df_extra['Date'], format='mixed', dayfirst=True, errors='coerce')
+        
+        # 4. 抽取所需核心列
+        core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
+        df_extra = df_extra[[col for col in core_cols if col in df_extra.columns]].copy()
+        
+        # 5. 过滤掉尚未完成比赛（比分为空）的行
+        df_extra = df_extra.dropna(subset=['FTHG', 'FTAG'])
+        
+        hist_dfs.append(df_extra)
+        print(f"Successfully loaded {len(df_extra)} matches for {item['name']}")
+    except Exception as e:
+        print(f"Failed to load {item['name']} data: {e}")
         
 # --- 2. 抓取并清洗世界杯历史数据（本地完美离线版） ---
 print("Loading World Cup historical data from local storage...")
