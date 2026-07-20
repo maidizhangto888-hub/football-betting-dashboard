@@ -161,51 +161,33 @@ if hist_dfs:
 else:
     print("No data loaded. Skipping pipeline.")
 
-# --- 4. 未来赛程抓取与容错过滤 ---
-print("Fetching upcoming fixtures from main and extra sources...")
+# --- 4. 未来赛程抓取 ---
+print("Fetching upcoming fixtures...")
 
-fixture_urls = [
-    "https://www.football-data.co.uk/fixtures.csv",
-    "https://www.football-data.co.uk/new_fixtures.csv"
-]
+# 官方唯一的未来赛程文件
+fixture_url = "https://www.football-data.co.uk/fixtures.csv"
 
-fixture_dfs = []
-for f_url in fixture_urls:
-    try:
-        # 去掉可能的误打空格
-        clean_url = f_url.strip()
-        f_df = pd.read_csv(clean_url, dtype=str)
-        
-        # 统一扩展联赛列名映射（Home->HomeTeam, Away->AwayTeam）
-        rename_fixture = {
-            'Home': 'HomeTeam', 
-            'Away': 'AwayTeam', 
-            'HG': 'FTHG', 
-            'AG': 'FTAG'
-        }
-        f_df = f_df.rename(columns=rename_fixture)
-        
-        fixture_dfs.append(f_df)
-        print(f"Successfully fetched fixtures from {clean_url}")
-    except Exception as e:
-        print(f"Warning: Could not fetch fixtures from {f_url}: {e}")
-
-if fixture_dfs:
-    df = pd.concat(fixture_dfs, ignore_index=True)
-else:
+try:
+    df = pd.read_csv(fixture_url, dtype=str)
+    
+    # 统一列名格式
+    rename_fixture = {'Home': 'HomeTeam', 'Away': 'AwayTeam', 'HG': 'FTHG', 'AG': 'FTAG'}
+    df = df.rename(columns=rename_fixture)
+    
+    print(f"Successfully fetched fixtures from {fixture_url}")
+except Exception as e:
+    print(f"Warning: Could not fetch fixtures: {e}")
     df = pd.DataFrame()
 
-if not df.empty:
+if not df.empty and 'Div' in df.columns:
     df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
-
-    if 'Div' in df.columns:
-        print("当前未来赛程表里包含的所有联赛代码:", df['Div'].unique())
+    print("当前未来赛程表里包含的所有联赛代码:", df['Div'].unique())
 
     today = datetime.now().date()
-    # 延长预测窗口至 14 天
+    # 适当延长匹配天数（如 14 天）
     day_after = today + timedelta(days=14)
 
-    # 包含别名匹配，防止联赛代号不一致
+    # 包含扩展联赛代号
     EXTRA_DIVS = ["N1", "NOR", "J1", "JPN", "K1", "KOR", "USA", "SWE", "S1", "FIN", "F1", "BRA", "B1"]
     ALL_LEAGUES = LEAGUES + EXTRA_DIVS + ["WC"]
 
