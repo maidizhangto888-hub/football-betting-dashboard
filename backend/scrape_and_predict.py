@@ -195,9 +195,15 @@ else:
 # --- 在第 195 行之后添加以下测试兜底逻辑 ---
 if upcoming.empty:
     print("⚠️ 官方赛程暂无匹配比赛，已触发兜底逻辑：使用历史数据最新 10 场进行测试预测！")
-    # 假设你之前存储历史全量数据的 DataFrame 名称是 df_hist（若不是，替换为你合并历史数据后的变量名）
-    if 'df_hist' in locals() and not df_hist.empty:
-        upcoming = df_hist.tail(10).copy()
+    
+    # 自动尝试各种可能的历史数据变量名，确保能拿到最后 10 场
+    if 'hist_dfs' in locals() and hist_dfs:
+        full_hist = pd.concat(hist_dfs, ignore_index=True)
+        upcoming = full_hist.tail(10).copy()
+    elif 'df_all' in locals() and not df_all.empty:
+        upcoming = df_all.tail(10).copy()
+    elif 'df' in locals() and not df.empty:
+        upcoming = df.tail(10).copy()
 
 results = []
 
