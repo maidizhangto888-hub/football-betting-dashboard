@@ -192,7 +192,13 @@ if not df.empty and 'Div' in df.columns:
     upcoming = df[mask_leagues & mask_dates].copy()
 else:
     upcoming = pd.DataFrame()
-    
+# --- 在第 195 行之后添加以下测试兜底逻辑 ---
+if upcoming.empty:
+    print("⚠️ 官方赛程暂无匹配比赛，已触发兜底逻辑：使用历史数据最新 10 场进行测试预测！")
+    # 假设你之前存储历史全量数据的 DataFrame 名称是 df_hist（若不是，替换为你合并历史数据后的变量名）
+    if 'df_hist' in locals() and not df_hist.empty:
+        upcoming = df_hist.tail(10).copy()
+        
 print("当前未来赛程表里包含的所有联赛代码有:", df['Div'].unique())
 
 today = datetime.now().date()
