@@ -198,37 +198,6 @@ if upcoming.empty:
     # 假设你之前存储历史全量数据的 DataFrame 名称是 df_hist（若不是，替换为你合并历史数据后的变量名）
     if 'df_hist' in locals() and not df_hist.empty:
         upcoming = df_hist.tail(10).copy()
-        
-print("当前未来赛程表里包含的所有联赛代码有:", df['Div'].unique())
-
-today = datetime.now().date()
-# 将 timedelta(days=3) 改为 7 或 14，可以覆盖到下个周末的全部比赛
-day_after = today + timedelta(days=7)
-
-# 提取满足联赛和日期要求的比赛
-mask_leagues = df['Div'].isin(PREDICT_LEAGUES)
-mask_dates = (df['Date'].dt.date >= today) & (df['Date'].dt.date <= day_after)
-
-# 组合过滤条件（去掉对 AvgH 强行 > 1 的硬性限制，改在下方进行填充）
-upcoming = df[mask_leagues & mask_dates].copy()
-
-# 如果有 AvgH 列，把不合法的空值填为 '2.5'，确保后续转 float 不崩
-if 'AvgH' in upcoming.columns:
-    upcoming['AvgH'] = upcoming['AvgH'].fillna('2.5')
-else:
-    upcoming['AvgH'] = '2.5'
-
-print(f"Found {len(upcoming)} upcoming matches after relaxation.")
-
-# 确保过滤使用的是包含 J 联赛的 PREDICT_LEAGUES 列表
-upcoming = df[
-    (df['Div'].isin(PREDICT_LEAGUES)) &
-    (df['Date'].dt.date >= today) &
-    (df['Date'].dt.date <= day_after) &
-    (pd.to_numeric(df.get('AvgH', 0), errors='coerce') > 1)
-].copy()
-
-print(f"Found {len(upcoming)} upcoming matches.")
 
 results = []
 
