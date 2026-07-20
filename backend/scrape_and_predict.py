@@ -31,22 +31,32 @@ for league in LEAGUES:
 
 # --- 1.5 专门抓取挪威超 (NOR / N1) 历史数据 ---
 print("Loading Norway Eliteserien historical data...")
-
-# Football-Data 官方将挪威等额外联赛汇总放在 new/NOR.csv 中
 norway_url = "https://www.football-data.co.uk/new/NOR.csv"
 
 try:
     df_nor = pd.read_csv(norway_url, dtype=str)
-    # 确保 Date 解析正确
-    df_nor['Date'] = pd.to_datetime(df_nor['Date'], format='mixed', dayfirst=True, errors='coerce')
     
-    # 统一联赛代码为 N1 (匹配 fixtures.csv 中的 Div 代码)
+    # 1. 统一列名映射：将 extra 格式的列名转为欧洲主流联赛格式
+    rename_nor = {
+        'Home': 'HomeTeam',
+        'Away': 'AwayTeam',
+        'HG': 'FTHG',
+        'AG': 'FTAG'
+    }
+    df_nor = df_nor.rename(columns=rename_nor)
+    
+    # 2. 补全/统一联赛代号为 N1 (匹配 fixtures.csv 中的 Div 代码)
     df_nor['Div'] = 'N1'
     
+    # 3. 解析日期
+    if 'Date' in df_nor.columns:
+        df_nor['Date'] = pd.to_datetime(df_nor['Date'], format='mixed', dayfirst=True, errors='coerce')
+    
+    # 4. 抽取所需的核心列
     core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
     df_nor = df_nor[[col for col in core_cols if col in df_nor.columns]].copy()
     
-    # 过滤掉还没有踢的比赛（没有比分的行）
+    # 5. 过滤未完赛的数据行（清除没有比分的行）
     df_nor = df_nor.dropna(subset=['FTHG', 'FTAG'])
     
     hist_dfs.append(df_nor)
