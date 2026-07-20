@@ -169,7 +169,8 @@ df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='c
 print("当前未来赛程表里包含的所有联赛代码有:", df['Div'].unique())
 
 today = datetime.now().date()
-day_after = today + timedelta(days=3)
+# 将 timedelta(days=3) 改为 7 或 14，可以覆盖到下个周末的全部比赛
+day_after = today + timedelta(days=7)
 
 # 提取满足联赛和日期要求的比赛
 mask_leagues = df['Div'].isin(PREDICT_LEAGUES)
