@@ -165,8 +165,8 @@ else:
 print("Fetching upcoming fixtures from main and extra sources...")
 
 fixture_urls = [
-    "https://www.football-data.co.uk/fixtures.csv",     # 主流联赛赛程
-    "https://www.football-data.co.uk/new/fixtures.csv" # 扩展联赛赛程 (含日本/美国/挪威/巴西等)
+    "https://www.football-data.co.uk/fixtures.csv",     # 主流联赛未来赛程
+    "https://www.football-data.co.uk/new_fixtures.csv" # 扩展联赛未来赛程 (含日本/美国/挪威/巴西/瑞典等)
 ]
 
 fixture_dfs = []
@@ -174,8 +174,13 @@ for f_url in fixture_urls:
     try:
         f_df = pd.read_csv(f_url, dtype=str)
         
-        # 如果 extra 赛程列表里的列名是 Home/Away/HG/AG，重命名兼容
-        rename_fixture = {'Home': 'HomeTeam', 'Away': 'AwayTeam', 'HG': 'FTHG', 'AG': 'FTAG'}
+        # 如果 new_fixtures.csv 里的列名是 Home/Away/HG/AG，重命名进行兼容
+        rename_fixture = {
+            'Home': 'HomeTeam', 
+            'Away': 'AwayTeam', 
+            'HG': 'FTHG', 
+            'AG': 'FTAG'
+        }
         f_df = f_df.rename(columns=rename_fixture)
         
         fixture_dfs.append(f_df)
@@ -196,7 +201,7 @@ if not df.empty:
     print("当前未来赛程表里包含的所有联赛代码:", df['Div'].unique() if 'Div' in df.columns else "No Div col")
 
     today = datetime.now().date()
-    # 💡 建议：将时间跨度适度放宽到未来 7 到 14 天，避免非比赛日抓不到比赛
+    # 时间跨度放宽至未来 14 天
     day_after = today + timedelta(days=14)
 
     # 提取满足联赛和日期要求的比赛
@@ -206,7 +211,7 @@ if not df.empty:
     upcoming = df[mask_leagues & mask_dates].copy()
 else:
     upcoming = pd.DataFrame()
-
+    
 print("当前未来赛程表里包含的所有联赛代码有:", df['Div'].unique())
 
 today = datetime.now().date()
