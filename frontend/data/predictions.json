@@ -1,1 +1,1138 @@
-[]
+[
+  {
+    "league": "BRA",
+    "date": "2026-05-30 00:00",
+    "home_team": "Athletico-PR",
+    "away_team": "Mirassol",
+    "home_odds": NaN,
+    "draw_odds": NaN,
+    "away_odds": NaN,
+    "home_xg": 1.24,
+    "away_xg": 1.31,
+    "home_win_prob": 0.35,
+    "draw_prob": 0.2669,
+    "away_win_prob": 0.383,
+    "over_25_prob": 0.4686,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-05-30",
+          "home": "Athletico-PR",
+          "away": "Mirassol",
+          "score": "1\u20130"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Mirassol",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Flamengo RJ",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Gremio",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Vitoria",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Chapecoense-SC",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Botafogo RJ",
+          "score": "4\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Athletico-PR",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Atletico-MG",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Sao Paulo",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Internacional",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Botafogo RJ",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Vitoria",
+          "score": "1\u20130"
+        }
+      ]
+    }
+  },
+  {
+    "league": "BRA",
+    "date": "2026-05-30 00:00",
+    "home_team": "Flamengo RJ",
+    "away_team": "Coritiba",
+    "home_odds": NaN,
+    "draw_odds": NaN,
+    "away_odds": NaN,
+    "home_xg": 1.74,
+    "away_xg": 1.48,
+    "home_win_prob": 0.4387,
+    "draw_prob": 0.2321,
+    "away_win_prob": 0.3292,
+    "over_25_prob": 0.6231,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-05-30",
+          "home": "Flamengo RJ",
+          "away": "Coritiba",
+          "score": "3\u20130"
+        },
+        {
+          "date": "2023-08-20",
+          "home": "Coritiba",
+          "away": "Flamengo RJ",
+          "score": "2\u20133"
+        },
+        {
+          "date": "2023-04-16",
+          "home": "Flamengo RJ",
+          "away": "Coritiba",
+          "score": "3\u20130"
+        },
+        {
+          "date": "2022-11-06",
+          "home": "Coritiba",
+          "away": "Flamengo RJ",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2022-07-16",
+          "home": "Flamengo RJ",
+          "away": "Coritiba",
+          "score": "2\u20130"
+        },
+        {
+          "date": "2020-11-21",
+          "home": "Flamengo RJ",
+          "away": "Coritiba",
+          "score": "3\u20131"
+        },
+        {
+          "date": "2020-08-15",
+          "home": "Coritiba",
+          "away": "Flamengo RJ",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2017-11-16",
+          "home": "Coritiba",
+          "away": "Flamengo RJ",
+          "score": "1\u20130"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Coritiba",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Palmeiras",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "Vasco",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Bahia",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Santos",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Remo",
+          "score": "3\u20130"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Flamengo RJ",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Santos",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "Vitoria",
+          "score": "4\u20131"
+        },
+        {
+          "opponent": "Gremio",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Botafogo RJ",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Athletico-PR",
+          "score": "2\u20130"
+        }
+      ]
+    }
+  },
+  {
+    "league": "BRA",
+    "date": "2026-05-30 00:00",
+    "home_team": "Bahia",
+    "away_team": "Botafogo RJ",
+    "home_odds": NaN,
+    "draw_odds": NaN,
+    "away_odds": NaN,
+    "home_xg": 1.56,
+    "away_xg": 1.14,
+    "home_win_prob": 0.4697,
+    "draw_prob": 0.252,
+    "away_win_prob": 0.2783,
+    "over_25_prob": 0.5057,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-05-30",
+          "home": "Bahia",
+          "away": "Botafogo RJ",
+          "score": "2\u20131"
+        },
+        {
+          "date": "2025-10-02",
+          "home": "Botafogo RJ",
+          "away": "Bahia",
+          "score": "2\u20131"
+        },
+        {
+          "date": "2025-05-04",
+          "home": "Bahia",
+          "away": "Botafogo RJ",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2024-08-25",
+          "home": "Bahia",
+          "away": "Botafogo RJ",
+          "score": "0\u20130"
+        },
+        {
+          "date": "2024-05-05",
+          "home": "Botafogo RJ",
+          "away": "Bahia",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2023-08-27",
+          "home": "Botafogo RJ",
+          "away": "Bahia",
+          "score": "3\u20130"
+        },
+        {
+          "date": "2023-04-25",
+          "home": "Bahia",
+          "away": "Botafogo RJ",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2020-11-08",
+          "home": "Bahia",
+          "away": "Botafogo RJ",
+          "score": "1\u20130"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Botafogo RJ",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Gremio",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Cruzeiro",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Santos",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Palmeiras",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Athletico-PR",
+          "score": "3\u20130"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Bahia",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Sao Paulo",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Atletico-MG",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Chapecoense-SC",
+          "score": "1\u20134"
+        },
+        {
+          "opponent": "Vasco",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Athletico-PR",
+          "score": "4\u20131"
+        }
+      ]
+    }
+  },
+  {
+    "league": "BRA",
+    "date": "2026-05-30 00:00",
+    "home_team": "Gremio",
+    "away_team": "Corinthians",
+    "home_odds": NaN,
+    "draw_odds": NaN,
+    "away_odds": NaN,
+    "home_xg": 1.75,
+    "away_xg": 1.1,
+    "home_win_prob": 0.525,
+    "draw_prob": 0.2363,
+    "away_win_prob": 0.2388,
+    "over_25_prob": 0.5413,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-05-30",
+          "home": "Gremio",
+          "away": "Corinthians",
+          "score": "1\u20133"
+        },
+        {
+          "date": "2025-11-02",
+          "home": "Corinthians",
+          "away": "Gremio",
+          "score": "2\u20130"
+        },
+        {
+          "date": "2025-06-13",
+          "home": "Gremio",
+          "away": "Corinthians",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2024-12-08",
+          "home": "Gremio",
+          "away": "Corinthians",
+          "score": "0\u20133"
+        },
+        {
+          "date": "2024-07-26",
+          "home": "Corinthians",
+          "away": "Gremio",
+          "score": "2\u20132"
+        },
+        {
+          "date": "2023-11-12",
+          "home": "Gremio",
+          "away": "Corinthians",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2023-09-19",
+          "home": "Corinthians",
+          "away": "Gremio",
+          "score": "4\u20134"
+        },
+        {
+          "date": "2021-12-05",
+          "home": "Corinthians",
+          "away": "Gremio",
+          "score": "1\u20131"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Corinthians",
+          "score": "1\u20133"
+        },
+        {
+          "opponent": "Santos",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Flamengo RJ",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Coritiba",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Remo",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Vitoria",
+          "score": "2\u20130"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Gremio",
+          "score": "1\u20133"
+        },
+        {
+          "opponent": "Botafogo RJ",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Mirassol",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Vitoria",
+          "score": "0\u20130"
+        },
+        {
+          "opponent": "Fluminense",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Chapecoense-SC",
+          "score": "0\u20130"
+        }
+      ]
+    }
+  },
+  {
+    "league": "BRA",
+    "date": "2026-05-31 00:00",
+    "home_team": "Santos",
+    "away_team": "Vitoria",
+    "home_odds": NaN,
+    "draw_odds": NaN,
+    "away_odds": NaN,
+    "home_xg": 1.78,
+    "away_xg": 1.45,
+    "home_win_prob": 0.454,
+    "draw_prob": 0.2305,
+    "away_win_prob": 0.3154,
+    "over_25_prob": 0.6251,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-05-31",
+          "home": "Santos",
+          "away": "Vitoria",
+          "score": "3\u20131"
+        },
+        {
+          "date": "2025-10-21",
+          "home": "Santos",
+          "away": "Vitoria",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2025-05-25",
+          "home": "Vitoria",
+          "away": "Santos",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2018-10-06",
+          "home": "Vitoria",
+          "away": "Santos",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2018-06-03",
+          "home": "Santos",
+          "away": "Vitoria",
+          "score": "5\u20132"
+        },
+        {
+          "date": "2017-10-16",
+          "home": "Santos",
+          "away": "Vitoria",
+          "score": "2\u20132"
+        },
+        {
+          "date": "2017-06-21",
+          "home": "Vitoria",
+          "away": "Santos",
+          "score": "0\u20132"
+        },
+        {
+          "date": "2016-11-17",
+          "home": "Santos",
+          "away": "Vitoria",
+          "score": "3\u20132"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Vitoria",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Coritiba",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "Bragantino",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Fluminense",
+          "score": "2\u20133"
+        },
+        {
+          "opponent": "Atletico-MG",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Remo",
+          "score": "2\u20130"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Santos",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Bragantino",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Fluminense",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Athletico-PR",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Chapecoense-SC",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Cruzeiro",
+          "score": "3\u20130"
+        }
+      ]
+    }
+  },
+  {
+    "league": "BRA",
+    "date": "2026-05-31 00:00",
+    "home_team": "Bragantino",
+    "away_team": "Internacional",
+    "home_odds": NaN,
+    "draw_odds": NaN,
+    "away_odds": NaN,
+    "home_xg": 1.86,
+    "away_xg": 0.96,
+    "home_win_prob": 0.5836,
+    "draw_prob": 0.2248,
+    "away_win_prob": 0.1916,
+    "over_25_prob": 0.5338,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-05-31",
+          "home": "Bragantino",
+          "away": "Internacional",
+          "score": "3\u20131"
+        },
+        {
+          "date": "2025-12-07",
+          "home": "Internacional",
+          "away": "Bragantino",
+          "score": "3\u20131"
+        },
+        {
+          "date": "2025-08-09",
+          "home": "Bragantino",
+          "away": "Internacional",
+          "score": "1\u20133"
+        },
+        {
+          "date": "2024-11-24",
+          "home": "Internacional",
+          "away": "Bragantino",
+          "score": "4\u20131"
+        },
+        {
+          "date": "2024-09-25",
+          "home": "Bragantino",
+          "away": "Internacional",
+          "score": "2\u20132"
+        },
+        {
+          "date": "2023-11-26",
+          "home": "Internacional",
+          "away": "Bragantino",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2023-07-23",
+          "home": "Bragantino",
+          "away": "Internacional",
+          "score": "0\u20130"
+        },
+        {
+          "date": "2022-09-29",
+          "home": "Internacional",
+          "away": "Bragantino",
+          "score": "0\u20130"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Internacional",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Vitoria",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Palmeiras",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Remo",
+          "score": "4\u20132"
+        },
+        {
+          "opponent": "Flamengo RJ",
+          "score": "3\u20130"
+        },
+        {
+          "opponent": "Botafogo RJ",
+          "score": "1\u20132"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Bragantino",
+          "score": "3\u20131"
+        },
+        {
+          "opponent": "Vitoria",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Coritiba",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Botafogo RJ",
+          "score": "2\u20132"
+        },
+        {
+          "opponent": "Corinthians",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Santos",
+          "score": "1\u20132"
+        }
+      ]
+    }
+  },
+  {
+    "league": "BRA",
+    "date": "2026-05-31 00:00",
+    "home_team": "Palmeiras",
+    "away_team": "Chapecoense-SC",
+    "home_odds": NaN,
+    "draw_odds": NaN,
+    "away_odds": NaN,
+    "home_xg": 1.55,
+    "away_xg": 0.99,
+    "home_win_prob": 0.5027,
+    "draw_prob": 0.2553,
+    "away_win_prob": 0.2419,
+    "over_25_prob": 0.4658,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-05-31",
+          "home": "Palmeiras",
+          "away": "Chapecoense-SC",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2021-09-18",
+          "home": "Chapecoense-SC",
+          "away": "Palmeiras",
+          "score": "0\u20132"
+        },
+        {
+          "date": "2021-06-06",
+          "home": "Palmeiras",
+          "away": "Chapecoense-SC",
+          "score": "3\u20131"
+        },
+        {
+          "date": "2019-10-17",
+          "home": "Palmeiras",
+          "away": "Chapecoense-SC",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2019-06-02",
+          "home": "Chapecoense-SC",
+          "away": "Palmeiras",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2018-09-02",
+          "home": "Chapecoense-SC",
+          "away": "Palmeiras",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2018-04-29",
+          "home": "Palmeiras",
+          "away": "Chapecoense-SC",
+          "score": "0\u20130"
+        },
+        {
+          "date": "2017-08-20",
+          "home": "Palmeiras",
+          "away": "Chapecoense-SC",
+          "score": "0\u20132"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Chapecoense-SC",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Cruzeiro",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Santos",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Athletico-PR",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Gremio",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Botafogo RJ",
+          "score": "2\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Palmeiras",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Cruzeiro",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Mirassol",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Fluminense",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Athletico-PR",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Internacional",
+          "score": "2\u20130"
+        }
+      ]
+    }
+  },
+  {
+    "league": "BRA",
+    "date": "2026-05-31 00:00",
+    "home_team": "Vasco",
+    "away_team": "Atletico-MG",
+    "home_odds": NaN,
+    "draw_odds": NaN,
+    "away_odds": NaN,
+    "home_xg": 1.66,
+    "away_xg": 0.86,
+    "home_win_prob": 0.5624,
+    "draw_prob": 0.2438,
+    "away_win_prob": 0.1938,
+    "over_25_prob": 0.4604,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-05-31",
+          "home": "Vasco",
+          "away": "Atletico-MG",
+          "score": "0\u20131"
+        },
+        {
+          "date": "2025-12-07",
+          "home": "Atletico-MG",
+          "away": "Vasco",
+          "score": "5\u20130"
+        },
+        {
+          "date": "2025-08-10",
+          "home": "Vasco",
+          "away": "Atletico-MG",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2024-12-04",
+          "home": "Vasco",
+          "away": "Atletico-MG",
+          "score": "2\u20130"
+        },
+        {
+          "date": "2024-07-21",
+          "home": "Atletico-MG",
+          "away": "Vasco",
+          "score": "2\u20130"
+        },
+        {
+          "date": "2023-08-20",
+          "home": "Vasco",
+          "away": "Atletico-MG",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2023-04-16",
+          "home": "Atletico-MG",
+          "away": "Vasco",
+          "score": "1\u20132"
+        },
+        {
+          "date": "2021-01-24",
+          "home": "Vasco",
+          "away": "Atletico-MG",
+          "score": "3\u20132"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Atletico-MG",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Bragantino",
+          "score": "0\u20133"
+        },
+        {
+          "opponent": "Athletico-PR",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Sao Paulo",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Botafogo RJ",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Gremio",
+          "score": "2\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Vasco",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Corinthians",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Cruzeiro",
+          "score": "1\u20133"
+        },
+        {
+          "opponent": "Coritiba",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Santos",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Chapecoense-SC",
+          "score": "0\u20134"
+        }
+      ]
+    }
+  },
+  {
+    "league": "BRA",
+    "date": "2026-06-01 00:00",
+    "home_team": "Cruzeiro",
+    "away_team": "Fluminense",
+    "home_odds": NaN,
+    "draw_odds": NaN,
+    "away_odds": NaN,
+    "home_xg": 1.64,
+    "away_xg": 1.43,
+    "home_win_prob": 0.4258,
+    "draw_prob": 0.239,
+    "away_win_prob": 0.3352,
+    "over_25_prob": 0.5914,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-06-01",
+          "home": "Cruzeiro",
+          "away": "Fluminense",
+          "score": "1\u20131"
+        },
+        {
+          "date": "2025-11-09",
+          "home": "Cruzeiro",
+          "away": "Fluminense",
+          "score": "0\u20130"
+        },
+        {
+          "date": "2025-07-17",
+          "home": "Fluminense",
+          "away": "Cruzeiro",
+          "score": "0\u20132"
+        },
+        {
+          "date": "2024-10-04",
+          "home": "Fluminense",
+          "away": "Cruzeiro",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2024-06-20",
+          "home": "Cruzeiro",
+          "away": "Fluminense",
+          "score": "2\u20130"
+        },
+        {
+          "date": "2023-09-21",
+          "home": "Fluminense",
+          "away": "Cruzeiro",
+          "score": "1\u20130"
+        },
+        {
+          "date": "2023-05-11",
+          "home": "Cruzeiro",
+          "away": "Fluminense",
+          "score": "0\u20132"
+        },
+        {
+          "date": "2019-10-10",
+          "home": "Cruzeiro",
+          "away": "Fluminense",
+          "score": "0\u20130"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Fluminense",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Chapecoense-SC",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Atletico-MG",
+          "score": "1\u20133"
+        },
+        {
+          "opponent": "Gremio",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Bragantino",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Vitoria",
+          "score": "3\u20130"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Cruzeiro",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Mirassol",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Internacional",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Santos",
+          "score": "2\u20133"
+        },
+        {
+          "opponent": "Coritiba",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Vasco",
+          "score": "3\u20132"
+        }
+      ]
+    }
+  },
+  {
+    "league": "BRA",
+    "date": "2026-06-01 00:00",
+    "home_team": "Remo",
+    "away_team": "Sao Paulo",
+    "home_odds": NaN,
+    "draw_odds": NaN,
+    "away_odds": NaN,
+    "home_xg": 0.98,
+    "away_xg": 1.19,
+    "home_win_prob": 0.3012,
+    "draw_prob": 0.2917,
+    "away_win_prob": 0.4072,
+    "over_25_prob": 0.369,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-06-01",
+          "home": "Remo",
+          "away": "Sao Paulo",
+          "score": "1\u20130"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Sao Paulo",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Athletico-PR",
+          "score": "1\u20132"
+        },
+        {
+          "opponent": "Palmeiras",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Cruzeiro",
+          "score": "0\u20131"
+        },
+        {
+          "opponent": "Vasco",
+          "score": "1\u20131"
+        },
+        {
+          "opponent": "Bahia",
+          "score": "4\u20131"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Remo",
+          "score": "1\u20130"
+        },
+        {
+          "opponent": "Fluminense",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Corinthians",
+          "score": "3\u20132"
+        },
+        {
+          "opponent": "Vasco",
+          "score": "2\u20131"
+        },
+        {
+          "opponent": "Vitoria",
+          "score": "2\u20130"
+        },
+        {
+          "opponent": "Internacional",
+          "score": "1\u20131"
+        }
+      ]
+    }
+  }
+]
