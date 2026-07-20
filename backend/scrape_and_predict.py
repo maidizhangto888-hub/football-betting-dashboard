@@ -192,18 +192,27 @@ if not df.empty and 'Div' in df.columns:
     upcoming = df[mask_leagues & mask_dates].copy()
 else:
     upcoming = pd.DataFrame()
-# --- 在第 195 行之后添加以下测试兜底逻辑 ---
+# 1. 如果未来赛程为空，触发兜底逻辑
 if upcoming.empty:
     print("⚠️ 官方赛程暂无匹配比赛，已触发兜底逻辑：使用历史数据最新 10 场进行测试预测！")
-    
-    # 自动尝试各种可能的历史数据变量名，确保能拿到最后 10 场
+    # 尝试从历史列表合并出测试集
     if 'hist_dfs' in locals() and hist_dfs:
-        full_hist = pd.concat(hist_dfs, ignore_index=True)
-        upcoming = full_hist.tail(10).copy()
+        full_df = pd.concat(hist_dfs, ignore_index=True)
+        upcoming = full_df.tail(10).copy()
     elif 'df_all' in locals() and not df_all.empty:
         upcoming = df_all.tail(10).copy()
-    elif 'df' in locals() and not df.empty:
-        upcoming = df.tail(10).copy()
+
+# 2. 💡【关键修复】：定义 historical 变量，防止后续报 NameError
+if 'hist_dfs' in locals() and hist_dfs:
+    historical = pd.concat(hist_dfs, ignore_index=True)
+elif 'df_all' in locals() and not df_all.empty:
+    historical = df_all.copy()
+else:
+    historical = pd.DataFrame()
+
+# 统一转换 Date 列格式，确保 H2H 排序不报错
+if not historical.empty and 'Date' in historical.columns:
+    historical['Date'] = pd.to_datetime(historical['Date'], format='mixed', dayfirst=True, errors='coerce')
 
 results = []
 
