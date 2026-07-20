@@ -172,9 +172,11 @@ fixture_urls = [
 fixture_dfs = []
 for f_url in fixture_urls:
     try:
-        f_df = pd.read_csv(f_url, dtype=str)
+        # 去掉可能的误打空格
+        clean_url = f_url.strip()
+        f_df = pd.read_csv(clean_url, dtype=str)
         
-        # 如果 new_fixtures.csv 里的列名是 Home/Away/HG/AG，重命名进行兼容
+        # 统一扩展联赛列名映射（Home->HomeTeam, Away->AwayTeam）
         rename_fixture = {
             'Home': 'HomeTeam', 
             'Away': 'AwayTeam', 
@@ -184,28 +186,30 @@ for f_url in fixture_urls:
         f_df = f_df.rename(columns=rename_fixture)
         
         fixture_dfs.append(f_df)
-        print(f"Successfully fetched fixtures from {f_url}")
+        print(f"Successfully fetched fixtures from {clean_url}")
     except Exception as e:
         print(f"Warning: Could not fetch fixtures from {f_url}: {e}")
 
-# 合并所有未来赛程
 if fixture_dfs:
     df = pd.concat(fixture_dfs, ignore_index=True)
 else:
     df = pd.DataFrame()
 
 if not df.empty:
-    # 统一处理 Date
     df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
 
-    print("当前未来赛程表里包含的所有联赛代码:", df['Div'].unique() if 'Div' in df.columns else "No Div col")
+    if 'Div' in df.columns:
+        print("当前未来赛程表里包含的所有联赛代码:", df['Div'].unique())
 
     today = datetime.now().date()
-    # 时间跨度放宽至未来 14 天
+    # 延长预测窗口至 14 天
     day_after = today + timedelta(days=14)
 
-    # 提取满足联赛和日期要求的比赛
-    mask_leagues = df['Div'].isin(PREDICT_LEAGUES)
+    # 包含别名匹配，防止联赛代号不一致
+    EXTRA_DIVS = ["N1", "NOR", "J1", "JPN", "K1", "KOR", "USA", "SWE", "S1", "FIN", "F1", "BRA", "B1"]
+    ALL_LEAGUES = LEAGUES + EXTRA_DIVS + ["WC"]
+
+    mask_leagues = df['Div'].isin(ALL_LEAGUES)
     mask_dates = (df['Date'].dt.date >= today) & (df['Date'].dt.date <= day_after)
 
     upcoming = df[mask_leagues & mask_dates].copy()
