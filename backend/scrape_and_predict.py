@@ -162,9 +162,50 @@ else:
     print("No data loaded. Skipping pipeline.")
 
 # --- 4. 未来赛程抓取与容错过滤 ---
-url = "https://www.football-data.co.uk/fixtures.csv"
-df = pd.read_csv(url, dtype=str)
-df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
+print("Fetching upcoming fixtures from main and extra sources...")
+
+fixture_urls = [
+    "https://www.football-data.co.uk/fixtures.csv",     # 主流联赛赛程
+    "https://www.football-data.co.uk/new/fixtures.csv" # 扩展联赛赛程 (含日本/美国/挪威/巴西等)
+]
+
+fixture_dfs = []
+for f_url in fixture_urls:
+    try:
+        f_df = pd.read_csv(f_url, dtype=str)
+        
+        # 如果 extra 赛程列表里的列名是 Home/Away/HG/AG，重命名兼容
+        rename_fixture = {'Home': 'HomeTeam', 'Away': 'AwayTeam', 'HG': 'FTHG', 'AG': 'FTAG'}
+        f_df = f_df.rename(columns=rename_fixture)
+        
+        fixture_dfs.append(f_df)
+        print(f"Successfully fetched fixtures from {f_url}")
+    except Exception as e:
+        print(f"Warning: Could not fetch fixtures from {f_url}: {e}")
+
+# 合并所有未来赛程
+if fixture_dfs:
+    df = pd.concat(fixture_dfs, ignore_index=True)
+else:
+    df = pd.DataFrame()
+
+if not df.empty:
+    # 统一处理 Date
+    df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
+
+    print("当前未来赛程表里包含的所有联赛代码:", df['Div'].unique() if 'Div' in df.columns else "No Div col")
+
+    today = datetime.now().date()
+    # 💡 建议：将时间跨度适度放宽到未来 7 到 14 天，避免非比赛日抓不到比赛
+    day_after = today + timedelta(days=14)
+
+    # 提取满足联赛和日期要求的比赛
+    mask_leagues = df['Div'].isin(PREDICT_LEAGUES)
+    mask_dates = (df['Date'].dt.date >= today) & (df['Date'].dt.date <= day_after)
+
+    upcoming = df[mask_leagues & mask_dates].copy()
+else:
+    upcoming = pd.DataFrame()
 
 print("当前未来赛程表里包含的所有联赛代码有:", df['Div'].unique())
 
