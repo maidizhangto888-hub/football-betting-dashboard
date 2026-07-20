@@ -29,20 +29,30 @@ for league in LEAGUES:
         except Exception as e:
             print(f"Failed {url}: {e}")
 
-# --- 1.5 专门抓取挪威超 (N1) 历史数据（按单年份 2024, 2025） ---
-print("Loading Norway Eliteserien (N1) historical data...")
-norway_seasons = ["2025", "2024", "2023"] # 根据需求选择年份
-for season in norway_seasons:
-    url = f"https://www.football-data.co.uk/mmz4281/{season}/N1.csv"
-    try:
-        df = pd.read_csv(url, dtype=str)
-        df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
-        core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
-        df = df[[col for col in core_cols if col in df.columns]].copy()
-        hist_dfs.append(df)
-        print(f"loaded {len(df)} matches from {url}")
-    except Exception as e:
-        print(f"Failed {url}: {e}")
+# --- 1.5 专门抓取挪威超 (NOR / N1) 历史数据 ---
+print("Loading Norway Eliteserien historical data...")
+
+# Football-Data 官方将挪威等额外联赛汇总放在 new/NOR.csv 中
+norway_url = "https://www.football-data.co.uk/new/NOR.csv"
+
+try:
+    df_nor = pd.read_csv(norway_url, dtype=str)
+    # 确保 Date 解析正确
+    df_nor['Date'] = pd.to_datetime(df_nor['Date'], format='mixed', dayfirst=True, errors='coerce')
+    
+    # 统一联赛代码为 N1 (匹配 fixtures.csv 中的 Div 代码)
+    df_nor['Div'] = 'N1'
+    
+    core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
+    df_nor = df_nor[[col for col in core_cols if col in df_nor.columns]].copy()
+    
+    # 过滤掉还没有踢的比赛（没有比分的行）
+    df_nor = df_nor.dropna(subset=['FTHG', 'FTAG'])
+    
+    hist_dfs.append(df_nor)
+    print(f"Successfully loaded {len(df_nor)} Norway matches from {norway_url}")
+except Exception as e:
+    print(f"Failed to load Norway data from {norway_url}: {e}")
         
 # --- 2. 抓取并清洗世界杯历史数据（本地完美离线版） ---
 print("Loading World Cup historical data from local storage...")
