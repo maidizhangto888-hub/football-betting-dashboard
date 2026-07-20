@@ -164,30 +164,25 @@ else:
 # --- 4. 未来赛程抓取 ---
 print("Fetching upcoming fixtures...")
 
-# 官方唯一的未来赛程文件
 fixture_url = "https://www.football-data.co.uk/fixtures.csv"
 
 try:
     df = pd.read_csv(fixture_url, dtype=str)
-    
-    # 统一列名格式
     rename_fixture = {'Home': 'HomeTeam', 'Away': 'AwayTeam', 'HG': 'FTHG', 'AG': 'FTAG'}
     df = df.rename(columns=rename_fixture)
-    
     print(f"Successfully fetched fixtures from {fixture_url}")
 except Exception as e:
     print(f"Warning: Could not fetch fixtures: {e}")
     df = pd.DataFrame()
 
+# 统一在 if 条件判断内部进行处理
 if not df.empty and 'Div' in df.columns:
     df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
     print("当前未来赛程表里包含的所有联赛代码:", df['Div'].unique())
 
     today = datetime.now().date()
-    # 适当延长匹配天数（如 14 天）
     day_after = today + timedelta(days=14)
 
-    # 包含扩展联赛代号
     EXTRA_DIVS = ["N1", "NOR", "J1", "JPN", "K1", "KOR", "USA", "SWE", "S1", "FIN", "F1", "BRA", "B1"]
     ALL_LEAGUES = LEAGUES + EXTRA_DIVS + ["WC"]
 
