@@ -6,15 +6,15 @@ import json
 import os
 
 LEAGUES = ["E0", "E1", "E2", "SP1", "SP2", "I1", "F1", "F2", "D1", "D2", "P1"]
-# 把预测目标改为：现有的欧洲联赛 + 刚刚加入的世界杯 'WC'
-PREDICT_LEAGUES = LEAGUES + ["WC"] 
+# 把预测目标改为：现有欧洲联赛 + 挪威超(N1) + 刚加入的世界杯(WC)
+PREDICT_LEAGUES = LEAGUES + ["N1", "WC"]
 MIN_EDGE = 0.05
 
 print("Loading extensive historical data for rich H2H...")
 hist_dfs = []
 seasons = ["2526", "2425", "2324"]
 
-# --- 1. 遍历下载并清洗欧洲联赛历史数据 ---
+# --- 1. 遍历下载并清洗欧洲主流联赛历史数据 ---
 print("Loading European historical data...")
 for league in LEAGUES:
     for season in seasons:
@@ -22,16 +22,28 @@ for league in LEAGUES:
         try:
             df = pd.read_csv(url, dtype=str)
             df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
-            
-            # 抽取标准预测核心列
             core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
             df = df[[col for col in core_cols if col in df.columns]].copy()
-            
             hist_dfs.append(df)
             print(f"loaded {len(df)} matches from {url}")
         except Exception as e:
             print(f"Failed {url}: {e}")
 
+# --- 1.5 专门抓取挪威超 (N1) 历史数据（按单年份 2024, 2025） ---
+print("Loading Norway Eliteserien (N1) historical data...")
+norway_seasons = ["2025", "2024", "2023"] # 根据需求选择年份
+for season in norway_seasons:
+    url = f"https://www.football-data.co.uk/mmz4281/{season}/N1.csv"
+    try:
+        df = pd.read_csv(url, dtype=str)
+        df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
+        core_cols = ['Div', 'Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'AvgH', 'AvgD', 'AvgA']
+        df = df[[col for col in core_cols if col in df.columns]].copy()
+        hist_dfs.append(df)
+        print(f"loaded {len(df)} matches from {url}")
+    except Exception as e:
+        print(f"Failed {url}: {e}")
+        
 # --- 2. 抓取并清洗世界杯历史数据（本地完美离线版） ---
 print("Loading World Cup historical data from local storage...")
 # 直接读取你刚刚上传到 backend 目录下的本地 Excel 文件
