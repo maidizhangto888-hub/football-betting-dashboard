@@ -193,16 +193,9 @@ if not df.empty and 'Div' in df.columns:
 else:
     upcoming = pd.DataFrame()
 
-# 1. 如果未来赛程为空，直接提示并跳过后续预测
+# 1. 如果未来赛程为空
 if upcoming.empty:
     print("ℹ️ 当前赛程表中暂无即将进行的匹配比赛。")
-    # 清空 results 确保不输出过期的测试数据
-    results = []
-    os.makedirs("frontend/data", exist_ok=True)
-    with open("frontend/data/predictions.json", "w", encoding="utf-8") as f:
-        json.dump([], f, indent=2)
-    print(" Saved 0 matches to predictions.json.")
-    return
 
 # 2. 💡【关键修复】：定义 historical 变量，防止后续报 NameError
 if 'hist_dfs' in locals() and hist_dfs:
