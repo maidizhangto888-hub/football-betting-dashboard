@@ -216,15 +216,24 @@ if not historical.empty and 'Date' in historical.columns:
 
 results = []
 
+import math
+
+def safe_float(val, default):
+    try:
+        f = float(val)
+        return default if math.isnan(f) else f
+    except (ValueError, TypeError):
+        return default
+
 for _, row in upcoming.iterrows():
     league = str(row.get('Div', 'UNK'))
     home_team = str(row.get('HomeTeam', 'Unknown'))
     away_team = str(row.get('AwayTeam', 'Unknown'))
     date_str = row['Date'].strftime('%Y-%m-%d %H:%M') if pd.notna(row['Date']) else "TBD"
 
-    home_odds = float(row.get('AvgH', 2.5) or 2.5)
-    draw_odds = float(row.get('AvgD', 3.4) or 3.4)
-    away_odds = float(row.get('AvgA', 3.0) or 3.0)
+home_odds = safe_float(row.get('AvgH'), 2.5)
+draw_odds = safe_float(row.get('AvgD'), 3.4)
+away_odds = safe_float(row.get('AvgA'), 3.0)
 
     home_xg = round(1.55 + np.random.normal(0, 0.2), 2)
     away_xg = round(1.28 + np.random.normal(0, 0.18), 2)
@@ -299,8 +308,20 @@ for _, row in upcoming.iterrows():
     }
     results.append(match)
 
+# 兜底清理：防止任何遗漏的 NaN/Inf 写入 JSON
+def clean_nan(obj):
+    if isinstance(obj, float) and (math.isnan(obj) or math.isinf(obj)):
+        return 0.0
+    elif isinstance(obj, dict):
+        return {k: clean_nan(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [clean_nan(v) for v in obj]
+    return obj
+
+clean_results = clean_nan(results)
+
 os.makedirs("frontend/data", exist_ok=True)
-with open("frontend/data/predictions.json", "w") as f:
-    json.dump(results, f, indent=2)
+with open("frontend/data/predictions.json", "w", encoding="utf-8") as f:
+    json.dump(clean_results, f, indent=2, ensure_ascii=False)
 
 print(f"✅ Saved {len(results)} matches with multi-season H2H data!")
