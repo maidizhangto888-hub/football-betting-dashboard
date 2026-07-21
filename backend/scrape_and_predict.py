@@ -231,9 +231,9 @@ for _, row in upcoming.iterrows():
     away_team = str(row.get('AwayTeam', 'Unknown'))
     date_str = row['Date'].strftime('%Y-%m-%d %H:%M') if pd.notna(row['Date']) else "TBD"
 
-home_odds = safe_float(row.get('AvgH'), 2.5)
-draw_odds = safe_float(row.get('AvgD'), 3.4)
-away_odds = safe_float(row.get('AvgA'), 3.0)
+    home_odds = safe_float(row.get('AvgH'), 2.5)
+    draw_odds = safe_float(row.get('AvgD'), 3.4)
+    away_odds = safe_float(row.get('AvgA'), 3.0)
 
     home_xg = round(1.55 + np.random.normal(0, 0.2), 2)
     away_xg = round(1.28 + np.random.normal(0, 0.18), 2)
