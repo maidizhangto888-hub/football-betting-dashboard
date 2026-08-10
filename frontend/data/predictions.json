@@ -7,15 +7,15 @@
     "home_odds": 1.85,
     "draw_odds": 3.32,
     "away_odds": 4.17,
-    "home_xg": 1.41,
-    "away_xg": 1.18,
-    "home_win_prob": 0.4224,
-    "draw_prob": 0.2627,
-    "away_win_prob": 0.315,
-    "over_25_prob": 0.4786,
+    "home_xg": 1.39,
+    "away_xg": 0.99,
+    "home_win_prob": 0.4609,
+    "draw_prob": 0.2712,
+    "away_win_prob": 0.2679,
+    "over_25_prob": 0.4247,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0752,
+    "value_away": 0,
     "details": {
       "h2h": [
         {
