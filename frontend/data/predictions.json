@@ -1,131 +1,21 @@
 [
   {
     "league": "SP1",
-    "date": "2026-08-25 00:00",
-    "home_team": "Valencia",
-    "away_team": "Betis",
-    "home_odds": 2.77,
-    "draw_odds": 3.24,
-    "away_odds": 2.56,
-    "home_xg": 1.27,
-    "away_xg": 1.11,
-    "home_win_prob": 0.4003,
-    "draw_prob": 0.277,
-    "away_win_prob": 0.3227,
-    "over_25_prob": 0.4248,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-02-01",
-          "home": "Betis",
-          "away": "Valencia",
-          "score": "2–1"
-        },
-        {
-          "date": "2025-11-09",
-          "home": "Valencia",
-          "away": "Betis",
-          "score": "1–1"
-        },
-        {
-          "date": "2025-05-23",
-          "home": "Betis",
-          "away": "Valencia",
-          "score": "1–1"
-        },
-        {
-          "date": "2024-11-23",
-          "home": "Valencia",
-          "away": "Betis",
-          "score": "4–2"
-        },
-        {
-          "date": "2024-04-20",
-          "home": "Valencia",
-          "away": "Betis",
-          "score": "1–2"
-        },
-        {
-          "date": "2023-10-01",
-          "home": "Betis",
-          "away": "Valencia",
-          "score": "3–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Barcelona",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Vallecano",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Ath Madrid",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Girona",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Celta",
-          "score": "2–3"
-        },
-        {
-          "opponent": "Alaves",
-          "score": "3–2"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Barcelona",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Sociedad",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Girona",
-          "score": "2–3"
-        },
-        {
-          "opponent": "Osasuna",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Ath Bilbao",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Getafe",
-          "score": "2–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "SP1",
     "date": "2026-08-26 00:00",
     "home_team": "Real Madrid",
     "away_team": "Sociedad",
     "home_odds": 1.31,
     "draw_odds": 5.65,
     "away_odds": 8.33,
-    "home_xg": 1.35,
-    "away_xg": 1.35,
-    "home_win_prob": 0.3708,
-    "draw_prob": 0.2584,
-    "away_win_prob": 0.3708,
-    "over_25_prob": 0.5059,
+    "home_xg": 1.71,
+    "away_xg": 1.15,
+    "home_win_prob": 0.5039,
+    "draw_prob": 0.2395,
+    "away_win_prob": 0.2566,
+    "over_25_prob": 0.5438,
     "value_home": 0,
-    "value_draw": 0.0814,
-    "value_away": 0.2507,
+    "value_draw": 0.0625,
+    "value_away": 0.1366,
     "details": {
       "h2h": [
         {
@@ -227,15 +117,15 @@
     "home_odds": 1.95,
     "draw_odds": 3.31,
     "away_odds": 3.94,
-    "home_xg": 1.47,
-    "away_xg": 1.2,
-    "home_win_prob": 0.4334,
-    "draw_prob": 0.2574,
-    "away_win_prob": 0.3092,
-    "over_25_prob": 0.4985,
+    "home_xg": 1.3,
+    "away_xg": 1.11,
+    "home_win_prob": 0.4086,
+    "draw_prob": 0.2745,
+    "away_win_prob": 0.3169,
+    "over_25_prob": 0.4326,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0554,
+    "value_away": 0.0631,
     "details": {
       "h2h": [
         {
@@ -337,15 +227,15 @@
     "home_odds": 1.31,
     "draw_odds": 5.42,
     "away_odds": 8.18,
-    "home_xg": 1.23,
-    "away_xg": 1.1,
-    "home_win_prob": 0.3914,
-    "draw_prob": 0.2809,
-    "away_win_prob": 0.3277,
-    "over_25_prob": 0.4116,
+    "home_xg": 1.09,
+    "away_xg": 1.01,
+    "home_win_prob": 0.3709,
+    "draw_prob": 0.2993,
+    "away_win_prob": 0.3298,
+    "over_25_prob": 0.3502,
     "value_home": 0,
-    "value_draw": 0.0964,
-    "value_away": 0.2055,
+    "value_draw": 0.1148,
+    "value_away": 0.2076,
     "details": {
       "h2h": [
         {
