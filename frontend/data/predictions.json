@@ -1,1 +1,198 @@
-[]
+[
+  {
+    "league": "E2",
+    "date": "2026-09-10 00:00",
+    "home_team": "Stevenage",
+    "away_team": "Luton",
+    "home_odds": 2.99,
+    "draw_odds": 3.36,
+    "away_odds": 2.22,
+    "home_xg": 1.9,
+    "away_xg": 1.36,
+    "home_win_prob": 0.5,
+    "draw_prob": 0.2243,
+    "away_win_prob": 0.2757,
+    "over_25_prob": 0.631,
+    "value_home": 0.1656,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-01-10",
+          "home": "Luton",
+          "away": "Stevenage",
+          "score": "2–1"
+        },
+        {
+          "date": "2025-10-04",
+          "home": "Stevenage",
+          "away": "Luton",
+          "score": "2–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Wigan",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Barnsley",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Lincoln",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Blackpool",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Reading",
+          "score": "1–0"
+        },
+        {
+          "opponent": "AFC Wimbledon",
+          "score": "1–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Bolton",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Rotherham",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Mansfield",
+          "score": "2–2"
+        },
+        {
+          "opponent": "AFC Wimbledon",
+          "score": "0–3"
+        },
+        {
+          "opponent": "Wycombe",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Doncaster",
+          "score": "1–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "P1",
+    "date": "2026-09-10 00:00",
+    "home_team": "Estrela",
+    "away_team": "Sp Braga",
+    "home_odds": 4.57,
+    "draw_odds": 3.58,
+    "away_odds": 1.72,
+    "home_xg": 1.51,
+    "away_xg": 0.86,
+    "home_win_prob": 0.5249,
+    "draw_prob": 0.2607,
+    "away_win_prob": 0.2144,
+    "over_25_prob": 0.4219,
+    "value_home": 0.3061,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-05-16",
+          "home": "Sp Braga",
+          "away": "Estrela",
+          "score": "2–2"
+        },
+        {
+          "date": "2026-01-03",
+          "home": "Estrela",
+          "away": "Sp Braga",
+          "score": "3–3"
+        },
+        {
+          "date": "2025-01-19",
+          "home": "Estrela",
+          "away": "Sp Braga",
+          "score": "0–1"
+        },
+        {
+          "date": "2024-08-11",
+          "home": "Sp Braga",
+          "away": "Estrela",
+          "score": "1–1"
+        },
+        {
+          "date": "2024-03-02",
+          "home": "Sp Braga",
+          "away": "Estrela",
+          "score": "3–0"
+        },
+        {
+          "date": "2023-09-28",
+          "home": "Estrela",
+          "away": "Sp Braga",
+          "score": "2–4"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Famalicao",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Porto",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Sp Lisbon",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Casa Pia",
+          "score": "4–0"
+        },
+        {
+          "opponent": "Gil Vicente",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Tondela",
+          "score": "0–2"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Benfica",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Santa Clara",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Casa Pia",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Moreirense",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Nacional",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Gil Vicente",
+          "score": "2–1"
+        }
+      ]
+    }
+  }
+]
