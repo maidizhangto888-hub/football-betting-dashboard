@@ -1,1 +1,1263 @@
-[]
+[
+  {
+    "league": "E2",
+    "date": "2026-09-26 00:00",
+    "home_team": "Cambridge",
+    "away_team": "AFC Wimbledon",
+    "home_odds": 1.82,
+    "draw_odds": 3.5,
+    "away_odds": 4.27,
+    "home_xg": 1.5,
+    "away_xg": 1.31,
+    "home_win_prob": 0.4171,
+    "draw_prob": 0.2513,
+    "away_win_prob": 0.3316,
+    "over_25_prob": 0.5323,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.0974,
+    "details": {
+      "h2h": [],
+      "home_form": [
+        {
+          "opponent": "Birmingham",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Leyton Orient",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Charlton",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Wrexham",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Northampton",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Peterboro",
+          "score": "0–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Wigan",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Burton",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Lincoln",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Stockport",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Stevenage",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Mansfield",
+          "score": "2–2"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E2",
+    "date": "2026-09-26 00:00",
+    "home_team": "Plymouth",
+    "away_team": "Burton",
+    "home_odds": 1.59,
+    "draw_odds": 4.11,
+    "away_odds": 5.06,
+    "home_xg": 1.54,
+    "away_xg": 1.33,
+    "home_win_prob": 0.4227,
+    "draw_prob": 0.2481,
+    "away_win_prob": 0.3292,
+    "over_25_prob": 0.5464,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1315,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-01-04",
+          "home": "Plymouth",
+          "away": "Burton",
+          "score": "3–0"
+        },
+        {
+          "date": "2025-09-27",
+          "home": "Burton",
+          "away": "Plymouth",
+          "score": "0–4"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Port Vale",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Exeter",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Bolton",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Huddersfield",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Stevenage",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Doncaster",
+          "score": "2–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Leyton Orient",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Peterboro",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Mansfield",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Blackpool",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Northampton",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Exeter",
+          "score": "1–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E2",
+    "date": "2026-09-26 00:00",
+    "home_team": "Stockport",
+    "away_team": "Peterboro",
+    "home_odds": 1.35,
+    "draw_odds": 5.21,
+    "away_odds": 6.95,
+    "home_xg": 1.8,
+    "away_xg": 1.29,
+    "home_win_prob": 0.4931,
+    "draw_prob": 0.2315,
+    "away_win_prob": 0.2754,
+    "over_25_prob": 0.5955,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1315,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-04-25",
+          "home": "Stockport",
+          "away": "Peterboro",
+          "score": "3–1"
+        },
+        {
+          "date": "2025-11-20",
+          "home": "Peterboro",
+          "away": "Stockport",
+          "score": "3–0"
+        },
+        {
+          "date": "2025-04-18",
+          "home": "Peterboro",
+          "away": "Stockport",
+          "score": "1–1"
+        },
+        {
+          "date": "2024-12-20",
+          "home": "Stockport",
+          "away": "Peterboro",
+          "score": "2–1"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Port Vale",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Peterboro",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Mansfield",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Wycombe",
+          "score": "3–0"
+        },
+        {
+          "opponent": "AFC Wimbledon",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Northampton",
+          "score": "2–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Stockport",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Blackpool",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Luton",
+          "score": "2–1"
+        },
+        {
+          "opponent": "AFC Wimbledon",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Leyton Orient",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Northampton",
+          "score": "1–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E2",
+    "date": "2026-09-26 00:00",
+    "home_team": "Wycombe",
+    "away_team": "Reading",
+    "home_odds": 2.52,
+    "draw_odds": 3.61,
+    "away_odds": 2.53,
+    "home_xg": 1.43,
+    "away_xg": 1.28,
+    "home_win_prob": 0.4058,
+    "draw_prob": 0.2571,
+    "away_win_prob": 0.3371,
+    "over_25_prob": 0.5083,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-02-14",
+          "home": "Reading",
+          "away": "Wycombe",
+          "score": "3–2"
+        },
+        {
+          "date": "2025-08-23",
+          "home": "Wycombe",
+          "away": "Reading",
+          "score": "2–2"
+        },
+        {
+          "date": "2025-04-05",
+          "home": "Reading",
+          "away": "Wycombe",
+          "score": "1–0"
+        },
+        {
+          "date": "2024-12-07",
+          "home": "Wycombe",
+          "away": "Reading",
+          "score": "1–1"
+        },
+        {
+          "date": "2024-03-09",
+          "home": "Reading",
+          "away": "Wycombe",
+          "score": "1–2"
+        },
+        {
+          "date": "2023-11-25",
+          "home": "Wycombe",
+          "away": "Reading",
+          "score": "1–2"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Rotherham",
+          "score": "3–2"
+        },
+        {
+          "opponent": "Blackpool",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Bradford",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Port Vale",
+          "score": "4–0"
+        },
+        {
+          "opponent": "Luton",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Burton",
+          "score": "3–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Rotherham",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Doncaster",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Huddersfield",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Stevenage",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Burton",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Mansfield",
+          "score": "1–0"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-09-25 00:00",
+    "home_team": "Girona",
+    "away_team": "Albacete",
+    "home_odds": 1.49,
+    "draw_odds": 4.2,
+    "away_odds": 5.48,
+    "home_xg": 1.47,
+    "away_xg": 1.44,
+    "home_win_prob": 0.3828,
+    "draw_prob": 0.2476,
+    "away_win_prob": 0.3695,
+    "over_25_prob": 0.5557,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1871,
+    "details": {
+      "h2h": [],
+      "home_form": [
+        {
+          "opponent": "Elche",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Sociedad",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Mallorca",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Betis",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Villarreal",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Ath Bilbao",
+          "score": "3–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Ceuta",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Cordoba",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Andorra",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Leganes",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Santander",
+          "score": "0–4"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-09-26 00:00",
+    "home_team": "Ceuta",
+    "away_team": "Sociedad B",
+    "home_odds": 2.16,
+    "draw_odds": 3.42,
+    "away_odds": 2.96,
+    "home_xg": 1.66,
+    "away_xg": 1.2,
+    "home_win_prob": 0.4805,
+    "draw_prob": 0.2429,
+    "away_win_prob": 0.2766,
+    "over_25_prob": 0.5439,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-04-10",
+          "home": "Ceuta",
+          "away": "Sociedad B",
+          "score": "0–0"
+        },
+        {
+          "date": "2025-12-21",
+          "home": "Sociedad B",
+          "away": "Ceuta",
+          "score": "1–3"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Albacete",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "1–4"
+        },
+        {
+          "opponent": "Castellon",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Santander",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Sociedad B",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Cadiz",
+          "score": "2–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Albacete",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Huesca",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Valladolid",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Ceuta",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Sp Gijon",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "5–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-09-26 00:00",
+    "home_team": "Granada",
+    "away_team": "Andorra",
+    "home_odds": 2.16,
+    "draw_odds": 3.26,
+    "away_odds": 3.14,
+    "home_xg": 1.7,
+    "away_xg": 1.29,
+    "home_win_prob": 0.4699,
+    "draw_prob": 0.2385,
+    "away_win_prob": 0.2916,
+    "over_25_prob": 0.5736,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-03-15",
+          "home": "Granada",
+          "away": "Andorra",
+          "score": "1–1"
+        },
+        {
+          "date": "2025-10-17",
+          "home": "Andorra",
+          "away": "Granada",
+          "score": "0–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Sp Gijon",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Burgos",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "2–4"
+        },
+        {
+          "opponent": "Cultural Leonesa",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Huesca",
+          "score": "4–2"
+        },
+        {
+          "opponent": "Andorra",
+          "score": "1–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Burgos",
+          "score": "1–0"
+        },
+        {
+          "opponent": "La Coruna",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Leganes",
+          "score": "0–4"
+        },
+        {
+          "opponent": "Cadiz",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Cultural Leonesa",
+          "score": "0–4"
+        },
+        {
+          "opponent": "Granada",
+          "score": "1–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-09-26 00:00",
+    "home_team": "Celta B",
+    "away_team": "Sabadell",
+    "home_odds": 2.95,
+    "draw_odds": 3.26,
+    "away_odds": 2.24,
+    "home_xg": 1.9,
+    "away_xg": 1.08,
+    "home_win_prob": 0.5636,
+    "draw_prob": 0.2232,
+    "away_win_prob": 0.2133,
+    "over_25_prob": 0.5708,
+    "value_home": 0.2246,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-09-26 00:00",
+    "home_team": "Tenerife",
+    "away_team": "Cadiz",
+    "home_odds": 1.9,
+    "draw_odds": 3.14,
+    "away_odds": 4.02,
+    "home_xg": 1.91,
+    "away_xg": 1.19,
+    "home_win_prob": 0.5402,
+    "draw_prob": 0.2235,
+    "away_win_prob": 0.2364,
+    "over_25_prob": 0.5973,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-03-23",
+          "home": "Tenerife",
+          "away": "Cadiz",
+          "score": "2–1"
+        },
+        {
+          "date": "2024-08-31",
+          "home": "Cadiz",
+          "away": "Tenerife",
+          "score": "2–2"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Oviedo",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Ferrol",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Eibar",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Burgos",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Granada",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Cadiz",
+          "score": "2–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Santander",
+          "score": "4–1"
+        },
+        {
+          "opponent": "Castellon",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Cultural Leonesa",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Sp Gijon",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Valladolid",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Ceuta",
+          "score": "2–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-09-27 00:00",
+    "home_team": "Valladolid",
+    "away_team": "Cordoba",
+    "home_odds": 2.18,
+    "draw_odds": 3.35,
+    "away_odds": 2.99,
+    "home_xg": 1.31,
+    "away_xg": 1.19,
+    "home_win_prob": 0.3937,
+    "draw_prob": 0.2696,
+    "away_win_prob": 0.3367,
+    "over_25_prob": 0.4558,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-01-31",
+          "home": "Cordoba",
+          "away": "Valladolid",
+          "score": "3–1"
+        },
+        {
+          "date": "2025-08-30",
+          "home": "Valladolid",
+          "away": "Cordoba",
+          "score": "0–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "La Coruna",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Zaragoza",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Sociedad B",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Eibar",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Cadiz",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Burgos",
+          "score": "0–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Eibar",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Castellon",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Cultural Leonesa",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Cadiz",
+          "score": "1–3"
+        },
+        {
+          "opponent": "La Coruna",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Burgos",
+          "score": "4–0"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-09-27 00:00",
+    "home_team": "Mallorca",
+    "away_team": "Almeria",
+    "home_odds": 2.06,
+    "draw_odds": 3.26,
+    "away_odds": 3.33,
+    "home_xg": 1.85,
+    "away_xg": 1.11,
+    "home_win_prob": 0.5454,
+    "draw_prob": 0.2278,
+    "away_win_prob": 0.2268,
+    "over_25_prob": 0.5664,
+    "value_home": 0.06,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2024-05-19",
+          "home": "Mallorca",
+          "away": "Almeria",
+          "score": "2–2"
+        },
+        {
+          "date": "2023-12-17",
+          "home": "Almeria",
+          "away": "Mallorca",
+          "score": "0–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Oviedo",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Villarreal",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Valencia",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Vallecano",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Real Madrid",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Espanol",
+          "score": "2–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Sp Gijon",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Burgos",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Granada",
+          "score": "2–4"
+        },
+        {
+          "opponent": "Santander",
+          "score": "5–1"
+        },
+        {
+          "opponent": "Castellon",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Huesca",
+          "score": "1–3"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-09-27 00:00",
+    "home_team": "Burgos",
+    "away_team": "Eldense",
+    "home_odds": 1.9,
+    "draw_odds": 3.25,
+    "away_odds": 3.83,
+    "home_xg": 1.32,
+    "away_xg": 1.11,
+    "home_win_prob": 0.414,
+    "draw_prob": 0.2729,
+    "away_win_prob": 0.3131,
+    "over_25_prob": 0.4378,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.052,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-03-29",
+          "home": "Eldense",
+          "away": "Burgos",
+          "score": "0–0"
+        },
+        {
+          "date": "2024-12-08",
+          "home": "Burgos",
+          "away": "Eldense",
+          "score": "1–0"
+        },
+        {
+          "date": "2024-05-10",
+          "home": "Burgos",
+          "away": "Eldense",
+          "score": "1–2"
+        },
+        {
+          "date": "2023-11-05",
+          "home": "Eldense",
+          "away": "Burgos",
+          "score": "2–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Andorra",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "0–0"
+        },
+        {
+          "opponent": "La Coruna",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Sp Gijon",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Ceuta",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Cordoba",
+          "score": "4–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Huesca",
+          "score": "3–2"
+        },
+        {
+          "opponent": "Castellon",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "5–0"
+        },
+        {
+          "opponent": "Ferrol",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Cartagena",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Elche",
+          "score": "2–0"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-09-27 00:00",
+    "home_team": "Eibar",
+    "away_team": "Las Palmas",
+    "home_odds": 1.92,
+    "draw_odds": 3.28,
+    "away_odds": 3.76,
+    "home_xg": 1.59,
+    "away_xg": 1.44,
+    "home_win_prob": 0.4119,
+    "draw_prob": 0.2414,
+    "away_win_prob": 0.3467,
+    "over_25_prob": 0.5827,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.0808,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-03-29",
+          "home": "Eibar",
+          "away": "Las Palmas",
+          "score": "3–1"
+        },
+        {
+          "date": "2025-10-19",
+          "home": "Las Palmas",
+          "away": "Eibar",
+          "score": "3–1"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Cordoba",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "2–4"
+        },
+        {
+          "opponent": "Huesca",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Ceuta",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Las Palmas",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Burgos",
+          "score": "0–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "La Coruna",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Almeria",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Andorra",
+          "score": "5–1"
+        },
+        {
+          "opponent": "Cadiz",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Eibar",
+          "score": "3–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-09-27 00:00",
+    "home_team": "Oviedo",
+    "away_team": "Sp Gijon",
+    "home_odds": 1.98,
+    "draw_odds": 3.13,
+    "away_odds": 3.74,
+    "home_xg": 1.56,
+    "away_xg": 1.25,
+    "home_win_prob": 0.445,
+    "draw_prob": 0.2492,
+    "away_win_prob": 0.3058,
+    "over_25_prob": 0.5322,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-01-11",
+          "home": "Oviedo",
+          "away": "Sp Gijon",
+          "score": "1–1"
+        },
+        {
+          "date": "2024-09-07",
+          "home": "Sp Gijon",
+          "away": "Oviedo",
+          "score": "3–1"
+        },
+        {
+          "date": "2024-02-10",
+          "home": "Sp Gijon",
+          "away": "Oviedo",
+          "score": "1–0"
+        },
+        {
+          "date": "2023-09-09",
+          "home": "Oviedo",
+          "away": "Sp Gijon",
+          "score": "0–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Alaves",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Getafe",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Elche",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Villarreal",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Sevilla",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Valencia",
+          "score": "1–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Granada",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Zaragoza",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Cordoba",
+          "score": "3–2"
+        },
+        {
+          "opponent": "Burgos",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Santander",
+          "score": "3–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "SP2",
+    "date": "2026-09-28 00:00",
+    "home_team": "Leganes",
+    "away_team": "Castellon",
+    "home_odds": 2.89,
+    "draw_odds": 3.25,
+    "away_odds": 2.26,
+    "home_xg": 1.43,
+    "away_xg": 1.29,
+    "home_win_prob": 0.4037,
+    "draw_prob": 0.2566,
+    "away_win_prob": 0.3397,
+    "over_25_prob": 0.5107,
+    "value_home": 0.0577,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-01-16",
+          "home": "Castellon",
+          "away": "Leganes",
+          "score": "2–0"
+        },
+        {
+          "date": "2025-09-29",
+          "home": "Leganes",
+          "away": "Castellon",
+          "score": "0–1"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Mirandes",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Huesca",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Santander",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Andorra",
+          "score": "0–4"
+        },
+        {
+          "opponent": "Albacete",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Zaragoza",
+          "score": "1–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Huesca",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Ceuta",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Malaga",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Mirandes",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Albacete",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Sp Gijon",
+          "score": "4–1"
+        }
+      ]
+    }
+  }
+]
