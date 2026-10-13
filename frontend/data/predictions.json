@@ -1,1 +1,1200 @@
-[]
+[
+  {
+    "league": "E1",
+    "date": "2026-10-13 00:00",
+    "home_team": "Bristol City",
+    "away_team": "Blackburn",
+    "home_odds": 2.07,
+    "draw_odds": 3.38,
+    "away_odds": 3.53,
+    "home_xg": 1.52,
+    "away_xg": 0.91,
+    "home_win_prob": 0.5148,
+    "draw_prob": 0.2593,
+    "away_win_prob": 0.2259,
+    "over_25_prob": 0.4375,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-02-24",
+          "home": "Blackburn",
+          "away": "Bristol City",
+          "score": "1–2"
+        },
+        {
+          "date": "2025-11-04",
+          "home": "Bristol City",
+          "away": "Blackburn",
+          "score": "0–1"
+        },
+        {
+          "date": "2025-01-25",
+          "home": "Bristol City",
+          "away": "Blackburn",
+          "score": "2–1"
+        },
+        {
+          "date": "2024-09-14",
+          "home": "Blackburn",
+          "away": "Bristol City",
+          "score": "3–0"
+        },
+        {
+          "date": "2024-04-10",
+          "home": "Bristol City",
+          "away": "Blackburn",
+          "score": "5–0"
+        },
+        {
+          "date": "2023-12-12",
+          "home": "Blackburn",
+          "away": "Bristol City",
+          "score": "2–1"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Stoke",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Norwich",
+          "score": "2–4"
+        },
+        {
+          "opponent": "Sheffield United",
+          "score": "1–0"
+        },
+        {
+          "opponent": "West Brom",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Coventry",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Watford",
+          "score": "1–2"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Sheffield United",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Southampton",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Stoke",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Birmingham",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Millwall",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Oxford",
+          "score": "1–0"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E1",
+    "date": "2026-10-13 00:00",
+    "home_team": "Burnley",
+    "away_team": "Charlton",
+    "home_odds": 1.62,
+    "draw_odds": 3.92,
+    "away_odds": 5.18,
+    "home_xg": 1.46,
+    "away_xg": 1.14,
+    "home_win_prob": 0.4443,
+    "draw_prob": 0.2602,
+    "away_win_prob": 0.2955,
+    "over_25_prob": 0.4811,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1025,
+    "details": {
+      "h2h": [],
+      "home_form": [
+        {
+          "opponent": "Wolves",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Aston Villa",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Man City",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Brighton",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Bournemouth",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Brentford",
+          "score": "3–4"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Swansea",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Sheffield Weds",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Watford",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Oxford",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Middlesbrough",
+          "score": "0–1"
+        },
+        {
+          "opponent": "West Brom",
+          "score": "1–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E1",
+    "date": "2026-10-13 00:00",
+    "home_team": "Cardiff",
+    "away_team": "Watford",
+    "home_odds": 1.66,
+    "draw_odds": 4.25,
+    "away_odds": 4.51,
+    "home_xg": 1.38,
+    "away_xg": 1.06,
+    "home_win_prob": 0.4417,
+    "draw_prob": 0.2698,
+    "away_win_prob": 0.2886,
+    "over_25_prob": 0.4403,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.0668,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-01-14",
+          "home": "Cardiff",
+          "away": "Watford",
+          "score": "1–1"
+        },
+        {
+          "date": "2024-12-29",
+          "home": "Watford",
+          "away": "Cardiff",
+          "score": "1–2"
+        },
+        {
+          "date": "2024-02-03",
+          "home": "Watford",
+          "away": "Cardiff",
+          "score": "0–1"
+        },
+        {
+          "date": "2023-10-07",
+          "home": "Cardiff",
+          "away": "Watford",
+          "score": "1–1"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Northampton",
+          "score": "5–1"
+        },
+        {
+          "opponent": "Port Vale",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Bolton",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Blackpool",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Wycombe",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Lincoln",
+          "score": "0–2"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Middlesbrough",
+          "score": "5–1"
+        },
+        {
+          "opponent": "West Brom",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Oxford",
+          "score": "2–0"
+        },
+        {
+          "opponent": "QPR",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Stoke",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Sheffield Weds",
+          "score": "1–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E1",
+    "date": "2026-10-13 00:00",
+    "home_team": "Millwall",
+    "away_team": "Swansea",
+    "home_odds": 2.4,
+    "draw_odds": 3.41,
+    "away_odds": 2.83,
+    "home_xg": 1.52,
+    "away_xg": 1.35,
+    "home_win_prob": 0.4136,
+    "draw_prob": 0.2486,
+    "away_win_prob": 0.3378,
+    "over_25_prob": 0.5464,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-01-04",
+          "home": "Millwall",
+          "away": "Swansea",
+          "score": "2–1"
+        },
+        {
+          "date": "2025-09-27",
+          "home": "Swansea",
+          "away": "Millwall",
+          "score": "1–1"
+        },
+        {
+          "date": "2025-04-26",
+          "home": "Millwall",
+          "away": "Swansea",
+          "score": "1–0"
+        },
+        {
+          "date": "2024-10-26",
+          "home": "Swansea",
+          "away": "Millwall",
+          "score": "0–1"
+        },
+        {
+          "date": "2024-05-04",
+          "home": "Swansea",
+          "away": "Millwall",
+          "score": "0–1"
+        },
+        {
+          "date": "2023-09-30",
+          "home": "Millwall",
+          "away": "Swansea",
+          "score": "0–3"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Oxford",
+          "score": "2–0"
+        },
+        {
+          "opponent": "QPR",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Norwich",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Blackburn",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Derby",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Birmingham",
+          "score": "3–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Norwich",
+          "score": "1–1"
+        },
+        {
+          "opponent": "QPR",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Leicester",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Sheffield United",
+          "score": "3–3"
+        },
+        {
+          "opponent": "Wrexham",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Portsmouth",
+          "score": "1–2"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E1",
+    "date": "2026-10-13 00:00",
+    "home_team": "Wolves",
+    "away_team": "Bolton",
+    "home_odds": 1.4,
+    "draw_odds": 4.8,
+    "away_odds": 7.19,
+    "home_xg": 1.27,
+    "away_xg": 1.42,
+    "home_win_prob": 0.3365,
+    "draw_prob": 0.2582,
+    "away_win_prob": 0.4054,
+    "over_25_prob": 0.5034,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.2663,
+    "details": {
+      "h2h": [],
+      "home_form": [
+        {
+          "opponent": "Fulham",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Sunderland",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Tottenham",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Liverpool",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Aston Villa",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Arsenal",
+          "score": "2–2"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Bradford",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Cardiff",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Plymouth",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Port Vale",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Rotherham",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Exeter",
+          "score": "1–5"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E1",
+    "date": "2026-10-13 00:00",
+    "home_team": "Wrexham",
+    "away_team": "West Brom",
+    "home_odds": 2.28,
+    "draw_odds": 3.33,
+    "away_odds": 3.09,
+    "home_xg": 1.43,
+    "away_xg": 1.31,
+    "home_win_prob": 0.3995,
+    "draw_prob": 0.2557,
+    "away_win_prob": 0.3448,
+    "over_25_prob": 0.5156,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-04-03",
+          "home": "West Brom",
+          "away": "Wrexham",
+          "score": "2–2"
+        },
+        {
+          "date": "2025-08-16",
+          "home": "Wrexham",
+          "away": "West Brom",
+          "score": "2–3"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Middlesbrough",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Stoke",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Southampton",
+          "score": "1–5"
+        },
+        {
+          "opponent": "Swansea",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Hull",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Portsmouth",
+          "score": "2–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Sheffield Weds",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Preston",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Blackburn",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Bristol City",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Sheffield United",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Oxford",
+          "score": "2–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E1",
+    "date": "2026-10-13 00:00",
+    "home_team": "Birmingham",
+    "away_team": "Preston",
+    "home_odds": 1.54,
+    "draw_odds": 4.24,
+    "away_odds": 5.57,
+    "home_xg": 1.47,
+    "away_xg": 0.8,
+    "home_win_prob": 0.5299,
+    "draw_prob": 0.2658,
+    "away_win_prob": 0.2043,
+    "over_25_prob": 0.3955,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-04-22",
+          "home": "Birmingham",
+          "away": "Preston",
+          "score": "2–1"
+        },
+        {
+          "date": "2025-10-21",
+          "home": "Preston",
+          "away": "Birmingham",
+          "score": "0–1"
+        },
+        {
+          "date": "2024-04-01",
+          "home": "Birmingham",
+          "away": "Preston",
+          "score": "1–0"
+        },
+        {
+          "date": "2023-09-19",
+          "home": "Preston",
+          "away": "Birmingham",
+          "score": "2–1"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Bristol City",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Preston",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Wrexham",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Blackburn",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Sheffield United",
+          "score": "1–1"
+        },
+        {
+          "opponent": "QPR",
+          "score": "1–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Sheffield United",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Birmingham",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Charlton",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Leicester",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Norwich",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Coventry",
+          "score": "3–0"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E1",
+    "date": "2026-10-13 00:00",
+    "home_team": "Stoke",
+    "away_team": "Middlesbrough",
+    "home_odds": 3.43,
+    "draw_odds": 3.64,
+    "away_odds": 2.01,
+    "home_xg": 1.7,
+    "away_xg": 0.92,
+    "home_win_prob": 0.5568,
+    "draw_prob": 0.2402,
+    "away_win_prob": 0.203,
+    "over_25_prob": 0.4856,
+    "value_home": 0.2653,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-01-21",
+          "home": "Stoke",
+          "away": "Middlesbrough",
+          "score": "1–2"
+        },
+        {
+          "date": "2025-09-30",
+          "home": "Middlesbrough",
+          "away": "Stoke",
+          "score": "0–0"
+        },
+        {
+          "date": "2025-02-25",
+          "home": "Stoke",
+          "away": "Middlesbrough",
+          "score": "1–3"
+        },
+        {
+          "date": "2024-09-28",
+          "home": "Middlesbrough",
+          "away": "Stoke",
+          "score": "2–0"
+        },
+        {
+          "date": "2024-03-02",
+          "home": "Stoke",
+          "away": "Middlesbrough",
+          "score": "2–0"
+        },
+        {
+          "date": "2023-10-28",
+          "home": "Middlesbrough",
+          "away": "Stoke",
+          "score": "0–2"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Portsmouth",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Millwall",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Blackburn",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Sheffield Weds",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Watford",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Ipswich",
+          "score": "3–3"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Wrexham",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Ipswich",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Swansea",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Blackburn",
+          "score": "0–0"
+        },
+        {
+          "opponent": "QPR",
+          "score": "0–4"
+        },
+        {
+          "opponent": "Birmingham",
+          "score": "1–3"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E1",
+    "date": "2026-10-14 00:00",
+    "home_team": "Norwich",
+    "away_team": "Southampton",
+    "home_odds": 2.37,
+    "draw_odds": 3.78,
+    "away_odds": 2.65,
+    "home_xg": 1.43,
+    "away_xg": 1.04,
+    "home_win_prob": 0.4597,
+    "draw_prob": 0.2659,
+    "away_win_prob": 0.2745,
+    "over_25_prob": 0.448,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-03-18",
+          "home": "Southampton",
+          "away": "Norwich",
+          "score": "1–0"
+        },
+        {
+          "date": "2025-12-13",
+          "home": "Norwich",
+          "away": "Southampton",
+          "score": "2–1"
+        },
+        {
+          "date": "2024-01-01",
+          "home": "Norwich",
+          "away": "Southampton",
+          "score": "1–1"
+        },
+        {
+          "date": "2023-08-12",
+          "home": "Southampton",
+          "away": "Norwich",
+          "score": "4–4"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Swansea",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Derby",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Ipswich",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Portsmouth",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Preston",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Sheffield United",
+          "score": "2–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Preston",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Swansea",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Wrexham",
+          "score": "1–5"
+        },
+        {
+          "opponent": "Coventry",
+          "score": "1–2"
+        },
+        {
+          "opponent": "West Brom",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Sheffield Weds",
+          "score": "1–3"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E1",
+    "date": "2026-10-14 00:00",
+    "home_team": "Portsmouth",
+    "away_team": "Sheffield United",
+    "home_odds": 2.24,
+    "draw_odds": 3.41,
+    "away_odds": 3.09,
+    "home_xg": 1.9,
+    "away_xg": 0.99,
+    "home_win_prob": 0.5851,
+    "draw_prob": 0.2216,
+    "away_win_prob": 0.1933,
+    "over_25_prob": 0.5501,
+    "value_home": 0.1387,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-02-14",
+          "home": "Portsmouth",
+          "away": "Sheffield United",
+          "score": "0–1"
+        },
+        {
+          "date": "2025-11-26",
+          "home": "Sheffield United",
+          "away": "Portsmouth",
+          "score": "3–0"
+        },
+        {
+          "date": "2025-02-08",
+          "home": "Sheffield United",
+          "away": "Portsmouth",
+          "score": "2–1"
+        },
+        {
+          "date": "2024-09-28",
+          "home": "Portsmouth",
+          "away": "Sheffield United",
+          "score": "0–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Birmingham",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Leicester",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Ipswich",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Oxford",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Derby",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Swansea",
+          "score": "1–2"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Derby",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Watford",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Bristol City",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Birmingham",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Norwich",
+          "score": "2–1"
+        },
+        {
+          "opponent": "QPR",
+          "score": "0–2"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E1",
+    "date": "2026-10-14 00:00",
+    "home_team": "QPR",
+    "away_team": "Derby",
+    "home_odds": 1.71,
+    "draw_odds": 3.81,
+    "away_odds": 4.57,
+    "home_xg": 1.19,
+    "away_xg": 1.14,
+    "home_win_prob": 0.3715,
+    "draw_prob": 0.2815,
+    "away_win_prob": 0.347,
+    "over_25_prob": 0.4117,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.1282,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-04-25",
+          "home": "QPR",
+          "away": "Derby",
+          "score": "2–3"
+        },
+        {
+          "date": "2025-10-25",
+          "home": "Derby",
+          "away": "QPR",
+          "score": "1–0"
+        },
+        {
+          "date": "2025-02-14",
+          "home": "QPR",
+          "away": "Derby",
+          "score": "4–0"
+        },
+        {
+          "date": "2024-10-05",
+          "home": "Derby",
+          "away": "QPR",
+          "score": "2–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Derby",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Swansea",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Bristol City",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Watford",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Portsmouth",
+          "score": "6–1"
+        },
+        {
+          "opponent": "Middlesbrough",
+          "score": "0–4"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "QPR",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Norwich",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Southampton",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Coventry",
+          "score": "3–2"
+        },
+        {
+          "opponent": "Portsmouth",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Millwall",
+          "score": "1–0"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E1",
+    "date": "2026-10-14 00:00",
+    "home_team": "Lincoln",
+    "away_team": "West Ham",
+    "home_odds": 4.6,
+    "draw_odds": 3.98,
+    "away_odds": 1.68,
+    "home_xg": 1.26,
+    "away_xg": 1.05,
+    "home_win_prob": 0.411,
+    "draw_prob": 0.2811,
+    "away_win_prob": 0.3079,
+    "over_25_prob": 0.4063,
+    "value_home": 0.1936,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [
+        {
+          "opponent": "Wycombe",
+          "score": "4–3"
+        },
+        {
+          "opponent": "Leyton Orient",
+          "score": "2–1"
+        },
+        {
+          "opponent": "AFC Wimbledon",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Rotherham",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Stockport",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Blackpool",
+          "score": "4–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Newcastle",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Brentford",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Crystal Palace",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Aston Villa",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Fulham",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Liverpool",
+          "score": "5–2"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E2",
+    "date": "2026-10-15 00:00",
+    "home_team": "Mansfield",
+    "away_team": "Oxford",
+    "home_odds": 2.23,
+    "draw_odds": 3.54,
+    "away_odds": 2.89,
+    "home_xg": 1.34,
+    "away_xg": 1.19,
+    "home_win_prob": 0.4017,
+    "draw_prob": 0.2674,
+    "away_win_prob": 0.3308,
+    "over_25_prob": 0.4635,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [
+        {
+          "opponent": "Cardiff",
+          "score": "5–4"
+        },
+        {
+          "opponent": "Luton",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Burton",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Northampton",
+          "score": "4–1"
+        },
+        {
+          "opponent": "Barnsley",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Reading",
+          "score": "1–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Millwall",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Derby",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Portsmouth",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Southampton",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Preston",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Stoke",
+          "score": "2–1"
+        }
+      ]
+    }
+  }
+]
