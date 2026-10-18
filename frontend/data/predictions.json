@@ -1,546 +1,21 @@
 [
   {
     "league": "D1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Elversberg",
-    "away_team": "Augsburg",
-    "home_odds": 2.43,
-    "draw_odds": 3.77,
-    "away_odds": 2.54,
-    "home_xg": 1.57,
-    "away_xg": 1.69,
-    "home_win_prob": 0.3588,
-    "draw_prob": 0.2321,
-    "away_win_prob": 0.4091,
-    "over_25_prob": 0.6314,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Preußen Münster",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Paderborn",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Karlsruhe",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Schalke 04",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Bielefeld",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Magdeburg",
-          "score": "1–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Union Berlin",
-          "score": "4–0"
-        },
-        {
-          "opponent": "Werder Bremen",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Leverkusen",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Hamburg",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Dortmund",
-          "score": "2–0"
-        },
-        {
-          "opponent": "RB Leipzig",
-          "score": "2–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "D1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Hamburg",
-    "away_team": "Stuttgart",
-    "home_odds": 3.81,
-    "draw_odds": 4.02,
-    "away_odds": 1.79,
-    "home_xg": 1.51,
-    "away_xg": 0.91,
-    "home_win_prob": 0.5122,
-    "draw_prob": 0.2603,
-    "away_win_prob": 0.2274,
-    "over_25_prob": 0.4349,
-    "value_home": 0.2498,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-04-12",
-          "home": "Stuttgart",
-          "away": "Hamburg",
-          "score": "4–0"
-        },
-        {
-          "date": "2025-11-30",
-          "home": "Hamburg",
-          "away": "Stuttgart",
-          "score": "2–1"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Freiburg",
-          "score": "3–2"
-        },
-        {
-          "opponent": "Hoffenheim",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Augsburg",
-          "score": "1–1"
-        },
-        {
-          "opponent": "FC Koln",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Leverkusen",
-          "score": "0–1"
-        },
-        {
-          "opponent": "RB Leipzig",
-          "score": "1–2"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Ein Frankfurt",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Hoffenheim",
-          "score": "3–3"
-        },
-        {
-          "opponent": "Bayern Munich",
-          "score": "4–2"
-        },
-        {
-          "opponent": "Augsburg",
-          "score": "2–5"
-        },
-        {
-          "opponent": "Mainz",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Heidenheim",
-          "score": "3–3"
-        }
-      ]
-    }
-  },
-  {
-    "league": "D1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Schalke 04",
-    "away_team": "Mainz",
-    "home_odds": 2.94,
-    "draw_odds": 3.62,
-    "away_odds": 2.21,
-    "home_xg": 1.62,
-    "away_xg": 1.11,
-    "home_win_prob": 0.4915,
-    "draw_prob": 0.2474,
-    "away_win_prob": 0.261,
-    "over_25_prob": 0.5129,
-    "value_home": 0.1514,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Braunschweig",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Fortuna Dusseldorf",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Preußen Münster",
-          "score": "4–1"
-        },
-        {
-          "opponent": "Karlsruhe",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Hannover",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Bielefeld",
-          "score": "1–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Heidenheim",
-          "score": "0–2"
-        },
-        {
-          "opponent": "St Pauli",
-          "score": "1–2"
-        },
-        {
-          "opponent": "M'gladbach",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Hoffenheim",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Werder Bremen",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Leverkusen",
-          "score": "1–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "D1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Union Berlin",
-    "away_team": "Dortmund",
-    "home_odds": 5.0,
-    "draw_odds": 4.39,
-    "away_odds": 1.56,
-    "home_xg": 1.67,
-    "away_xg": 1.1,
-    "home_win_prob": 0.506,
-    "draw_prob": 0.2432,
-    "away_win_prob": 0.2508,
-    "over_25_prob": 0.5225,
-    "value_home": 0.306,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-01-24",
-          "home": "Union Berlin",
-          "away": "Dortmund",
-          "score": "0–3"
-        },
-        {
-          "date": "2025-08-31",
-          "home": "Dortmund",
-          "away": "Union Berlin",
-          "score": "3–0"
-        },
-        {
-          "date": "2025-02-22",
-          "home": "Dortmund",
-          "away": "Union Berlin",
-          "score": "6–0"
-        },
-        {
-          "date": "2024-10-05",
-          "home": "Union Berlin",
-          "away": "Dortmund",
-          "score": "2–1"
-        },
-        {
-          "date": "2024-03-02",
-          "home": "Union Berlin",
-          "away": "Dortmund",
-          "score": "0–2"
-        },
-        {
-          "date": "2023-10-07",
-          "home": "Dortmund",
-          "away": "Union Berlin",
-          "score": "4–2"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Augsburg",
-          "score": "4–0"
-        },
-        {
-          "opponent": "FC Koln",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Wolfsburg",
-          "score": "1–2"
-        },
-        {
-          "opponent": "St Pauli",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Werder Bremen",
-          "score": "1–4"
-        },
-        {
-          "opponent": "Leverkusen",
-          "score": "1–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Werder Bremen",
-          "score": "0–2"
-        },
-        {
-          "opponent": "M'gladbach",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Hoffenheim",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Stuttgart",
-          "score": "0–2"
-        },
-        {
-          "opponent": "FC Koln",
-          "score": "1–2"
-        },
-        {
-          "opponent": "RB Leipzig",
-          "score": "2–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "D1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Werder Bremen",
-    "away_team": "Paderborn",
-    "home_odds": 1.77,
-    "draw_odds": 4.0,
-    "away_odds": 3.97,
-    "home_xg": 1.44,
-    "away_xg": 1.13,
-    "home_win_prob": 0.4414,
-    "draw_prob": 0.2621,
-    "away_win_prob": 0.2965,
-    "over_25_prob": 0.4735,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Dortmund",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Augsburg",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Hamburg",
-          "score": "3–1"
-        },
-        {
-          "opponent": "RB Leipzig",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Mainz",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Heidenheim",
-          "score": "2–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Darmstadt",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Elversberg",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Hannover",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Greuther Furth",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Bielefeld",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Kaiserslautern",
-          "score": "1–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "D1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Bayern Munich",
-    "away_team": "RB Leipzig",
-    "home_odds": 1.21,
-    "draw_odds": 7.43,
-    "away_odds": 9.32,
-    "home_xg": 1.68,
-    "away_xg": 1.24,
-    "home_win_prob": 0.4763,
-    "draw_prob": 0.2408,
-    "away_win_prob": 0.283,
-    "over_25_prob": 0.5577,
-    "value_home": 0,
-    "value_draw": 0.1062,
-    "value_away": 0.1757,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-01-17",
-          "home": "RB Leipzig",
-          "away": "Bayern Munich",
-          "score": "1–5"
-        },
-        {
-          "date": "2025-08-22",
-          "home": "Bayern Munich",
-          "away": "RB Leipzig",
-          "score": "6–0"
-        },
-        {
-          "date": "2025-05-03",
-          "home": "RB Leipzig",
-          "away": "Bayern Munich",
-          "score": "3–3"
-        },
-        {
-          "date": "2024-12-20",
-          "home": "Bayern Munich",
-          "away": "RB Leipzig",
-          "score": "5–1"
-        },
-        {
-          "date": "2024-02-24",
-          "home": "Bayern Munich",
-          "away": "RB Leipzig",
-          "score": "2–1"
-        },
-        {
-          "date": "2023-09-30",
-          "home": "RB Leipzig",
-          "away": "Bayern Munich",
-          "score": "2–2"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "FC Koln",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Heidenheim",
-          "score": "3–3"
-        },
-        {
-          "opponent": "Stuttgart",
-          "score": "4–2"
-        },
-        {
-          "opponent": "Union Berlin",
-          "score": "4–0"
-        },
-        {
-          "opponent": "M'gladbach",
-          "score": "4–1"
-        },
-        {
-          "opponent": "Ein Frankfurt",
-          "score": "3–2"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Freiburg",
-          "score": "4–1"
-        },
-        {
-          "opponent": "Leverkusen",
-          "score": "4–1"
-        },
-        {
-          "opponent": "Ein Frankfurt",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Werder Bremen",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Stuttgart",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Hamburg",
-          "score": "1–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "D1",
     "date": "2026-10-18 00:00",
     "home_team": "Leverkusen",
     "away_team": "Freiburg",
     "home_odds": 1.7,
     "draw_odds": 4.14,
     "away_odds": 4.15,
-    "home_xg": 1.53,
-    "away_xg": 1.7,
-    "home_win_prob": 0.3478,
-    "draw_prob": 0.2329,
-    "away_win_prob": 0.4194,
-    "over_25_prob": 0.6252,
+    "home_xg": 1.87,
+    "away_xg": 1.41,
+    "home_win_prob": 0.4826,
+    "draw_prob": 0.2258,
+    "away_win_prob": 0.2916,
+    "over_25_prob": 0.6352,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1784,
+    "value_away": 0.0506,
     "details": {
       "h2h": [
         {
@@ -642,13 +117,13 @@
     "home_odds": 3.05,
     "draw_odds": 3.94,
     "away_odds": 2.04,
-    "home_xg": 1.4,
-    "away_xg": 1.19,
-    "home_win_prob": 0.4175,
-    "draw_prob": 0.263,
-    "away_win_prob": 0.3195,
-    "over_25_prob": 0.4786,
-    "value_home": 0.0897,
+    "home_xg": 1.5,
+    "away_xg": 1.45,
+    "home_win_prob": 0.3882,
+    "draw_prob": 0.2457,
+    "away_win_prob": 0.3661,
+    "over_25_prob": 0.5648,
+    "value_home": 0.0603,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -746,413 +221,21 @@
   },
   {
     "league": "D2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Greuther Furth",
-    "away_team": "Braunschweig",
-    "home_odds": 2.11,
-    "draw_odds": 3.66,
-    "away_odds": 2.91,
-    "home_xg": 1.72,
-    "away_xg": 1.31,
-    "home_win_prob": 0.4702,
-    "draw_prob": 0.2368,
-    "away_win_prob": 0.293,
-    "over_25_prob": 0.5825,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-01-24",
-          "home": "Greuther Furth",
-          "away": "Braunschweig",
-          "score": "0–0"
-        },
-        {
-          "date": "2025-08-09",
-          "home": "Braunschweig",
-          "away": "Greuther Furth",
-          "score": "3–2"
-        },
-        {
-          "date": "2025-02-23",
-          "home": "Greuther Furth",
-          "away": "Braunschweig",
-          "score": "3–0"
-        },
-        {
-          "date": "2024-09-21",
-          "home": "Braunschweig",
-          "away": "Greuther Furth",
-          "score": "2–0"
-        },
-        {
-          "date": "2024-05-04",
-          "home": "Greuther Furth",
-          "away": "Braunschweig",
-          "score": "3–3"
-        },
-        {
-          "date": "2023-12-02",
-          "home": "Braunschweig",
-          "away": "Greuther Furth",
-          "score": "0–1"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Fortuna Dusseldorf",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Nurnberg",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Darmstadt",
-          "score": "3–2"
-        },
-        {
-          "opponent": "Paderborn",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Elversberg",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Schalke 04",
-          "score": "1–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Schalke 04",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Holstein Kiel",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Kaiserslautern",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Bochum",
-          "score": "4–1"
-        },
-        {
-          "opponent": "Hannover",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Paderborn",
-          "score": "1–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "D2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Kaiserslautern",
-    "away_team": "Bochum",
-    "home_odds": 2.15,
-    "draw_odds": 3.49,
-    "away_odds": 2.95,
-    "home_xg": 1.27,
-    "away_xg": 1.59,
-    "home_win_prob": 0.3055,
-    "draw_prob": 0.2466,
-    "away_win_prob": 0.4479,
-    "over_25_prob": 0.544,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.109,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-03-07",
-          "home": "Bochum",
-          "away": "Kaiserslautern",
-          "score": "3–2"
-        },
-        {
-          "date": "2025-10-04",
-          "home": "Kaiserslautern",
-          "away": "Bochum",
-          "score": "3–2"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Bielefeld",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Braunschweig",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Fortuna Dusseldorf",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Karlsruhe",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Paderborn",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Greuther Furth",
-          "score": "1–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Karlsruhe",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Bielefeld",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Dresden",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Magdeburg",
-          "score": "4–1"
-        },
-        {
-          "opponent": "Hertha",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Fortuna Dusseldorf",
-          "score": "2–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "D2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Wolfsburg",
-    "away_team": "Heidenheim",
-    "home_odds": 1.66,
-    "draw_odds": 4.12,
-    "away_odds": 4.17,
-    "home_xg": 1.31,
-    "away_xg": 1.25,
-    "home_win_prob": 0.3809,
-    "draw_prob": 0.2664,
-    "away_win_prob": 0.3527,
-    "over_25_prob": 0.4711,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.1129,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-01-17",
-          "home": "Wolfsburg",
-          "away": "Heidenheim",
-          "score": "1–1"
-        },
-        {
-          "date": "2025-08-23",
-          "home": "Heidenheim",
-          "away": "Wolfsburg",
-          "score": "1–3"
-        },
-        {
-          "date": "2025-03-29",
-          "home": "Wolfsburg",
-          "away": "Heidenheim",
-          "score": "0–1"
-        },
-        {
-          "date": "2024-11-10",
-          "home": "Heidenheim",
-          "away": "Wolfsburg",
-          "score": "1–3"
-        },
-        {
-          "date": "2024-01-20",
-          "home": "Heidenheim",
-          "away": "Wolfsburg",
-          "score": "1–1"
-        },
-        {
-          "date": "2023-08-19",
-          "home": "Wolfsburg",
-          "away": "Heidenheim",
-          "score": "2–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Bayern Munich",
-          "score": "0–1"
-        },
-        {
-          "opponent": "M'gladbach",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Ein Frankfurt",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Werder Bremen",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Hamburg",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Augsburg",
-          "score": "2–3"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "FC Koln",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Bayern Munich",
-          "score": "3–3"
-        },
-        {
-          "opponent": "Freiburg",
-          "score": "2–1"
-        },
-        {
-          "opponent": "M'gladbach",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Ein Frankfurt",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Werder Bremen",
-          "score": "2–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "D2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Hannover",
-    "away_team": "St Pauli",
-    "home_odds": 2.13,
-    "draw_odds": 3.66,
-    "away_odds": 2.88,
-    "home_xg": 1.82,
-    "away_xg": 1.49,
-    "home_win_prob": 0.4547,
-    "draw_prob": 0.2276,
-    "away_win_prob": 0.3177,
-    "over_25_prob": 0.6413,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2024-04-21",
-          "home": "Hannover",
-          "away": "St Pauli",
-          "score": "1–2"
-        },
-        {
-          "date": "2023-11-10",
-          "home": "St Pauli",
-          "away": "Hannover",
-          "score": "0–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Nurnberg",
-          "score": "3–3"
-        },
-        {
-          "opponent": "Preußen Münster",
-          "score": "3–3"
-        },
-        {
-          "opponent": "Paderborn",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Elversberg",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Braunschweig",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Greuther Furth",
-          "score": "1–2"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "RB Leipzig",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Heidenheim",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Union Berlin",
-          "score": "1–1"
-        },
-        {
-          "opponent": "M'gladbach",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Hoffenheim",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Leverkusen",
-          "score": "4–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "D2",
     "date": "2026-10-18 00:00",
     "home_team": "Bielefeld",
     "away_team": "Osnabruck",
     "home_odds": 1.71,
     "draw_odds": 3.83,
     "away_odds": 4.09,
-    "home_xg": 1.41,
-    "away_xg": 1.18,
-    "home_win_prob": 0.4224,
-    "draw_prob": 0.2627,
-    "away_win_prob": 0.315,
-    "over_25_prob": 0.4786,
+    "home_xg": 1.31,
+    "away_xg": 1.42,
+    "home_win_prob": 0.3467,
+    "draw_prob": 0.2564,
+    "away_win_prob": 0.3969,
+    "over_25_prob": 0.5132,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0705,
+    "value_away": 0.1524,
     "details": {
       "h2h": [],
       "home_form": [
@@ -1217,12 +300,12 @@
     "home_odds": 2.4,
     "draw_odds": 3.63,
     "away_odds": 2.5,
-    "home_xg": 1.44,
-    "away_xg": 1.32,
-    "home_win_prob": 0.3999,
-    "draw_prob": 0.2547,
-    "away_win_prob": 0.3454,
-    "over_25_prob": 0.5204,
+    "home_xg": 1.65,
+    "away_xg": 1.46,
+    "home_win_prob": 0.422,
+    "draw_prob": 0.2375,
+    "away_win_prob": 0.3405,
+    "over_25_prob": 0.6,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -1303,12 +386,12 @@
     "home_odds": 2.17,
     "draw_odds": 3.74,
     "away_odds": 2.76,
-    "home_xg": 1.61,
-    "away_xg": 1.31,
-    "home_win_prob": 0.4441,
-    "draw_prob": 0.2442,
-    "away_win_prob": 0.3117,
-    "over_25_prob": 0.5579,
+    "home_xg": 1.59,
+    "away_xg": 1.44,
+    "home_win_prob": 0.4119,
+    "draw_prob": 0.2414,
+    "away_win_prob": 0.3467,
+    "over_25_prob": 0.5827,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -1395,510 +478,21 @@
   },
   {
     "league": "E0",
-    "date": "2026-10-17 00:00",
-    "home_team": "Everton",
-    "away_team": "Chelsea",
-    "home_odds": 3.13,
-    "draw_odds": 3.62,
-    "away_odds": 2.12,
-    "home_xg": 1.58,
-    "away_xg": 1.14,
-    "home_win_prob": 0.4747,
-    "draw_prob": 0.2503,
-    "away_win_prob": 0.275,
-    "over_25_prob": 0.5106,
-    "value_home": 0.1552,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-03-21",
-          "home": "Everton",
-          "away": "Chelsea",
-          "score": "3–0"
-        },
-        {
-          "date": "2025-12-13",
-          "home": "Chelsea",
-          "away": "Everton",
-          "score": "2–0"
-        },
-        {
-          "date": "2025-04-26",
-          "home": "Chelsea",
-          "away": "Everton",
-          "score": "1–0"
-        },
-        {
-          "date": "2024-12-22",
-          "home": "Everton",
-          "away": "Chelsea",
-          "score": "0–0"
-        },
-        {
-          "date": "2024-04-15",
-          "home": "Chelsea",
-          "away": "Everton",
-          "score": "6–0"
-        },
-        {
-          "date": "2023-12-10",
-          "home": "Everton",
-          "away": "Chelsea",
-          "score": "2–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Sunderland",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Man City",
-          "score": "3–3"
-        },
-        {
-          "opponent": "Liverpool",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Chelsea",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Burnley",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Man United",
-          "score": "0–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Sunderland",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Liverpool",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Brighton",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Everton",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Aston Villa",
-          "score": "1–4"
-        },
-        {
-          "opponent": "Arsenal",
-          "score": "2–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E0",
-    "date": "2026-10-17 00:00",
-    "home_team": "Brentford",
-    "away_team": "Liverpool",
-    "home_odds": 2.34,
-    "draw_odds": 3.62,
-    "away_odds": 2.76,
-    "home_xg": 1.5,
-    "away_xg": 1.13,
-    "home_win_prob": 0.4569,
-    "draw_prob": 0.2572,
-    "away_win_prob": 0.2859,
-    "over_25_prob": 0.4885,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-05-24",
-          "home": "Liverpool",
-          "away": "Brentford",
-          "score": "1–1"
-        },
-        {
-          "date": "2025-10-25",
-          "home": "Brentford",
-          "away": "Liverpool",
-          "score": "3–2"
-        },
-        {
-          "date": "2025-01-18",
-          "home": "Brentford",
-          "away": "Liverpool",
-          "score": "0–2"
-        },
-        {
-          "date": "2024-08-25",
-          "home": "Liverpool",
-          "away": "Brentford",
-          "score": "2–0"
-        },
-        {
-          "date": "2024-02-17",
-          "home": "Brentford",
-          "away": "Liverpool",
-          "score": "1–4"
-        },
-        {
-          "date": "2023-11-12",
-          "home": "Liverpool",
-          "away": "Brentford",
-          "score": "3–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Crystal Palace",
-          "score": "2–2"
-        },
-        {
-          "opponent": "West Ham",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Fulham",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Everton",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Wolves",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Brighton",
-          "score": "0–2"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Aston Villa",
-          "score": "4–2"
-        },
-        {
-          "opponent": "Man United",
-          "score": "3–2"
-        },
-        {
-          "opponent": "Everton",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Brighton",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Wolves",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Nott'm Forest",
-          "score": "0–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E0",
-    "date": "2026-10-17 00:00",
-    "home_team": "Fulham",
-    "away_team": "Hull",
-    "home_odds": 1.7,
-    "draw_odds": 3.89,
-    "away_odds": 4.51,
-    "home_xg": 1.19,
-    "away_xg": 1.34,
-    "home_win_prob": 0.3308,
-    "draw_prob": 0.2674,
-    "away_win_prob": 0.4017,
-    "over_25_prob": 0.4635,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.18,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Newcastle",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Bournemouth",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Aston Villa",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Burnley",
-          "score": "3–1"
-        },
-        {
-          "opponent": "West Ham",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Tottenham",
-          "score": "2–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Charlton",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Leicester",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Sheffield United",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Oxford",
-          "score": "1–1"
-        },
-        {
-          "opponent": "West Brom",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Wrexham",
-          "score": "1–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E0",
-    "date": "2026-10-17 00:00",
-    "home_team": "Man City",
-    "away_team": "Ipswich",
-    "home_odds": 1.24,
-    "draw_odds": 6.47,
-    "away_odds": 10.08,
-    "home_xg": 1.8,
-    "away_xg": 1.52,
-    "home_win_prob": 0.4441,
-    "draw_prob": 0.228,
-    "away_win_prob": 0.3279,
-    "over_25_prob": 0.6433,
-    "value_home": 0,
-    "value_draw": 0.0735,
-    "value_away": 0.2287,
-    "details": {
-      "h2h": [
-        {
-          "date": "2025-01-19",
-          "home": "Ipswich",
-          "away": "Man City",
-          "score": "0–6"
-        },
-        {
-          "date": "2024-08-24",
-          "home": "Man City",
-          "away": "Ipswich",
-          "score": "4–1"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Aston Villa",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Crystal Palace",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Brentford",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Arsenal",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Nott'm Forest",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Newcastle",
-          "score": "2–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Southampton",
-          "score": "2–2"
-        },
-        {
-          "opponent": "West Brom",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Charlton",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Portsmouth",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Norwich",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Sheffield Weds",
-          "score": "0–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E0",
-    "date": "2026-10-17 00:00",
-    "home_team": "Newcastle",
-    "away_team": "Aston Villa",
-    "home_odds": 2.22,
-    "draw_odds": 3.63,
-    "away_odds": 2.93,
-    "home_xg": 1.26,
-    "away_xg": 1.09,
-    "home_win_prob": 0.402,
-    "draw_prob": 0.2789,
-    "away_win_prob": 0.3191,
-    "over_25_prob": 0.4169,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-01-25",
-          "home": "Newcastle",
-          "away": "Aston Villa",
-          "score": "0–2"
-        },
-        {
-          "date": "2025-08-16",
-          "home": "Aston Villa",
-          "away": "Newcastle",
-          "score": "0–0"
-        },
-        {
-          "date": "2025-04-19",
-          "home": "Aston Villa",
-          "away": "Newcastle",
-          "score": "4–1"
-        },
-        {
-          "date": "2024-12-26",
-          "home": "Newcastle",
-          "away": "Aston Villa",
-          "score": "3–0"
-        },
-        {
-          "date": "2024-01-30",
-          "home": "Aston Villa",
-          "away": "Newcastle",
-          "score": "1–3"
-        },
-        {
-          "date": "2023-08-12",
-          "home": "Newcastle",
-          "away": "Aston Villa",
-          "score": "5–1"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "West Ham",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Brighton",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Bournemouth",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Sunderland",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Man United",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Everton",
-          "score": "2–3"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Man City",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Burnley",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Fulham",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Nott'm Forest",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Man United",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Wolves",
-          "score": "2–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E0",
     "date": "2026-10-18 00:00",
     "home_team": "Bournemouth",
     "away_team": "Sunderland",
     "home_odds": 2.04,
     "draw_odds": 3.51,
     "away_odds": 3.44,
-    "home_xg": 1.34,
-    "away_xg": 1.28,
-    "home_win_prob": 0.3826,
-    "draw_prob": 0.2628,
-    "away_win_prob": 0.3546,
-    "over_25_prob": 0.4861,
+    "home_xg": 1.53,
+    "away_xg": 1.39,
+    "home_win_prob": 0.4077,
+    "draw_prob": 0.2465,
+    "away_win_prob": 0.3458,
+    "over_25_prob": 0.5579,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0639,
+    "value_away": 0.0551,
     "details": {
       "h2h": [
         {
@@ -1976,12 +570,12 @@
     "home_odds": 1.53,
     "draw_odds": 4.42,
     "away_odds": 5.35,
-    "home_xg": 1.7,
-    "away_xg": 0.97,
-    "home_win_prob": 0.5445,
-    "draw_prob": 0.2406,
-    "away_win_prob": 0.215,
-    "over_25_prob": 0.498,
+    "home_xg": 2.05,
+    "away_xg": 1.13,
+    "home_win_prob": 0.5837,
+    "draw_prob": 0.2115,
+    "away_win_prob": 0.2048,
+    "over_25_prob": 0.6138,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -2086,13 +680,13 @@
     "home_odds": 2.32,
     "draw_odds": 3.55,
     "away_odds": 2.82,
-    "home_xg": 2.2,
-    "away_xg": 1.54,
-    "home_win_prob": 0.5243,
-    "draw_prob": 0.2061,
-    "away_win_prob": 0.2697,
-    "over_25_prob": 0.7189,
-    "value_home": 0.0932,
+    "home_xg": 1.78,
+    "away_xg": 1.43,
+    "home_win_prob": 0.4582,
+    "draw_prob": 0.2309,
+    "away_win_prob": 0.3108,
+    "over_25_prob": 0.621,
+    "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -2172,13 +766,13 @@
     "home_odds": 5.59,
     "draw_odds": 3.82,
     "away_odds": 1.6,
-    "home_xg": 1.42,
-    "away_xg": 1.11,
-    "home_win_prob": 0.4407,
-    "draw_prob": 0.2645,
-    "away_win_prob": 0.2948,
-    "over_25_prob": 0.4634,
-    "value_home": 0.2619,
+    "home_xg": 1.73,
+    "away_xg": 1.34,
+    "home_win_prob": 0.466,
+    "draw_prob": 0.2356,
+    "away_win_prob": 0.2984,
+    "over_25_prob": 0.5913,
+    "value_home": 0.2871,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -2282,15 +876,15 @@
     "home_odds": 1.46,
     "draw_odds": 4.55,
     "away_odds": 6.23,
-    "home_xg": 1.87,
-    "away_xg": 1.14,
-    "home_win_prob": 0.5429,
-    "draw_prob": 0.2263,
-    "away_win_prob": 0.2308,
-    "over_25_prob": 0.5776,
+    "home_xg": 1.83,
+    "away_xg": 1.21,
+    "home_win_prob": 0.5178,
+    "draw_prob": 0.2297,
+    "away_win_prob": 0.2525,
+    "over_25_prob": 0.5844,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0703,
+    "value_away": 0.092,
     "details": {
       "h2h": [],
       "home_form": [
@@ -2348,2192 +942,6 @@
     }
   },
   {
-    "league": "E1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Middlesbrough",
-    "away_team": "Cardiff",
-    "home_odds": 1.52,
-    "draw_odds": 4.65,
-    "away_odds": 5.12,
-    "home_xg": 1.44,
-    "away_xg": 1.21,
-    "home_win_prob": 0.4235,
-    "draw_prob": 0.2592,
-    "away_win_prob": 0.3172,
-    "over_25_prob": 0.4935,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.1219,
-    "details": {
-      "h2h": [
-        {
-          "date": "2025-01-04",
-          "home": "Middlesbrough",
-          "away": "Cardiff",
-          "score": "1–1"
-        },
-        {
-          "date": "2024-08-31",
-          "home": "Cardiff",
-          "away": "Middlesbrough",
-          "score": "0–2"
-        },
-        {
-          "date": "2024-04-27",
-          "home": "Cardiff",
-          "away": "Middlesbrough",
-          "score": "1–4"
-        },
-        {
-          "date": "2023-10-03",
-          "home": "Middlesbrough",
-          "away": "Cardiff",
-          "score": "2–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Watford",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Sheffield Weds",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Portsmouth",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Millwall",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Bristol City",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Charlton",
-          "score": "0–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Mansfield",
-          "score": "5–4"
-        },
-        {
-          "opponent": "Reading",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Huddersfield",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Peterboro",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Exeter",
-          "score": "0–4"
-        },
-        {
-          "opponent": "Barnsley",
-          "score": "1–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Millwall",
-    "away_team": "Lincoln",
-    "home_odds": 1.65,
-    "draw_odds": 3.87,
-    "away_odds": 4.85,
-    "home_xg": 1.41,
-    "away_xg": 1.08,
-    "home_win_prob": 0.445,
-    "draw_prob": 0.2664,
-    "away_win_prob": 0.2886,
-    "over_25_prob": 0.4532,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.0824,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Oxford",
-          "score": "2–0"
-        },
-        {
-          "opponent": "QPR",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Norwich",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Blackburn",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Derby",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Birmingham",
-          "score": "3–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Port Vale",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Doncaster",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Stevenage",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Reading",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Huddersfield",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Exeter",
-          "score": "0–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Watford",
-    "away_team": "Charlton",
-    "home_odds": 2.47,
-    "draw_odds": 3.34,
-    "away_odds": 2.77,
-    "home_xg": 1.44,
-    "away_xg": 1.55,
-    "home_win_prob": 0.3542,
-    "draw_prob": 0.2435,
-    "away_win_prob": 0.4023,
-    "over_25_prob": 0.5738,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-04-06",
-          "home": "Watford",
-          "away": "Charlton",
-          "score": "1–1"
-        },
-        {
-          "date": "2025-08-09",
-          "home": "Charlton",
-          "away": "Watford",
-          "score": "1–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Coventry",
-          "score": "0–4"
-        },
-        {
-          "opponent": "Sheffield United",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Charlton",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Leicester",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Wrexham",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Ipswich",
-          "score": "0–2"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Swansea",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Sheffield Weds",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Watford",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Oxford",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Middlesbrough",
-          "score": "0–1"
-        },
-        {
-          "opponent": "West Brom",
-          "score": "1–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Birmingham",
-    "away_team": "QPR",
-    "home_odds": 2.03,
-    "draw_odds": 3.5,
-    "away_odds": 3.49,
-    "home_xg": 1.04,
-    "away_xg": 1.5,
-    "home_win_prob": 0.2628,
-    "draw_prob": 0.2593,
-    "away_win_prob": 0.4779,
-    "over_25_prob": 0.4659,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.1914,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-03-11",
-          "home": "Birmingham",
-          "away": "QPR",
-          "score": "1–0"
-        },
-        {
-          "date": "2025-12-09",
-          "home": "QPR",
-          "away": "Birmingham",
-          "score": "2–1"
-        },
-        {
-          "date": "2024-03-29",
-          "home": "QPR",
-          "away": "Birmingham",
-          "score": "2–1"
-        },
-        {
-          "date": "2023-09-22",
-          "home": "Birmingham",
-          "away": "QPR",
-          "score": "0–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Bristol City",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Preston",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Wrexham",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Blackburn",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Sheffield United",
-          "score": "1–1"
-        },
-        {
-          "opponent": "QPR",
-          "score": "1–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Ipswich",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Millwall",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Preston",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Leicester",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Birmingham",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Southampton",
-          "score": "5–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Bristol City",
-    "away_team": "Sheffield United",
-    "home_odds": 2.06,
-    "draw_odds": 3.55,
-    "away_odds": 3.34,
-    "home_xg": 1.25,
-    "away_xg": 1.03,
-    "home_win_prob": 0.4128,
-    "draw_prob": 0.2831,
-    "away_win_prob": 0.3041,
-    "over_25_prob": 0.3984,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-04-06",
-          "home": "Bristol City",
-          "away": "Sheffield United",
-          "score": "1–0"
-        },
-        {
-          "date": "2025-08-09",
-          "home": "Sheffield United",
-          "away": "Bristol City",
-          "score": "1–4"
-        },
-        {
-          "date": "2025-03-11",
-          "home": "Sheffield United",
-          "away": "Bristol City",
-          "score": "1–1"
-        },
-        {
-          "date": "2024-11-05",
-          "home": "Bristol City",
-          "away": "Sheffield United",
-          "score": "1–2"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Stoke",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Norwich",
-          "score": "2–4"
-        },
-        {
-          "opponent": "Sheffield United",
-          "score": "1–0"
-        },
-        {
-          "opponent": "West Brom",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Coventry",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Watford",
-          "score": "1–2"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Derby",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Watford",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Bristol City",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Birmingham",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Norwich",
-          "score": "2–1"
-        },
-        {
-          "opponent": "QPR",
-          "score": "0–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Derby",
-    "away_team": "Stoke",
-    "home_odds": 2.85,
-    "draw_odds": 3.37,
-    "away_odds": 2.38,
-    "home_xg": 1.68,
-    "away_xg": 1.22,
-    "home_win_prob": 0.4808,
-    "draw_prob": 0.2411,
-    "away_win_prob": 0.2782,
-    "over_25_prob": 0.5531,
-    "value_home": 0.1299,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-04-06",
-          "home": "Derby",
-          "away": "Stoke",
-          "score": "2–0"
-        },
-        {
-          "date": "2025-08-09",
-          "home": "Stoke",
-          "away": "Derby",
-          "score": "3–1"
-        },
-        {
-          "date": "2025-05-03",
-          "home": "Derby",
-          "away": "Stoke",
-          "score": "0–0"
-        },
-        {
-          "date": "2024-11-02",
-          "home": "Stoke",
-          "away": "Derby",
-          "score": "2–1"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Sheffield United",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Oxford",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Stoke",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Birmingham",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Sheffield Weds",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Blackburn",
-          "score": "3–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Bristol City",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Wrexham",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Derby",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Preston",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Swansea",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Coventry",
-          "score": "2–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Norwich",
-    "away_team": "Portsmouth",
-    "home_odds": 1.75,
-    "draw_odds": 3.82,
-    "away_odds": 4.3,
-    "home_xg": 1.44,
-    "away_xg": 1.49,
-    "home_win_prob": 0.3656,
-    "draw_prob": 0.2466,
-    "away_win_prob": 0.3877,
-    "over_25_prob": 0.5602,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.1552,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-04-03",
-          "home": "Norwich",
-          "away": "Portsmouth",
-          "score": "1–1"
-        },
-        {
-          "date": "2025-08-16",
-          "home": "Portsmouth",
-          "away": "Norwich",
-          "score": "1–2"
-        },
-        {
-          "date": "2025-04-18",
-          "home": "Norwich",
-          "away": "Portsmouth",
-          "score": "3–5"
-        },
-        {
-          "date": "2024-12-10",
-          "home": "Portsmouth",
-          "away": "Norwich",
-          "score": "0–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Swansea",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Derby",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Ipswich",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Portsmouth",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Preston",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Sheffield United",
-          "score": "2–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Stoke",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Coventry",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Middlesbrough",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Norwich",
-          "score": "1–1"
-        },
-        {
-          "opponent": "QPR",
-          "score": "6–1"
-        },
-        {
-          "opponent": "Blackburn",
-          "score": "1–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Southampton",
-    "away_team": "Bolton",
-    "home_odds": 1.47,
-    "draw_odds": 4.79,
-    "away_odds": 5.65,
-    "home_xg": 1.28,
-    "away_xg": 1.23,
-    "home_win_prob": 0.3771,
-    "draw_prob": 0.2695,
-    "away_win_prob": 0.3534,
-    "over_25_prob": 0.4584,
-    "value_home": 0,
-    "value_draw": 0.0607,
-    "value_away": 0.1764,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Ipswich",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Bristol City",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Blackburn",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Derby",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Oxford",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Norwich",
-          "score": "1–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Bradford",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Cardiff",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Plymouth",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Port Vale",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Rotherham",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Exeter",
-          "score": "1–5"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Swansea",
-    "away_team": "West Ham",
-    "home_odds": 3.1,
-    "draw_odds": 3.62,
-    "away_odds": 2.15,
-    "home_xg": 1.66,
-    "away_xg": 1.28,
-    "home_win_prob": 0.4626,
-    "draw_prob": 0.2415,
-    "away_win_prob": 0.2959,
-    "over_25_prob": 0.5624,
-    "value_home": 0.1401,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Charlton",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Southampton",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Middlesbrough",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Coventry",
-          "score": "0–3"
-        },
-        {
-          "opponent": "Stoke",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Preston",
-          "score": "1–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Newcastle",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Brentford",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Crystal Palace",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Aston Villa",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Fulham",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Liverpool",
-          "score": "5–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E1",
-    "date": "2026-10-17 00:00",
-    "home_team": "West Brom",
-    "away_team": "Blackburn",
-    "home_odds": 1.91,
-    "draw_odds": 3.47,
-    "away_odds": 3.94,
-    "home_xg": 1.46,
-    "away_xg": 1.18,
-    "home_win_prob": 0.4353,
-    "draw_prob": 0.2588,
-    "away_win_prob": 0.3059,
-    "over_25_prob": 0.491,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.0521,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-04-06",
-          "home": "Blackburn",
-          "away": "West Brom",
-          "score": "0–0"
-        },
-        {
-          "date": "2025-08-09",
-          "home": "West Brom",
-          "away": "Blackburn",
-          "score": "1–0"
-        },
-        {
-          "date": "2025-02-12",
-          "home": "West Brom",
-          "away": "Blackburn",
-          "score": "0–2"
-        },
-        {
-          "date": "2024-10-23",
-          "home": "Blackburn",
-          "away": "West Brom",
-          "score": "0–0"
-        },
-        {
-          "date": "2024-01-13",
-          "home": "West Brom",
-          "away": "Blackburn",
-          "score": "4–1"
-        },
-        {
-          "date": "2023-08-05",
-          "home": "Blackburn",
-          "away": "West Brom",
-          "score": "2–1"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Ipswich",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Watford",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Millwall",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Wrexham",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Hull",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Southampton",
-          "score": "1–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Sheffield United",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Southampton",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Stoke",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Birmingham",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Millwall",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Oxford",
-          "score": "1–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Wrexham",
-    "away_team": "Preston",
-    "home_odds": 1.68,
-    "draw_odds": 3.83,
-    "away_odds": 4.81,
-    "home_xg": 1.58,
-    "away_xg": 1.44,
-    "home_win_prob": 0.4095,
-    "draw_prob": 0.2419,
-    "away_win_prob": 0.3486,
-    "over_25_prob": 0.5804,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.1407,
-    "details": {
-      "h2h": [
-        {
-          "date": "2025-12-29",
-          "home": "Wrexham",
-          "away": "Preston",
-          "score": "2–1"
-        },
-        {
-          "date": "2025-12-06",
-          "home": "Preston",
-          "away": "Wrexham",
-          "score": "1–1"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Middlesbrough",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Stoke",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Southampton",
-          "score": "1–5"
-        },
-        {
-          "opponent": "Swansea",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Hull",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Portsmouth",
-          "score": "2–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Sheffield United",
-          "score": "2–3"
-        },
-        {
-          "opponent": "Birmingham",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Charlton",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Leicester",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Norwich",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Coventry",
-          "score": "3–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Milton Keynes Dons",
-    "away_team": "Luton",
-    "home_odds": 3.03,
-    "draw_odds": 3.67,
-    "away_odds": 2.13,
-    "home_xg": 1.57,
-    "away_xg": 1.19,
-    "home_win_prob": 0.4608,
-    "draw_prob": 0.25,
-    "away_win_prob": 0.2891,
-    "over_25_prob": 0.5203,
-    "value_home": 0.1308,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [],
-      "home_form": [],
-      "away_form": [
-        {
-          "opponent": "Bolton",
-          "score": "2–3"
-        },
-        {
-          "opponent": "Rotherham",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Mansfield",
-          "score": "2–2"
-        },
-        {
-          "opponent": "AFC Wimbledon",
-          "score": "0–3"
-        },
-        {
-          "opponent": "Wycombe",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Doncaster",
-          "score": "1–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Peterboro",
-    "away_team": "Burton",
-    "home_odds": 1.85,
-    "draw_odds": 3.83,
-    "away_odds": 3.69,
-    "home_xg": 1.65,
-    "away_xg": 1.18,
-    "home_win_prob": 0.4827,
-    "draw_prob": 0.244,
-    "away_win_prob": 0.2734,
-    "over_25_prob": 0.5368,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-04-19",
-          "home": "Peterboro",
-          "away": "Burton",
-          "score": "1–1"
-        },
-        {
-          "date": "2025-10-18",
-          "home": "Burton",
-          "away": "Peterboro",
-          "score": "0–1"
-        },
-        {
-          "date": "2025-01-01",
-          "home": "Burton",
-          "away": "Peterboro",
-          "score": "2–2"
-        },
-        {
-          "date": "2024-12-04",
-          "home": "Peterboro",
-          "away": "Burton",
-          "score": "0–1"
-        },
-        {
-          "date": "2024-03-09",
-          "home": "Burton",
-          "away": "Peterboro",
-          "score": "1–3"
-        },
-        {
-          "date": "2023-11-25",
-          "home": "Peterboro",
-          "away": "Burton",
-          "score": "4–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Doncaster",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Mansfield",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Burton",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Port Vale",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Cardiff",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Rotherham",
-          "score": "5–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Leyton Orient",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Peterboro",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Mansfield",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Blackpool",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Northampton",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Exeter",
-          "score": "1–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Barnsley",
-    "away_team": "Cambridge",
-    "home_odds": 2.36,
-    "draw_odds": 3.62,
-    "away_odds": 2.68,
-    "home_xg": 1.69,
-    "away_xg": 1.26,
-    "home_win_prob": 0.4742,
-    "draw_prob": 0.2397,
-    "away_win_prob": 0.2861,
-    "over_25_prob": 0.5646,
-    "value_home": 0.0505,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2025-03-22",
-          "home": "Barnsley",
-          "away": "Cambridge",
-          "score": "1–1"
-        },
-        {
-          "date": "2024-11-16",
-          "home": "Cambridge",
-          "away": "Barnsley",
-          "score": "1–1"
-        },
-        {
-          "date": "2024-03-29",
-          "home": "Barnsley",
-          "away": "Cambridge",
-          "score": "0–2"
-        },
-        {
-          "date": "2023-10-03",
-          "home": "Cambridge",
-          "away": "Barnsley",
-          "score": "0–4"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Stockport",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Bradford",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Plymouth",
-          "score": "0–3"
-        },
-        {
-          "opponent": "Doncaster",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Wigan",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Cardiff",
-          "score": "1–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Burton",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Huddersfield",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Shrewsbury",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Barnsley",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Blackpool",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Wigan",
-          "score": "1–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Bradford",
-    "away_team": "Stevenage",
-    "home_odds": 1.93,
-    "draw_odds": 3.34,
-    "away_odds": 3.92,
-    "home_xg": 1.61,
-    "away_xg": 1.37,
-    "home_win_prob": 0.4313,
-    "draw_prob": 0.2425,
-    "away_win_prob": 0.3262,
-    "over_25_prob": 0.5715,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.0711,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-04-11",
-          "home": "Bradford",
-          "away": "Stevenage",
-          "score": "0–1"
-        },
-        {
-          "date": "2025-10-25",
-          "home": "Stevenage",
-          "away": "Bradford",
-          "score": "1–1"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Bolton",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Plymouth",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Stevenage",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Northampton",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Mansfield",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Leyton Orient",
-          "score": "2–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Doncaster",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Bolton",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Bradford",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Rotherham",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Plymouth",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Burton",
-          "score": "0–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Leicester",
-    "away_team": "Doncaster",
-    "home_odds": 1.84,
-    "draw_odds": 3.87,
-    "away_odds": 3.7,
-    "home_xg": 1.8,
-    "away_xg": 1.43,
-    "home_win_prob": 0.4628,
-    "draw_prob": 0.2297,
-    "away_win_prob": 0.3075,
-    "over_25_prob": 0.6251,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Millwall",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Hull",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Swansea",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Preston",
-          "score": "2–2"
-        },
-        {
-          "opponent": "QPR",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Bristol City",
-          "score": "2–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Peterboro",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Northampton",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Exeter",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Barnsley",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Bolton",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Plymouth",
-          "score": "2–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Leyton Orient",
-    "away_team": "Blackpool",
-    "home_odds": 2.18,
-    "draw_odds": 3.57,
-    "away_odds": 3.01,
-    "home_xg": 1.43,
-    "away_xg": 1.4,
-    "home_win_prob": 0.381,
-    "draw_prob": 0.2516,
-    "away_win_prob": 0.3675,
-    "over_25_prob": 0.5371,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-04-25",
-          "home": "Blackpool",
-          "away": "Leyton Orient",
-          "score": "1–0"
-        },
-        {
-          "date": "2025-11-22",
-          "home": "Leyton Orient",
-          "away": "Blackpool",
-          "score": "1–1"
-        },
-        {
-          "date": "2025-03-15",
-          "home": "Blackpool",
-          "away": "Leyton Orient",
-          "score": "1–2"
-        },
-        {
-          "date": "2024-11-09",
-          "home": "Leyton Orient",
-          "away": "Blackpool",
-          "score": "3–0"
-        },
-        {
-          "date": "2024-02-27",
-          "home": "Leyton Orient",
-          "away": "Blackpool",
-          "score": "1–0"
-        },
-        {
-          "date": "2023-08-19",
-          "home": "Blackpool",
-          "away": "Leyton Orient",
-          "score": "0–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Burton",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Rotherham",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Mansfield",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Huddersfield",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Wycombe",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Peterboro",
-          "score": "2–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Reading",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Wycombe",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Stevenage",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Cardiff",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Doncaster",
-          "score": "2–1"
-        },
-        {
-          "opponent": "AFC Wimbledon",
-          "score": "4–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Plymouth",
-    "away_team": "Huddersfield",
-    "home_odds": 2.55,
-    "draw_odds": 3.56,
-    "away_odds": 2.51,
-    "home_xg": 1.91,
-    "away_xg": 1.51,
-    "home_win_prob": 0.4704,
-    "draw_prob": 0.2223,
-    "away_win_prob": 0.3073,
-    "over_25_prob": 0.6626,
-    "value_home": 0.0782,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-03-21",
-          "home": "Plymouth",
-          "away": "Huddersfield",
-          "score": "3–1"
-        },
-        {
-          "date": "2025-11-08",
-          "home": "Huddersfield",
-          "away": "Plymouth",
-          "score": "3–1"
-        },
-        {
-          "date": "2024-01-13",
-          "home": "Huddersfield",
-          "away": "Plymouth",
-          "score": "1–1"
-        },
-        {
-          "date": "2023-08-05",
-          "home": "Plymouth",
-          "away": "Huddersfield",
-          "score": "3–1"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Port Vale",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Exeter",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Bolton",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Huddersfield",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Stevenage",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Doncaster",
-          "score": "2–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "AFC Wimbledon",
-          "score": "0–4"
-        },
-        {
-          "opponent": "Bolton",
-          "score": "3–3"
-        },
-        {
-          "opponent": "Leyton Orient",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Plymouth",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Port Vale",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Wigan",
-          "score": "1–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Sheffield Weds",
-    "away_team": "AFC Wimbledon",
-    "home_odds": 1.66,
-    "draw_odds": 3.97,
-    "away_odds": 4.56,
-    "home_xg": 1.16,
-    "away_xg": 1.36,
-    "home_win_prob": 0.319,
-    "draw_prob": 0.2673,
-    "away_win_prob": 0.4136,
-    "over_25_prob": 0.4609,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.1943,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "West Brom",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Charlton",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Leicester",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Ipswich",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Watford",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Southampton",
-          "score": "1–3"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Wigan",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Burton",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Lincoln",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Stockport",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Stevenage",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Mansfield",
-          "score": "2–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Stockport",
-    "away_team": "Bromley",
-    "home_odds": 1.24,
-    "draw_odds": 6.2,
-    "away_odds": 9.82,
-    "home_xg": 1.3,
-    "away_xg": 0.8,
-    "home_win_prob": 0.4831,
-    "draw_prob": 0.2871,
-    "away_win_prob": 0.2298,
-    "over_25_prob": 0.3501,
-    "value_home": 0,
-    "value_draw": 0.1258,
-    "value_away": 0.1279,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Port Vale",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Peterboro",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Mansfield",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Wycombe",
-          "score": "3–0"
-        },
-        {
-          "opponent": "AFC Wimbledon",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Northampton",
-          "score": "2–1"
-        }
-      ],
-      "away_form": []
-    }
-  },
-  {
-    "league": "E2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Wigan",
-    "away_team": "Reading",
-    "home_odds": 3.38,
-    "draw_odds": 3.66,
-    "away_odds": 1.99,
-    "home_xg": 1.69,
-    "away_xg": 1.7,
-    "home_win_prob": 0.3841,
-    "draw_prob": 0.2276,
-    "away_win_prob": 0.3882,
-    "over_25_prob": 0.6571,
-    "value_home": 0.0883,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-03-28",
-          "home": "Reading",
-          "away": "Wigan",
-          "score": "3–0"
-        },
-        {
-          "date": "2026-02-10",
-          "home": "Wigan",
-          "away": "Reading",
-          "score": "1–2"
-        },
-        {
-          "date": "2025-03-01",
-          "home": "Wigan",
-          "away": "Reading",
-          "score": "1–2"
-        },
-        {
-          "date": "2024-08-17",
-          "home": "Reading",
-          "away": "Wigan",
-          "score": "2–0"
-        },
-        {
-          "date": "2024-01-20",
-          "home": "Wigan",
-          "away": "Reading",
-          "score": "1–0"
-        },
-        {
-          "date": "2023-12-23",
-          "home": "Reading",
-          "away": "Wigan",
-          "score": "2–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "AFC Wimbledon",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Rotherham",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Mansfield",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Leyton Orient",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Exeter",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Bradford",
-          "score": "2–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Rotherham",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Doncaster",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Huddersfield",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Stevenage",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Burton",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Mansfield",
-          "score": "1–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "E2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Wycombe",
-    "away_team": "Notts County",
-    "home_odds": 1.97,
-    "draw_odds": 3.53,
-    "away_odds": 3.56,
-    "home_xg": 1.68,
-    "away_xg": 1.49,
-    "home_win_prob": 0.4229,
-    "draw_prob": 0.235,
-    "away_win_prob": 0.3421,
-    "over_25_prob": 0.6128,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.0612,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Rotherham",
-          "score": "3–2"
-        },
-        {
-          "opponent": "Blackpool",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Bradford",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Port Vale",
-          "score": "4–0"
-        },
-        {
-          "opponent": "Luton",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Burton",
-          "score": "3–0"
-        }
-      ],
-      "away_form": []
-    }
-  },
-  {
-    "league": "F1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Strasbourg",
-    "away_team": "Paris SG",
-    "home_odds": 6.35,
-    "draw_odds": 5.3,
-    "away_odds": 1.38,
-    "home_xg": 1.19,
-    "away_xg": 1.54,
-    "home_win_prob": 0.2943,
-    "draw_prob": 0.2524,
-    "away_win_prob": 0.4534,
-    "over_25_prob": 0.5131,
-    "value_home": 0.1368,
-    "value_draw": 0.0637,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-02-01",
-          "home": "Strasbourg",
-          "away": "Paris SG",
-          "score": "1–2"
-        },
-        {
-          "date": "2025-10-17",
-          "home": "Paris SG",
-          "away": "Strasbourg",
-          "score": "3–3"
-        },
-        {
-          "date": "2025-05-03",
-          "home": "Strasbourg",
-          "away": "Paris SG",
-          "score": "2–1"
-        },
-        {
-          "date": "2024-10-19",
-          "home": "Paris SG",
-          "away": "Strasbourg",
-          "score": "4–2"
-        },
-        {
-          "date": "2024-02-02",
-          "home": "Strasbourg",
-          "away": "Paris SG",
-          "score": "1–2"
-        },
-        {
-          "date": "2023-10-21",
-          "home": "Paris SG",
-          "away": "Strasbourg",
-          "score": "3–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Monaco",
-          "score": "5–4"
-        },
-        {
-          "opponent": "Toulouse",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Rennes",
-          "score": "0–3"
-        },
-        {
-          "opponent": "Nice",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Paris FC",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Lens",
-          "score": "1–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Paris FC",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Lens",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Angers",
-          "score": "0–3"
-        },
-        {
-          "opponent": "Nice",
-          "score": "0–4"
-        },
-        {
-          "opponent": "Le Havre",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Rennes",
-          "score": "3–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "F1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Lille",
-    "away_team": "Brest",
-    "home_odds": 1.84,
-    "draw_odds": 3.76,
-    "away_odds": 3.88,
-    "home_xg": 1.27,
-    "away_xg": 1.31,
-    "home_win_prob": 0.358,
-    "draw_prob": 0.2652,
-    "away_win_prob": 0.3767,
-    "over_25_prob": 0.4761,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.119,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-02-14",
-          "home": "Lille",
-          "away": "Brest",
-          "score": "1–1"
-        },
-        {
-          "date": "2025-08-17",
-          "home": "Brest",
-          "away": "Lille",
-          "score": "3–3"
-        },
-        {
-          "date": "2025-05-10",
-          "home": "Brest",
-          "away": "Lille",
-          "score": "2–0"
-        },
-        {
-          "date": "2024-12-06",
-          "home": "Lille",
-          "away": "Brest",
-          "score": "3–1"
-        },
-        {
-          "date": "2024-03-17",
-          "home": "Brest",
-          "away": "Lille",
-          "score": "1–1"
-        },
-        {
-          "date": "2023-10-22",
-          "home": "Lille",
-          "away": "Brest",
-          "score": "1–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Auxerre",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Le Havre",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Nice",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Lens",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Lorient",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Nantes",
-          "score": "1–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Paris SG",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Paris FC",
-          "score": "4–0"
-        },
-        {
-          "opponent": "Nantes",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Auxerre",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Monaco",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Metz",
-          "score": "0–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "F1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Troyes",
-    "away_team": "Lens",
-    "home_odds": 3.84,
-    "draw_odds": 3.89,
-    "away_odds": 1.82,
-    "home_xg": 1.75,
-    "away_xg": 1.38,
-    "home_win_prob": 0.462,
-    "draw_prob": 0.2336,
-    "away_win_prob": 0.3044,
-    "over_25_prob": 0.6042,
-    "value_home": 0.2016,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Laval",
-          "score": "4–0"
-        },
-        {
-          "opponent": "Boulogne",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Dunkerque",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Clermont",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Pau FC",
-          "score": "4–3"
-        },
-        {
-          "opponent": "Le Mans",
-          "score": "0–2"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Lyon",
-          "score": "0–4"
-        },
-        {
-          "opponent": "Nice",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Brest",
-          "score": "3–3"
-        },
-        {
-          "opponent": "Lille",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Lorient",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Strasbourg",
-          "score": "1–1"
-        }
-      ]
-    }
-  },
-  {
     "league": "F1",
     "date": "2026-10-18 00:00",
     "home_team": "Angers",
@@ -4542,12 +950,12 @@
     "draw_odds": 3.71,
     "away_odds": 2.07,
     "home_xg": 1.43,
-    "away_xg": 1.03,
-    "home_win_prob": 0.462,
-    "draw_prob": 0.2661,
-    "away_win_prob": 0.2718,
-    "over_25_prob": 0.4454,
-    "value_home": 0.1456,
+    "away_xg": 1.34,
+    "home_win_prob": 0.3932,
+    "draw_prob": 0.2544,
+    "away_win_prob": 0.3524,
+    "over_25_prob": 0.5228,
+    "value_home": 0.0768,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -4639,12 +1047,12 @@
     "home_odds": 2.28,
     "draw_odds": 3.36,
     "away_odds": 3.01,
-    "home_xg": 1.63,
-    "away_xg": 1.33,
-    "home_win_prob": 0.4446,
-    "draw_prob": 0.2423,
-    "away_win_prob": 0.3131,
-    "over_25_prob": 0.5669,
+    "home_xg": 1.49,
+    "away_xg": 1.4,
+    "home_win_prob": 0.3958,
+    "draw_prob": 0.2483,
+    "away_win_prob": 0.3558,
+    "over_25_prob": 0.551,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -4737,13 +1145,13 @@
     "home_odds": 3.48,
     "draw_odds": 3.46,
     "away_odds": 2.03,
-    "home_xg": 1.47,
-    "away_xg": 1.34,
-    "home_win_prob": 0.4033,
-    "draw_prob": 0.252,
-    "away_win_prob": 0.3447,
-    "over_25_prob": 0.5323,
-    "value_home": 0.1159,
+    "home_xg": 1.58,
+    "away_xg": 1.22,
+    "home_win_prob": 0.4566,
+    "draw_prob": 0.2486,
+    "away_win_prob": 0.2949,
+    "over_25_prob": 0.5298,
+    "value_home": 0.1692,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -4835,12 +1243,12 @@
     "home_odds": 2.26,
     "draw_odds": 3.5,
     "away_odds": 2.93,
-    "home_xg": 1.38,
-    "away_xg": 1.3,
-    "home_win_prob": 0.3888,
-    "draw_prob": 0.2593,
-    "away_win_prob": 0.3519,
-    "over_25_prob": 0.501,
+    "home_xg": 1.47,
+    "away_xg": 1.45,
+    "home_win_prob": 0.3808,
+    "draw_prob": 0.2472,
+    "away_win_prob": 0.372,
+    "over_25_prob": 0.5579,
     "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
@@ -4921,15 +1329,15 @@
     "home_odds": 1.66,
     "draw_odds": 3.98,
     "away_odds": 4.63,
-    "home_xg": 1.43,
-    "away_xg": 1.44,
-    "home_win_prob": 0.373,
-    "draw_prob": 0.2496,
-    "away_win_prob": 0.3774,
-    "over_25_prob": 0.5464,
+    "home_xg": 1.39,
+    "away_xg": 1.23,
+    "home_win_prob": 0.4062,
+    "draw_prob": 0.262,
+    "away_win_prob": 0.3318,
+    "over_25_prob": 0.4861,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1615,
+    "value_away": 0.1158,
     "details": {
       "h2h": [
         {
@@ -5025,226 +1433,19 @@
   },
   {
     "league": "F2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Metz",
-    "away_team": "Sochaux",
-    "home_odds": 1.74,
-    "draw_odds": 3.51,
-    "away_odds": 4.24,
-    "home_xg": 1.52,
-    "away_xg": 1.44,
-    "home_win_prob": 0.3951,
-    "draw_prob": 0.2451,
-    "away_win_prob": 0.3599,
-    "over_25_prob": 0.567,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.124,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Lorient",
-          "score": "0–4"
-        },
-        {
-          "opponent": "Monaco",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Paris FC",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Nantes",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Toulouse",
-          "score": "3–4"
-        },
-        {
-          "opponent": "Brest",
-          "score": "0–1"
-        }
-      ],
-      "away_form": []
-    }
-  },
-  {
-    "league": "F2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Nantes",
-    "away_team": "Dunkerque",
-    "home_odds": 1.63,
-    "draw_odds": 3.76,
-    "away_odds": 4.68,
-    "home_xg": 1.61,
-    "away_xg": 1.56,
-    "home_win_prob": 0.3926,
-    "draw_prob": 0.236,
-    "away_win_prob": 0.3713,
-    "over_25_prob": 0.6128,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.1577,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Toulouse",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Marseille",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Brest",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Strasbourg",
-          "score": "2–3"
-        },
-        {
-          "opponent": "Angers",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Le Havre",
-          "score": "2–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Nancy",
-          "score": "3–2"
-        },
-        {
-          "opponent": "Boulogne",
-          "score": "2–6"
-        },
-        {
-          "opponent": "St Etienne",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Troyes",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Red Star",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Clermont",
-          "score": "2–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "F2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Red Star",
-    "away_team": "St Etienne",
-    "home_odds": 2.97,
-    "draw_odds": 3.33,
-    "away_odds": 2.19,
-    "home_xg": 1.17,
-    "away_xg": 1.48,
-    "home_win_prob": 0.2997,
-    "draw_prob": 0.2576,
-    "away_win_prob": 0.4427,
-    "over_25_prob": 0.4935,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-03-07",
-          "home": "St Etienne",
-          "away": "Red Star",
-          "score": "2–0"
-        },
-        {
-          "date": "2025-11-01",
-          "home": "Red Star",
-          "away": "St Etienne",
-          "score": "2–1"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Montpellier",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Guingamp",
-          "score": "3–2"
-        },
-        {
-          "opponent": "Bastia",
-          "score": "4–3"
-        },
-        {
-          "opponent": "Laval",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Dunkerque",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Le Mans",
-          "score": "0–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Rodez",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Bastia",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Nancy",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Grenoble",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Pau FC",
-          "score": "0–3"
-        },
-        {
-          "opponent": "Guingamp",
-          "score": "1–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "F2",
     "date": "2026-10-19 00:00",
     "home_team": "Rodez",
     "away_team": "Montpellier",
     "home_odds": 2.68,
     "draw_odds": 3.26,
     "away_odds": 2.39,
-    "home_xg": 1.52,
-    "away_xg": 1.39,
-    "home_win_prob": 0.4053,
-    "draw_prob": 0.2471,
-    "away_win_prob": 0.3477,
-    "over_25_prob": 0.5556,
-    "value_home": 0,
+    "home_xg": 1.4,
+    "away_xg": 1.13,
+    "home_win_prob": 0.4309,
+    "draw_prob": 0.2654,
+    "away_win_prob": 0.3037,
+    "over_25_prob": 0.4634,
+    "value_home": 0.0578,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -5318,327 +1519,21 @@
   },
   {
     "league": "I1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Venezia",
-    "away_team": "Napoli",
-    "home_odds": 4.67,
-    "draw_odds": 4.0,
-    "away_odds": 1.68,
-    "home_xg": 1.03,
-    "away_xg": 1.24,
-    "home_win_prob": 0.306,
-    "draw_prob": 0.284,
-    "away_win_prob": 0.41,
-    "over_25_prob": 0.3957,
-    "value_home": 0.0919,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2025-03-16",
-          "home": "Venezia",
-          "away": "Napoli",
-          "score": "0–0"
-        },
-        {
-          "date": "2024-12-29",
-          "home": "Napoli",
-          "away": "Venezia",
-          "score": "1–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Juventus",
-          "score": "2–3"
-        },
-        {
-          "opponent": "Fiorentina",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Milan",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Monza",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Bologna",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Napoli",
-          "score": "0–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Pisa",
-          "score": "0–3"
-        },
-        {
-          "opponent": "Como",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Parma",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Cagliari",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Verona",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Atalanta",
-          "score": "2–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "I1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Bologna",
-    "away_team": "Inter",
-    "home_odds": 5.31,
-    "draw_odds": 4.04,
-    "away_odds": 1.59,
-    "home_xg": 1.51,
-    "away_xg": 1.35,
-    "home_win_prob": 0.4111,
-    "draw_prob": 0.2492,
-    "away_win_prob": 0.3397,
-    "over_25_prob": 0.5441,
-    "value_home": 0.2228,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-05-23",
-          "home": "Bologna",
-          "away": "Inter",
-          "score": "3–3"
-        },
-        {
-          "date": "2026-01-04",
-          "home": "Inter",
-          "away": "Bologna",
-          "score": "3–1"
-        },
-        {
-          "date": "2025-04-20",
-          "home": "Bologna",
-          "away": "Inter",
-          "score": "1–0"
-        },
-        {
-          "date": "2025-01-15",
-          "home": "Inter",
-          "away": "Bologna",
-          "score": "2–2"
-        },
-        {
-          "date": "2024-03-09",
-          "home": "Bologna",
-          "away": "Inter",
-          "score": "0–1"
-        },
-        {
-          "date": "2023-10-07",
-          "home": "Inter",
-          "away": "Bologna",
-          "score": "2–2"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Inter",
-          "score": "3–3"
-        },
-        {
-          "opponent": "Cagliari",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Roma",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Lecce",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Lazio",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Verona",
-          "score": "1–2"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Bologna",
-          "score": "3–3"
-        },
-        {
-          "opponent": "Lazio",
-          "score": "0–3"
-        },
-        {
-          "opponent": "Torino",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Como",
-          "score": "3–4"
-        },
-        {
-          "opponent": "Fiorentina",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Milan",
-          "score": "1–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "I1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Roma",
-    "away_team": "Genoa",
-    "home_odds": 1.45,
-    "draw_odds": 4.48,
-    "away_odds": 6.67,
-    "home_xg": 1.86,
-    "away_xg": 1.32,
-    "home_win_prob": 0.4999,
-    "draw_prob": 0.2271,
-    "away_win_prob": 0.2729,
-    "over_25_prob": 0.6146,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.123,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-03-08",
-          "home": "Genoa",
-          "away": "Roma",
-          "score": "2–1"
-        },
-        {
-          "date": "2025-12-29",
-          "home": "Roma",
-          "away": "Genoa",
-          "score": "3–1"
-        },
-        {
-          "date": "2025-01-17",
-          "home": "Roma",
-          "away": "Genoa",
-          "score": "3–1"
-        },
-        {
-          "date": "2024-09-15",
-          "home": "Genoa",
-          "away": "Roma",
-          "score": "1–1"
-        },
-        {
-          "date": "2024-05-19",
-          "home": "Roma",
-          "away": "Genoa",
-          "score": "1–0"
-        },
-        {
-          "date": "2023-09-28",
-          "home": "Genoa",
-          "away": "Roma",
-          "score": "4–1"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Lazio",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Fiorentina",
-          "score": "4–0"
-        },
-        {
-          "opponent": "Atalanta",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Pisa",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Lecce",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Juventus",
-          "score": "3–3"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Lecce",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Fiorentina",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Atalanta",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Pisa",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Juventus",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Verona",
-          "score": "0–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "I1",
     "date": "2026-10-18 00:00",
     "home_team": "Udinese",
     "away_team": "Lecce",
     "home_odds": 1.87,
     "draw_odds": 3.45,
     "away_odds": 4.14,
-    "home_xg": 1.6,
-    "away_xg": 1.42,
-    "home_win_prob": 0.4184,
-    "draw_prob": 0.2415,
-    "away_win_prob": 0.3401,
-    "over_25_prob": 0.5804,
+    "home_xg": 1.38,
+    "away_xg": 1.47,
+    "home_win_prob": 0.3547,
+    "draw_prob": 0.2503,
+    "away_win_prob": 0.395,
+    "over_25_prob": 0.5417,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0985,
+    "value_away": 0.1534,
     "details": {
       "h2h": [
         {
@@ -5740,13 +1635,13 @@
     "home_odds": 3.28,
     "draw_odds": 3.61,
     "away_odds": 2.06,
-    "home_xg": 1.61,
-    "away_xg": 1.42,
-    "home_win_prob": 0.4208,
-    "draw_prob": 0.241,
-    "away_win_prob": 0.3383,
-    "over_25_prob": 0.5826,
-    "value_home": 0.1159,
+    "home_xg": 1.33,
+    "away_xg": 1.66,
+    "home_win_prob": 0.3079,
+    "draw_prob": 0.2404,
+    "away_win_prob": 0.4517,
+    "over_25_prob": 0.5737,
+    "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -5838,15 +1733,15 @@
     "home_odds": 1.81,
     "draw_odds": 3.7,
     "away_odds": 4.12,
-    "home_xg": 1.67,
-    "away_xg": 1.24,
-    "home_win_prob": 0.4739,
-    "draw_prob": 0.2415,
-    "away_win_prob": 0.2846,
-    "over_25_prob": 0.5555,
+    "home_xg": 1.39,
+    "away_xg": 1.74,
+    "home_win_prob": 0.3084,
+    "draw_prob": 0.2341,
+    "away_win_prob": 0.4576,
+    "over_25_prob": 0.6042,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0,
+    "value_away": 0.2148,
     "details": {
       "h2h": [
         {
@@ -5948,15 +1843,15 @@
     "home_odds": 1.66,
     "draw_odds": 3.76,
     "away_odds": 5.03,
-    "home_xg": 1.46,
-    "away_xg": 1.49,
-    "home_win_prob": 0.3705,
-    "draw_prob": 0.2457,
-    "away_win_prob": 0.3837,
-    "over_25_prob": 0.5648,
+    "home_xg": 1.12,
+    "away_xg": 1.16,
+    "home_win_prob": 0.3475,
+    "draw_prob": 0.2852,
+    "away_win_prob": 0.3673,
+    "over_25_prob": 0.3984,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1849,
+    "value_away": 0.1685,
     "details": {
       "h2h": [
         {
@@ -6058,13 +1953,13 @@
     "home_odds": 2.36,
     "draw_odds": 3.16,
     "away_odds": 3.04,
-    "home_xg": 1.59,
-    "away_xg": 1.36,
-    "home_win_prob": 0.4286,
-    "draw_prob": 0.244,
-    "away_win_prob": 0.3274,
-    "over_25_prob": 0.5647,
-    "value_home": 0,
+    "home_xg": 1.66,
+    "away_xg": 0.97,
+    "home_win_prob": 0.5349,
+    "draw_prob": 0.2445,
+    "away_win_prob": 0.2206,
+    "over_25_prob": 0.4882,
+    "value_home": 0.1111,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -6156,13 +2051,13 @@
     "home_odds": 2.99,
     "draw_odds": 3.05,
     "away_odds": 2.46,
-    "home_xg": 1.76,
-    "away_xg": 1.34,
-    "home_win_prob": 0.4729,
-    "draw_prob": 0.2337,
-    "away_win_prob": 0.2934,
-    "over_25_prob": 0.5977,
-    "value_home": 0.1385,
+    "home_xg": 1.63,
+    "away_xg": 1.52,
+    "home_win_prob": 0.4052,
+    "draw_prob": 0.2366,
+    "away_win_prob": 0.3582,
+    "over_25_prob": 0.6086,
+    "value_home": 0.0707,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -6248,75 +2143,6 @@
   },
   {
     "league": "N1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Den Haag",
-    "away_team": "PSV Eindhoven",
-    "home_odds": 8.37,
-    "draw_odds": 6.53,
-    "away_odds": 1.25,
-    "home_xg": 1.45,
-    "away_xg": 1.43,
-    "home_win_prob": 0.3799,
-    "draw_prob": 0.2491,
-    "away_win_prob": 0.371,
-    "over_25_prob": 0.5487,
-    "value_home": 0.2604,
-    "value_draw": 0.096,
-    "value_away": 0,
-    "details": {
-      "h2h": [],
-      "home_form": [],
-      "away_form": []
-    }
-  },
-  {
-    "league": "N1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Telstar",
-    "away_team": "Feyenoord",
-    "home_odds": 7.53,
-    "draw_odds": 5.62,
-    "away_odds": 1.31,
-    "home_xg": 2.02,
-    "away_xg": 1.48,
-    "home_win_prob": 0.5001,
-    "draw_prob": 0.2163,
-    "away_win_prob": 0.2836,
-    "over_25_prob": 0.6773,
-    "value_home": 0.3673,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [],
-      "home_form": [],
-      "away_form": []
-    }
-  },
-  {
-    "league": "N1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Sparta Rotterdam",
-    "away_team": "Willem II",
-    "home_odds": 1.6,
-    "draw_odds": 4.31,
-    "away_odds": 4.55,
-    "home_xg": 1.83,
-    "away_xg": 1.41,
-    "home_win_prob": 0.4737,
-    "draw_prob": 0.2282,
-    "away_win_prob": 0.298,
-    "over_25_prob": 0.6271,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.0782,
-    "details": {
-      "h2h": [],
-      "home_form": [],
-      "away_form": []
-    }
-  },
-  {
-    "league": "N1",
     "date": "2026-10-18 00:00",
     "home_team": "Zwolle",
     "away_team": "Go Ahead Eagles",
@@ -6324,12 +2150,12 @@
     "draw_odds": 3.83,
     "away_odds": 1.95,
     "home_xg": 1.64,
-    "away_xg": 1.2,
-    "home_win_prob": 0.4757,
-    "draw_prob": 0.2444,
-    "away_win_prob": 0.2799,
-    "over_25_prob": 0.5392,
-    "value_home": 0.1736,
+    "away_xg": 1.41,
+    "home_win_prob": 0.43,
+    "draw_prob": 0.2396,
+    "away_win_prob": 0.3305,
+    "over_25_prob": 0.587,
+    "value_home": 0.1279,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -6346,14 +2172,14 @@
     "home_odds": 5.8,
     "draw_odds": 4.83,
     "away_odds": 1.44,
-    "home_xg": 1.24,
-    "away_xg": 1.07,
-    "home_win_prob": 0.4009,
-    "draw_prob": 0.2818,
-    "away_win_prob": 0.3173,
-    "over_25_prob": 0.4064,
-    "value_home": 0.2285,
-    "value_draw": 0.0747,
+    "home_xg": 1.33,
+    "away_xg": 1.28,
+    "home_win_prob": 0.3799,
+    "draw_prob": 0.2634,
+    "away_win_prob": 0.3566,
+    "over_25_prob": 0.4836,
+    "value_home": 0.2075,
+    "value_draw": 0.0564,
     "value_away": 0,
     "details": {
       "h2h": [],
@@ -6369,13 +2195,13 @@
     "home_odds": 3.4,
     "draw_odds": 4.06,
     "away_odds": 1.86,
-    "home_xg": 1.35,
-    "away_xg": 1.05,
-    "home_win_prob": 0.4359,
-    "draw_prob": 0.2729,
-    "away_win_prob": 0.2912,
-    "over_25_prob": 0.4299,
-    "value_home": 0.1418,
+    "home_xg": 1.36,
+    "away_xg": 1.47,
+    "home_win_prob": 0.3497,
+    "draw_prob": 0.2512,
+    "away_win_prob": 0.3991,
+    "over_25_prob": 0.537,
+    "value_home": 0.0556,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -6392,15 +2218,15 @@
     "home_odds": 1.58,
     "draw_odds": 4.38,
     "away_odds": 4.65,
-    "home_xg": 1.3,
-    "away_xg": 1.17,
-    "home_win_prob": 0.3953,
-    "draw_prob": 0.2714,
-    "away_win_prob": 0.3332,
-    "over_25_prob": 0.4481,
+    "home_xg": 1.27,
+    "away_xg": 1.37,
+    "home_win_prob": 0.3461,
+    "draw_prob": 0.2614,
+    "away_win_prob": 0.3925,
+    "over_25_prob": 0.4911,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1182,
+    "value_away": 0.1774,
     "details": {
       "h2h": [],
       "home_form": [],
@@ -6415,15 +2241,15 @@
     "home_odds": 1.31,
     "draw_odds": 5.61,
     "away_odds": 7.34,
-    "home_xg": 1.57,
-    "away_xg": 1.15,
-    "home_win_prob": 0.4699,
-    "draw_prob": 0.2509,
-    "away_win_prob": 0.2791,
-    "over_25_prob": 0.5106,
+    "home_xg": 1.72,
+    "away_xg": 1.29,
+    "home_win_prob": 0.4746,
+    "draw_prob": 0.2371,
+    "away_win_prob": 0.2883,
+    "over_25_prob": 0.578,
     "value_home": 0,
-    "value_draw": 0.0727,
-    "value_away": 0.1429,
+    "value_draw": 0.0589,
+    "value_away": 0.152,
     "details": {
       "h2h": [],
       "home_form": [],
@@ -6438,15 +2264,15 @@
     "home_odds": 1.57,
     "draw_odds": 3.78,
     "away_odds": 5.59,
-    "home_xg": 1.64,
-    "away_xg": 1.37,
-    "home_win_prob": 0.4384,
-    "draw_prob": 0.2407,
-    "away_win_prob": 0.3209,
-    "over_25_prob": 0.5782,
+    "home_xg": 1.61,
+    "away_xg": 1.12,
+    "home_win_prob": 0.4868,
+    "draw_prob": 0.2481,
+    "away_win_prob": 0.2651,
+    "over_25_prob": 0.5129,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.142,
+    "value_away": 0.0862,
     "details": {
       "h2h": [
         {
@@ -6542,425 +2368,21 @@
   },
   {
     "league": "SP1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Espanol",
-    "away_team": "Ath Madrid",
-    "home_odds": 4.68,
-    "draw_odds": 3.84,
-    "away_odds": 1.7,
-    "home_xg": 1.69,
-    "away_xg": 1.27,
-    "home_win_prob": 0.472,
-    "draw_prob": 0.2395,
-    "away_win_prob": 0.2885,
-    "over_25_prob": 0.5669,
-    "value_home": 0.2583,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-02-21",
-          "home": "Ath Madrid",
-          "away": "Espanol",
-          "score": "4–2"
-        },
-        {
-          "date": "2025-08-17",
-          "home": "Espanol",
-          "away": "Ath Madrid",
-          "score": "2–1"
-        },
-        {
-          "date": "2025-03-29",
-          "home": "Espanol",
-          "away": "Ath Madrid",
-          "score": "1–1"
-        },
-        {
-          "date": "2024-08-28",
-          "home": "Ath Madrid",
-          "away": "Espanol",
-          "score": "0–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Sociedad",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Ath Bilbao",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Real Madrid",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Levante",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Getafe",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Oviedo",
-          "score": "1–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Villarreal",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Osasuna",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Valencia",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Elche",
-          "score": "3–2"
-        },
-        {
-          "opponent": "Sevilla",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Real Madrid",
-          "score": "3–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "SP1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Villarreal",
-    "away_team": "Elche",
-    "home_odds": 1.44,
-    "draw_odds": 4.84,
-    "away_odds": 6.17,
-    "home_xg": 1.2,
-    "away_xg": 1.62,
-    "home_win_prob": 0.2832,
-    "draw_prob": 0.246,
-    "away_win_prob": 0.4709,
-    "over_25_prob": 0.5345,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0.3088,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-03-08",
-          "home": "Villarreal",
-          "away": "Elche",
-          "score": "2–1"
-        },
-        {
-          "date": "2026-01-03",
-          "home": "Elche",
-          "away": "Villarreal",
-          "score": "1–3"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Ath Madrid",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Sevilla",
-          "score": "2–3"
-        },
-        {
-          "opponent": "Levante",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Celta",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Sociedad",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Elche",
-          "score": "2–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Girona",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Betis",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Celta",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Oviedo",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Vallecano",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Real Madrid",
-          "score": "4–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "SP1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Betis",
-    "away_team": "Barcelona",
-    "home_odds": 6.0,
-    "draw_odds": 5.42,
-    "away_odds": 1.4,
-    "home_xg": 1.87,
-    "away_xg": 1.18,
-    "home_win_prob": 0.5336,
-    "draw_prob": 0.2265,
-    "away_win_prob": 0.2398,
-    "over_25_prob": 0.5865,
-    "value_home": 0.367,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-05-17",
-          "home": "Barcelona",
-          "away": "Betis",
-          "score": "3–1"
-        },
-        {
-          "date": "2025-12-06",
-          "home": "Betis",
-          "away": "Barcelona",
-          "score": "3–5"
-        },
-        {
-          "date": "2025-04-05",
-          "home": "Barcelona",
-          "away": "Betis",
-          "score": "1–1"
-        },
-        {
-          "date": "2024-12-07",
-          "home": "Betis",
-          "away": "Barcelona",
-          "score": "2–2"
-        },
-        {
-          "date": "2024-01-21",
-          "home": "Betis",
-          "away": "Barcelona",
-          "score": "2–4"
-        },
-        {
-          "date": "2023-09-16",
-          "home": "Barcelona",
-          "away": "Betis",
-          "score": "5–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Levante",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Elche",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Oviedo",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Real Madrid",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Espanol",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Celta",
-          "score": "1–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Valencia",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Alaves",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Osasuna",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Getafe",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Ath Madrid",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Ath Bilbao",
-          "score": "0–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "SP1",
-    "date": "2026-10-17 00:00",
-    "home_team": "Valencia",
-    "away_team": "Ath Bilbao",
-    "home_odds": 3.26,
-    "draw_odds": 3.34,
-    "away_odds": 2.19,
-    "home_xg": 1.5,
-    "away_xg": 1.47,
-    "home_win_prob": 0.3842,
-    "draw_prob": 0.2448,
-    "away_win_prob": 0.371,
-    "over_25_prob": 0.5693,
-    "value_home": 0.0774,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-05-10",
-          "home": "Ath Bilbao",
-          "away": "Valencia",
-          "score": "0–1"
-        },
-        {
-          "date": "2025-09-20",
-          "home": "Valencia",
-          "away": "Ath Bilbao",
-          "score": "2–0"
-        },
-        {
-          "date": "2025-05-18",
-          "home": "Valencia",
-          "away": "Ath Bilbao",
-          "score": "0–1"
-        },
-        {
-          "date": "2024-08-28",
-          "home": "Ath Bilbao",
-          "away": "Valencia",
-          "score": "1–0"
-        },
-        {
-          "date": "2024-01-20",
-          "home": "Valencia",
-          "away": "Ath Bilbao",
-          "score": "1–0"
-        },
-        {
-          "date": "2023-10-29",
-          "home": "Ath Bilbao",
-          "away": "Valencia",
-          "score": "2–2"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Barcelona",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Vallecano",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Ath Madrid",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Girona",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Celta",
-          "score": "2–3"
-        },
-        {
-          "opponent": "Alaves",
-          "score": "3–2"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Real Madrid",
-          "score": "4–2"
-        },
-        {
-          "opponent": "Espanol",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Alaves",
-          "score": "2–4"
-        },
-        {
-          "opponent": "Ath Madrid",
-          "score": "3–2"
-        },
-        {
-          "opponent": "Getafe",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Girona",
-          "score": "3–0"
-        }
-      ]
-    }
-  },
-  {
-    "league": "SP1",
     "date": "2026-10-18 00:00",
     "home_team": "Osasuna",
     "away_team": "Santander",
     "home_odds": 1.98,
     "draw_odds": 3.61,
     "away_odds": 3.46,
-    "home_xg": 1.54,
-    "away_xg": 1.42,
-    "home_win_prob": 0.404,
-    "draw_prob": 0.2448,
-    "away_win_prob": 0.3512,
-    "over_25_prob": 0.567,
+    "home_xg": 1.8,
+    "away_xg": 1.2,
+    "home_win_prob": 0.5133,
+    "draw_prob": 0.232,
+    "away_win_prob": 0.2547,
+    "over_25_prob": 0.5756,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0622,
+    "value_away": 0,
     "details": {
       "h2h": [],
       "home_form": [
@@ -7025,15 +2447,15 @@
     "home_odds": 2.1,
     "draw_odds": 3.22,
     "away_odds": 3.5,
-    "home_xg": 1.55,
-    "away_xg": 0.98,
-    "home_win_prob": 0.5052,
-    "draw_prob": 0.2555,
-    "away_win_prob": 0.2394,
-    "over_25_prob": 0.4632,
+    "home_xg": 1.65,
+    "away_xg": 1.6,
+    "home_win_prob": 0.3941,
+    "draw_prob": 0.2328,
+    "away_win_prob": 0.3731,
+    "over_25_prob": 0.6294,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0,
+    "value_away": 0.0874,
     "details": {
       "h2h": [
         {
@@ -7135,13 +2557,13 @@
     "home_odds": 3.14,
     "draw_odds": 3.48,
     "away_odds": 2.15,
-    "home_xg": 1.69,
-    "away_xg": 1.36,
-    "home_win_prob": 0.4524,
-    "draw_prob": 0.2378,
-    "away_win_prob": 0.3098,
-    "over_25_prob": 0.587,
-    "value_home": 0.1339,
+    "home_xg": 1.41,
+    "away_xg": 1.08,
+    "home_win_prob": 0.445,
+    "draw_prob": 0.2664,
+    "away_win_prob": 0.2886,
+    "over_25_prob": 0.4532,
+    "value_home": 0.1265,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -7208,15 +2630,15 @@
     "home_odds": 1.23,
     "draw_odds": 6.27,
     "away_odds": 10.23,
-    "home_xg": 1.4,
-    "away_xg": 1.47,
-    "home_win_prob": 0.3597,
-    "draw_prob": 0.2494,
-    "away_win_prob": 0.3909,
-    "over_25_prob": 0.5464,
+    "home_xg": 1.43,
+    "away_xg": 1.1,
+    "home_win_prob": 0.4457,
+    "draw_prob": 0.264,
+    "away_win_prob": 0.2904,
+    "over_25_prob": 0.4634,
     "value_home": 0,
-    "value_draw": 0.0899,
-    "value_away": 0.2932,
+    "value_draw": 0.1045,
+    "value_away": 0.1926,
     "details": {
       "h2h": [
         {
@@ -7318,13 +2740,13 @@
     "home_odds": 2.85,
     "draw_odds": 2.98,
     "away_odds": 2.62,
-    "home_xg": 1.51,
-    "away_xg": 1.31,
-    "home_win_prob": 0.4196,
-    "draw_prob": 0.2507,
-    "away_win_prob": 0.3297,
-    "over_25_prob": 0.5347,
-    "value_home": 0.0687,
+    "home_xg": 1.82,
+    "away_xg": 1.41,
+    "home_win_prob": 0.4715,
+    "draw_prob": 0.2288,
+    "away_win_prob": 0.2997,
+    "over_25_prob": 0.6251,
+    "value_home": 0.1206,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -7422,374 +2844,19 @@
   },
   {
     "league": "SP2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Sociedad B",
-    "away_team": "Almeria",
-    "home_odds": 3.24,
-    "draw_odds": 3.49,
-    "away_odds": 2.01,
-    "home_xg": 1.44,
-    "away_xg": 1.14,
-    "home_win_prob": 0.4391,
-    "draw_prob": 0.2618,
-    "away_win_prob": 0.2991,
-    "over_25_prob": 0.4761,
-    "value_home": 0.1305,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-03-29",
-          "home": "Almeria",
-          "away": "Sociedad B",
-          "score": "5–1"
-        },
-        {
-          "date": "2025-08-29",
-          "home": "Sociedad B",
-          "away": "Almeria",
-          "score": "2–2"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Cultural Leonesa",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Mirandes",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Burgos",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Santander",
-          "score": "1–3"
-        },
-        {
-          "opponent": "Eibar",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Granada",
-          "score": "0–2"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Sp Gijon",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Burgos",
-          "score": "0–0"
-        },
-        {
-          "opponent": "Granada",
-          "score": "2–4"
-        },
-        {
-          "opponent": "Santander",
-          "score": "5–1"
-        },
-        {
-          "opponent": "Castellon",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Huesca",
-          "score": "1–3"
-        }
-      ]
-    }
-  },
-  {
-    "league": "SP2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Eibar",
-    "away_team": "Mallorca",
-    "home_odds": 2.49,
-    "draw_odds": 3.11,
-    "away_odds": 2.71,
-    "home_xg": 1.73,
-    "away_xg": 1.43,
-    "home_win_prob": 0.4468,
-    "draw_prob": 0.2338,
-    "away_win_prob": 0.3194,
-    "over_25_prob": 0.6106,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [],
-      "home_form": [
-        {
-          "opponent": "Cordoba",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Malaga",
-          "score": "2–4"
-        },
-        {
-          "opponent": "Huesca",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Ceuta",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Las Palmas",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Burgos",
-          "score": "0–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Levante",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Getafe",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Girona",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Alaves",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Elche",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Osasuna",
-          "score": "2–2"
-        }
-      ]
-    }
-  },
-  {
-    "league": "SP2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Sp Gijon",
-    "away_team": "Albacete",
-    "home_odds": 1.9,
-    "draw_odds": 3.43,
-    "away_odds": 3.62,
-    "home_xg": 1.77,
-    "away_xg": 1.47,
-    "home_win_prob": 0.4476,
-    "draw_prob": 0.2307,
-    "away_win_prob": 0.3217,
-    "over_25_prob": 0.6272,
-    "value_home": 0,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-02-15",
-          "home": "Albacete",
-          "away": "Sp Gijon",
-          "score": "1–1"
-        },
-        {
-          "date": "2025-09-28",
-          "home": "Sp Gijon",
-          "away": "Albacete",
-          "score": "3–4"
-        },
-        {
-          "date": "2025-03-23",
-          "home": "Sp Gijon",
-          "away": "Albacete",
-          "score": "0–2"
-        },
-        {
-          "date": "2024-10-27",
-          "home": "Albacete",
-          "away": "Sp Gijon",
-          "score": "3–3"
-        },
-        {
-          "date": "2024-03-01",
-          "home": "Sp Gijon",
-          "away": "Albacete",
-          "score": "2–1"
-        },
-        {
-          "date": "2023-10-22",
-          "home": "Albacete",
-          "away": "Sp Gijon",
-          "score": "1–3"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Almeria",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Ceuta",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Cadiz",
-          "score": "3–0"
-        },
-        {
-          "opponent": "Sociedad B",
-          "score": "1–0"
-        },
-        {
-          "opponent": "La Coruna",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Castellon",
-          "score": "4–1"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Ceuta",
-          "score": "1–0"
-        },
-        {
-          "opponent": "Cordoba",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Andorra",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Leganes",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Mirandes",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Santander",
-          "score": "0–4"
-        }
-      ]
-    }
-  },
-  {
-    "league": "SP2",
-    "date": "2026-10-17 00:00",
-    "home_team": "Las Palmas",
-    "away_team": "Castellon",
-    "home_odds": 3.31,
-    "draw_odds": 3.57,
-    "away_odds": 1.95,
-    "home_xg": 1.41,
-    "away_xg": 1.44,
-    "home_win_prob": 0.368,
-    "draw_prob": 0.2506,
-    "away_win_prob": 0.3814,
-    "over_25_prob": 0.5417,
-    "value_home": 0.0659,
-    "value_draw": 0,
-    "value_away": 0,
-    "details": {
-      "h2h": [
-        {
-          "date": "2026-02-21",
-          "home": "Las Palmas",
-          "away": "Castellon",
-          "score": "1–1"
-        },
-        {
-          "date": "2025-11-30",
-          "home": "Castellon",
-          "away": "Las Palmas",
-          "score": "1–0"
-        }
-      ],
-      "home_form": [
-        {
-          "opponent": "Zaragoza",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Valladolid",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Leganes",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Huesca",
-          "score": "2–1"
-        },
-        {
-          "opponent": "Granada",
-          "score": "2–0"
-        },
-        {
-          "opponent": "Sp Gijon",
-          "score": "1–0"
-        }
-      ],
-      "away_form": [
-        {
-          "opponent": "Huesca",
-          "score": "0–1"
-        },
-        {
-          "opponent": "Ceuta",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Malaga",
-          "score": "2–3"
-        },
-        {
-          "opponent": "Mirandes",
-          "score": "2–2"
-        },
-        {
-          "opponent": "Albacete",
-          "score": "1–1"
-        },
-        {
-          "opponent": "Sp Gijon",
-          "score": "4–1"
-        }
-      ]
-    }
-  },
-  {
-    "league": "SP2",
     "date": "2026-10-18 00:00",
     "home_team": "Ceuta",
     "away_team": "Oviedo",
     "home_odds": 2.86,
     "draw_odds": 3.2,
     "away_odds": 2.31,
-    "home_xg": 1.72,
-    "away_xg": 1.45,
-    "home_win_prob": 0.4403,
-    "draw_prob": 0.2339,
-    "away_win_prob": 0.3257,
-    "over_25_prob": 0.6127,
-    "value_home": 0.0907,
+    "home_xg": 1.66,
+    "away_xg": 1.1,
+    "home_win_prob": 0.5036,
+    "draw_prob": 0.2441,
+    "away_win_prob": 0.2523,
+    "over_25_prob": 0.5201,
+    "value_home": 0.154,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -7856,15 +2923,15 @@
     "home_odds": 1.82,
     "draw_odds": 3.36,
     "away_odds": 4.01,
-    "home_xg": 1.53,
-    "away_xg": 1.11,
-    "home_win_prob": 0.4691,
-    "draw_prob": 0.2551,
-    "away_win_prob": 0.2757,
-    "over_25_prob": 0.491,
+    "home_xg": 1.32,
+    "away_xg": 1.51,
+    "home_win_prob": 0.3322,
+    "draw_prob": 0.2503,
+    "away_win_prob": 0.4175,
+    "over_25_prob": 0.537,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0,
+    "value_away": 0.1681,
     "details": {
       "h2h": [
         {
@@ -7966,15 +3033,15 @@
     "home_odds": 1.79,
     "draw_odds": 3.61,
     "away_odds": 3.86,
-    "home_xg": 1.57,
-    "away_xg": 1.35,
-    "home_win_prob": 0.4258,
-    "draw_prob": 0.2456,
-    "away_win_prob": 0.3286,
-    "over_25_prob": 0.5579,
+    "home_xg": 1.49,
+    "away_xg": 1.26,
+    "home_win_prob": 0.4253,
+    "draw_prob": 0.2538,
+    "away_win_prob": 0.3208,
+    "over_25_prob": 0.518,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0695,
+    "value_away": 0.0618,
     "details": {
       "h2h": [],
       "home_form": [
@@ -8039,15 +3106,15 @@
     "home_odds": 1.86,
     "draw_odds": 3.29,
     "away_odds": 3.89,
-    "home_xg": 1.51,
-    "away_xg": 1.15,
-    "home_win_prob": 0.4549,
-    "draw_prob": 0.2558,
-    "away_win_prob": 0.2893,
-    "over_25_prob": 0.4959,
+    "home_xg": 1.39,
+    "away_xg": 1.27,
+    "home_win_prob": 0.3977,
+    "draw_prob": 0.2601,
+    "away_win_prob": 0.3422,
+    "over_25_prob": 0.496,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0,
+    "value_away": 0.0851,
     "details": {
       "h2h": [
         {
@@ -8125,15 +3192,15 @@
     "home_odds": 2.58,
     "draw_odds": 2.91,
     "away_odds": 2.74,
-    "home_xg": 1.77,
-    "away_xg": 0.96,
-    "home_win_prob": 0.5633,
-    "draw_prob": 0.2336,
-    "away_win_prob": 0.2031,
-    "over_25_prob": 0.5125,
-    "value_home": 0.1757,
+    "home_xg": 1.08,
+    "away_xg": 1.52,
+    "home_win_prob": 0.2697,
+    "draw_prob": 0.2567,
+    "away_win_prob": 0.4736,
+    "over_25_prob": 0.481,
+    "value_home": 0,
     "value_draw": 0,
-    "value_away": 0,
+    "value_away": 0.1086,
     "details": {
       "h2h": [],
       "home_form": [
@@ -8173,13 +3240,13 @@
     "home_odds": 2.51,
     "draw_odds": 3.14,
     "away_odds": 2.62,
-    "home_xg": 1.84,
-    "away_xg": 0.92,
-    "home_win_prob": 0.589,
+    "home_xg": 1.88,
+    "away_xg": 1.26,
+    "home_win_prob": 0.5177,
     "draw_prob": 0.2259,
-    "away_win_prob": 0.185,
-    "over_25_prob": 0.5195,
-    "value_home": 0.1906,
+    "away_win_prob": 0.2564,
+    "over_25_prob": 0.606,
+    "value_home": 0.1193,
     "value_draw": 0,
     "value_away": 0,
     "details": {
