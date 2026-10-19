@@ -8,40 +8,40 @@
     "draw_odds": 4.55,
     "away_odds": 6.23,
     "home_xg": 1.57,
-    "away_xg": 1.11,
-    "home_win_prob": 0.4792,
-    "draw_prob": 0.2517,
-    "away_win_prob": 0.2691,
-    "over_25_prob": 0.5008,
+    "away_xg": 1.25,
+    "home_win_prob": 0.4474,
+    "draw_prob": 0.2485,
+    "away_win_prob": 0.304,
+    "over_25_prob": 0.5346,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.1086,
+    "value_away": 0.1435,
     "details": {
       "h2h": [],
       "home_form": [
         {
+          "opponent": "Everton",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Leeds",
+          "score": "1–1"
+        },
+        {
           "opponent": "Brighton",
-          "score": "1–4"
-        },
-        {
-          "opponent": "Crystal Palace",
-          "score": "0–2"
-        },
-        {
-          "opponent": "Nott'm Forest",
-          "score": "1–2"
-        },
-        {
-          "opponent": "Southampton",
-          "score": "3–1"
-        },
-        {
-          "opponent": "Bournemouth",
           "score": "2–2"
         },
         {
-          "opponent": "Man City",
-          "score": "0–1"
+          "opponent": "Nott'm Forest",
+          "score": "0–3"
+        },
+        {
+          "opponent": "Crystal Palace",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Arsenal",
+          "score": "1–4"
         }
       ],
       "away_form": [
@@ -80,13 +80,13 @@
     "home_odds": 2.68,
     "draw_odds": 3.26,
     "away_odds": 2.39,
-    "home_xg": 1.53,
-    "away_xg": 1.36,
-    "home_win_prob": 0.414,
-    "draw_prob": 0.2476,
-    "away_win_prob": 0.3384,
-    "over_25_prob": 0.551,
-    "value_home": 0,
+    "home_xg": 1.64,
+    "away_xg": 1.2,
+    "home_win_prob": 0.4757,
+    "draw_prob": 0.2444,
+    "away_win_prob": 0.2799,
+    "over_25_prob": 0.5392,
+    "value_home": 0.1026,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -166,15 +166,15 @@
     "home_odds": 2.36,
     "draw_odds": 3.16,
     "away_odds": 3.04,
-    "home_xg": 1.67,
-    "away_xg": 1.27,
-    "home_win_prob": 0.4672,
-    "draw_prob": 0.241,
-    "away_win_prob": 0.2918,
-    "over_25_prob": 0.5623,
+    "home_xg": 1.41,
+    "away_xg": 1.69,
+    "home_win_prob": 0.3216,
+    "draw_prob": 0.2366,
+    "away_win_prob": 0.4417,
+    "over_25_prob": 0.5978,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0,
+    "value_away": 0.1128,
     "details": {
       "h2h": [
         {
@@ -264,13 +264,13 @@
     "home_odds": 2.99,
     "draw_odds": 3.05,
     "away_odds": 2.46,
-    "home_xg": 1.79,
-    "away_xg": 1.39,
-    "home_win_prob": 0.469,
-    "draw_prob": 0.231,
-    "away_win_prob": 0.3,
-    "over_25_prob": 0.6147,
-    "value_home": 0.1346,
+    "home_xg": 1.58,
+    "away_xg": 1.24,
+    "home_win_prob": 0.4521,
+    "draw_prob": 0.2481,
+    "away_win_prob": 0.2998,
+    "over_25_prob": 0.5346,
+    "value_home": 0.1177,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -362,15 +362,15 @@
     "home_odds": 1.57,
     "draw_odds": 3.78,
     "away_odds": 5.59,
-    "home_xg": 1.81,
-    "away_xg": 1.27,
-    "home_win_prob": 0.4998,
-    "draw_prob": 0.231,
-    "away_win_prob": 0.2693,
-    "over_25_prob": 0.5933,
+    "home_xg": 1.53,
+    "away_xg": 1.21,
+    "home_win_prob": 0.4464,
+    "draw_prob": 0.2526,
+    "away_win_prob": 0.3011,
+    "over_25_prob": 0.5155,
     "value_home": 0,
     "value_draw": 0,
-    "value_away": 0.0904,
+    "value_away": 0.1222,
     "details": {
       "h2h": [
         {
@@ -472,13 +472,13 @@
     "home_odds": 2.85,
     "draw_odds": 2.98,
     "away_odds": 2.62,
-    "home_xg": 1.93,
-    "away_xg": 1.15,
-    "home_win_prob": 0.5537,
-    "draw_prob": 0.2215,
-    "away_win_prob": 0.2247,
-    "over_25_prob": 0.5929,
-    "value_home": 0.2029,
+    "home_xg": 1.38,
+    "away_xg": 1.25,
+    "home_win_prob": 0.3993,
+    "draw_prob": 0.2617,
+    "away_win_prob": 0.339,
+    "over_25_prob": 0.4886,
+    "value_home": 0,
     "value_draw": 0,
     "value_away": 0,
     "details": {
@@ -582,13 +582,13 @@
     "home_odds": 2.51,
     "draw_odds": 3.14,
     "away_odds": 2.62,
-    "home_xg": 1.57,
-    "away_xg": 0.94,
-    "home_win_prob": 0.5201,
-    "draw_prob": 0.2537,
-    "away_win_prob": 0.2262,
-    "over_25_prob": 0.4581,
-    "value_home": 0.1217,
+    "home_xg": 1.92,
+    "away_xg": 1.58,
+    "home_win_prob": 0.4582,
+    "draw_prob": 0.2208,
+    "away_win_prob": 0.321,
+    "over_25_prob": 0.6776,
+    "value_home": 0.0598,
     "value_draw": 0,
     "value_away": 0,
     "details": {
