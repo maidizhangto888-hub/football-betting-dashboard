@@ -1,1 +1,1334 @@
-[]
+[
+  {
+    "league": "E2",
+    "date": "2026-10-27 00:00",
+    "home_team": "Leicester",
+    "away_team": "Wigan",
+    "home_odds": 1.38,
+    "draw_odds": 4.89,
+    "away_odds": 7.11,
+    "home_xg": 1.39,
+    "away_xg": 1.3,
+    "home_win_prob": 0.3913,
+    "draw_prob": 0.2587,
+    "away_win_prob": 0.35,
+    "over_25_prob": 0.5034,
+    "value_home": 0,
+    "value_draw": 0.0542,
+    "value_away": 0.2093,
+    "details": {
+      "h2h": [],
+      "home_form": [
+        {
+          "opponent": "Millwall",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Hull",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Swansea",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Preston",
+          "score": "2–2"
+        },
+        {
+          "opponent": "QPR",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Bristol City",
+          "score": "2–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Stevenage",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Port Vale",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Northampton",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Reading",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Barnsley",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Blackpool",
+          "score": "1–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E2",
+    "date": "2026-10-27 00:00",
+    "home_team": "Luton",
+    "away_team": "Doncaster",
+    "home_odds": 1.5,
+    "draw_odds": 4.47,
+    "away_odds": 5.53,
+    "home_xg": 1.6,
+    "away_xg": 1.44,
+    "home_win_prob": 0.4143,
+    "draw_prob": 0.2408,
+    "away_win_prob": 0.3449,
+    "over_25_prob": 0.5849,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.164,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-03-10",
+          "home": "Doncaster",
+          "away": "Luton",
+          "score": "1–1"
+        },
+        {
+          "date": "2025-09-27",
+          "home": "Luton",
+          "away": "Doncaster",
+          "score": "1–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Barnsley",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Northampton",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Peterboro",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Stockport",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Exeter",
+          "score": "3–2"
+        },
+        {
+          "opponent": "Reading",
+          "score": "2–3"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Peterboro",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Northampton",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Exeter",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Barnsley",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Bolton",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Plymouth",
+          "score": "2–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E2",
+    "date": "2026-10-27 00:00",
+    "home_team": "Milton Keynes Dons",
+    "away_team": "Bromley",
+    "home_odds": 1.59,
+    "draw_odds": 4.16,
+    "away_odds": 4.99,
+    "home_xg": 1.39,
+    "away_xg": 1.0,
+    "home_win_prob": 0.4585,
+    "draw_prob": 0.2709,
+    "away_win_prob": 0.2706,
+    "over_25_prob": 0.4273,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.0702,
+    "details": {
+      "h2h": [],
+      "home_form": [],
+      "away_form": []
+    }
+  },
+  {
+    "league": "E2",
+    "date": "2026-10-27 00:00",
+    "home_team": "Oxford",
+    "away_team": "Stockport",
+    "home_odds": 3.3,
+    "draw_odds": 3.72,
+    "away_odds": 2.0,
+    "home_xg": 1.31,
+    "away_xg": 1.12,
+    "home_win_prob": 0.4091,
+    "draw_prob": 0.2732,
+    "away_win_prob": 0.3177,
+    "over_25_prob": 0.4378,
+    "value_home": 0.106,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [
+        {
+          "opponent": "Sheffield Weds",
+          "score": "4–1"
+        },
+        {
+          "opponent": "Wrexham",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Watford",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Hull",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Charlton",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Blackburn",
+          "score": "1–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Barnsley",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Exeter",
+          "score": "3–3"
+        },
+        {
+          "opponent": "AFC Wimbledon",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Bolton",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Luton",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Lincoln",
+          "score": "3–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "E2",
+    "date": "2026-10-27 00:00",
+    "home_team": "Sheffield Weds",
+    "away_team": "Cambridge",
+    "home_odds": 2.02,
+    "draw_odds": 3.63,
+    "away_odds": 3.34,
+    "home_xg": 1.55,
+    "away_xg": 1.01,
+    "home_win_prob": 0.4979,
+    "draw_prob": 0.2551,
+    "away_win_prob": 0.247,
+    "over_25_prob": 0.4708,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [],
+      "home_form": [
+        {
+          "opponent": "West Brom",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Charlton",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Leicester",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Ipswich",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Watford",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Southampton",
+          "score": "1–3"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Burton",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Huddersfield",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Shrewsbury",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Barnsley",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Blackpool",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Wigan",
+          "score": "1–0"
+        }
+      ]
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-10-27 00:00",
+    "home_team": "Sassuolo",
+    "away_team": "Lazio",
+    "home_odds": 3.33,
+    "draw_odds": 3.54,
+    "away_odds": 2.09,
+    "home_xg": 1.19,
+    "away_xg": 1.11,
+    "home_win_prob": 0.378,
+    "draw_prob": 0.2835,
+    "away_win_prob": 0.3385,
+    "over_25_prob": 0.4037,
+    "value_home": 0.0777,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-03-09",
+          "home": "Lazio",
+          "away": "Sassuolo",
+          "score": "2–1"
+        },
+        {
+          "date": "2025-09-14",
+          "home": "Sassuolo",
+          "away": "Lazio",
+          "score": "1–0"
+        },
+        {
+          "date": "2024-05-26",
+          "home": "Lazio",
+          "away": "Sassuolo",
+          "score": "1–1"
+        },
+        {
+          "date": "2023-10-21",
+          "home": "Sassuolo",
+          "away": "Lazio",
+          "score": "0–2"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Lecce",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Milan",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Como",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Cagliari",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Bologna",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Atalanta",
+          "score": "2–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Roma",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Cremonese",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Napoli",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Fiorentina",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Bologna",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Torino",
+          "score": "2–0"
+        }
+      ]
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-10-27 00:00",
+    "home_team": "Roma",
+    "away_team": "Cagliari",
+    "home_odds": 1.31,
+    "draw_odds": 5.33,
+    "away_odds": 9.31,
+    "home_xg": 1.16,
+    "away_xg": 0.93,
+    "home_win_prob": 0.41,
+    "draw_prob": 0.2978,
+    "away_win_prob": 0.2922,
+    "over_25_prob": 0.3475,
+    "value_home": 0,
+    "value_draw": 0.1102,
+    "value_away": 0.1848,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-02-09",
+          "home": "Roma",
+          "away": "Cagliari",
+          "score": "2–0"
+        },
+        {
+          "date": "2025-12-07",
+          "home": "Cagliari",
+          "away": "Roma",
+          "score": "1–0"
+        },
+        {
+          "date": "2025-03-16",
+          "home": "Roma",
+          "away": "Cagliari",
+          "score": "1–0"
+        },
+        {
+          "date": "2024-08-18",
+          "home": "Cagliari",
+          "away": "Roma",
+          "score": "0–0"
+        },
+        {
+          "date": "2024-02-05",
+          "home": "Roma",
+          "away": "Cagliari",
+          "score": "4–0"
+        },
+        {
+          "date": "2023-10-08",
+          "home": "Cagliari",
+          "away": "Roma",
+          "score": "1–4"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Lazio",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Fiorentina",
+          "score": "4–0"
+        },
+        {
+          "opponent": "Atalanta",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Pisa",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Lecce",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Juventus",
+          "score": "3–3"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Milan",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Bologna",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Inter",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Sassuolo",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Pisa",
+          "score": "3–1"
+        },
+        {
+          "opponent": "Parma",
+          "score": "1–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-10-27 00:00",
+    "home_team": "Torino",
+    "away_team": "Como",
+    "home_odds": 4.5,
+    "draw_odds": 3.8,
+    "away_odds": 1.74,
+    "home_xg": 1.71,
+    "away_xg": 1.44,
+    "home_win_prob": 0.4401,
+    "draw_prob": 0.2348,
+    "away_win_prob": 0.3251,
+    "over_25_prob": 0.6085,
+    "value_home": 0.2179,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-01-24",
+          "home": "Como",
+          "away": "Torino",
+          "score": "6–0"
+        },
+        {
+          "date": "2025-11-24",
+          "home": "Torino",
+          "away": "Como",
+          "score": "1–5"
+        },
+        {
+          "date": "2025-04-13",
+          "home": "Como",
+          "away": "Torino",
+          "score": "1–0"
+        },
+        {
+          "date": "2024-10-25",
+          "home": "Torino",
+          "away": "Como",
+          "score": "1–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Juventus",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Sassuolo",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Inter",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Verona",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Parma",
+          "score": "4–1"
+        },
+        {
+          "opponent": "Lazio",
+          "score": "2–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Cremonese",
+          "score": "1–4"
+        },
+        {
+          "opponent": "Verona",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Genoa",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Sassuolo",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Udinese",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Cagliari",
+          "score": "1–2"
+        }
+      ]
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-10-28 00:00",
+    "home_team": "Milan",
+    "away_team": "Bologna",
+    "home_odds": 1.62,
+    "draw_odds": 3.91,
+    "away_odds": 5.3,
+    "home_xg": 1.7,
+    "away_xg": 1.1,
+    "home_win_prob": 0.5132,
+    "draw_prob": 0.2406,
+    "away_win_prob": 0.2462,
+    "over_25_prob": 0.5296,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0.0575,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-02-03",
+          "home": "Bologna",
+          "away": "Milan",
+          "score": "0–3"
+        },
+        {
+          "date": "2025-09-14",
+          "home": "Milan",
+          "away": "Bologna",
+          "score": "1–0"
+        },
+        {
+          "date": "2025-05-09",
+          "home": "Milan",
+          "away": "Bologna",
+          "score": "3–1"
+        },
+        {
+          "date": "2025-02-27",
+          "home": "Bologna",
+          "away": "Milan",
+          "score": "2–1"
+        },
+        {
+          "date": "2024-01-27",
+          "home": "Milan",
+          "away": "Bologna",
+          "score": "2–2"
+        },
+        {
+          "date": "2023-08-21",
+          "home": "Bologna",
+          "away": "Milan",
+          "score": "0–2"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Cagliari",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Atalanta",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Juventus",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Udinese",
+          "score": "0–3"
+        },
+        {
+          "opponent": "Torino",
+          "score": "3–2"
+        },
+        {
+          "opponent": "Inter",
+          "score": "1–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Atalanta",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Napoli",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Juventus",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Cremonese",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Sassuolo",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Pisa",
+          "score": "0–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-10-28 00:00",
+    "home_team": "Parma",
+    "away_team": "Udinese",
+    "home_odds": 2.9,
+    "draw_odds": 3.14,
+    "away_odds": 2.49,
+    "home_xg": 1.42,
+    "away_xg": 1.51,
+    "home_win_prob": 0.3569,
+    "draw_prob": 0.2464,
+    "away_win_prob": 0.3967,
+    "over_25_prob": 0.5602,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-04-18",
+          "home": "Udinese",
+          "away": "Parma",
+          "score": "0–1"
+        },
+        {
+          "date": "2025-11-29",
+          "home": "Parma",
+          "away": "Udinese",
+          "score": "0–2"
+        },
+        {
+          "date": "2025-03-01",
+          "home": "Udinese",
+          "away": "Parma",
+          "score": "1–0"
+        },
+        {
+          "date": "2024-09-16",
+          "home": "Parma",
+          "away": "Udinese",
+          "score": "2–3"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Sassuolo",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Roma",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Pisa",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Napoli",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Cremonese",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Cagliari",
+          "score": "1–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Napoli",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Cagliari",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Lazio",
+          "score": "3–3"
+        },
+        {
+          "opponent": "Milan",
+          "score": "0–3"
+        },
+        {
+          "opponent": "Genoa",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Atalanta",
+          "score": "2–2"
+        }
+      ]
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-10-28 00:00",
+    "home_team": "Venezia",
+    "away_team": "Inter",
+    "home_odds": 7.73,
+    "draw_odds": 5.47,
+    "away_odds": 1.33,
+    "home_xg": 1.38,
+    "away_xg": 1.15,
+    "home_win_prob": 0.4211,
+    "draw_prob": 0.2662,
+    "away_win_prob": 0.3126,
+    "over_25_prob": 0.4634,
+    "value_home": 0.2918,
+    "value_draw": 0.0834,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-01-12",
+          "home": "Venezia",
+          "away": "Inter",
+          "score": "0–1"
+        },
+        {
+          "date": "2024-11-03",
+          "home": "Inter",
+          "away": "Venezia",
+          "score": "1–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Juventus",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Fiorentina",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Milan",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Monza",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Bologna",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Napoli",
+          "score": "0–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Bologna",
+          "score": "3–3"
+        },
+        {
+          "opponent": "Lazio",
+          "score": "0–3"
+        },
+        {
+          "opponent": "Torino",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Como",
+          "score": "3–4"
+        },
+        {
+          "opponent": "Fiorentina",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Milan",
+          "score": "1–0"
+        }
+      ]
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-10-28 00:00",
+    "home_team": "Genoa",
+    "away_team": "Juventus",
+    "home_odds": 5.18,
+    "draw_odds": 3.66,
+    "away_odds": 1.68,
+    "home_xg": 1.61,
+    "away_xg": 1.07,
+    "home_win_prob": 0.4985,
+    "draw_prob": 0.2488,
+    "away_win_prob": 0.2527,
+    "over_25_prob": 0.5007,
+    "value_home": 0.3055,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-04-06",
+          "home": "Juventus",
+          "away": "Genoa",
+          "score": "2–0"
+        },
+        {
+          "date": "2025-08-31",
+          "home": "Genoa",
+          "away": "Juventus",
+          "score": "0–1"
+        },
+        {
+          "date": "2025-03-29",
+          "home": "Juventus",
+          "away": "Genoa",
+          "score": "1–0"
+        },
+        {
+          "date": "2024-09-28",
+          "home": "Genoa",
+          "away": "Juventus",
+          "score": "0–3"
+        },
+        {
+          "date": "2024-03-17",
+          "home": "Juventus",
+          "away": "Genoa",
+          "score": "0–0"
+        },
+        {
+          "date": "2023-12-15",
+          "home": "Genoa",
+          "away": "Juventus",
+          "score": "1–1"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Milan",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Como",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Sassuolo",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Udinese",
+          "score": "0–2"
+        },
+        {
+          "opponent": "Roma",
+          "score": "2–1"
+        },
+        {
+          "opponent": "Torino",
+          "score": "3–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Torino",
+          "score": "2–2"
+        },
+        {
+          "opponent": "Lecce",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Milan",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Atalanta",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Udinese",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Roma",
+          "score": "3–3"
+        }
+      ]
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-10-28 00:00",
+    "home_team": "Monza",
+    "away_team": "Napoli",
+    "home_odds": 4.35,
+    "draw_odds": 3.89,
+    "away_odds": 1.74,
+    "home_xg": 1.41,
+    "away_xg": 1.07,
+    "home_win_prob": 0.4473,
+    "draw_prob": 0.2667,
+    "away_win_prob": 0.2859,
+    "over_25_prob": 0.4506,
+    "value_home": 0.2174,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2025-04-19",
+          "home": "Monza",
+          "away": "Napoli",
+          "score": "0–1"
+        },
+        {
+          "date": "2024-09-29",
+          "home": "Napoli",
+          "away": "Monza",
+          "score": "2–0"
+        },
+        {
+          "date": "2024-04-07",
+          "home": "Monza",
+          "away": "Napoli",
+          "score": "2–4"
+        },
+        {
+          "date": "2023-12-29",
+          "home": "Napoli",
+          "away": "Monza",
+          "score": "0–0"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Empoli",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Atalanta",
+          "score": "0–4"
+        },
+        {
+          "opponent": "Napoli",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Como",
+          "score": "1–3"
+        },
+        {
+          "opponent": "Parma",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Torino",
+          "score": "0–2"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Pisa",
+          "score": "0–3"
+        },
+        {
+          "opponent": "Como",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Parma",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Cagliari",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Verona",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Atalanta",
+          "score": "2–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-10-29 00:00",
+    "home_team": "Frosinone",
+    "away_team": "Lecce",
+    "home_odds": 1.66,
+    "draw_odds": 4.13,
+    "away_odds": 4.49,
+    "home_xg": 1.67,
+    "away_xg": 1.15,
+    "home_win_prob": 0.4944,
+    "draw_prob": 0.2427,
+    "away_win_prob": 0.2629,
+    "over_25_prob": 0.5344,
+    "value_home": 0,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2024-03-03",
+          "home": "Frosinone",
+          "away": "Lecce",
+          "score": "1–1"
+        },
+        {
+          "date": "2023-12-16",
+          "home": "Lecce",
+          "away": "Frosinone",
+          "score": "2–1"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Udinese",
+          "score": "0–1"
+        },
+        {
+          "opponent": "Inter",
+          "score": "0–5"
+        },
+        {
+          "opponent": "Salernitana",
+          "score": "3–0"
+        },
+        {
+          "opponent": "Bologna",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Lazio",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Lecce",
+          "score": "1–1"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Sassuolo",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Pisa",
+          "score": "1–2"
+        },
+        {
+          "opponent": "Verona",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Bologna",
+          "score": "2–0"
+        },
+        {
+          "opponent": "Roma",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Napoli",
+          "score": "2–1"
+        }
+      ]
+    }
+  },
+  {
+    "league": "I1",
+    "date": "2026-10-29 00:00",
+    "home_team": "Fiorentina",
+    "away_team": "Atalanta",
+    "home_odds": 2.18,
+    "draw_odds": 3.62,
+    "away_odds": 3.01,
+    "home_xg": 1.71,
+    "away_xg": 1.03,
+    "home_win_prob": 0.5322,
+    "draw_prob": 0.2398,
+    "away_win_prob": 0.2279,
+    "over_25_prob": 0.5151,
+    "value_home": 0.0735,
+    "value_draw": 0,
+    "value_away": 0,
+    "details": {
+      "h2h": [
+        {
+          "date": "2026-05-22",
+          "home": "Fiorentina",
+          "away": "Atalanta",
+          "score": "1–1"
+        },
+        {
+          "date": "2025-11-30",
+          "home": "Atalanta",
+          "away": "Fiorentina",
+          "score": "2–0"
+        },
+        {
+          "date": "2025-03-30",
+          "home": "Fiorentina",
+          "away": "Atalanta",
+          "score": "1–0"
+        },
+        {
+          "date": "2024-09-15",
+          "home": "Atalanta",
+          "away": "Fiorentina",
+          "score": "3–2"
+        },
+        {
+          "date": "2024-06-02",
+          "home": "Atalanta",
+          "away": "Fiorentina",
+          "score": "2–3"
+        },
+        {
+          "date": "2023-09-17",
+          "home": "Fiorentina",
+          "away": "Atalanta",
+          "score": "3–2"
+        }
+      ],
+      "home_form": [
+        {
+          "opponent": "Atalanta",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Genoa",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Sassuolo",
+          "score": "0–0"
+        },
+        {
+          "opponent": "Lazio",
+          "score": "1–0"
+        },
+        {
+          "opponent": "Inter",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Parma",
+          "score": "0–0"
+        }
+      ],
+      "away_form": [
+        {
+          "opponent": "Fiorentina",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Milan",
+          "score": "2–3"
+        },
+        {
+          "opponent": "Cagliari",
+          "score": "3–2"
+        },
+        {
+          "opponent": "Roma",
+          "score": "1–1"
+        },
+        {
+          "opponent": "Lecce",
+          "score": "0–3"
+        },
+        {
+          "opponent": "Inter",
+          "score": "1–1"
+        }
+      ]
+    }
+  }
+]
